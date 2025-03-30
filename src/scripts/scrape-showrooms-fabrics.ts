@@ -1,5 +1,5 @@
 import puppeteer, { Page } from 'puppeteer';
-import showroomsJson from '../../.in/showrooms-final.json';
+import showroomsJson from '../../.in/03-showrooms-text-scrapped.json';
 import { Showroom } from '../types/showroom';
 import fs from 'fs';
 
