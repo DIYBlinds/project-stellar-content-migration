@@ -1,0 +1,33 @@
+{
+  "name": "@diyblinds/content-migration",
+  "version": "1.0.0",
+  "description": "Content migration tools for DIY Blinds",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts",
+    "watch": "tsc -w",
+    "download-images": "ts-node src/scripts/download-images.ts",
+    "upload-images": "ts-node src/scripts/upload-images.ts",
+    "scrape-showrooms": "ts-node src/scripts/scrape-showrooms.ts",
+    "scrape-showrooms-fabrics": "ts-node src/scripts/scrape-showrooms-fabrics.ts"
+  },
+  "dependencies": {
+    "axios": "^1.8.4",
+    "cheerio": "^1.0.0",
+    "cloudinary": "^2.6.0",
+    "dotenv": "^16.4.1",
+    "fs": "^0.0.1-security",
+    "node-fetch": "^2.7.0",
+    "path": "^0.12.7",
+    "puppeteer": "^24.4.0"
+  },
+  "devDependencies": {
+    "@types/cheerio": "^0.22.35",
+    "@types/node": "^22.13.14",
+    "@types/node-fetch": "^2.6.12",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}
