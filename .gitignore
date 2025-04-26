@@ -4,3 +4,7 @@ dist
 .env.local
 .env
 .out
+.in/fabrics
+.in/showrooms
+.in/fabrics/**
+.in/showrooms/**

@@ -1,12 +1,12 @@
 // upload.ts
 import cloudinary from '../utils/cloudinary';
-import showrooms from '../../.in/01-showrooms-cloudinary.json';
+import showrooms from '../../.in/showrooms.json';
 import fs from 'fs';
 
-export const uploadImage = async (filePath: string, range: string, publicId: string, tags: string[]) => {
+export const uploadImage = async (filePath: string, publicId: string, context: string[]) => {
   try {
-    const folder = `DIYblinds/Inspirations/Online Showrooms/${range}`;
-    const result = await cloudinary.uploader.upload(filePath, {
+    const folder = `DIYblinds/Inspiration/Online Showroom`;
+    await cloudinary.uploader.upload(filePath, {
       use_filename: true,
       unique_filename: false,
       overwrite: true,
@@ -14,10 +14,12 @@ export const uploadImage = async (filePath: string, range: string, publicId: str
       public_id: publicId,
       resource_type: 'image',
     });
-    
-    await Promise.all(tags.map(async (tag) => {
-      await cloudinary.uploader.add_tag(tag, [`${folder}/${publicId}`]);
-    }));
+
+    const result = await cloudinary.uploader.rename(`${folder}/${publicId}`, `${publicId}`);
+
+    if (context.length > 0) {
+      await cloudinary.uploader.add_context(context.join('|'), [`${publicId}`]);
+    }
 
     console.log('Upload success:', result.url);
     return result;
@@ -34,18 +36,32 @@ const getSlug = (url: string): string => {
 
 const run = async () => {
   try {
+    let index = 0;
     for (const showroom of showrooms) {
-      if (showroom.cloudinaryImage != "") continue;
-      const imagePath = `./.out/${showroom.range}/${getSlug(showroom.path)}`;
-      const result = await uploadImage(imagePath, showroom.range, getSlug(showroom.path).replace('.jpg', ''), [showroom.space, showroom.range]);
+      if (showroom._source.cloudinaryImage != "") continue;
+      const imagePath = `./.in/showrooms/${getSlug(showroom._source.path)}`;
+      
+      const context =[];
+      (showroom._source.space ?? []).length > 0 && context.push('Room='+[...new Set((showroom._source.space ?? []))].join(','));
+      (showroom._source.fabrics?.map(fabric => fabric.fabricName) ?? []).length > 0 &&  context.push('Fabric='+[...new Set((showroom._source.fabrics?.map(fabric => fabric.fabricName) ?? []))].join(','));
+      (showroom._source.fabrics?.map(fabric => fabric.fabricColor) ?? []).length > 0 && context.push('Color='+[...new Set(showroom._source.fabrics?.map(fabric => fabric.fabricColor) ?? [])].join(','));
+      (showroom._source.fabrics?.map(fabric => fabric.fabricGroupName) ?? []).length > 0 && context.push('FabricGroup='+[...new Set(showroom._source.fabrics?.map(fabric => fabric.fabricGroupName) ?? [])].join(','));
+      (showroom._source.fabrics?.map(fabric => fabric.category) ?? []).length > 0 && context.push('Category='+[...new Set(showroom._source.fabrics?.map(fabric => fabric.category) ?? [])].join(','));
+      (showroom._source.fabrics?.map(fabric => fabric.range) ?? []).length > 0 && context.push('Range='+[...new Set(showroom._source.fabrics?.map(fabric => fabric.range) ?? [])].join(','));
+      
+      const result = await uploadImage(imagePath, getSlug(showroom._source.path).replace('.jpg', ''), context);
 
-      showroom.cloudinaryImage = result.url;
+      showroom._source.cloudinaryImage = result.url;
+
+      if (index++ % 10 == 0) {
+        fs.writeFileSync('./.in/showrooms.json', JSON.stringify(showrooms, null, 2));
+      }
     }
 
-    fs.writeFileSync('./.in/showrooms-cloudinary.json', JSON.stringify(showrooms, null, 2));
+    fs.writeFileSync('./.in/showrooms.json', JSON.stringify(showrooms, null, 2));
   } catch (error) {
 
-    fs.writeFileSync('./.in/showrooms-cloudinary.json', JSON.stringify(showrooms, null, 2));
+    fs.writeFileSync('./.in/showrooms.json', JSON.stringify(showrooms, null, 2));
     console.error('Upload error:', error);
     throw error;
   }

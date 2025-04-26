@@ -1,14 +1,14 @@
 import fs from 'fs';
 import path from 'path';
 import fetch from 'node-fetch';
-import showrooms from '../../.in/00-showrooms-data.json';
+import showrooms from '../../.in/showrooms.json';
 import { logger } from '../utils/logger';
 
 
-const outputFolder = '.out';
+const imageFolder = '.in/showrooms';
 
-if (!fs.existsSync(outputFolder)) {
-  fs.mkdirSync(outputFolder);
+if (!fs.existsSync(imageFolder)) {
+  fs.mkdirSync(imageFolder);
 }
 
 const getSlug = (url: string): string => {
@@ -16,12 +16,8 @@ const getSlug = (url: string): string => {
   return segments[segments.length - 1];
 };
 
-const downloadImage = async (imgUrl: string, filename: string, folder: string): Promise<void> => {
+const downloadImage = async (imgUrl: string, filename: string): Promise<void> => {
   const response = await fetch(imgUrl);
-  const imageFolder = path.join(outputFolder, folder);
-  if (!fs.existsSync(imageFolder)) {
-    fs.mkdirSync(imageFolder);
-  }
 
   const fileStream = fs.createWriteStream(path.join(imageFolder, filename));
 
@@ -39,8 +35,8 @@ const downloadImage = async (imgUrl: string, filename: string, folder: string): 
 const run = async () => {
   
   for (const showroom of showrooms) {
-    logger.info(`Downloading ${showroom.path}`);
-    await downloadImage(showroom.path, getSlug(showroom.path), showroom.range);
+    logger.info(`Downloading ${showroom._source.path}`);
+    await downloadImage( `https://media.diyblinds.com.au${showroom._source.path}`, getSlug(showroom._source.path));
   }
 };
 

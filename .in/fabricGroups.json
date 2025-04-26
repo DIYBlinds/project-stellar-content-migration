@@ -1,0 +1,270 @@
+[
+        {
+            "_id": "66b35b7d7425bea3d68a9557",
+            "name": "Sunscreen",
+            "type": "Whispertech Bundle",
+            "__v": 0
+        },
+        {
+            "_id": "66b35b7d7425bea3d68a9556",
+            "name": "Light Filtering",
+            "type": "Whispertech Bundle",
+            "__v": 0
+        },
+        {
+            "_id": "66b35b7d7425bea3d68a9555",
+            "name": "Blockout",
+            "type": "Whispertech Bundle",
+            "__v": 0
+        },
+        {
+            "_id": "663da75a2c8d3c530ffa3098",
+            "name": "Aluminum Offline",
+            "type": "Venetian Blind",
+            "__v": 0
+        },
+        {
+            "_id": "65ea6048c2b46b63011b8b1e",
+            "name": "Sunscreen Offline",
+            "type": "Panel Glide Blind",
+            "__v": 0
+        },
+        {
+            "_id": "65ea5fb8c2b46b63011b8b1d",
+            "name": "Lining Offline",
+            "type": "Curtain",
+            "__v": 0
+        },
+        {
+            "_id": "658270695a1b5746ee27095b",
+            "name": "89mm Blockout Offline",
+            "type": "Vertical Blind",
+            "__v": 0
+        },
+        {
+            "_id": "658270605a1b5746ee27095a",
+            "name": "127mm Blockout Offline",
+            "type": "Vertical Blind",
+            "__v": 0
+        },
+        {
+            "_id": "655be1d5825868f96034cd17",
+            "name": "Visionwood Offline",
+            "type": "Venetian Blind",
+            "__v": 0
+        },
+        {
+            "_id": "64ed8963f071bf9fe5d5b514",
+            "name": "Light Filtering Offline",
+            "type": "Roman Blind",
+            "__v": 0
+        },
+        {
+            "_id": "64c359237e7840125ffc9ddf",
+            "name": "Screen",
+            "type": "Zip Screen",
+            "__v": 0,
+            "status": null
+        },
+        {
+            "_id": "64ab4584758e573da7d1b02a",
+            "name": "Blockout Offline",
+            "type": "Panel Glide Blind",
+            "__v": 0
+        },
+        {
+            "_id": "64a65718ce36fbd0307112e7",
+            "name": "Blockout Offline",
+            "type": "Roman Blind",
+            "__v": 0
+        },
+        {
+            "_id": "60dab0d69ba4a3489632f1ba",
+            "name": "Sunscreen Offline",
+            "type": "Roller Blind",
+            "__v": 0
+        },
+        {
+            "_id": "609b7387f82d448b790401b6",
+            "name": "Dimout Curtains",
+            "type": "Curtain",
+            "__v": 0
+        },
+        {
+            "_id": "60542dd69e835ae760d22752",
+            "name": "SHEER + LINING",
+            "type": "Lined Curtain",
+            "__v": 0
+        },
+        {
+            "_id": "605057fbe41c271fc48bf628",
+            "name": "SHEER + BLOCKOUT",
+            "type": "Double Curtain",
+            "__v": 0
+        },
+        {
+            "_id": "5f559dae7102f1616d24fd83",
+            "name": "Light Filtering Offline",
+            "type": "Roller Blind",
+            "__v": 0
+        },
+        {
+            "_id": "5f559da67102f1616d24fd82",
+            "name": "Blockout Offline",
+            "type": "Roller Blind",
+            "__v": 0
+        },
+        {
+            "_id": "5ecb0404589865139e291958",
+            "name": "Dimout Curtains Offline",
+            "type": "Curtain",
+            "__v": 0
+        },
+        {
+            "_id": "5dae21b8e93e8533a9c3d688",
+            "name": "Blockout Curtains Offline",
+            "type": "Curtain",
+            "__v": 0
+        },
+        {
+            "_id": "5dae21b2e93e8533a9c3d687",
+            "name": "Sheer Curtains Offline",
+            "type": "Curtain",
+            "__v": 0
+        },
+        {
+            "_id": "5b3d99a87636707f2336cedc",
+            "name": "Lining",
+            "type": "Curtain",
+            "__v": 0
+        },
+        {
+            "_id": "5b3d99a87636707f2336cedb",
+            "name": "Blockout Curtains",
+            "type": "Curtain",
+            "__v": 0
+        },
+        {
+            "_id": "5b3d99a87636707f2336ceda",
+            "name": "Sheer Curtains",
+            "type": "Curtain",
+            "__v": 0
+        },
+        {
+            "_id": "5b3d99a87636707f2336ced9",
+            "name": "Plantation Shutters",
+            "__v": 0,
+            "status": true,
+            "type": "Shutter"
+        },
+        {
+            "_id": "5b3d99a87636707f2336ced8",
+            "name": "Light Filtering + Sunscreen",
+            "type": "Double Roller Blind",
+            "__v": 0
+        },
+        {
+            "_id": "5b3d99a87636707f2336ced7",
+            "name": "Blockout + Light Filtering",
+            "type": "Double Roller Blind",
+            "__v": 0
+        },
+        {
+            "_id": "5b3d99a87636707f2336ced6",
+            "name": "Blockout + Sunscreen",
+            "type": "Double Roller Blind",
+            "__v": 0
+        },
+        {
+            "_id": "5b3d99a87636707f2336ced5",
+            "name": "Sunscreen",
+            "type": "Roller Blind",
+            "__v": 0
+        },
+        {
+            "_id": "5b3d99a87636707f2336ced4",
+            "name": "Light Filtering",
+            "type": "Roller Blind",
+            "__v": 0
+        },
+        {
+            "_id": "5b3d99a87636707f2336ced3",
+            "name": "Blockout",
+            "type": "Roller Blind",
+            "__v": 0
+        },
+        {
+            "_id": "5b3d99a87636707f2336ced2",
+            "name": "89mm Blockout",
+            "type": "Vertical Blind",
+            "__v": 0
+        },
+        {
+            "_id": "5b3d99a87636707f2336ced0",
+            "name": "127mm Blockout",
+            "type": "Vertical Blind",
+            "__v": 0
+        },
+        {
+            "_id": "5b3d99a87636707f2336cecf",
+            "name": "Timber",
+            "type": "Venetian Blind",
+            "__v": 0
+        },
+        {
+            "_id": "5b3d99a87636707f2336cece",
+            "name": "Visionwood",
+            "type": "Venetian Blind",
+            "__v": 0
+        },
+        {
+            "_id": "5b3d99a87636707f2336cecd",
+            "name": "Aluminum",
+            "type": "Venetian Blind",
+            "__v": 0
+        },
+        {
+            "_id": "5b3d99a87636707f2336cecc",
+            "name": "Light Filtering",
+            "type": "Honeycomb Blind",
+            "__v": 0,
+            "status": true
+        },
+        {
+            "_id": "5b3d99a87636707f2336cecb",
+            "name": "Blockout",
+            "type": "Honeycomb Blind",
+            "__v": 0,
+            "status": true
+        },
+        {
+            "_id": "5b3d99a87636707f2336ceca",
+            "name": "Sunscreen",
+            "type": "Panel Glide Blind",
+            "__v": 0
+        },
+        {
+            "_id": "5b3d99a87636707f2336cec9",
+            "name": "Light Filtering",
+            "type": "Panel Glide Blind",
+            "__v": 0
+        },
+        {
+            "_id": "5b3d99a87636707f2336cec8",
+            "name": "Blockout",
+            "type": "Panel Glide Blind",
+            "__v": 0
+        },
+        {
+            "_id": "5b3d99a87636707f2336cec6",
+            "name": "Light Filtering",
+            "type": "Roman Blind",
+            "__v": 0
+        },
+        {
+            "_id": "5b3d99a87636707f2336cec5",
+            "name": "Blockout",
+            "type": "Roman Blind",
+            "__v": 0
+        }
+]

@@ -1,0 +1,2786 @@
+[
+  {
+    "key": "fabric-blinds--sanctuary-bo",
+    "name.en-AU": "Sanctuary BO",
+    "variants.key": "fabric-blinds--sanctuary-bo--plaster-bo",
+    "variants.sku": "fabric-blinds--sanctuary-bo--plaster-bo",
+    "attributes.fabric-color-name": "Plaster BO",
+    "attributes.color-group": "dark grey"
+  },
+  {
+    "key": "fabric-blinds--sanctuary-bo",
+    "name.en-AU": "Sanctuary BO",
+    "variants.key": "fabric-blinds--sanctuary-bo--limestone-bo",
+    "variants.sku": "fabric-blinds--sanctuary-bo--limestone-bo",
+    "attributes.fabric-color-name": "Limestone BO",
+    "attributes.color-group": "stone"
+  },
+  {
+    "key": "fabric-blinds--sanctuary-bo",
+    "name.en-AU": "Sanctuary BO",
+    "variants.key": "fabric-blinds--sanctuary-bo--baltic-bo",
+    "variants.sku": "fabric-blinds--sanctuary-bo--baltic-bo",
+    "attributes.fabric-color-name": "Baltic BO",
+    "attributes.color-group": "black"
+  },
+  {
+    "key": "fabric-blinds--sanctuary-bo",
+    "name.en-AU": "Sanctuary BO",
+    "variants.key": "fabric-blinds--sanctuary-bo--ceramic-bo",
+    "variants.sku": "fabric-blinds--sanctuary-bo--ceramic-bo",
+    "attributes.fabric-color-name": "Ceramic BO",
+    "attributes.color-group": "beige"
+  },
+  {
+    "key": "fabric-blinds--sanctuary-bo",
+    "name.en-AU": "Sanctuary BO",
+    "variants.key": "fabric-blinds--sanctuary-bo--lava-bo",
+    "variants.sku": "fabric-blinds--sanctuary-bo--lava-bo",
+    "attributes.fabric-color-name": "Lava BO",
+    "attributes.color-group": "off white"
+  },
+  {
+    "key": "fabric-blinds--sanctuary-bo",
+    "name.en-AU": "Sanctuary BO",
+    "variants.key": "fabric-blinds--sanctuary-bo--marble-bo",
+    "variants.sku": "fabric-blinds--sanctuary-bo--marble-bo",
+    "attributes.fabric-color-name": "Marble BO",
+    "attributes.color-group": "light grey"
+  },
+  {
+    "key": "fabric-blinds--sanctuary-bo",
+    "name.en-AU": "Sanctuary BO",
+    "variants.key": "fabric-blinds--sanctuary-bo--mineral-bo",
+    "variants.sku": "fabric-blinds--sanctuary-bo--mineral-bo",
+    "attributes.fabric-color-name": "Mineral BO",
+    "attributes.color-group": "off white"
+  },
+  {
+    "key": "fabric-blinds--sanctuary-bo",
+    "name.en-AU": "Sanctuary BO",
+    "variants.key": "fabric-blinds--sanctuary-bo--slate-bo",
+    "variants.sku": "fabric-blinds--sanctuary-bo--slate-bo",
+    "attributes.fabric-color-name": "Slate BO",
+    "attributes.color-group": "dark grey"
+  },
+  {
+    "key": "fabric-blinds--sanctuary-bo",
+    "name.en-AU": "Sanctuary BO",
+    "variants.key": "fabric-blinds--sanctuary-bo--suede-bo",
+    "variants.sku": "fabric-blinds--sanctuary-bo--suede-bo",
+    "attributes.fabric-color-name": "Suede BO",
+    "attributes.color-group": "dark grey"
+  },
+  {
+    "key": "fabric-curtains--allusion",
+    "name.en-AU": "Allusion",
+    "variants.key": "fabric-curtains--allusion--ghost",
+    "variants.sku": "fabric-curtains--allusion--ghost",
+    "attributes.fabric-color-name": "Ghost",
+    "attributes.color-group": "white"
+  },
+  {
+    "key": "fabric-curtains--allusion",
+    "name.en-AU": "Allusion",
+    "variants.key": "fabric-curtains--allusion--limestone",
+    "variants.sku": "fabric-curtains--allusion--limestone",
+    "attributes.fabric-color-name": "Limestone",
+    "attributes.color-group": "brown"
+  },
+  {
+    "key": "fabric-curtains--allusion",
+    "name.en-AU": "Allusion",
+    "variants.key": "fabric-curtains--allusion--linen",
+    "variants.sku": "fabric-curtains--allusion--linen",
+    "attributes.fabric-color-name": "Linen",
+    "attributes.color-group": "brown"
+  },
+  {
+    "key": "fabric-curtains--allusion",
+    "name.en-AU": "Allusion",
+    "variants.key": "fabric-curtains--allusion--liquorice",
+    "variants.sku": "fabric-curtains--allusion--liquorice",
+    "attributes.fabric-color-name": "Liquorice",
+    "attributes.color-group": "charcoal"
+  },
+  {
+    "key": "fabric-curtains--allusion",
+    "name.en-AU": "Allusion",
+    "variants.key": "fabric-curtains--allusion--marzipan",
+    "variants.sku": "fabric-curtains--allusion--marzipan",
+    "attributes.fabric-color-name": "Marzipan",
+    "attributes.color-group": "beige"
+  },
+  {
+    "key": "fabric-curtains--allusion",
+    "name.en-AU": "Allusion",
+    "variants.key": "fabric-curtains--allusion--mist",
+    "variants.sku": "fabric-curtains--allusion--mist",
+    "attributes.fabric-color-name": "Mist",
+    "attributes.color-group": "light grey"
+  },
+  {
+    "key": "fabric-curtains--allusion",
+    "name.en-AU": "Allusion",
+    "variants.key": "fabric-curtains--allusion--mushroom",
+    "variants.sku": "fabric-curtains--allusion--mushroom",
+    "attributes.fabric-color-name": "Mushroom",
+    "attributes.color-group": "beige"
+  },
+  {
+    "key": "fabric-curtains--allusion",
+    "name.en-AU": "Allusion",
+    "variants.key": "fabric-curtains--allusion--nougat",
+    "variants.sku": "fabric-curtains--allusion--nougat",
+    "attributes.fabric-color-name": "Nougat",
+    "attributes.color-group": "beige"
+  },
+  {
+    "key": "fabric-curtains--allusion",
+    "name.en-AU": "Allusion",
+    "variants.key": "fabric-curtains--allusion--pearl",
+    "variants.sku": "fabric-curtains--allusion--pearl",
+    "attributes.fabric-color-name": "Pearl",
+    "attributes.color-group": "off white"
+  },
+  {
+    "key": "fabric-curtains--allusion",
+    "name.en-AU": "Allusion",
+    "variants.key": "fabric-curtains--allusion--rattan",
+    "variants.sku": "fabric-curtains--allusion--rattan",
+    "attributes.fabric-color-name": "Rattan",
+    "attributes.color-group": "beige"
+  },
+  {
+    "key": "fabric-curtains--allusion",
+    "name.en-AU": "Allusion",
+    "variants.key": "fabric-curtains--allusion--sesame",
+    "variants.sku": "fabric-curtains--allusion--sesame",
+    "attributes.fabric-color-name": "Sesame",
+    "attributes.color-group": "beige"
+  },
+  {
+    "key": "fabric-curtains--allusion",
+    "name.en-AU": "Allusion",
+    "variants.key": "fabric-curtains--allusion--silver",
+    "variants.sku": "fabric-curtains--allusion--silver",
+    "attributes.fabric-color-name": "Silver",
+    "attributes.color-group": "dark grey"
+  },
+  {
+    "key": "fabric-curtains--allusion",
+    "name.en-AU": "Allusion",
+    "variants.key": "fabric-curtains--allusion--snow",
+    "variants.sku": "fabric-curtains--allusion--snow",
+    "attributes.fabric-color-name": "Snow",
+    "attributes.color-group": "off white"
+  },
+  {
+    "key": "fabric-blinds--63mm-visionwood",
+    "name.en-AU": "63mm Visionwood",
+    "variants.key": "fabric-blinds--63mm-visionwood--glass",
+    "variants.sku": "fabric-blinds--63mm-visionwood--glass",
+    "attributes.fabric-color-name": "Glass",
+    "attributes.color-group": "white"
+  },
+  {
+    "key": "fabric-blinds--63mm-visionwood",
+    "name.en-AU": "63mm Visionwood",
+    "variants.key": "fabric-blinds--63mm-visionwood--stone",
+    "variants.sku": "fabric-blinds--63mm-visionwood--stone",
+    "attributes.fabric-color-name": "Stone",
+    "attributes.color-group": "beige"
+  },
+  {
+    "key": "fabric-blinds--63mm-visionwood",
+    "name.en-AU": "63mm Visionwood",
+    "variants.key": "fabric-blinds--63mm-visionwood--vivid-white",
+    "variants.sku": "fabric-blinds--63mm-visionwood--vivid-white",
+    "attributes.fabric-color-name": "Vivid White",
+    "attributes.color-group": "off white"
+  },
+  {
+    "key": "fabric-curtains--burleigh",
+    "name.en-AU": "Burleigh",
+    "variants.key": "fabric-curtains--burleigh--shell",
+    "variants.sku": "fabric-curtains--burleigh--shell",
+    "attributes.fabric-color-name": "Shell",
+    "attributes.color-group": "light grey"
+  },
+  {
+    "key": "fabric-curtains--burleigh",
+    "name.en-AU": "Burleigh",
+    "variants.key": "fabric-curtains--burleigh--cloud",
+    "variants.sku": "fabric-curtains--burleigh--cloud",
+    "attributes.fabric-color-name": "Cloud",
+    "attributes.color-group": "#rainbow"
+  },
+  {
+    "key": "fabric-curtains--burleigh",
+    "name.en-AU": "Burleigh",
+    "variants.key": "fabric-curtains--burleigh--dusk",
+    "variants.sku": "fabric-curtains--burleigh--dusk",
+    "attributes.fabric-color-name": "Dusk",
+    "attributes.color-group": "green"
+  },
+  {
+    "key": "fabric-curtains--burleigh",
+    "name.en-AU": "Burleigh",
+    "variants.key": "fabric-curtains--burleigh--kelp",
+    "variants.sku": "fabric-curtains--burleigh--kelp",
+    "attributes.fabric-color-name": "Kelp",
+    "attributes.color-group": "off white"
+  },
+  {
+    "key": "fabric-curtains--burleigh",
+    "name.en-AU": "Burleigh",
+    "variants.key": "fabric-curtains--burleigh--pearl",
+    "variants.sku": "fabric-curtains--burleigh--pearl",
+    "attributes.fabric-color-name": "Pearl",
+    "attributes.color-group": "light grey"
+  },
+  {
+    "key": "fabric-curtains--burleigh",
+    "name.en-AU": "Burleigh",
+    "variants.key": "fabric-curtains--burleigh--sea-breeze",
+    "variants.sku": "fabric-curtains--burleigh--sea-breeze",
+    "attributes.fabric-color-name": "Sea Breeze",
+    "attributes.color-group": "white"
+  },
+  {
+    "key": "fabric-curtains--burleigh",
+    "name.en-AU": "Burleigh",
+    "variants.key": "fabric-curtains--burleigh--volcanic",
+    "variants.sku": "fabric-curtains--burleigh--volcanic",
+    "attributes.fabric-color-name": "Volcanic",
+    "attributes.color-group": "beige"
+  },
+  {
+    "key": "fabric-curtains--burleigh",
+    "name.en-AU": "Burleigh",
+    "variants.key": "fabric-curtains--burleigh--sea-salt",
+    "variants.sku": "fabric-curtains--burleigh--sea-salt",
+    "attributes.fabric-color-name": "Sea Salt",
+    "attributes.color-group": "charcoal"
+  },
+  {
+    "key": "fabric-blinds--serengetti-lf",
+    "name.en-AU": "Serengetti LF",
+    "variants.key": "fabric-blinds--serengetti-lf--albatross-lf",
+    "variants.sku": "fabric-blinds--serengetti-lf--albatross-lf",
+    "attributes.fabric-color-name": "Albatross LF",
+    "attributes.color-group": "beige"
+  },
+  {
+    "key": "fabric-blinds--serengetti-lf",
+    "name.en-AU": "Serengetti LF",
+    "variants.key": "fabric-blinds--serengetti-lf--antelope-lf",
+    "variants.sku": "fabric-blinds--serengetti-lf--antelope-lf",
+    "attributes.fabric-color-name": "Antelope LF",
+    "attributes.color-group": "brown"
+  },
+  {
+    "key": "fabric-blinds--serengetti-lf",
+    "name.en-AU": "Serengetti LF",
+    "variants.key": "fabric-blinds--serengetti-lf--caribou-lf",
+    "variants.sku": "fabric-blinds--serengetti-lf--caribou-lf",
+    "attributes.fabric-color-name": "Caribou LF",
+    "attributes.color-group": "brown"
+  },
+  {
+    "key": "fabric-blinds--serengetti-lf",
+    "name.en-AU": "Serengetti LF",
+    "variants.key": "fabric-blinds--serengetti-lf--chamois-lf",
+    "variants.sku": "fabric-blinds--serengetti-lf--chamois-lf",
+    "attributes.fabric-color-name": "Chamois LF",
+    "attributes.color-group": "brown"
+  },
+  {
+    "key": "fabric-blinds--serengetti-lf",
+    "name.en-AU": "Serengetti LF",
+    "variants.key": "fabric-blinds--serengetti-lf--eland-lf",
+    "variants.sku": "fabric-blinds--serengetti-lf--eland-lf",
+    "attributes.fabric-color-name": "Eland LF",
+    "attributes.color-group": "light grey"
+  },
+  {
+    "key": "fabric-blinds--serengetti-lf",
+    "name.en-AU": "Serengetti LF",
+    "variants.key": "fabric-blinds--serengetti-lf--hyrax-lf",
+    "variants.sku": "fabric-blinds--serengetti-lf--hyrax-lf",
+    "attributes.fabric-color-name": "Hyrax LF",
+    "attributes.color-group": "dark grey"
+  },
+  {
+    "key": "fabric-blinds--serengetti-lf",
+    "name.en-AU": "Serengetti LF",
+    "variants.key": "fabric-blinds--serengetti-lf--jackal-lf",
+    "variants.sku": "fabric-blinds--serengetti-lf--jackal-lf",
+    "attributes.fabric-color-name": "Jackal LF",
+    "attributes.color-group": "dark grey"
+  },
+  {
+    "key": "fabric-blinds--serengetti-lf",
+    "name.en-AU": "Serengetti LF",
+    "variants.key": "fabric-blinds--serengetti-lf--llama-lf",
+    "variants.sku": "fabric-blinds--serengetti-lf--llama-lf",
+    "attributes.fabric-color-name": "Llama LF",
+    "attributes.color-group": "off white"
+  },
+  {
+    "key": "fabric-blinds--serengetti-lf",
+    "name.en-AU": "Serengetti LF",
+    "variants.key": "fabric-blinds--serengetti-lf--mamba-lf",
+    "variants.sku": "fabric-blinds--serengetti-lf--mamba-lf",
+    "attributes.fabric-color-name": "Mamba LF",
+    "attributes.color-group": "charcoal"
+  },
+  {
+    "key": "fabric-blinds--serengetti-lf",
+    "name.en-AU": "Serengetti LF",
+    "variants.key": "fabric-blinds--serengetti-lf--onyx-lf",
+    "variants.sku": "fabric-blinds--serengetti-lf--onyx-lf",
+    "attributes.fabric-color-name": "Onyx LF",
+    "attributes.color-group": "beige"
+  },
+  {
+    "key": "fabric-blinds--serengetti-lf",
+    "name.en-AU": "Serengetti LF",
+    "variants.key": "fabric-blinds--serengetti-lf--owl-lf",
+    "variants.sku": "fabric-blinds--serengetti-lf--owl-lf",
+    "attributes.fabric-color-name": "Owl LF",
+    "attributes.color-group": "light grey"
+  },
+  {
+    "key": "fabric-blinds--serengetti-lf",
+    "name.en-AU": "Serengetti LF",
+    "variants.key": "fabric-blinds--serengetti-lf--panther-lf",
+    "variants.sku": "fabric-blinds--serengetti-lf--panther-lf",
+    "attributes.fabric-color-name": "Panther LF",
+    "attributes.color-group": "black"
+  },
+  {
+    "key": "fabric-blinds--serengetti-lf",
+    "name.en-AU": "Serengetti LF",
+    "variants.key": "fabric-blinds--serengetti-lf--polar-lf",
+    "variants.sku": "fabric-blinds--serengetti-lf--polar-lf",
+    "attributes.fabric-color-name": "Polar LF",
+    "attributes.color-group": "white"
+  },
+  {
+    "key": "fabric-curtains--mavi",
+    "name.en-AU": "Mavi",
+    "variants.key": "fabric-curtains--mavi--ash",
+    "variants.sku": "fabric-curtains--mavi--ash",
+    "attributes.fabric-color-name": "Ash",
+    "attributes.color-group": "dark grey"
+  },
+  {
+    "key": "fabric-curtains--mavi",
+    "name.en-AU": "Mavi",
+    "variants.key": "fabric-curtains--mavi--cinder",
+    "variants.sku": "fabric-curtains--mavi--cinder",
+    "attributes.fabric-color-name": "Cinder",
+    "attributes.color-group": "black"
+  },
+  {
+    "key": "fabric-curtains--mavi",
+    "name.en-AU": "Mavi",
+    "variants.key": "fabric-curtains--mavi--dune",
+    "variants.sku": "fabric-curtains--mavi--dune",
+    "attributes.fabric-color-name": "Dune",
+    "attributes.color-group": "beige"
+  },
+  {
+    "key": "fabric-curtains--mavi",
+    "name.en-AU": "Mavi",
+    "variants.key": "fabric-curtains--mavi--dusk",
+    "variants.sku": "fabric-curtains--mavi--dusk",
+    "attributes.fabric-color-name": "Dusk",
+    "attributes.color-group": "beige"
+  },
+  {
+    "key": "fabric-curtains--mavi",
+    "name.en-AU": "Mavi",
+    "variants.key": "fabric-curtains--mavi--ice",
+    "variants.sku": "fabric-curtains--mavi--ice",
+    "attributes.fabric-color-name": "Ice",
+    "attributes.color-group": "white"
+  },
+  {
+    "key": "fabric-curtains--mavi",
+    "name.en-AU": "Mavi",
+    "variants.key": "fabric-curtains--mavi--opal",
+    "variants.sku": "fabric-curtains--mavi--opal",
+    "attributes.fabric-color-name": "Opal",
+    "attributes.color-group": "off white"
+  },
+  {
+    "key": "fabric-curtains--mavi",
+    "name.en-AU": "Mavi",
+    "variants.key": "fabric-curtains--mavi--pewter",
+    "variants.sku": "fabric-curtains--mavi--pewter",
+    "attributes.fabric-color-name": "Pewter",
+    "attributes.color-group": "light grey"
+  },
+  {
+    "key": "fabric-curtains--mavi",
+    "name.en-AU": "Mavi",
+    "variants.key": "fabric-curtains--mavi--porcelain",
+    "variants.sku": "fabric-curtains--mavi--porcelain",
+    "attributes.fabric-color-name": "Porcelain",
+    "attributes.color-group": "white"
+  },
+  {
+    "key": "fabric-blinds--kew",
+    "name.en-AU": "Kew",
+    "variants.key": "fabric-blinds--kew--natural",
+    "variants.sku": "fabric-blinds--kew--natural",
+    "attributes.fabric-color-name": "Natural",
+    "attributes.color-group": "light grey"
+  },
+  {
+    "key": "fabric-blinds--kew",
+    "name.en-AU": "Kew",
+    "variants.key": "fabric-blinds--kew--concrete",
+    "variants.sku": "fabric-blinds--kew--concrete",
+    "attributes.fabric-color-name": "Concrete",
+    "attributes.color-group": "black"
+  },
+  {
+    "key": "fabric-blinds--kew",
+    "name.en-AU": "Kew",
+    "variants.key": "fabric-blinds--kew--ebony",
+    "variants.sku": "fabric-blinds--kew--ebony",
+    "attributes.fabric-color-name": "Ebony",
+    "attributes.color-group": "dark grey"
+  },
+  {
+    "key": "fabric-blinds--kew",
+    "name.en-AU": "Kew",
+    "variants.key": "fabric-blinds--kew--flint",
+    "variants.sku": "fabric-blinds--kew--flint",
+    "attributes.fabric-color-name": "Flint",
+    "attributes.color-group": "white"
+  },
+  {
+    "key": "fabric-blinds--kew",
+    "name.en-AU": "Kew",
+    "variants.key": "fabric-blinds--kew--orca",
+    "variants.sku": "fabric-blinds--kew--orca",
+    "attributes.fabric-color-name": "Orca",
+    "attributes.color-group": "white"
+  },
+  {
+    "key": "fabric-blinds--kew",
+    "name.en-AU": "Kew",
+    "variants.key": "fabric-blinds--kew--parchment",
+    "variants.sku": "fabric-blinds--kew--parchment",
+    "attributes.fabric-color-name": "Parchment",
+    "attributes.color-group": "light grey"
+  },
+  {
+    "key": "fabric-blinds--kew",
+    "name.en-AU": "Kew",
+    "variants.key": "fabric-blinds--kew--pebble",
+    "variants.sku": "fabric-blinds--kew--pebble",
+    "attributes.fabric-color-name": "Pebble",
+    "attributes.color-group": "off white"
+  },
+  {
+    "key": "fabric-blinds--kew",
+    "name.en-AU": "Kew",
+    "variants.key": "fabric-blinds--kew--pewter",
+    "variants.sku": "fabric-blinds--kew--pewter",
+    "attributes.fabric-color-name": "Pewter",
+    "attributes.color-group": "dark grey"
+  },
+  {
+    "key": "fabric-blinds--kew",
+    "name.en-AU": "Kew",
+    "variants.key": "fabric-blinds--kew--silver",
+    "variants.sku": "fabric-blinds--kew--silver",
+    "attributes.fabric-color-name": "Silver",
+    "attributes.color-group": "dark grey"
+  },
+  {
+    "key": "fabric-blinds--kew",
+    "name.en-AU": "Kew",
+    "variants.key": "fabric-blinds--kew--truffle",
+    "variants.sku": "fabric-blinds--kew--truffle",
+    "attributes.fabric-color-name": "Truffle",
+    "attributes.color-group": "beige"
+  },
+  {
+    "key": "fabric-blinds--kew",
+    "name.en-AU": "Kew",
+    "variants.key": "fabric-blinds--kew--whisper",
+    "variants.sku": "fabric-blinds--kew--whisper",
+    "attributes.fabric-color-name": "Whisper",
+    "attributes.color-group": "white"
+  },
+  {
+    "key": "fabric-blinds--50mm-aluminium",
+    "name.en-AU": "50mm Aluminium",
+    "variants.key": "fabric-blinds--50mm-aluminium--basic-white",
+    "variants.sku": "fabric-blinds--50mm-aluminium--basic-white",
+    "attributes.fabric-color-name": "Basic White",
+    "attributes.color-group": "white"
+  },
+  {
+    "key": "fabric-blinds--50mm-aluminium",
+    "name.en-AU": "50mm Aluminium",
+    "variants.key": "fabric-blinds--50mm-aluminium--black-satin",
+    "variants.sku": "fabric-blinds--50mm-aluminium--black-satin",
+    "attributes.fabric-color-name": "Black Satin",
+    "attributes.color-group": "black"
+  },
+  {
+    "key": "fabric-blinds--50mm-aluminium",
+    "name.en-AU": "50mm Aluminium",
+    "variants.key": "fabric-blinds--50mm-aluminium--brushed-aluminium",
+    "variants.sku": "fabric-blinds--50mm-aluminium--brushed-aluminium",
+    "attributes.fabric-color-name": "Brushed Aluminium",
+    "attributes.color-group": "dark grey"
+  },
+  {
+    "key": "fabric-blinds--50mm-aluminium",
+    "name.en-AU": "50mm Aluminium",
+    "variants.key": "fabric-blinds--50mm-aluminium--raw-silk",
+    "variants.sku": "fabric-blinds--50mm-aluminium--raw-silk",
+    "attributes.fabric-color-name": "Raw Silk",
+    "attributes.color-group": "beige"
+  },
+  {
+    "key": "fabric-curtains--centennial",
+    "name.en-AU": "Centennial",
+    "variants.key": "fabric-curtains--centennial--ash-grey",
+    "variants.sku": "fabric-curtains--centennial--ash-grey",
+    "attributes.fabric-color-name": "Ash/Grey",
+    "attributes.color-group": "brown"
+  },
+  {
+    "key": "fabric-curtains--centennial",
+    "name.en-AU": "Centennial",
+    "variants.key": "fabric-curtains--centennial--biscuit",
+    "variants.sku": "fabric-curtains--centennial--biscuit",
+    "attributes.fabric-color-name": "Biscuit",
+    "attributes.color-group": "beige"
+  },
+  {
+    "key": "fabric-curtains--centennial",
+    "name.en-AU": "Centennial",
+    "variants.key": "fabric-curtains--centennial--charcoal",
+    "variants.sku": "fabric-curtains--centennial--charcoal",
+    "attributes.fabric-color-name": "Charcoal",
+    "attributes.color-group": "dark grey"
+  },
+  {
+    "key": "fabric-curtains--centennial",
+    "name.en-AU": "Centennial",
+    "variants.key": "fabric-curtains--centennial--ghost",
+    "variants.sku": "fabric-curtains--centennial--ghost",
+    "attributes.fabric-color-name": "Ghost",
+    "attributes.color-group": "white"
+  },
+  {
+    "key": "fabric-curtains--centennial",
+    "name.en-AU": "Centennial",
+    "variants.key": "fabric-curtains--centennial--haze",
+    "variants.sku": "fabric-curtains--centennial--haze",
+    "attributes.fabric-color-name": "Haze",
+    "attributes.color-group": "light grey"
+  },
+  {
+    "key": "fabric-curtains--centennial",
+    "name.en-AU": "Centennial",
+    "variants.key": "fabric-curtains--centennial--powder",
+    "variants.sku": "fabric-curtains--centennial--powder",
+    "attributes.fabric-color-name": "Powder",
+    "attributes.color-group": "white"
+  },
+  {
+    "key": "fabric-curtains--centennial",
+    "name.en-AU": "Centennial",
+    "variants.key": "fabric-curtains--centennial--stone",
+    "variants.sku": "fabric-curtains--centennial--stone",
+    "attributes.fabric-color-name": "Stone",
+    "attributes.color-group": "beige"
+  },
+  {
+    "key": "fabric-curtains--aurelius",
+    "name.en-AU": "Aurelius",
+    "variants.key": "fabric-curtains--aurelius--linen",
+    "variants.sku": "fabric-curtains--aurelius--linen",
+    "attributes.fabric-color-name": "Linen",
+    "attributes.color-group": "#rainbow"
+  },
+  {
+    "key": "fabric-curtains--aurelius",
+    "name.en-AU": "Aurelius",
+    "variants.key": "fabric-curtains--aurelius--blush",
+    "variants.sku": "fabric-curtains--aurelius--blush",
+    "attributes.fabric-color-name": "Blush",
+    "attributes.color-group": "beige"
+  },
+  {
+    "key": "fabric-curtains--aurelius",
+    "name.en-AU": "Aurelius",
+    "variants.key": "fabric-curtains--aurelius--ecru",
+    "variants.sku": "fabric-curtains--aurelius--ecru",
+    "attributes.fabric-color-name": "Ecru",
+    "attributes.color-group": "beige"
+  },
+  {
+    "key": "fabric-curtains--aurelius",
+    "name.en-AU": "Aurelius",
+    "variants.key": "fabric-curtains--aurelius--fog",
+    "variants.sku": "fabric-curtains--aurelius--fog",
+    "attributes.fabric-color-name": "Fog",
+    "attributes.color-group": "beige"
+  },
+  {
+    "key": "fabric-curtains--aurelius",
+    "name.en-AU": "Aurelius",
+    "variants.key": "fabric-curtains--aurelius--shale",
+    "variants.sku": "fabric-curtains--aurelius--shale",
+    "attributes.fabric-color-name": "Shale",
+    "attributes.color-group": "brown"
+  },
+  {
+    "key": "fabric-curtains--aurelius",
+    "name.en-AU": "Aurelius",
+    "variants.key": "fabric-curtains--aurelius--sky",
+    "variants.sku": "fabric-curtains--aurelius--sky",
+    "attributes.fabric-color-name": "Sky",
+    "attributes.color-group": "dark grey"
+  },
+  {
+    "key": "fabric-curtains--aurelius",
+    "name.en-AU": "Aurelius",
+    "variants.key": "fabric-curtains--aurelius--snow",
+    "variants.sku": "fabric-curtains--aurelius--snow",
+    "attributes.fabric-color-name": "Snow",
+    "attributes.color-group": "off white"
+  },
+  {
+    "key": "fabric-blinds--sanctuary-lf",
+    "name.en-AU": "Sanctuary LF",
+    "variants.key": "fabric-blinds--sanctuary-lf--plaster-lf",
+    "variants.sku": "fabric-blinds--sanctuary-lf--plaster-lf",
+    "attributes.fabric-color-name": "Plaster LF",
+    "attributes.color-group": "dark grey"
+  },
+  {
+    "key": "fabric-blinds--sanctuary-lf",
+    "name.en-AU": "Sanctuary LF",
+    "variants.key": "fabric-blinds--sanctuary-lf--marble-lf",
+    "variants.sku": "fabric-blinds--sanctuary-lf--marble-lf",
+    "attributes.fabric-color-name": "Marble LF",
+    "attributes.color-group": "stone"
+  },
+  {
+    "key": "fabric-blinds--sanctuary-lf",
+    "name.en-AU": "Sanctuary LF",
+    "variants.key": "fabric-blinds--sanctuary-lf--baltic-lf",
+    "variants.sku": "fabric-blinds--sanctuary-lf--baltic-lf",
+    "attributes.fabric-color-name": "Baltic LF",
+    "attributes.color-group": "black"
+  },
+  {
+    "key": "fabric-blinds--sanctuary-lf",
+    "name.en-AU": "Sanctuary LF",
+    "variants.key": "fabric-blinds--sanctuary-lf--ceramic-lf",
+    "variants.sku": "fabric-blinds--sanctuary-lf--ceramic-lf",
+    "attributes.fabric-color-name": "Ceramic LF",
+    "attributes.color-group": "off white"
+  },
+  {
+    "key": "fabric-blinds--sanctuary-lf",
+    "name.en-AU": "Sanctuary LF",
+    "variants.key": "fabric-blinds--sanctuary-lf--lava-lf",
+    "variants.sku": "fabric-blinds--sanctuary-lf--lava-lf",
+    "attributes.fabric-color-name": "Lava LF",
+    "attributes.color-group": "light grey"
+  },
+  {
+    "key": "fabric-blinds--sanctuary-lf",
+    "name.en-AU": "Sanctuary LF",
+    "variants.key": "fabric-blinds--sanctuary-lf--mineral-lf",
+    "variants.sku": "fabric-blinds--sanctuary-lf--mineral-lf",
+    "attributes.fabric-color-name": "Mineral LF",
+    "attributes.color-group": "off white"
+  },
+  {
+    "key": "fabric-blinds--sanctuary-lf",
+    "name.en-AU": "Sanctuary LF",
+    "variants.key": "fabric-blinds--sanctuary-lf--suede-lf",
+    "variants.sku": "fabric-blinds--sanctuary-lf--suede-lf",
+    "attributes.fabric-color-name": "Suede LF",
+    "attributes.color-group": "dark grey"
+  },
+  {
+    "key": "fabric-blinds--linesque-lf",
+    "name.en-AU": "Linesque LF",
+    "variants.key": "fabric-blinds--linesque-lf--chestnut",
+    "variants.sku": "fabric-blinds--linesque-lf--chestnut",
+    "attributes.fabric-color-name": "Chestnut",
+    "attributes.color-group": "brown"
+  },
+  {
+    "key": "fabric-blinds--linesque-lf",
+    "name.en-AU": "Linesque LF",
+    "variants.key": "fabric-blinds--linesque-lf--delta",
+    "variants.sku": "fabric-blinds--linesque-lf--delta",
+    "attributes.fabric-color-name": "Delta",
+    "attributes.color-group": "dark grey"
+  },
+  {
+    "key": "fabric-blinds--linesque-lf",
+    "name.en-AU": "Linesque LF",
+    "variants.key": "fabric-blinds--linesque-lf--granite",
+    "variants.sku": "fabric-blinds--linesque-lf--granite",
+    "attributes.fabric-color-name": "Granite",
+    "attributes.color-group": "brown"
+  },
+  {
+    "key": "fabric-blinds--linesque-lf",
+    "name.en-AU": "Linesque LF",
+    "variants.key": "fabric-blinds--linesque-lf--hazel",
+    "variants.sku": "fabric-blinds--linesque-lf--hazel",
+    "attributes.fabric-color-name": "Hazel",
+    "attributes.color-group": "beige"
+  },
+  {
+    "key": "fabric-blinds--linesque-lf",
+    "name.en-AU": "Linesque LF",
+    "variants.key": "fabric-blinds--linesque-lf--levi",
+    "variants.sku": "fabric-blinds--linesque-lf--levi",
+    "attributes.fabric-color-name": "Levi",
+    "attributes.color-group": "charcoal"
+  },
+  {
+    "key": "fabric-blinds--linesque-lf",
+    "name.en-AU": "Linesque LF",
+    "variants.key": "fabric-blinds--linesque-lf--lily",
+    "variants.sku": "fabric-blinds--linesque-lf--lily",
+    "attributes.fabric-color-name": "Lily",
+    "attributes.color-group": "white"
+  },
+  {
+    "key": "fabric-blinds--linesque-lf",
+    "name.en-AU": "Linesque LF",
+    "variants.key": "fabric-blinds--linesque-lf--oatcake",
+    "variants.sku": "fabric-blinds--linesque-lf--oatcake",
+    "attributes.fabric-color-name": "Oatcake",
+    "attributes.color-group": "beige"
+  },
+  {
+    "key": "fabric-blinds--linesque-lf",
+    "name.en-AU": "Linesque LF",
+    "variants.key": "fabric-blinds--linesque-lf--owl",
+    "variants.sku": "fabric-blinds--linesque-lf--owl",
+    "attributes.fabric-color-name": "Owl",
+    "attributes.color-group": "light grey"
+  },
+  {
+    "key": "fabric-blinds--linesque-lf",
+    "name.en-AU": "Linesque LF",
+    "variants.key": "fabric-blinds--linesque-lf--stonewash",
+    "variants.sku": "fabric-blinds--linesque-lf--stonewash",
+    "attributes.fabric-color-name": "Stonewash",
+    "attributes.color-group": "#rainbow"
+  },
+  {
+    "key": "fabric-blinds--linesque-lf",
+    "name.en-AU": "Linesque LF",
+    "variants.key": "fabric-blinds--linesque-lf--trellis",
+    "variants.sku": "fabric-blinds--linesque-lf--trellis",
+    "attributes.fabric-color-name": "Trellis",
+    "attributes.color-group": "brown"
+  },
+  {
+    "key": "fabric-blinds--linesque-lf",
+    "name.en-AU": "Linesque LF",
+    "variants.key": "fabric-blinds--linesque-lf--wicker",
+    "variants.sku": "fabric-blinds--linesque-lf--wicker",
+    "attributes.fabric-color-name": "Wicker",
+    "attributes.color-group": "beige"
+  },
+  {
+    "key": "fabric-blinds--linesque-lf",
+    "name.en-AU": "Linesque LF",
+    "variants.key": "fabric-blinds--linesque-lf--winter",
+    "variants.sku": "fabric-blinds--linesque-lf--winter",
+    "attributes.fabric-color-name": "Winter",
+    "attributes.color-group": "dark grey"
+  },
+  {
+    "key": "fabric-blinds--purewood-urban",
+    "name.en-AU": "Purewood - Urban",
+    "variants.key": "fabric-blinds--purewood-urban--birch",
+    "variants.sku": "fabric-blinds--purewood-urban--birch",
+    "attributes.fabric-color-name": "Birch",
+    "attributes.color-group": "beige"
+  },
+  {
+    "key": "fabric-blinds--purewood-urban",
+    "name.en-AU": "Purewood - Urban",
+    "variants.key": "fabric-blinds--purewood-urban--chestnut",
+    "variants.sku": "fabric-blinds--purewood-urban--chestnut",
+    "attributes.fabric-color-name": "Chestnut",
+    "attributes.color-group": "brown"
+  },
+  {
+    "key": "fabric-blinds--purewood-urban",
+    "name.en-AU": "Purewood - Urban",
+    "variants.key": "fabric-blinds--purewood-urban--jatoba",
+    "variants.sku": "fabric-blinds--purewood-urban--jatoba",
+    "attributes.fabric-color-name": "Jatoba",
+    "attributes.color-group": "brown"
+  },
+  {
+    "key": "fabric-blinds--purewood-urban",
+    "name.en-AU": "Purewood - Urban",
+    "variants.key": "fabric-blinds--purewood-urban--oak",
+    "variants.sku": "fabric-blinds--purewood-urban--oak",
+    "attributes.fabric-color-name": "Oak",
+    "attributes.color-group": "beige"
+  },
+  {
+    "key": "fabric-shutters--polylux",
+    "name.en-AU": "PolyLux",
+    "variants.key": "fabric-shutters--polylux--alpine-white",
+    "variants.sku": "fabric-shutters--polylux--alpine-white",
+    "attributes.fabric-color-name": "Alpine White",
+    "attributes.color-group": "off white"
+  },
+  {
+    "key": "fabric-shutters--polylux",
+    "name.en-AU": "PolyLux",
+    "variants.key": "fabric-shutters--polylux--pure-white",
+    "variants.sku": "fabric-shutters--polylux--pure-white",
+    "attributes.fabric-color-name": "Pure White",
+    "attributes.color-group": "white"
+  },
+  {
+    "key": "fabric-blinds--metro-lf",
+    "name.en-AU": "Metro LF",
+    "variants.key": "fabric-blinds--metro-lf--dove-white-lf",
+    "variants.sku": "fabric-blinds--metro-lf--dove-white-lf",
+    "attributes.fabric-color-name": "Dove/White LF",
+    "attributes.color-group": "white"
+  },
+  {
+    "key": "fabric-blinds--metro-lf",
+    "name.en-AU": "Metro LF",
+    "variants.key": "fabric-blinds--metro-lf--ecru-lf",
+    "variants.sku": "fabric-blinds--metro-lf--ecru-lf",
+    "attributes.fabric-color-name": "Ecru LF",
+    "attributes.color-group": "off white"
+  },
+  {
+    "key": "fabric-blinds--metro-lf",
+    "name.en-AU": "Metro LF",
+    "variants.key": "fabric-blinds--metro-lf--ice-grey-lf",
+    "variants.sku": "fabric-blinds--metro-lf--ice-grey-lf",
+    "attributes.fabric-color-name": "Ice Grey LF",
+    "attributes.color-group": "off white"
+  },
+  {
+    "key": "fabric-blinds--metro-lf",
+    "name.en-AU": "Metro LF",
+    "variants.key": "fabric-blinds--metro-lf--moonstone-lf",
+    "variants.sku": "fabric-blinds--metro-lf--moonstone-lf",
+    "attributes.fabric-color-name": "Moonstone LF",
+    "attributes.color-group": "light grey"
+  },
+  {
+    "key": "fabric-blinds--metro-lf",
+    "name.en-AU": "Metro LF",
+    "variants.key": "fabric-blinds--metro-lf--nougat-lf",
+    "variants.sku": "fabric-blinds--metro-lf--nougat-lf",
+    "attributes.fabric-color-name": "Nougat LF",
+    "attributes.color-group": "beige"
+  },
+  {
+    "key": "fabric-blinds--metro-lf",
+    "name.en-AU": "Metro LF",
+    "variants.key": "fabric-blinds--metro-lf--quill-lf",
+    "variants.sku": "fabric-blinds--metro-lf--quill-lf",
+    "attributes.fabric-color-name": "Quill LF",
+    "attributes.color-group": "dark grey"
+  },
+  {
+    "key": "fabric-blinds--purewood-shadow",
+    "name.en-AU": "Purewood Shadow",
+    "variants.key": "fabric-blinds--purewood-shadow--ebony",
+    "variants.sku": "fabric-blinds--purewood-shadow--ebony",
+    "attributes.fabric-color-name": "Ebony",
+    "attributes.color-group": "black"
+  },
+  {
+    "key": "fabric-curtains--aspro",
+    "name.en-AU": "Aspro",
+    "variants.key": "fabric-curtains--aspro--dove",
+    "variants.sku": "fabric-curtains--aspro--dove",
+    "attributes.fabric-color-name": "Dove",
+    "attributes.color-group": "light grey"
+  },
+  {
+    "key": "fabric-curtains--aspro",
+    "name.en-AU": "Aspro",
+    "variants.key": "fabric-curtains--aspro--ecru",
+    "variants.sku": "fabric-curtains--aspro--ecru",
+    "attributes.fabric-color-name": "Ecru",
+    "attributes.color-group": "light grey"
+  },
+  {
+    "key": "fabric-curtains--aspro",
+    "name.en-AU": "Aspro",
+    "variants.key": "fabric-curtains--aspro--ice",
+    "variants.sku": "fabric-curtains--aspro--ice",
+    "attributes.fabric-color-name": "Ice",
+    "attributes.color-group": "off white"
+  },
+  {
+    "key": "fabric-curtains--aspro",
+    "name.en-AU": "Aspro",
+    "variants.key": "fabric-curtains--aspro--onyx",
+    "variants.sku": "fabric-curtains--aspro--onyx",
+    "attributes.fabric-color-name": "Onyx",
+    "attributes.color-group": "black"
+  },
+  {
+    "key": "fabric-curtains--aspro",
+    "name.en-AU": "Aspro",
+    "variants.key": "fabric-curtains--aspro--sand",
+    "variants.sku": "fabric-curtains--aspro--sand",
+    "attributes.fabric-color-name": "Sand",
+    "attributes.color-group": "beige"
+  },
+  {
+    "key": "fabric-curtains--aspro",
+    "name.en-AU": "Aspro",
+    "variants.key": "fabric-curtains--aspro--slate",
+    "variants.sku": "fabric-curtains--aspro--slate",
+    "attributes.fabric-color-name": "Slate",
+    "attributes.color-group": "charcoal"
+  },
+  {
+    "key": "fabric-curtains--audiance",
+    "name.en-AU": "Audiance",
+    "variants.key": "fabric-curtains--audiance--dice",
+    "variants.sku": "fabric-curtains--audiance--dice",
+    "attributes.fabric-color-name": "Dice",
+    "attributes.color-group": "charcoal"
+  },
+  {
+    "key": "fabric-curtains--audiance",
+    "name.en-AU": "Audiance",
+    "variants.key": "fabric-curtains--audiance--dove",
+    "variants.sku": "fabric-curtains--audiance--dove",
+    "attributes.fabric-color-name": "Dove",
+    "attributes.color-group": "light grey"
+  },
+  {
+    "key": "fabric-curtains--audiance",
+    "name.en-AU": "Audiance",
+    "variants.key": "fabric-curtains--audiance--limestone",
+    "variants.sku": "fabric-curtains--audiance--limestone",
+    "attributes.fabric-color-name": "Limestone",
+    "attributes.color-group": "off white"
+  },
+  {
+    "key": "fabric-curtains--audiance",
+    "name.en-AU": "Audiance",
+    "variants.key": "fabric-curtains--audiance--natural",
+    "variants.sku": "fabric-curtains--audiance--natural",
+    "attributes.fabric-color-name": "Natural",
+    "attributes.color-group": "off white"
+  },
+  {
+    "key": "fabric-curtains--audiance",
+    "name.en-AU": "Audiance",
+    "variants.key": "fabric-curtains--audiance--silver",
+    "variants.sku": "fabric-curtains--audiance--silver",
+    "attributes.fabric-color-name": "Silver",
+    "attributes.color-group": "light grey"
+  },
+  {
+    "key": "fabric-curtains--audiance",
+    "name.en-AU": "Audiance",
+    "variants.key": "fabric-curtains--audiance--swan",
+    "variants.sku": "fabric-curtains--audiance--swan",
+    "attributes.fabric-color-name": "Swan",
+    "attributes.color-group": "white"
+  },
+  {
+    "key": "fabric-curtains--laconia-air",
+    "name.en-AU": "Laconia Air",
+    "variants.key": "fabric-curtains--laconia-air--ballet",
+    "variants.sku": "fabric-curtains--laconia-air--ballet",
+    "attributes.fabric-color-name": "Ballet",
+    "attributes.color-group": "#rainbow"
+  },
+  {
+    "key": "fabric-curtains--laconia-air",
+    "name.en-AU": "Laconia Air",
+    "variants.key": "fabric-curtains--laconia-air--cloud",
+    "variants.sku": "fabric-curtains--laconia-air--cloud",
+    "attributes.fabric-color-name": "Cloud",
+    "attributes.color-group": "light grey"
+  },
+  {
+    "key": "fabric-curtains--laconia-air",
+    "name.en-AU": "Laconia Air",
+    "variants.key": "fabric-curtains--laconia-air--lichen",
+    "variants.sku": "fabric-curtains--laconia-air--lichen",
+    "attributes.fabric-color-name": "Lichen",
+    "attributes.color-group": "dark grey"
+  },
+  {
+    "key": "fabric-curtains--laconia-air",
+    "name.en-AU": "Laconia Air",
+    "variants.key": "fabric-curtains--laconia-air--linen",
+    "variants.sku": "fabric-curtains--laconia-air--linen",
+    "attributes.fabric-color-name": "Linen",
+    "attributes.color-group": "beige"
+  },
+  {
+    "key": "fabric-curtains--laconia-air",
+    "name.en-AU": "Laconia Air",
+    "variants.key": "fabric-curtains--laconia-air--swan",
+    "variants.sku": "fabric-curtains--laconia-air--swan",
+    "attributes.fabric-color-name": "Swan",
+    "attributes.color-group": "white"
+  },
+  {
+    "key": "fabric-blinds--one-screen",
+    "name.en-AU": "One Screen",
+    "variants.key": "fabric-blinds--one-screen--black",
+    "variants.sku": "fabric-blinds--one-screen--black",
+    "attributes.fabric-color-name": "Black",
+    "attributes.color-group": "black"
+  },
+  {
+    "key": "fabric-blinds--one-screen",
+    "name.en-AU": "One Screen",
+    "variants.key": "fabric-blinds--one-screen--charcoal",
+    "variants.sku": "fabric-blinds--one-screen--charcoal",
+    "attributes.fabric-color-name": "Charcoal",
+    "attributes.color-group": "black"
+  },
+  {
+    "key": "fabric-blinds--one-screen",
+    "name.en-AU": "One Screen",
+    "variants.key": "fabric-blinds--one-screen--dune",
+    "variants.sku": "fabric-blinds--one-screen--dune",
+    "attributes.fabric-color-name": "Dune",
+    "attributes.color-group": "brown"
+  },
+  {
+    "key": "fabric-blinds--one-screen",
+    "name.en-AU": "One Screen",
+    "variants.key": "fabric-blinds--one-screen--grey",
+    "variants.sku": "fabric-blinds--one-screen--grey",
+    "attributes.fabric-color-name": "Grey",
+    "attributes.color-group": "light grey"
+  },
+  {
+    "key": "fabric-blinds--one-screen",
+    "name.en-AU": "One Screen",
+    "variants.key": "fabric-blinds--one-screen--gunmetal",
+    "variants.sku": "fabric-blinds--one-screen--gunmetal",
+    "attributes.fabric-color-name": "Gunmetal",
+    "attributes.color-group": "dark grey"
+  },
+  {
+    "key": "fabric-blinds--one-screen",
+    "name.en-AU": "One Screen",
+    "variants.key": "fabric-blinds--one-screen--ice",
+    "variants.sku": "fabric-blinds--one-screen--ice",
+    "attributes.fabric-color-name": "Ice",
+    "attributes.color-group": "off white"
+  },
+  {
+    "key": "fabric-blinds--one-screen",
+    "name.en-AU": "One Screen",
+    "variants.key": "fabric-blinds--one-screen--linen-bronze",
+    "variants.sku": "fabric-blinds--one-screen--linen-bronze",
+    "attributes.fabric-color-name": "Linen Bronze",
+    "attributes.color-group": "brown"
+  },
+  {
+    "key": "fabric-blinds--one-screen",
+    "name.en-AU": "One Screen",
+    "variants.key": "fabric-blinds--one-screen--mercury",
+    "variants.sku": "fabric-blinds--one-screen--mercury",
+    "attributes.fabric-color-name": "Mercury",
+    "attributes.color-group": "dark grey"
+  },
+  {
+    "key": "fabric-blinds--one-screen",
+    "name.en-AU": "One Screen",
+    "variants.key": "fabric-blinds--one-screen--sand",
+    "variants.sku": "fabric-blinds--one-screen--sand",
+    "attributes.fabric-color-name": "Sand",
+    "attributes.color-group": "beige"
+  },
+  {
+    "key": "fabric-blinds--one-screen",
+    "name.en-AU": "One Screen",
+    "variants.key": "fabric-blinds--one-screen--silver-black",
+    "variants.sku": "fabric-blinds--one-screen--silver-black",
+    "attributes.fabric-color-name": "Silver Black",
+    "attributes.color-group": "dark grey"
+  },
+  {
+    "key": "fabric-blinds--one-screen",
+    "name.en-AU": "One Screen",
+    "variants.key": "fabric-blinds--one-screen--wallaby",
+    "variants.sku": "fabric-blinds--one-screen--wallaby",
+    "attributes.fabric-color-name": "Wallaby",
+    "attributes.color-group": "brown"
+  },
+  {
+    "key": "fabric-blinds--one-screen",
+    "name.en-AU": "One Screen",
+    "variants.key": "fabric-blinds--one-screen--white",
+    "variants.sku": "fabric-blinds--one-screen--white",
+    "attributes.fabric-color-name": "White",
+    "attributes.color-group": "off white"
+  },
+  {
+    "key": "fabric-blinds--kleenscreen",
+    "name.en-AU": "Kleenscreen",
+    "variants.key": "fabric-blinds--kleenscreen--pure-white",
+    "variants.sku": "fabric-blinds--kleenscreen--pure-white",
+    "attributes.fabric-color-name": "Pure White",
+    "attributes.color-group": "light grey"
+  },
+  {
+    "key": "fabric-blinds--kleenscreen",
+    "name.en-AU": "Kleenscreen",
+    "variants.key": "fabric-blinds--kleenscreen--barley",
+    "variants.sku": "fabric-blinds--kleenscreen--barley",
+    "attributes.fabric-color-name": "Barley",
+    "attributes.color-group": "beige"
+  },
+  {
+    "key": "fabric-blinds--kleenscreen",
+    "name.en-AU": "Kleenscreen",
+    "variants.key": "fabric-blinds--kleenscreen--alloy",
+    "variants.sku": "fabric-blinds--kleenscreen--alloy",
+    "attributes.fabric-color-name": "Alloy",
+    "attributes.color-group": "black"
+  },
+  {
+    "key": "fabric-blinds--kleenscreen",
+    "name.en-AU": "Kleenscreen",
+    "variants.key": "fabric-blinds--kleenscreen--black",
+    "variants.sku": "fabric-blinds--kleenscreen--black",
+    "attributes.fabric-color-name": "Black",
+    "attributes.color-group": "charcoal"
+  },
+  {
+    "key": "fabric-blinds--kleenscreen",
+    "name.en-AU": "Kleenscreen",
+    "variants.key": "fabric-blinds--kleenscreen--charcoal",
+    "variants.sku": "fabric-blinds--kleenscreen--charcoal",
+    "attributes.fabric-color-name": "Charcoal",
+    "attributes.color-group": "off white"
+  },
+  {
+    "key": "fabric-blinds--kleenscreen",
+    "name.en-AU": "Kleenscreen",
+    "variants.key": "fabric-blinds--kleenscreen--ivory",
+    "variants.sku": "fabric-blinds--kleenscreen--ivory",
+    "attributes.fabric-color-name": "Ivory",
+    "attributes.color-group": "white"
+  },
+  {
+    "key": "fabric-blinds--purewood-pastel",
+    "name.en-AU": "Purewood - Pastel",
+    "variants.key": "fabric-blinds--purewood-pastel--aspen",
+    "variants.sku": "fabric-blinds--purewood-pastel--aspen",
+    "attributes.fabric-color-name": "Aspen",
+    "attributes.color-group": "white"
+  },
+  {
+    "key": "fabric-blinds--purewood-pastel",
+    "name.en-AU": "Purewood - Pastel",
+    "variants.key": "fabric-blinds--purewood-pastel--beech",
+    "variants.sku": "fabric-blinds--purewood-pastel--beech",
+    "attributes.fabric-color-name": "Beech",
+    "attributes.color-group": "off white"
+  },
+  {
+    "key": "fabric-blinds--metro-bo",
+    "name.en-AU": "Metro BO",
+    "variants.key": "fabric-blinds--metro-bo--dove-white-bo",
+    "variants.sku": "fabric-blinds--metro-bo--dove-white-bo",
+    "attributes.fabric-color-name": "Dove/White BO",
+    "attributes.color-group": "black"
+  },
+  {
+    "key": "fabric-blinds--metro-bo",
+    "name.en-AU": "Metro BO",
+    "variants.key": "fabric-blinds--metro-bo--black-bo",
+    "variants.sku": "fabric-blinds--metro-bo--black-bo",
+    "attributes.fabric-color-name": "Black BO",
+    "attributes.color-group": "white"
+  },
+  {
+    "key": "fabric-blinds--metro-bo",
+    "name.en-AU": "Metro BO",
+    "variants.key": "fabric-blinds--metro-bo--ecru-bo",
+    "variants.sku": "fabric-blinds--metro-bo--ecru-bo",
+    "attributes.fabric-color-name": "Ecru BO",
+    "attributes.color-group": "off white"
+  },
+  {
+    "key": "fabric-blinds--metro-bo",
+    "name.en-AU": "Metro BO",
+    "variants.key": "fabric-blinds--metro-bo--ice-grey-bo",
+    "variants.sku": "fabric-blinds--metro-bo--ice-grey-bo",
+    "attributes.fabric-color-name": "Ice Grey BO",
+    "attributes.color-group": "off white"
+  },
+  {
+    "key": "fabric-blinds--metro-bo",
+    "name.en-AU": "Metro BO",
+    "variants.key": "fabric-blinds--metro-bo--moonstone-bo",
+    "variants.sku": "fabric-blinds--metro-bo--moonstone-bo",
+    "attributes.fabric-color-name": "Moonstone BO",
+    "attributes.color-group": "light grey"
+  },
+  {
+    "key": "fabric-blinds--metro-bo",
+    "name.en-AU": "Metro BO",
+    "variants.key": "fabric-blinds--metro-bo--nougat-bo",
+    "variants.sku": "fabric-blinds--metro-bo--nougat-bo",
+    "attributes.fabric-color-name": "Nougat BO",
+    "attributes.color-group": "beige"
+  },
+  {
+    "key": "fabric-blinds--metro-bo",
+    "name.en-AU": "Metro BO",
+    "variants.key": "fabric-blinds--metro-bo--quill-bo",
+    "variants.sku": "fabric-blinds--metro-bo--quill-bo",
+    "attributes.fabric-color-name": "Quill BO",
+    "attributes.color-group": "dark grey"
+  },
+  {
+    "key": "fabric-blinds--metro-bo",
+    "name.en-AU": "Metro BO",
+    "variants.key": "fabric-blinds--metro-bo--storm-bo",
+    "variants.sku": "fabric-blinds--metro-bo--storm-bo",
+    "attributes.fabric-color-name": "Storm BO",
+    "attributes.color-group": "charcoal"
+  },
+  {
+    "key": "fabric-blinds--metro-bo",
+    "name.en-AU": "Metro BO",
+    "variants.key": "fabric-blinds--metro-bo--whitewash-bo",
+    "variants.sku": "fabric-blinds--metro-bo--whitewash-bo",
+    "attributes.fabric-color-name": "Whitewash BO",
+    "attributes.color-group": "white"
+  },
+  {
+    "key": "fabric-blinds--50mm-visionwood",
+    "name.en-AU": "50mm Visionwood",
+    "variants.key": "fabric-blinds--50mm-visionwood--glass",
+    "variants.sku": "fabric-blinds--50mm-visionwood--glass",
+    "attributes.fabric-color-name": "Glass",
+    "attributes.color-group": "white"
+  },
+  {
+    "key": "fabric-blinds--50mm-visionwood",
+    "name.en-AU": "50mm Visionwood",
+    "variants.key": "fabric-blinds--50mm-visionwood--stone",
+    "variants.sku": "fabric-blinds--50mm-visionwood--stone",
+    "attributes.fabric-color-name": "Stone",
+    "attributes.color-group": "beige"
+  },
+  {
+    "key": "fabric-blinds--50mm-visionwood",
+    "name.en-AU": "50mm Visionwood",
+    "variants.key": "fabric-blinds--50mm-visionwood--vivid-white",
+    "variants.sku": "fabric-blinds--50mm-visionwood--vivid-white",
+    "attributes.fabric-color-name": "Vivid White",
+    "attributes.color-group": "off white"
+  },
+  {
+    "key": "fabric-blinds--jersey-lf",
+    "name.en-AU": "Jersey LF",
+    "variants.key": "fabric-blinds--jersey-lf--opal-lf",
+    "variants.sku": "fabric-blinds--jersey-lf--opal-lf",
+    "attributes.fabric-color-name": "Opal LF",
+    "attributes.color-group": "white"
+  },
+  {
+    "key": "fabric-blinds--jersey-lf",
+    "name.en-AU": "Jersey LF",
+    "variants.key": "fabric-blinds--jersey-lf--organic-lf",
+    "variants.sku": "fabric-blinds--jersey-lf--organic-lf",
+    "attributes.fabric-color-name": "Organic LF",
+    "attributes.color-group": "dark grey"
+  },
+  {
+    "key": "fabric-blinds--jersey-lf",
+    "name.en-AU": "Jersey LF",
+    "variants.key": "fabric-blinds--jersey-lf--pavement-lf",
+    "variants.sku": "fabric-blinds--jersey-lf--pavement-lf",
+    "attributes.fabric-color-name": "Pavement LF",
+    "attributes.color-group": "black"
+  },
+  {
+    "key": "fabric-blinds--jersey-lf",
+    "name.en-AU": "Jersey LF",
+    "variants.key": "fabric-blinds--jersey-lf--render-lf",
+    "variants.sku": "fabric-blinds--jersey-lf--render-lf",
+    "attributes.fabric-color-name": "Render LF",
+    "attributes.color-group": "beige"
+  },
+  {
+    "key": "fabric-blinds--jersey-lf",
+    "name.en-AU": "Jersey LF",
+    "variants.key": "fabric-blinds--jersey-lf--steel-lf",
+    "variants.sku": "fabric-blinds--jersey-lf--steel-lf",
+    "attributes.fabric-color-name": "Steel LF",
+    "attributes.color-group": "dark grey"
+  },
+  {
+    "key": "fabric-blinds--jersey-lf",
+    "name.en-AU": "Jersey LF",
+    "variants.key": "fabric-blinds--jersey-lf--stone-lf",
+    "variants.sku": "fabric-blinds--jersey-lf--stone-lf",
+    "attributes.fabric-color-name": "Stone LF",
+    "attributes.color-group": "off white"
+  },
+  {
+    "key": "fabric-blinds--jersey-lf",
+    "name.en-AU": "Jersey LF",
+    "variants.key": "fabric-blinds--jersey-lf--timber-lf",
+    "variants.sku": "fabric-blinds--jersey-lf--timber-lf",
+    "attributes.fabric-color-name": "Timber LF",
+    "attributes.color-group": "brown"
+  },
+  {
+    "key": "fabric-curtains--anstey",
+    "name.en-AU": "Anstey",
+    "variants.key": "fabric-curtains--anstey--stone",
+    "variants.sku": "fabric-curtains--anstey--stone",
+    "attributes.fabric-color-name": "Stone",
+    "attributes.color-group": "off white"
+  },
+  {
+    "key": "fabric-curtains--anstey",
+    "name.en-AU": "Anstey",
+    "variants.key": "fabric-curtains--anstey--latte",
+    "variants.sku": "fabric-curtains--anstey--latte",
+    "attributes.fabric-color-name": "Latte",
+    "attributes.color-group": "brown"
+  },
+  {
+    "key": "fabric-curtains--anstey",
+    "name.en-AU": "Anstey",
+    "variants.key": "fabric-curtains--anstey--pewter",
+    "variants.sku": "fabric-curtains--anstey--pewter",
+    "attributes.fabric-color-name": "Pewter",
+    "attributes.color-group": "charcoal"
+  },
+  {
+    "key": "fabric-curtains--anstey",
+    "name.en-AU": "Anstey",
+    "variants.key": "fabric-curtains--anstey--silver",
+    "variants.sku": "fabric-curtains--anstey--silver",
+    "attributes.fabric-color-name": "Silver",
+    "attributes.color-group": "dark grey"
+  },
+  {
+    "key": "fabric-curtains--anstey",
+    "name.en-AU": "Anstey",
+    "variants.key": "fabric-curtains--anstey--blanc",
+    "variants.sku": "fabric-curtains--anstey--blanc",
+    "attributes.fabric-color-name": "Blanc",
+    "attributes.color-group": "beige"
+  },
+  {
+    "key": "fabric-blinds--jersey-bo",
+    "name.en-AU": "Jersey BO",
+    "variants.key": "fabric-blinds--jersey-bo--opal-bo",
+    "variants.sku": "fabric-blinds--jersey-bo--opal-bo",
+    "attributes.fabric-color-name": "Opal BO",
+    "attributes.color-group": "white"
+  },
+  {
+    "key": "fabric-blinds--jersey-bo",
+    "name.en-AU": "Jersey BO",
+    "variants.key": "fabric-blinds--jersey-bo--organic-bo",
+    "variants.sku": "fabric-blinds--jersey-bo--organic-bo",
+    "attributes.fabric-color-name": "Organic BO",
+    "attributes.color-group": "dark grey"
+  },
+  {
+    "key": "fabric-blinds--jersey-bo",
+    "name.en-AU": "Jersey BO",
+    "variants.key": "fabric-blinds--jersey-bo--pavement-bo",
+    "variants.sku": "fabric-blinds--jersey-bo--pavement-bo",
+    "attributes.fabric-color-name": "Pavement BO",
+    "attributes.color-group": "black"
+  },
+  {
+    "key": "fabric-blinds--jersey-bo",
+    "name.en-AU": "Jersey BO",
+    "variants.key": "fabric-blinds--jersey-bo--render-bo",
+    "variants.sku": "fabric-blinds--jersey-bo--render-bo",
+    "attributes.fabric-color-name": "Render BO",
+    "attributes.color-group": "beige"
+  },
+  {
+    "key": "fabric-blinds--jersey-bo",
+    "name.en-AU": "Jersey BO",
+    "variants.key": "fabric-blinds--jersey-bo--steel-bo",
+    "variants.sku": "fabric-blinds--jersey-bo--steel-bo",
+    "attributes.fabric-color-name": "Steel BO",
+    "attributes.color-group": "dark grey"
+  },
+  {
+    "key": "fabric-blinds--jersey-bo",
+    "name.en-AU": "Jersey BO",
+    "variants.key": "fabric-blinds--jersey-bo--stone-bo",
+    "variants.sku": "fabric-blinds--jersey-bo--stone-bo",
+    "attributes.fabric-color-name": "Stone BO",
+    "attributes.color-group": "off white"
+  },
+  {
+    "key": "fabric-blinds--jersey-bo",
+    "name.en-AU": "Jersey BO",
+    "variants.key": "fabric-blinds--jersey-bo--timber-bo",
+    "variants.sku": "fabric-blinds--jersey-bo--timber-bo",
+    "attributes.fabric-color-name": "Timber BO",
+    "attributes.color-group": "brown"
+  },
+  {
+    "key": "fabric-blinds--serengetti-bo",
+    "name.en-AU": "Serengetti BO",
+    "variants.key": "fabric-blinds--serengetti-bo--albatross-bo",
+    "variants.sku": "fabric-blinds--serengetti-bo--albatross-bo",
+    "attributes.fabric-color-name": "Albatross BO",
+    "attributes.color-group": "beige"
+  },
+  {
+    "key": "fabric-blinds--serengetti-bo",
+    "name.en-AU": "Serengetti BO",
+    "variants.key": "fabric-blinds--serengetti-bo--antelope-bo",
+    "variants.sku": "fabric-blinds--serengetti-bo--antelope-bo",
+    "attributes.fabric-color-name": "Antelope BO",
+    "attributes.color-group": "brown"
+  },
+  {
+    "key": "fabric-blinds--serengetti-bo",
+    "name.en-AU": "Serengetti BO",
+    "variants.key": "fabric-blinds--serengetti-bo--caribou-bo",
+    "variants.sku": "fabric-blinds--serengetti-bo--caribou-bo",
+    "attributes.fabric-color-name": "Caribou BO",
+    "attributes.color-group": "brown"
+  },
+  {
+    "key": "fabric-blinds--serengetti-bo",
+    "name.en-AU": "Serengetti BO",
+    "variants.key": "fabric-blinds--serengetti-bo--chamois-bo",
+    "variants.sku": "fabric-blinds--serengetti-bo--chamois-bo",
+    "attributes.fabric-color-name": "Chamois BO",
+    "attributes.color-group": "brown"
+  },
+  {
+    "key": "fabric-blinds--serengetti-bo",
+    "name.en-AU": "Serengetti BO",
+    "variants.key": "fabric-blinds--serengetti-bo--eland-bo",
+    "variants.sku": "fabric-blinds--serengetti-bo--eland-bo",
+    "attributes.fabric-color-name": "Eland BO",
+    "attributes.color-group": "light grey"
+  },
+  {
+    "key": "fabric-blinds--serengetti-bo",
+    "name.en-AU": "Serengetti BO",
+    "variants.key": "fabric-blinds--serengetti-bo--hyrax-bo",
+    "variants.sku": "fabric-blinds--serengetti-bo--hyrax-bo",
+    "attributes.fabric-color-name": "Hyrax BO",
+    "attributes.color-group": "dark grey"
+  },
+  {
+    "key": "fabric-blinds--serengetti-bo",
+    "name.en-AU": "Serengetti BO",
+    "variants.key": "fabric-blinds--serengetti-bo--jackal-bo",
+    "variants.sku": "fabric-blinds--serengetti-bo--jackal-bo",
+    "attributes.fabric-color-name": "Jackal BO",
+    "attributes.color-group": "dark grey"
+  },
+  {
+    "key": "fabric-blinds--serengetti-bo",
+    "name.en-AU": "Serengetti BO",
+    "variants.key": "fabric-blinds--serengetti-bo--llama-bo",
+    "variants.sku": "fabric-blinds--serengetti-bo--llama-bo",
+    "attributes.fabric-color-name": "Llama BO",
+    "attributes.color-group": "off white"
+  },
+  {
+    "key": "fabric-blinds--serengetti-bo",
+    "name.en-AU": "Serengetti BO",
+    "variants.key": "fabric-blinds--serengetti-bo--mamba-bo",
+    "variants.sku": "fabric-blinds--serengetti-bo--mamba-bo",
+    "attributes.fabric-color-name": "Mamba BO",
+    "attributes.color-group": "charcoal"
+  },
+  {
+    "key": "fabric-blinds--serengetti-bo",
+    "name.en-AU": "Serengetti BO",
+    "variants.key": "fabric-blinds--serengetti-bo--onyx-bo",
+    "variants.sku": "fabric-blinds--serengetti-bo--onyx-bo",
+    "attributes.fabric-color-name": "Onyx BO",
+    "attributes.color-group": "beige"
+  },
+  {
+    "key": "fabric-blinds--serengetti-bo",
+    "name.en-AU": "Serengetti BO",
+    "variants.key": "fabric-blinds--serengetti-bo--owl-bo",
+    "variants.sku": "fabric-blinds--serengetti-bo--owl-bo",
+    "attributes.fabric-color-name": "Owl BO",
+    "attributes.color-group": "light grey"
+  },
+  {
+    "key": "fabric-blinds--serengetti-bo",
+    "name.en-AU": "Serengetti BO",
+    "variants.key": "fabric-blinds--serengetti-bo--panther-bo",
+    "variants.sku": "fabric-blinds--serengetti-bo--panther-bo",
+    "attributes.fabric-color-name": "Panther BO",
+    "attributes.color-group": "black"
+  },
+  {
+    "key": "fabric-blinds--serengetti-bo",
+    "name.en-AU": "Serengetti BO",
+    "variants.key": "fabric-blinds--serengetti-bo--polar-bo",
+    "variants.sku": "fabric-blinds--serengetti-bo--polar-bo",
+    "attributes.fabric-color-name": "Polar BO",
+    "attributes.color-group": "white"
+  },
+  {
+    "key": "fabric-curtains--simplicity",
+    "name.en-AU": "Simplicity",
+    "variants.key": "fabric-curtains--simplicity--white",
+    "variants.sku": "fabric-curtains--simplicity--white",
+    "attributes.fabric-color-name": "White",
+    "attributes.color-group": "light grey"
+  },
+  {
+    "key": "fabric-curtains--simplicity",
+    "name.en-AU": "Simplicity",
+    "variants.key": "fabric-curtains--simplicity--off-white",
+    "variants.sku": "fabric-curtains--simplicity--off-white",
+    "attributes.fabric-color-name": "off-white",
+    "attributes.color-group": "black"
+  },
+  {
+    "key": "fabric-curtains--simplicity",
+    "name.en-AU": "Simplicity",
+    "variants.key": "fabric-curtains--simplicity--ash",
+    "variants.sku": "fabric-curtains--simplicity--ash",
+    "attributes.fabric-color-name": "Ash",
+    "attributes.color-group": "beige"
+  },
+  {
+    "key": "fabric-curtains--simplicity",
+    "name.en-AU": "Simplicity",
+    "variants.key": "fabric-curtains--simplicity--cinder",
+    "variants.sku": "fabric-curtains--simplicity--cinder",
+    "attributes.fabric-color-name": "Cinder",
+    "attributes.color-group": "off white"
+  },
+  {
+    "key": "fabric-curtains--simplicity",
+    "name.en-AU": "Simplicity",
+    "variants.key": "fabric-curtains--simplicity--eggshell",
+    "variants.sku": "fabric-curtains--simplicity--eggshell",
+    "attributes.fabric-color-name": "Eggshell",
+    "attributes.color-group": "dark grey"
+  },
+  {
+    "key": "fabric-curtains--simplicity",
+    "name.en-AU": "Simplicity",
+    "variants.key": "fabric-curtains--simplicity--pewter",
+    "variants.sku": "fabric-curtains--simplicity--pewter",
+    "attributes.fabric-color-name": "Pewter",
+    "attributes.color-group": "beige"
+  },
+  {
+    "key": "fabric-curtains--simplicity",
+    "name.en-AU": "Simplicity",
+    "variants.key": "fabric-curtains--simplicity--raw",
+    "variants.sku": "fabric-curtains--simplicity--raw",
+    "attributes.fabric-color-name": "Raw",
+    "attributes.color-group": "light grey"
+  },
+  {
+    "key": "fabric-curtains--simplicity",
+    "name.en-AU": "Simplicity",
+    "variants.key": "fabric-curtains--simplicity--vapour",
+    "variants.sku": "fabric-curtains--simplicity--vapour",
+    "attributes.fabric-color-name": "Vapour",
+    "attributes.color-group": "white"
+  },
+  {
+    "key": "fabric-blinds--25mm-aluminium",
+    "name.en-AU": "25mm Aluminium",
+    "variants.key": "fabric-blinds--25mm-aluminium--basic-white",
+    "variants.sku": "fabric-blinds--25mm-aluminium--basic-white",
+    "attributes.fabric-color-name": "Basic White",
+    "attributes.color-group": "white"
+  },
+  {
+    "key": "fabric-blinds--25mm-aluminium",
+    "name.en-AU": "25mm Aluminium",
+    "variants.key": "fabric-blinds--25mm-aluminium--black-satin",
+    "variants.sku": "fabric-blinds--25mm-aluminium--black-satin",
+    "attributes.fabric-color-name": "Black Satin",
+    "attributes.color-group": "black"
+  },
+  {
+    "key": "fabric-blinds--25mm-aluminium",
+    "name.en-AU": "25mm Aluminium",
+    "variants.key": "fabric-blinds--25mm-aluminium--brushed-aluminium",
+    "variants.sku": "fabric-blinds--25mm-aluminium--brushed-aluminium",
+    "attributes.fabric-color-name": "Brushed Aluminium",
+    "attributes.color-group": "dark grey"
+  },
+  {
+    "key": "fabric-blinds--25mm-aluminium",
+    "name.en-AU": "25mm Aluminium",
+    "variants.key": "fabric-blinds--25mm-aluminium--china-white",
+    "variants.sku": "fabric-blinds--25mm-aluminium--china-white",
+    "attributes.fabric-color-name": "China White",
+    "attributes.color-group": "off white"
+  },
+  {
+    "key": "fabric-blinds--25mm-aluminium",
+    "name.en-AU": "25mm Aluminium",
+    "variants.key": "fabric-blinds--25mm-aluminium--grey-sheen",
+    "variants.sku": "fabric-blinds--25mm-aluminium--grey-sheen",
+    "attributes.fabric-color-name": "Grey Sheen",
+    "attributes.color-group": "light grey"
+  },
+  {
+    "key": "fabric-blinds--25mm-aluminium",
+    "name.en-AU": "25mm Aluminium",
+    "variants.key": "fabric-blinds--25mm-aluminium--light-cream",
+    "variants.sku": "fabric-blinds--25mm-aluminium--light-cream",
+    "attributes.fabric-color-name": "Light Cream",
+    "attributes.color-group": "beige"
+  },
+  {
+    "key": "fabric-blinds--25mm-aluminium",
+    "name.en-AU": "25mm Aluminium",
+    "variants.key": "fabric-blinds--25mm-aluminium--raw-silk",
+    "variants.sku": "fabric-blinds--25mm-aluminium--raw-silk",
+    "attributes.fabric-color-name": "Raw Silk",
+    "attributes.color-group": "beige"
+  },
+  {
+    "key": "fabric-blinds--25mm-aluminium",
+    "name.en-AU": "25mm Aluminium",
+    "variants.key": "fabric-blinds--25mm-aluminium--silver",
+    "variants.sku": "fabric-blinds--25mm-aluminium--silver",
+    "attributes.fabric-color-name": "Silver",
+    "attributes.color-group": "light grey"
+  },
+  {
+    "key": "fabric-blinds--matrix",
+    "name.en-AU": "Matrix",
+    "variants.key": "fabric-blinds--matrix--altair",
+    "variants.sku": "fabric-blinds--matrix--altair",
+    "attributes.fabric-color-name": "Altair",
+    "attributes.color-group": "white"
+  },
+  {
+    "key": "fabric-blinds--matrix",
+    "name.en-AU": "Matrix",
+    "variants.key": "fabric-blinds--matrix--avid",
+    "variants.sku": "fabric-blinds--matrix--avid",
+    "attributes.fabric-color-name": "Avid",
+    "attributes.color-group": "light grey"
+  },
+  {
+    "key": "fabric-blinds--matrix",
+    "name.en-AU": "Matrix",
+    "variants.key": "fabric-blinds--matrix--axis",
+    "variants.sku": "fabric-blinds--matrix--axis",
+    "attributes.fabric-color-name": "Axis",
+    "attributes.color-group": "black"
+  },
+  {
+    "key": "fabric-blinds--matrix",
+    "name.en-AU": "Matrix",
+    "variants.key": "fabric-blinds--matrix--binary",
+    "variants.sku": "fabric-blinds--matrix--binary",
+    "attributes.fabric-color-name": "Binary",
+    "attributes.color-group": "light grey"
+  },
+  {
+    "key": "fabric-blinds--matrix",
+    "name.en-AU": "Matrix",
+    "variants.key": "fabric-blinds--matrix--cyrix",
+    "variants.sku": "fabric-blinds--matrix--cyrix",
+    "attributes.fabric-color-name": "Cyrix",
+    "attributes.color-group": "dark grey"
+  },
+  {
+    "key": "fabric-blinds--matrix",
+    "name.en-AU": "Matrix",
+    "variants.key": "fabric-blinds--matrix--digit",
+    "variants.sku": "fabric-blinds--matrix--digit",
+    "attributes.fabric-color-name": "Digit",
+    "attributes.color-group": "dark grey"
+  },
+  {
+    "key": "fabric-blinds--matrix",
+    "name.en-AU": "Matrix",
+    "variants.key": "fabric-blinds--matrix--neon",
+    "variants.sku": "fabric-blinds--matrix--neon",
+    "attributes.fabric-color-name": "Neon",
+    "attributes.color-group": "white"
+  },
+  {
+    "key": "fabric-blinds--matrix",
+    "name.en-AU": "Matrix",
+    "variants.key": "fabric-blinds--matrix--phase",
+    "variants.sku": "fabric-blinds--matrix--phase",
+    "attributes.fabric-color-name": "Phase",
+    "attributes.color-group": "beige"
+  },
+  {
+    "key": "fabric-blinds--matrix",
+    "name.en-AU": "Matrix",
+    "variants.key": "fabric-blinds--matrix--pixel",
+    "variants.sku": "fabric-blinds--matrix--pixel",
+    "attributes.fabric-color-name": "Pixel",
+    "attributes.color-group": "dark grey"
+  },
+  {
+    "key": "fabric-blinds--matrix",
+    "name.en-AU": "Matrix",
+    "variants.key": "fabric-blinds--matrix--serial",
+    "variants.sku": "fabric-blinds--matrix--serial",
+    "attributes.fabric-color-name": "Serial",
+    "attributes.color-group": "off white"
+  },
+  {
+    "key": "fabric-blinds--matrix",
+    "name.en-AU": "Matrix",
+    "variants.key": "fabric-blinds--matrix--silverlock",
+    "variants.sku": "fabric-blinds--matrix--silverlock",
+    "attributes.fabric-color-name": "Silverlock",
+    "attributes.color-group": "light grey"
+  },
+  {
+    "key": "fabric-blinds--one-block",
+    "name.en-AU": "One Block",
+    "variants.key": "fabric-blinds--one-block--sand",
+    "variants.sku": "fabric-blinds--one-block--sand",
+    "attributes.fabric-color-name": "Sand",
+    "attributes.color-group": "black"
+  },
+  {
+    "key": "fabric-blinds--one-block",
+    "name.en-AU": "One Block",
+    "variants.key": "fabric-blinds--one-block--black",
+    "variants.sku": "fabric-blinds--one-block--black",
+    "attributes.fabric-color-name": "Black",
+    "attributes.color-group": "charcoal"
+  },
+  {
+    "key": "fabric-blinds--one-block",
+    "name.en-AU": "One Block",
+    "variants.key": "fabric-blinds--one-block--charcoal",
+    "variants.sku": "fabric-blinds--one-block--charcoal",
+    "attributes.fabric-color-name": "Charcoal",
+    "attributes.color-group": "brown"
+  },
+  {
+    "key": "fabric-blinds--one-block",
+    "name.en-AU": "One Block",
+    "variants.key": "fabric-blinds--one-block--dune",
+    "variants.sku": "fabric-blinds--one-block--dune",
+    "attributes.fabric-color-name": "Dune",
+    "attributes.color-group": "light grey"
+  },
+  {
+    "key": "fabric-blinds--one-block",
+    "name.en-AU": "One Block",
+    "variants.key": "fabric-blinds--one-block--grey",
+    "variants.sku": "fabric-blinds--one-block--grey",
+    "attributes.fabric-color-name": "Grey",
+    "attributes.color-group": "dark grey"
+  },
+  {
+    "key": "fabric-blinds--one-block",
+    "name.en-AU": "One Block",
+    "variants.key": "fabric-blinds--one-block--gunmetal",
+    "variants.sku": "fabric-blinds--one-block--gunmetal",
+    "attributes.fabric-color-name": "Gunmetal",
+    "attributes.color-group": "off white"
+  },
+  {
+    "key": "fabric-blinds--one-block",
+    "name.en-AU": "One Block",
+    "variants.key": "fabric-blinds--one-block--ice",
+    "variants.sku": "fabric-blinds--one-block--ice",
+    "attributes.fabric-color-name": "Ice",
+    "attributes.color-group": "stone"
+  },
+  {
+    "key": "fabric-blinds--one-block",
+    "name.en-AU": "One Block",
+    "variants.key": "fabric-blinds--one-block--linen--bronze",
+    "variants.sku": "fabric-blinds--one-block--linen--bronze",
+    "attributes.fabric-color-name": "Linen/ Bronze",
+    "attributes.color-group": "dark grey"
+  },
+  {
+    "key": "fabric-blinds--one-block",
+    "name.en-AU": "One Block",
+    "variants.key": "fabric-blinds--one-block--mercury",
+    "variants.sku": "fabric-blinds--one-block--mercury",
+    "attributes.fabric-color-name": "Mercury",
+    "attributes.color-group": "beige"
+  },
+  {
+    "key": "fabric-blinds--one-block",
+    "name.en-AU": "One Block",
+    "variants.key": "fabric-blinds--one-block--silver--black",
+    "variants.sku": "fabric-blinds--one-block--silver--black",
+    "attributes.fabric-color-name": "Silver/ Black",
+    "attributes.color-group": "dark grey"
+  },
+  {
+    "key": "fabric-blinds--one-block",
+    "name.en-AU": "One Block",
+    "variants.key": "fabric-blinds--one-block--wallaby",
+    "variants.sku": "fabric-blinds--one-block--wallaby",
+    "attributes.fabric-color-name": "Wallaby",
+    "attributes.color-group": "brown"
+  },
+  {
+    "key": "fabric-blinds--one-block",
+    "name.en-AU": "One Block",
+    "variants.key": "fabric-blinds--one-block--white",
+    "variants.sku": "fabric-blinds--one-block--white",
+    "attributes.fabric-color-name": "White",
+    "attributes.color-group": "off white"
+  },
+  {
+    "key": "fabric-curtains--alexandra",
+    "name.en-AU": "Alexandra",
+    "variants.key": "fabric-curtains--alexandra--blanc",
+    "variants.sku": "fabric-curtains--alexandra--blanc",
+    "attributes.fabric-color-name": "Blanc",
+    "attributes.color-group": "off white"
+  },
+  {
+    "key": "fabric-curtains--alexandra",
+    "name.en-AU": "Alexandra",
+    "variants.key": "fabric-curtains--alexandra--gravel",
+    "variants.sku": "fabric-curtains--alexandra--gravel",
+    "attributes.fabric-color-name": "Gravel",
+    "attributes.color-group": "brown"
+  },
+  {
+    "key": "fabric-curtains--alexandra",
+    "name.en-AU": "Alexandra",
+    "variants.key": "fabric-curtains--alexandra--salt-pepper",
+    "variants.sku": "fabric-curtains--alexandra--salt-pepper",
+    "attributes.fabric-color-name": "Salt Pepper",
+    "attributes.color-group": "charcoal"
+  },
+  {
+    "key": "fabric-curtains--alexandra",
+    "name.en-AU": "Alexandra",
+    "variants.key": "fabric-curtains--alexandra--silver",
+    "variants.sku": "fabric-curtains--alexandra--silver",
+    "attributes.fabric-color-name": "Silver",
+    "attributes.color-group": "dark grey"
+  },
+  {
+    "key": "fabric-curtains--alexandra",
+    "name.en-AU": "Alexandra",
+    "variants.key": "fabric-curtains--alexandra--smoke",
+    "variants.sku": "fabric-curtains--alexandra--smoke",
+    "attributes.fabric-color-name": "Smoke",
+    "attributes.color-group": "beige"
+  },
+  {
+    "key": "fabric-curtains--alexandra",
+    "name.en-AU": "Alexandra",
+    "variants.key": "fabric-curtains--alexandra--titanium",
+    "variants.sku": "fabric-curtains--alexandra--titanium",
+    "attributes.fabric-color-name": "Titanium",
+    "attributes.color-group": "light grey"
+  },
+  {
+    "key": "fabric-curtains--jilliby",
+    "name.en-AU": "Jilliby",
+    "variants.key": "fabric-curtains--jilliby--flax",
+    "variants.sku": "fabric-curtains--jilliby--flax",
+    "attributes.fabric-color-name": "Flax",
+    "attributes.color-group": "beige"
+  },
+  {
+    "key": "fabric-curtains--jilliby",
+    "name.en-AU": "Jilliby",
+    "variants.key": "fabric-curtains--jilliby--grey-sand",
+    "variants.sku": "fabric-curtains--jilliby--grey-sand",
+    "attributes.fabric-color-name": "Grey Sand",
+    "attributes.color-group": "light grey"
+  },
+  {
+    "key": "fabric-curtains--jilliby",
+    "name.en-AU": "Jilliby",
+    "variants.key": "fabric-curtains--jilliby--smoke",
+    "variants.sku": "fabric-curtains--jilliby--smoke",
+    "attributes.fabric-color-name": "Smoke",
+    "attributes.color-group": "white"
+  },
+  {
+    "key": "fabric-curtains--jilliby",
+    "name.en-AU": "Jilliby",
+    "variants.key": "fabric-curtains--jilliby--ice",
+    "variants.sku": "fabric-curtains--jilliby--ice",
+    "attributes.fabric-color-name": "Ice",
+    "attributes.color-group": "dark grey"
+  },
+  {
+    "key": "fabric-blinds--linesque-bo",
+    "name.en-AU": "Linesque BO",
+    "variants.key": "fabric-blinds--linesque-bo--almond",
+    "variants.sku": "fabric-blinds--linesque-bo--almond",
+    "attributes.fabric-color-name": "Almond",
+    "attributes.color-group": "off white"
+  },
+  {
+    "key": "fabric-blinds--linesque-bo",
+    "name.en-AU": "Linesque BO",
+    "variants.key": "fabric-blinds--linesque-bo--aspen",
+    "variants.sku": "fabric-blinds--linesque-bo--aspen",
+    "attributes.fabric-color-name": "Aspen",
+    "attributes.color-group": "dark grey"
+  },
+  {
+    "key": "fabric-blinds--linesque-bo",
+    "name.en-AU": "Linesque BO",
+    "variants.key": "fabric-blinds--linesque-bo--blanco",
+    "variants.sku": "fabric-blinds--linesque-bo--blanco",
+    "attributes.fabric-color-name": "Blanco",
+    "attributes.color-group": "white"
+  },
+  {
+    "key": "fabric-blinds--linesque-bo",
+    "name.en-AU": "Linesque BO",
+    "variants.key": "fabric-blinds--linesque-bo--breeze",
+    "variants.sku": "fabric-blinds--linesque-bo--breeze",
+    "attributes.fabric-color-name": "Breeze",
+    "attributes.color-group": "#rainbow"
+  },
+  {
+    "key": "fabric-blinds--linesque-bo",
+    "name.en-AU": "Linesque BO",
+    "variants.key": "fabric-blinds--linesque-bo--denim",
+    "variants.sku": "fabric-blinds--linesque-bo--denim",
+    "attributes.fabric-color-name": "Denim",
+    "attributes.color-group": "charcoal"
+  },
+  {
+    "key": "fabric-blinds--linesque-bo",
+    "name.en-AU": "Linesque BO",
+    "variants.key": "fabric-blinds--linesque-bo--dove",
+    "variants.sku": "fabric-blinds--linesque-bo--dove",
+    "attributes.fabric-color-name": "Dove",
+    "attributes.color-group": "light grey"
+  },
+  {
+    "key": "fabric-blinds--linesque-bo",
+    "name.en-AU": "Linesque BO",
+    "variants.key": "fabric-blinds--linesque-bo--fig",
+    "variants.sku": "fabric-blinds--linesque-bo--fig",
+    "attributes.fabric-color-name": "Fig",
+    "attributes.color-group": "brown"
+  },
+  {
+    "key": "fabric-blinds--linesque-bo",
+    "name.en-AU": "Linesque BO",
+    "variants.key": "fabric-blinds--linesque-bo--fleece",
+    "variants.sku": "fabric-blinds--linesque-bo--fleece",
+    "attributes.fabric-color-name": "Fleece",
+    "attributes.color-group": "dark grey"
+  },
+  {
+    "key": "fabric-blinds--linesque-bo",
+    "name.en-AU": "Linesque BO",
+    "variants.key": "fabric-blinds--linesque-bo--fossil",
+    "variants.sku": "fabric-blinds--linesque-bo--fossil",
+    "attributes.fabric-color-name": "Fossil",
+    "attributes.color-group": "brown"
+  },
+  {
+    "key": "fabric-blinds--linesque-bo",
+    "name.en-AU": "Linesque BO",
+    "variants.key": "fabric-blinds--linesque-bo--raffia",
+    "variants.sku": "fabric-blinds--linesque-bo--raffia",
+    "attributes.fabric-color-name": "Raffia",
+    "attributes.color-group": "beige"
+  },
+  {
+    "key": "fabric-blinds--linesque-bo",
+    "name.en-AU": "Linesque BO",
+    "variants.key": "fabric-blinds--linesque-bo--soba",
+    "variants.sku": "fabric-blinds--linesque-bo--soba",
+    "attributes.fabric-color-name": "Soba",
+    "attributes.color-group": "beige"
+  },
+  {
+    "key": "fabric-blinds--linesque-bo",
+    "name.en-AU": "Linesque BO",
+    "variants.key": "fabric-blinds--linesque-bo--vine",
+    "variants.sku": "fabric-blinds--linesque-bo--vine",
+    "attributes.fabric-color-name": "Vine",
+    "attributes.color-group": "light grey"
+  },
+  {
+    "key": "fabric-blinds--balmoral-lf",
+    "name.en-AU": "Balmoral LF",
+    "variants.key": "fabric-blinds--balmoral-lf--armour-lf",
+    "variants.sku": "fabric-blinds--balmoral-lf--armour-lf",
+    "attributes.fabric-color-name": "Armour LF",
+    "attributes.color-group": "brown"
+  },
+  {
+    "key": "fabric-blinds--balmoral-lf",
+    "name.en-AU": "Balmoral LF",
+    "variants.key": "fabric-blinds--balmoral-lf--birch-lf",
+    "variants.sku": "fabric-blinds--balmoral-lf--birch-lf",
+    "attributes.fabric-color-name": "Birch LF",
+    "attributes.color-group": "beige"
+  },
+  {
+    "key": "fabric-blinds--balmoral-lf",
+    "name.en-AU": "Balmoral LF",
+    "variants.key": "fabric-blinds--balmoral-lf--bourneville-lf",
+    "variants.sku": "fabric-blinds--balmoral-lf--bourneville-lf",
+    "attributes.fabric-color-name": "Bourneville LF",
+    "attributes.color-group": "brown"
+  },
+  {
+    "key": "fabric-blinds--balmoral-lf",
+    "name.en-AU": "Balmoral LF",
+    "variants.key": "fabric-blinds--balmoral-lf--chrome-lf",
+    "variants.sku": "fabric-blinds--balmoral-lf--chrome-lf",
+    "attributes.fabric-color-name": "Chrome LF",
+    "attributes.color-group": "light grey"
+  },
+  {
+    "key": "fabric-blinds--balmoral-lf",
+    "name.en-AU": "Balmoral LF",
+    "variants.key": "fabric-blinds--balmoral-lf--concrete-lf",
+    "variants.sku": "fabric-blinds--balmoral-lf--concrete-lf",
+    "attributes.fabric-color-name": "Concrete LF",
+    "attributes.color-group": "beige"
+  },
+  {
+    "key": "fabric-blinds--balmoral-lf",
+    "name.en-AU": "Balmoral LF",
+    "variants.key": "fabric-blinds--balmoral-lf--dove-lf",
+    "variants.sku": "fabric-blinds--balmoral-lf--dove-lf",
+    "attributes.fabric-color-name": "Dove LF",
+    "attributes.color-group": "dark grey"
+  },
+  {
+    "key": "fabric-blinds--balmoral-lf",
+    "name.en-AU": "Balmoral LF",
+    "variants.key": "fabric-blinds--balmoral-lf--jet-lf",
+    "variants.sku": "fabric-blinds--balmoral-lf--jet-lf",
+    "attributes.fabric-color-name": "Jet LF",
+    "attributes.color-group": "black"
+  },
+  {
+    "key": "fabric-blinds--balmoral-lf",
+    "name.en-AU": "Balmoral LF",
+    "variants.key": "fabric-blinds--balmoral-lf--pearl-lf",
+    "variants.sku": "fabric-blinds--balmoral-lf--pearl-lf",
+    "attributes.fabric-color-name": "Pearl LF",
+    "attributes.color-group": "off white"
+  },
+  {
+    "key": "fabric-blinds--balmoral-lf",
+    "name.en-AU": "Balmoral LF",
+    "variants.key": "fabric-blinds--balmoral-lf--platinum-lf",
+    "variants.sku": "fabric-blinds--balmoral-lf--platinum-lf",
+    "attributes.fabric-color-name": "Platinum LF",
+    "attributes.color-group": "dark grey"
+  },
+  {
+    "key": "fabric-blinds--balmoral-lf",
+    "name.en-AU": "Balmoral LF",
+    "variants.key": "fabric-blinds--balmoral-lf--putty-lf",
+    "variants.sku": "fabric-blinds--balmoral-lf--putty-lf",
+    "attributes.fabric-color-name": "Putty LF",
+    "attributes.color-group": "light grey"
+  },
+  {
+    "key": "fabric-blinds--balmoral-lf",
+    "name.en-AU": "Balmoral LF",
+    "variants.key": "fabric-blinds--balmoral-lf--pyrite-lf",
+    "variants.sku": "fabric-blinds--balmoral-lf--pyrite-lf",
+    "attributes.fabric-color-name": "Pyrite LF",
+    "attributes.color-group": "brown"
+  },
+  {
+    "key": "fabric-blinds--balmoral-lf",
+    "name.en-AU": "Balmoral LF",
+    "variants.key": "fabric-blinds--balmoral-lf--steel-lf",
+    "variants.sku": "fabric-blinds--balmoral-lf--steel-lf",
+    "attributes.fabric-color-name": "Steel LF",
+    "attributes.color-group": "charcoal"
+  },
+  {
+    "key": "fabric-blinds--balmoral-lf",
+    "name.en-AU": "Balmoral LF",
+    "variants.key": "fabric-blinds--balmoral-lf--white-lf",
+    "variants.sku": "fabric-blinds--balmoral-lf--white-lf",
+    "attributes.fabric-color-name": "White LF",
+    "attributes.color-group": "white"
+  },
+  {
+    "key": "fabric-curtains--belmore",
+    "name.en-AU": "Belmore",
+    "variants.key": "fabric-curtains--belmore--vanilla",
+    "variants.sku": "fabric-curtains--belmore--vanilla",
+    "attributes.fabric-color-name": "Vanilla",
+    "attributes.color-group": "beige"
+  },
+  {
+    "key": "fabric-curtains--belmore",
+    "name.en-AU": "Belmore",
+    "variants.key": "fabric-curtains--belmore--almond",
+    "variants.sku": "fabric-curtains--belmore--almond",
+    "attributes.fabric-color-name": "Almond",
+    "attributes.color-group": "black"
+  },
+  {
+    "key": "fabric-curtains--belmore",
+    "name.en-AU": "Belmore",
+    "variants.key": "fabric-curtains--belmore--asphalt",
+    "variants.sku": "fabric-curtains--belmore--asphalt",
+    "attributes.fabric-color-name": "Asphalt",
+    "attributes.color-group": "#rainbow"
+  },
+  {
+    "key": "fabric-curtains--belmore",
+    "name.en-AU": "Belmore",
+    "variants.key": "fabric-curtains--belmore--bluestone",
+    "variants.sku": "fabric-curtains--belmore--bluestone",
+    "attributes.fabric-color-name": "Bluestone",
+    "attributes.color-group": "white"
+  },
+  {
+    "key": "fabric-curtains--belmore",
+    "name.en-AU": "Belmore",
+    "variants.key": "fabric-curtains--belmore--frost",
+    "variants.sku": "fabric-curtains--belmore--frost",
+    "attributes.fabric-color-name": "Frost",
+    "attributes.color-group": "dark grey"
+  },
+  {
+    "key": "fabric-curtains--belmore",
+    "name.en-AU": "Belmore",
+    "variants.key": "fabric-curtains--belmore--chalk",
+    "variants.sku": "fabric-curtains--belmore--chalk",
+    "attributes.fabric-color-name": "Chalk",
+    "attributes.color-group": "beige"
+  },
+  {
+    "key": "fabric-curtains--burano",
+    "name.en-AU": "Burano",
+    "variants.key": "fabric-curtains--burano--vanilla",
+    "variants.sku": "fabric-curtains--burano--vanilla",
+    "attributes.fabric-color-name": "Vanilla",
+    "attributes.color-group": "charcoal"
+  },
+  {
+    "key": "fabric-curtains--burano",
+    "name.en-AU": "Burano",
+    "variants.key": "fabric-curtains--burano--denim",
+    "variants.sku": "fabric-curtains--burano--denim",
+    "attributes.fabric-color-name": "Denim",
+    "attributes.color-group": "dark grey"
+  },
+  {
+    "key": "fabric-curtains--burano",
+    "name.en-AU": "Burano",
+    "variants.key": "fabric-curtains--burano--frost",
+    "variants.sku": "fabric-curtains--burano--frost",
+    "attributes.fabric-color-name": "Frost",
+    "attributes.color-group": "off white"
+  },
+  {
+    "key": "fabric-curtains--burano",
+    "name.en-AU": "Burano",
+    "variants.key": "fabric-curtains--burano--ivory",
+    "variants.sku": "fabric-curtains--burano--ivory",
+    "attributes.fabric-color-name": "Ivory",
+    "attributes.color-group": "dark grey"
+  },
+  {
+    "key": "fabric-curtains--burano",
+    "name.en-AU": "Burano",
+    "variants.key": "fabric-curtains--burano--storm",
+    "variants.sku": "fabric-curtains--burano--storm",
+    "attributes.fabric-color-name": "Storm",
+    "attributes.color-group": "white"
+  },
+  {
+    "key": "fabric-curtains--burano",
+    "name.en-AU": "Burano",
+    "variants.key": "fabric-curtains--burano--talc",
+    "variants.sku": "fabric-curtains--burano--talc",
+    "attributes.fabric-color-name": "Talc",
+    "attributes.color-group": "beige"
+  },
+  {
+    "key": "fabric-blinds--skye-bo",
+    "name.en-AU": "Skye BO",
+    "variants.key": "fabric-blinds--skye-bo--blazer",
+    "variants.sku": "fabric-blinds--skye-bo--blazer",
+    "attributes.fabric-color-name": "Blazer",
+    "attributes.color-group": "charcoal"
+  },
+  {
+    "key": "fabric-blinds--skye-bo",
+    "name.en-AU": "Skye BO",
+    "variants.key": "fabric-blinds--skye-bo--chiffon",
+    "variants.sku": "fabric-blinds--skye-bo--chiffon",
+    "attributes.fabric-color-name": "Chiffon",
+    "attributes.color-group": "light grey"
+  },
+  {
+    "key": "fabric-blinds--skye-bo",
+    "name.en-AU": "Skye BO",
+    "variants.key": "fabric-blinds--skye-bo--chrome",
+    "variants.sku": "fabric-blinds--skye-bo--chrome",
+    "attributes.fabric-color-name": "Chrome",
+    "attributes.color-group": "light grey"
+  },
+  {
+    "key": "fabric-blinds--skye-bo",
+    "name.en-AU": "Skye BO",
+    "variants.key": "fabric-blinds--skye-bo--earl-grey",
+    "variants.sku": "fabric-blinds--skye-bo--earl-grey",
+    "attributes.fabric-color-name": "Earl Grey",
+    "attributes.color-group": "dark grey"
+  },
+  {
+    "key": "fabric-blinds--skye-bo",
+    "name.en-AU": "Skye BO",
+    "variants.key": "fabric-blinds--skye-bo--oyster",
+    "variants.sku": "fabric-blinds--skye-bo--oyster",
+    "attributes.fabric-color-name": "Oyster",
+    "attributes.color-group": "beige"
+  },
+  {
+    "key": "fabric-blinds--skye-bo",
+    "name.en-AU": "Skye BO",
+    "variants.key": "fabric-blinds--skye-bo--porcelain",
+    "variants.sku": "fabric-blinds--skye-bo--porcelain",
+    "attributes.fabric-color-name": "Porcelain",
+    "attributes.color-group": "white"
+  },
+  {
+    "key": "fabric-blinds--skye-bo",
+    "name.en-AU": "Skye BO",
+    "variants.key": "fabric-blinds--skye-bo--raven",
+    "variants.sku": "fabric-blinds--skye-bo--raven",
+    "attributes.fabric-color-name": "Raven",
+    "attributes.color-group": "black"
+  },
+  {
+    "key": "fabric-blinds--skye-bo",
+    "name.en-AU": "Skye BO",
+    "variants.key": "fabric-blinds--skye-bo--sail",
+    "variants.sku": "fabric-blinds--skye-bo--sail",
+    "attributes.fabric-color-name": "Sail",
+    "attributes.color-group": "beige"
+  },
+  {
+    "key": "fabric-blinds--skye-bo",
+    "name.en-AU": "Skye BO",
+    "variants.key": "fabric-blinds--skye-bo--swan",
+    "variants.sku": "fabric-blinds--skye-bo--swan",
+    "attributes.fabric-color-name": "Swan",
+    "attributes.color-group": "white"
+  },
+  {
+    "key": "fabric-curtains--mavro",
+    "name.en-AU": "Mavro",
+    "variants.key": "fabric-curtains--mavro--charcoal",
+    "variants.sku": "fabric-curtains--mavro--charcoal",
+    "attributes.fabric-color-name": "Charcoal",
+    "attributes.color-group": "charcoal"
+  },
+  {
+    "key": "fabric-curtains--mavro",
+    "name.en-AU": "Mavro",
+    "variants.key": "fabric-curtains--mavro--ebony",
+    "variants.sku": "fabric-curtains--mavro--ebony",
+    "attributes.fabric-color-name": "Ebony",
+    "attributes.color-group": "black"
+  },
+  {
+    "key": "fabric-curtains--mavro",
+    "name.en-AU": "Mavro",
+    "variants.key": "fabric-curtains--mavro--ivory",
+    "variants.sku": "fabric-curtains--mavro--ivory",
+    "attributes.fabric-color-name": "Ivory",
+    "attributes.color-group": "off white"
+  },
+  {
+    "key": "fabric-curtains--mavro",
+    "name.en-AU": "Mavro",
+    "variants.key": "fabric-curtains--mavro--lint",
+    "variants.sku": "fabric-curtains--mavro--lint",
+    "attributes.fabric-color-name": "Lint",
+    "attributes.color-group": "light grey"
+  },
+  {
+    "key": "fabric-curtains--mavro",
+    "name.en-AU": "Mavro",
+    "variants.key": "fabric-curtains--mavro--pearl",
+    "variants.sku": "fabric-curtains--mavro--pearl",
+    "attributes.fabric-color-name": "Pearl",
+    "attributes.color-group": "beige"
+  },
+  {
+    "key": "fabric-curtains--mavro",
+    "name.en-AU": "Mavro",
+    "variants.key": "fabric-curtains--mavro--silver",
+    "variants.sku": "fabric-curtains--mavro--silver",
+    "attributes.fabric-color-name": "Silver",
+    "attributes.color-group": "dark grey"
+  },
+  {
+    "key": "fabric-blinds--balmoral-bo",
+    "name.en-AU": "Balmoral BO",
+    "variants.key": "fabric-blinds--balmoral-bo--armour-bo",
+    "variants.sku": "fabric-blinds--balmoral-bo--armour-bo",
+    "attributes.fabric-color-name": "Armour BO",
+    "attributes.color-group": "brown"
+  },
+  {
+    "key": "fabric-blinds--balmoral-bo",
+    "name.en-AU": "Balmoral BO",
+    "variants.key": "fabric-blinds--balmoral-bo--birch-bo",
+    "variants.sku": "fabric-blinds--balmoral-bo--birch-bo",
+    "attributes.fabric-color-name": "Birch BO",
+    "attributes.color-group": "beige"
+  },
+  {
+    "key": "fabric-blinds--balmoral-bo",
+    "name.en-AU": "Balmoral BO",
+    "variants.key": "fabric-blinds--balmoral-bo--bourneville-bo",
+    "variants.sku": "fabric-blinds--balmoral-bo--bourneville-bo",
+    "attributes.fabric-color-name": "Bourneville BO",
+    "attributes.color-group": "brown"
+  },
+  {
+    "key": "fabric-blinds--balmoral-bo",
+    "name.en-AU": "Balmoral BO",
+    "variants.key": "fabric-blinds--balmoral-bo--chrome-bo",
+    "variants.sku": "fabric-blinds--balmoral-bo--chrome-bo",
+    "attributes.fabric-color-name": "Chrome BO",
+    "attributes.color-group": "light grey"
+  },
+  {
+    "key": "fabric-blinds--balmoral-bo",
+    "name.en-AU": "Balmoral BO",
+    "variants.key": "fabric-blinds--balmoral-bo--concrete-bo",
+    "variants.sku": "fabric-blinds--balmoral-bo--concrete-bo",
+    "attributes.fabric-color-name": "Concrete BO",
+    "attributes.color-group": "beige"
+  },
+  {
+    "key": "fabric-blinds--balmoral-bo",
+    "name.en-AU": "Balmoral BO",
+    "variants.key": "fabric-blinds--balmoral-bo--dove-bo",
+    "variants.sku": "fabric-blinds--balmoral-bo--dove-bo",
+    "attributes.fabric-color-name": "Dove BO",
+    "attributes.color-group": "dark grey"
+  },
+  {
+    "key": "fabric-blinds--balmoral-bo",
+    "name.en-AU": "Balmoral BO",
+    "variants.key": "fabric-blinds--balmoral-bo--jet-bo",
+    "variants.sku": "fabric-blinds--balmoral-bo--jet-bo",
+    "attributes.fabric-color-name": "Jet BO",
+    "attributes.color-group": "black"
+  },
+  {
+    "key": "fabric-blinds--balmoral-bo",
+    "name.en-AU": "Balmoral BO",
+    "variants.key": "fabric-blinds--balmoral-bo--pearl-bo",
+    "variants.sku": "fabric-blinds--balmoral-bo--pearl-bo",
+    "attributes.fabric-color-name": "Pearl BO",
+    "attributes.color-group": "off white"
+  },
+  {
+    "key": "fabric-blinds--balmoral-bo",
+    "name.en-AU": "Balmoral BO",
+    "variants.key": "fabric-blinds--balmoral-bo--platinum-bo",
+    "variants.sku": "fabric-blinds--balmoral-bo--platinum-bo",
+    "attributes.fabric-color-name": "Platinum BO",
+    "attributes.color-group": "dark grey"
+  },
+  {
+    "key": "fabric-blinds--balmoral-bo",
+    "name.en-AU": "Balmoral BO",
+    "variants.key": "fabric-blinds--balmoral-bo--putty-bo",
+    "variants.sku": "fabric-blinds--balmoral-bo--putty-bo",
+    "attributes.fabric-color-name": "Putty BO",
+    "attributes.color-group": "light grey"
+  },
+  {
+    "key": "fabric-blinds--balmoral-bo",
+    "name.en-AU": "Balmoral BO",
+    "variants.key": "fabric-blinds--balmoral-bo--pyrite-bo",
+    "variants.sku": "fabric-blinds--balmoral-bo--pyrite-bo",
+    "attributes.fabric-color-name": "Pyrite BO",
+    "attributes.color-group": "brown"
+  },
+  {
+    "key": "fabric-blinds--balmoral-bo",
+    "name.en-AU": "Balmoral BO",
+    "variants.key": "fabric-blinds--balmoral-bo--steel-bo",
+    "variants.sku": "fabric-blinds--balmoral-bo--steel-bo",
+    "attributes.fabric-color-name": "Steel BO",
+    "attributes.color-group": "charcoal"
+  },
+  {
+    "key": "fabric-blinds--balmoral-bo",
+    "name.en-AU": "Balmoral BO",
+    "variants.key": "fabric-blinds--balmoral-bo--white-bo",
+    "variants.sku": "fabric-blinds--balmoral-bo--white-bo",
+    "attributes.fabric-color-name": "White BO",
+    "attributes.color-group": "white"
+  },
+  {
+    "key": "fabric-blinds--qube",
+    "name.en-AU": "Qube",
+    "variants.key": "fabric-blinds--qube--chess",
+    "variants.sku": "fabric-blinds--qube--chess",
+    "attributes.fabric-color-name": "Chess",
+    "attributes.color-group": "stone"
+  },
+  {
+    "key": "fabric-blinds--qube",
+    "name.en-AU": "Qube",
+    "variants.key": "fabric-blinds--qube--cross",
+    "variants.sku": "fabric-blinds--qube--cross",
+    "attributes.fabric-color-name": "Cross",
+    "attributes.color-group": "off white"
+  },
+  {
+    "key": "fabric-blinds--qube",
+    "name.en-AU": "Qube",
+    "variants.key": "fabric-blinds--qube--crypto",
+    "variants.sku": "fabric-blinds--qube--crypto",
+    "attributes.fabric-color-name": "Crypto",
+    "attributes.color-group": "off white"
+  },
+  {
+    "key": "fabric-blinds--qube",
+    "name.en-AU": "Qube",
+    "variants.key": "fabric-blinds--qube--eternity",
+    "variants.sku": "fabric-blinds--qube--eternity",
+    "attributes.fabric-color-name": "Eternity",
+    "attributes.color-group": "light grey"
+  },
+  {
+    "key": "fabric-blinds--qube",
+    "name.en-AU": "Qube",
+    "variants.key": "fabric-blinds--qube--fox",
+    "variants.sku": "fabric-blinds--qube--fox",
+    "attributes.fabric-color-name": "Fox",
+    "attributes.color-group": "brown"
+  },
+  {
+    "key": "fabric-blinds--qube",
+    "name.en-AU": "Qube",
+    "variants.key": "fabric-blinds--qube--geo",
+    "variants.sku": "fabric-blinds--qube--geo",
+    "attributes.fabric-color-name": "Geo",
+    "attributes.color-group": "off white"
+  },
+  {
+    "key": "fabric-blinds--qube",
+    "name.en-AU": "Qube",
+    "variants.key": "fabric-blinds--qube--globe",
+    "variants.sku": "fabric-blinds--qube--globe",
+    "attributes.fabric-color-name": "Globe",
+    "attributes.color-group": "light grey"
+  },
+  {
+    "key": "fabric-blinds--qube",
+    "name.en-AU": "Qube",
+    "variants.key": "fabric-blinds--qube--knight",
+    "variants.sku": "fabric-blinds--qube--knight",
+    "attributes.fabric-color-name": "Knight",
+    "attributes.color-group": "dark grey"
+  },
+  {
+    "key": "fabric-blinds--qube",
+    "name.en-AU": "Qube",
+    "variants.key": "fabric-blinds--qube--lateral",
+    "variants.sku": "fabric-blinds--qube--lateral",
+    "attributes.fabric-color-name": "Lateral",
+    "attributes.color-group": "light grey"
+  },
+  {
+    "key": "fabric-blinds--qube",
+    "name.en-AU": "Qube",
+    "variants.key": "fabric-blinds--qube--minus",
+    "variants.sku": "fabric-blinds--qube--minus",
+    "attributes.fabric-color-name": "Minus",
+    "attributes.color-group": "black"
+  },
+  {
+    "key": "fabric-blinds--qube",
+    "name.en-AU": "Qube",
+    "variants.key": "fabric-blinds--qube--peak",
+    "variants.sku": "fabric-blinds--qube--peak",
+    "attributes.fabric-color-name": "Peak",
+    "attributes.color-group": "off white"
+  },
+  {
+    "key": "fabric-blinds--qube",
+    "name.en-AU": "Qube",
+    "variants.key": "fabric-blinds--qube--puzzle",
+    "variants.sku": "fabric-blinds--qube--puzzle",
+    "attributes.fabric-color-name": "Puzzle",
+    "attributes.color-group": "dark grey"
+  },
+  {
+    "key": "fabric-blinds--qube",
+    "name.en-AU": "Qube",
+    "variants.key": "fabric-blinds--qube--rubik",
+    "variants.sku": "fabric-blinds--qube--rubik",
+    "attributes.fabric-color-name": "Rubik",
+    "attributes.color-group": "off white"
+  },
+  {
+    "key": "fabric-blinds--qube",
+    "name.en-AU": "Qube",
+    "variants.key": "fabric-blinds--qube--soma",
+    "variants.sku": "fabric-blinds--qube--soma",
+    "attributes.fabric-color-name": "Soma",
+    "attributes.color-group": "dark grey"
+  },
+  {
+    "key": "fabric-blinds--focus",
+    "name.en-AU": "Focus",
+    "variants.key": "fabric-blinds--focus--ash",
+    "variants.sku": "fabric-blinds--focus--ash",
+    "attributes.fabric-color-name": "Ash",
+    "attributes.color-group": "dark grey"
+  },
+  {
+    "key": "fabric-blinds--focus",
+    "name.en-AU": "Focus",
+    "variants.key": "fabric-blinds--focus--bay",
+    "variants.sku": "fabric-blinds--focus--bay",
+    "attributes.fabric-color-name": "Bay",
+    "attributes.color-group": "light grey"
+  },
+  {
+    "key": "fabric-blinds--focus",
+    "name.en-AU": "Focus",
+    "variants.key": "fabric-blinds--focus--carbon",
+    "variants.sku": "fabric-blinds--focus--carbon",
+    "attributes.fabric-color-name": "Carbon",
+    "attributes.color-group": "black"
+  },
+  {
+    "key": "fabric-blinds--focus",
+    "name.en-AU": "Focus",
+    "variants.key": "fabric-blinds--focus--chalk",
+    "variants.sku": "fabric-blinds--focus--chalk",
+    "attributes.fabric-color-name": "Chalk",
+    "attributes.color-group": "off white"
+  },
+  {
+    "key": "fabric-blinds--focus",
+    "name.en-AU": "Focus",
+    "variants.key": "fabric-blinds--focus--cloud",
+    "variants.sku": "fabric-blinds--focus--cloud",
+    "attributes.fabric-color-name": "Cloud",
+    "attributes.color-group": "light grey"
+  },
+  {
+    "key": "fabric-blinds--focus",
+    "name.en-AU": "Focus",
+    "variants.key": "fabric-blinds--focus--coal",
+    "variants.sku": "fabric-blinds--focus--coal",
+    "attributes.fabric-color-name": "Coal",
+    "attributes.color-group": "charcoal"
+  },
+  {
+    "key": "fabric-blinds--focus",
+    "name.en-AU": "Focus",
+    "variants.key": "fabric-blinds--focus--dove",
+    "variants.sku": "fabric-blinds--focus--dove",
+    "attributes.fabric-color-name": "Dove",
+    "attributes.color-group": "off white"
+  },
+  {
+    "key": "fabric-blinds--focus",
+    "name.en-AU": "Focus",
+    "variants.key": "fabric-blinds--focus--drift",
+    "variants.sku": "fabric-blinds--focus--drift",
+    "attributes.fabric-color-name": "Drift",
+    "attributes.color-group": "brown"
+  },
+  {
+    "key": "fabric-blinds--focus",
+    "name.en-AU": "Focus",
+    "variants.key": "fabric-blinds--focus--ebony",
+    "variants.sku": "fabric-blinds--focus--ebony",
+    "attributes.fabric-color-name": "Ebony",
+    "attributes.color-group": "black"
+  },
+  {
+    "key": "fabric-blinds--focus",
+    "name.en-AU": "Focus",
+    "variants.key": "fabric-blinds--focus--espresso",
+    "variants.sku": "fabric-blinds--focus--espresso",
+    "attributes.fabric-color-name": "Espresso",
+    "attributes.color-group": "brown"
+  },
+  {
+    "key": "fabric-blinds--focus",
+    "name.en-AU": "Focus",
+    "variants.key": "fabric-blinds--focus--feather",
+    "variants.sku": "fabric-blinds--focus--feather",
+    "attributes.fabric-color-name": "Feather",
+    "attributes.color-group": "beige"
+  },
+  {
+    "key": "fabric-blinds--focus",
+    "name.en-AU": "Focus",
+    "variants.key": "fabric-blinds--focus--magnetic",
+    "variants.sku": "fabric-blinds--focus--magnetic",
+    "attributes.fabric-color-name": "Magnetic",
+    "attributes.color-group": "charcoal"
+  },
+  {
+    "key": "fabric-blinds--focus",
+    "name.en-AU": "Focus",
+    "variants.key": "fabric-blinds--focus--mist",
+    "variants.sku": "fabric-blinds--focus--mist",
+    "attributes.fabric-color-name": "Mist",
+    "attributes.color-group": "light grey"
+  },
+  {
+    "key": "fabric-blinds--focus",
+    "name.en-AU": "Focus",
+    "variants.key": "fabric-blinds--focus--oyster",
+    "variants.sku": "fabric-blinds--focus--oyster",
+    "attributes.fabric-color-name": "Oyster",
+    "attributes.color-group": "brown"
+  },
+  {
+    "key": "fabric-blinds--focus",
+    "name.en-AU": "Focus",
+    "variants.key": "fabric-blinds--focus--polar",
+    "variants.sku": "fabric-blinds--focus--polar",
+    "attributes.fabric-color-name": "Polar",
+    "attributes.color-group": "white"
+  },
+  {
+    "key": "fabric-blinds--focus",
+    "name.en-AU": "Focus",
+    "variants.key": "fabric-blinds--focus--shell",
+    "variants.sku": "fabric-blinds--focus--shell",
+    "attributes.fabric-color-name": "Shell",
+    "attributes.color-group": "off white"
+  },
+  {
+    "key": "fabric-blinds--focus",
+    "name.en-AU": "Focus",
+    "variants.key": "fabric-blinds--focus--tempest",
+    "variants.sku": "fabric-blinds--focus--tempest",
+    "attributes.fabric-color-name": "Tempest",
+    "attributes.color-group": "brown"
+  },
+  {
+    "key": "fabric-blinds--focus",
+    "name.en-AU": "Focus",
+    "variants.key": "fabric-blinds--focus--white",
+    "variants.sku": "fabric-blinds--focus--white",
+    "attributes.fabric-color-name": "White",
+    "attributes.color-group": "white"
+  },
+  {
+    "key": "fabric-curtains--aesop",
+    "name.en-AU": "Aesop",
+    "variants.key": "fabric-curtains--aesop--atlantic",
+    "variants.sku": "fabric-curtains--aesop--atlantic",
+    "attributes.fabric-color-name": "Atlantic",
+    "attributes.color-group": "light grey"
+  },
+  {
+    "key": "fabric-curtains--aesop",
+    "name.en-AU": "Aesop",
+    "variants.key": "fabric-curtains--aesop--flint",
+    "variants.sku": "fabric-curtains--aesop--flint",
+    "attributes.fabric-color-name": "Flint",
+    "attributes.color-group": "brown"
+  },
+  {
+    "key": "fabric-curtains--aesop",
+    "name.en-AU": "Aesop",
+    "variants.key": "fabric-curtains--aesop--mist",
+    "variants.sku": "fabric-curtains--aesop--mist",
+    "attributes.fabric-color-name": "Mist",
+    "attributes.color-group": "light grey"
+  },
+  {
+    "key": "fabric-curtains--aesop",
+    "name.en-AU": "Aesop",
+    "variants.key": "fabric-curtains--aesop--parchment",
+    "variants.sku": "fabric-curtains--aesop--parchment",
+    "attributes.fabric-color-name": "Parchment",
+    "attributes.color-group": "white"
+  },
+  {
+    "key": "fabric-curtains--aesop",
+    "name.en-AU": "Aesop",
+    "variants.key": "fabric-curtains--aesop--quartz",
+    "variants.sku": "fabric-curtains--aesop--quartz",
+    "attributes.fabric-color-name": "Quartz",
+    "attributes.color-group": "beige"
+  },
+  {
+    "key": "fabric-curtains--aesop",
+    "name.en-AU": "Aesop",
+    "variants.key": "fabric-curtains--aesop--smoke",
+    "variants.sku": "fabric-curtains--aesop--smoke",
+    "attributes.fabric-color-name": "Smoke",
+    "attributes.color-group": "charcoal"
+  }
+]

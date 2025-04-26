@@ -1,0 +1,1032 @@
+[
+        {
+            "apiName": "Roller Blind",
+            "handle": "roller-blind",
+            "name": "Roller Blinds",
+            "shortName": "Roller Blinds",
+            "image": "https://www.diyblinds.com.au/uploads/rangeIcons/roller-blinds.svg",
+            "types": [
+                {
+                    "url": "https://www.diyblinds.com.au/blinds/roller-blinds",
+                    "category": "Blinds",
+                    "_id": "5b3d99a87636707f2336ced3",
+                    "name": "Blockout Roller Blind",
+                    "fromPrice": 86,
+                    "image": "https://media.diyblinds.com.au/uploads/products/roller-blind-blockout@2x.jpg",
+                    "fabricGroups": [
+                        {
+                            "_id": "5b3d99a87636707f2336ced3",
+                            "name": "Blockout"
+                        }
+                    ],
+                    "attributes": [
+                        "Great for blocking out light",
+                        "Provides ultimate privacy",
+                        "Perfect for bedrooms",
+                        "Great insulation from outdoor temperatures",
+                        "You can add motorisation for wireless interaction"
+                    ]
+                },
+                {
+                    "url": "https://www.diyblinds.com.au/blinds/roller-blinds",
+                    "category": "Blinds",
+                    "_id": "5b3d99a87636707f2336ced4",
+                    "name": "Light Filtering Roller Blind",
+                    "fromPrice": 89,
+                    "image": "https://media.diyblinds.com.au/uploads/products/roller-blind-Light-Filtering@2x.jpg",
+                    "fabricGroups": [
+                        {
+                            "_id": "5b3d99a87636707f2336ced4",
+                            "name": "Light Filtering"
+                        }
+                    ],
+                    "attributes": [
+                        "Diffuses and softens light",
+                        "Provides daytime privacy and filters the view while maintaining light",
+                        "You can add motorisation for wireless interaction"
+                    ]
+                },
+                {
+                    "url": "https://www.diyblinds.com.au/blinds/roller-blinds",
+                    "category": "Blinds",
+                    "_id": "5b3d99a87636707f2336ced5",
+                    "name": "Sunscreen Roller Blind",
+                    "fromPrice": 91,
+                    "image": "https://media.diyblinds.com.au/uploads/products/roller-blind-sunscreen@2x.jpg",
+                    "fabricGroups": [
+                        {
+                            "_id": "5b3d99a87636707f2336ced5",
+                            "name": "Sunscreen"
+                        }
+                    ],
+                    "attributes": [
+                        "Allows for daytime privacy",
+                        "Blocks 95% of UV rays",
+                        "Ideal for reducing glare & heat while maintaining a view",
+                        "You can add motorisation for wireless interaction"
+                    ]
+                }
+            ],
+            "guides": {
+                "how-to-install": {
+                    "title": "How to install & setup Whispertech™ motorised blinds",
+                    "url": "https://www.diyblinds.com.au/guides/how-to-install/how-to-install-setup-whispertech-motorised-blinds"
+                },
+                "how-to-measure": {
+                    "title": "How to measure for roller blinds",
+                    "url": "https://www.diyblinds.com.au/guides/how-to-measure/how-to-measure-roller-blinds"
+                },
+                "technical-info": {
+                    "title": "Roller Blinds: Technical Information",
+                    "url": "https://www.diyblinds.com.au/guides/technical-info/roller-blinds"
+                }
+            },
+            "groups": [],
+            "freesamples": true,
+            "showPricing": true
+        },
+        {
+            "apiName": "Curtain",
+            "handle": "curtain",
+            "name": "Designer Curtains",
+            "shortName": "Designer Curtains",
+            "image": "https://www.diyblinds.com.au/uploads/rangeIcons/curtains.svg",
+            "types": [
+                {
+                    "url": "https://www.diyblinds.com.au/curtains/diy-designer-curtains",
+                    "category": "Curtains",
+                    "_id": "5b3d99a87636707f2336ceda",
+                    "name": "Sheer Curtains",
+                    "fromPrice": 298,
+                    "image": "https://media.diyblinds.com.au/uploads/products/curtain-sheer-topfit@2x.jpg",
+                    "fabricGroups": [
+                        {
+                            "_id": "5b3d99a87636707f2336ceda",
+                            "name": "Sheer Curtain"
+                        }
+                    ],
+                    "attributes": [
+                        "Softens light",
+                        "Ideal for adding texture to a room",
+                        "Layer with blockout fabrics for night time privacy"
+                    ]
+                },
+                {
+                    "url": "https://www.diyblinds.com.au/curtains/diy-designer-curtains",
+                    "category": "Curtains",
+                    "_id": "5b3d99a87636707f2336cedb",
+                    "name": "Blockout Curtains",
+                    "fromPrice": 375,
+                    "image": "https://media.diyblinds.com.au/uploads/products/curtain-blockout-topfit@2x.jpg",
+                    "fabricGroups": [
+                        {
+                            "_id": "5b3d99a87636707f2336cedb",
+                            "name": "Blockout Curtains"
+                        }
+                    ],
+                    "attributes": [
+                        "Ideal for blocking out light",
+                        "Provides ultimate privacy",
+                        "First choice for bedrooms",
+                        "Offers great insulation"
+                    ]
+                },
+                {
+                    "url": "https://www.diyblinds.com.au/curtains/diy-designer-curtains",
+                    "category": "Curtains",
+                    "_id": "609b7387f82d448b790401b6",
+                    "name": "Dimout Curtains",
+                    "fromPrice": 458,
+                    "image": "https://media.diyblinds.com.au/uploads/products/curtain-blockout-topfit@2x.jpg",
+                    "fabricGroups": [
+                        {
+                            "_id": "609b7387f82d448b790401b6",
+                            "name": "Dimout Curtains"
+                        }
+                    ],
+                    "attributes": [
+                        "Diffuses 65-95% of light depending on fabric range",
+                        "When total light block isn’t required"
+                    ]
+                }
+            ],
+            "guides": {
+                "how-to-install": {
+                    "title": "How to install curtains",
+                    "url": "https://www.diyblinds.com.au/guides/how-to-install/how-to-install-curtains"
+                },
+                "how-to-measure": {
+                    "title": "How to measure for curtains",
+                    "url": "https://www.diyblinds.com.au/guides/how-to-measure/how-to-measure-curtains"
+                }
+            },
+            "groups": [],
+            "freesamples": true,
+            "showPricing": true
+        },
+        {
+            "apiName": "Shutter",
+            "handle": "shutter",
+            "name": "Plantation Shutters",
+            "shortName": "Plantation Shutters",
+            "image": "https://www.diyblinds.com.au/uploads/rangeIcons/shutters.svg",
+            "types": [
+                {
+                    "url": "https://www.diyblinds.com.au/shutters/plantation-shutters",
+                    "category": "Shutters",
+                    "_id": "5b46c82f8268963885373f3d",
+                    "name": "PolyLux® Plantation Shutter",
+                    "fromPrice": 53,
+                    "image": "https://media.diyblinds.com.au/uploads/products/PolyLux-V6-1.jpg",
+                    "fabric": {
+                        "_id": "5b46c82f8268963885373f3d",
+                        "name": "PolyLux® Shutters"
+                    },
+                    "attributes": [
+                        "A classic shutter style with a beaded frame, the perfect fit for a traditional home with ornate features",
+                        "100% Australian made and owned",
+                        "VOC free",
+                        "20 year guarantee"
+                    ]
+                }
+            ],
+            "guides": {
+                "how-to-measure": {
+                    "title": "How to measure for shutters",
+                    "url": "https://www.diyblinds.com.au/guides/how-to-measure/how-to-measure-plantation-shutters"
+                },
+                "how-to-install": {
+                    "title": "How to install  shutters",
+                    "url": "https://www.diyblinds.com.au/guides/how-to-install/how-to-install-plantation-shutters"
+                },
+                "technical-info": {
+                    "title": "Plantation Shutters",
+                    "url": "https://www.diyblinds.com.au/guides/technical-info/plantation-shutters"
+                }
+            },
+            "groups": [],
+            "freesamples": true,
+            "showPricing": true
+        },
+        {
+            "apiName": "Venetian Blind",
+            "handle": "venetian-blind",
+            "name": "Venetian Blinds",
+            "shortName": "Venetian Blinds",
+            "image": "https://www.diyblinds.com.au/uploads/rangeIcons/venetian-blinds.svg",
+            "types": [
+                {
+                    "url": "https://www.diyblinds.com.au/blinds/venetian-blinds",
+                    "category": "Blinds",
+                    "_id": "5b3d99a87636707f2336cecd",
+                    "name": "Venetian Aluminium Blind",
+                    "fromPrice": 80,
+                    "image": "https://media.diyblinds.com.au/uploads/products/venetian-blind-aluminium@2x.jpg",
+                    "fabricGroups": [
+                        {
+                            "_id": "5b3d99a87636707f2336cecd",
+                            "name": "Venetian Aluminium"
+                        }
+                    ],
+                    "attributes": [
+                        "25mm or 50mm blade width",
+                        "Flexibility of light/privacy control",
+                        "Cost effective, classic look",
+                        "Huge range of colors available"
+                    ]
+                },
+                {
+                    "url": "https://www.diyblinds.com.au/blinds/venetian-blinds",
+                    "category": "Blinds",
+                    "_id": "5b3d99a87636707f2336cece",
+                    "name": "Venetian Visionwood Blind",
+                    "fromPrice": 155,
+                    "image": "https://media.diyblinds.com.au/uploads/products/venetian-blind-visionwood@2x.jpg",
+                    "fabricGroups": [
+                        {
+                            "_id": "5b3d99a87636707f2336cece",
+                            "name": "Venetian Visionwood"
+                        }
+                    ],
+                    "attributes": [
+                        "50mm or 63mm blade widths",
+                        "Perfect for use in humid areas",
+                        "Stylish finish to your home",
+                        "Great alternative to shutters"
+                    ]
+                },
+                {
+                    "url": "https://www.diyblinds.com.au/blinds/venetian-blinds",
+                    "category": "Blinds",
+                    "_id": "5b3d99a87636707f2336cecf",
+                    "name": "Venetian Timber Blind",
+                    "fromPrice": 234,
+                    "image": "https://media.diyblinds.com.au/uploads/products/venetian-blind-timber@2x.jpg",
+                    "fabricGroups": [
+                        {
+                            "_id": "5b3d99a87636707f2336cecf",
+                            "name": "Venetian Timber"
+                        }
+                    ],
+                    "attributes": [
+                        "Available in 50mm blade widths",
+                        "Stylish finish to your home",
+                        "Great alternative to shutters",
+                        "Flexibility of light/privacy control"
+                    ]
+                }
+            ],
+            "guides": {
+                "how-to-install": {
+                    "title": "How to install aluminium venetian blinds",
+                    "url": "https://www.diyblinds.com.au/guides/how-to-install/how-to-install-aluminium-venetian-blinds"
+                },
+                "technical-info": {
+                    "title": "Venetian Blinds",
+                    "url": "https://www.diyblinds.com.au/guides/technical-info/venetian-blinds"
+                },
+                "how-to-measure": {
+                    "title": "How to measure for venetian blinds",
+                    "url": "https://www.diyblinds.com.au/guides/how-to-measure/how-to-measure-venetian-blinds"
+                }
+            },
+            "groups": [],
+            "freesamples": true,
+            "showPricing": true
+        },
+        {
+            "apiName": "Roman Blind",
+            "handle": "roman-blind",
+            "name": "Roman Blinds",
+            "shortName": "Roman Blinds",
+            "image": "https://www.diyblinds.com.au/uploads/rangeIcons/roman-blinds.svg",
+            "types": [
+                {
+                    "url": "https://www.diyblinds.com.au/blinds/roman-blinds",
+                    "category": "Blinds",
+                    "_id": "5b3d99a87636707f2336cec5",
+                    "name": "Blockout Roman Blind",
+                    "fromPrice": 207,
+                    "image": "https://media.diyblinds.com.au/uploads/products/roman-blinds-blockout@2x-v2.jpg",
+                    "fabricGroups": [
+                        {
+                            "_id": "5b3d99a87636707f2336cec5",
+                            "name": "Blockout"
+                        }
+                    ],
+                    "attributes": [
+                        "Ideal for blocking out light",
+                        "Provides ultimate privacy",
+                        "First choice for bedrooms",
+                        "Offers great insulation"
+                    ]
+                },
+                {
+                    "url": "https://www.diyblinds.com.au/blinds/roman-blinds",
+                    "category": "Blinds",
+                    "_id": "5b3d99a87636707f2336cec6",
+                    "name": "Light Filtering Roman Blind",
+                    "fromPrice": 207,
+                    "image": "https://media.diyblinds.com.au/uploads/products/roman-blinds-light-filtering@2x-v2.jpg",
+                    "fabricGroups": [
+                        {
+                            "_id": "5b3d99a87636707f2336cec6",
+                            "name": "Light Filtering"
+                        }
+                    ],
+                    "attributes": [
+                        "Diffuses and softens light",
+                        "Provides daytime privacy without darkening the room (varies due to colour choice)"
+                    ]
+                }
+            ],
+            "guides": {
+                "how-to-install": {
+                    "title": "How to install roman blinds with a chain drive",
+                    "url": "https://www.diyblinds.com.au/guides/how-to-install/how-to-install-roman-blinds-chain-drive"
+                },
+                "how-to-measure": {
+                    "title": "How to measure for roman blinds",
+                    "url": "https://www.diyblinds.com.au/guides/how-to-measure/how-to-measure-roman-blinds"
+                },
+                "technical-info": {
+                    "title": "Roman Blinds",
+                    "url": "https://www.diyblinds.com.au/guides/technical-info/roman-blinds"
+                }
+            },
+            "groups": [],
+            "freesamples": true,
+            "showPricing": true
+        },
+        {
+            "apiName": "Vertical Blind",
+            "handle": "vertical-blind",
+            "name": "Vertical Blinds",
+            "shortName": "Vertical Blinds",
+            "image": "https://www.diyblinds.com.au/uploads/rangeIcons/vertical-blinds.svg",
+            "types": [
+                {
+                    "url": "https://www.diyblinds.com.au/blinds/vertical-blinds",
+                    "category": "Blinds",
+                    "_id": "5b3d99a87636707f2336ced0",
+                    "name": "127mm Blockout Vertical Blind",
+                    "fromPrice": 106,
+                    "image": "https://media.diyblinds.com.au/uploads/products/vertical@2x.jpg",
+                    "fabricGroups": [
+                        {
+                            "_id": "5b3d99a87636707f2336ced0",
+                            "name": "127mm Blockout"
+                        }
+                    ],
+                    "attributes": [
+                        "Blockout fabric",
+                        "127mm slat for classic look",
+                        "Easy control of light & privacy",
+                        "Offers great insulation"
+                    ]
+                },
+                {
+                    "url": "https://www.diyblinds.com.au/blinds/vertical-blinds",
+                    "category": "Blinds",
+                    "_id": "5b3d99a87636707f2336ced2",
+                    "name": "89mm Blockout Vertical Blind",
+                    "fromPrice": 128,
+                    "image": "https://media.diyblinds.com.au/uploads/products/vertical@2x.jpg",
+                    "fabricGroups": [
+                        {
+                            "_id": "5b3d99a87636707f2336ced2",
+                            "name": "89mm Blockout"
+                        }
+                    ],
+                    "attributes": [
+                        "Blockout fabric",
+                        "89mm contemporary style",
+                        "Minimal projection"
+                    ]
+                }
+            ],
+            "guides": {
+                "technical-info": {
+                    "title": "Vertical Blinds",
+                    "url": "https://www.diyblinds.com.au/guides/technical-info/vertical-blinds"
+                },
+                "how-to-install": {
+                    "title": "How to install Vertical Blinds",
+                    "url": "https://www.diyblinds.com.au/guides/how-to-install/how-to-install-vertical-blinds"
+                },
+                "how-to-measure": {
+                    "title": "How to measure for vertical blinds",
+                    "url": "https://www.diyblinds.com.au/guides/how-to-measure/how-to-measure-vertical-blinds"
+                }
+            },
+            "groups": [],
+            "freesamples": true,
+            "showPricing": true
+        },
+        {
+            "apiName": "Panel Glide Blind",
+            "handle": "panel-glide-blind",
+            "name": "Panel Glide Blinds",
+            "shortName": "Panel Glide Blinds",
+            "image": "https://www.diyblinds.com.au/uploads/rangeIcons/panel-glide-blinds.svg",
+            "types": [
+                {
+                    "url": "https://www.diyblinds.com.au/blinds/panel-glide-blinds",
+                    "category": "Blinds",
+                    "_id": "5b3d99a87636707f2336cec8",
+                    "name": "Blockout",
+                    "fromPrice": 326,
+                    "image": "https://media.diyblinds.com.au/uploads/products/panel-glide-blockout@2x.jpg",
+                    "fabricGroups": [
+                        {
+                            "_id": "5b3d99a87636707f2336cec8",
+                            "name": "Blockout"
+                        }
+                    ],
+                    "attributes": [
+                        "Blockout Fabric",
+                        "Multiple panels 600mm",
+                        "Anodised silver track & base rails",
+                        "6 set track sizes"
+                    ]
+                },
+                {
+                    "url": "https://www.diyblinds.com.au/blinds/panel-glide-blinds",
+                    "category": "Blinds",
+                    "_id": "5b3d99a87636707f2336cec9",
+                    "name": "Light Filtering",
+                    "fromPrice": 326,
+                    "image": "https://media.diyblinds.com.au/uploads/products/panel-glide-light-filtering@2x.jpg",
+                    "fabricGroups": [
+                        {
+                            "_id": "5b3d99a87636707f2336cec9",
+                            "name": "Light Filtering"
+                        }
+                    ],
+                    "attributes": [
+                        "Light Filtering fabric",
+                        "Diffuses and softens the light",
+                        "Allow privacy during daytime",
+                        "Anodised silver track & base rails"
+                    ]
+                },
+                {
+                    "url": "https://www.diyblinds.com.au/blinds/panel-glide-blinds",
+                    "category": "Blinds",
+                    "_id": "5b3d99a87636707f2336ceca",
+                    "name": "Sunscreen",
+                    "fromPrice": 339,
+                    "image": "https://media.diyblinds.com.au/uploads/products/panel-glide-sunscreen@2x.jpg",
+                    "fabricGroups": [
+                        {
+                            "_id": "5b3d99a87636707f2336ceca",
+                            "name": "Sunscreen"
+                        }
+                    ],
+                    "attributes": [
+                        "Blocks 95% of UV rays",
+                        "Perfect for reducing glare & heat while maintaining the view",
+                        "Anodised silver track & base rails"
+                    ]
+                }
+            ],
+            "guides": {
+                "how-to-install": {
+                    "title": "How to install Panel Glide Blinds",
+                    "url": "https://www.diyblinds.com.au/guides/how-to-install/how-to-install-panel-glide-blinds"
+                },
+                "how-to-measure": {
+                    "title": "How to measure for panel glide blinds",
+                    "url": "https://www.diyblinds.com.au/guides/how-to-measure/how-to-measure-panel-glide-blinds"
+                },
+                "technical-info": {
+                    "title": "Panel Glide Blinds",
+                    "url": "https://www.diyblinds.com.au/guides/technical-info/panel-glide-blinds"
+                }
+            },
+            "groups": [],
+            "freesamples": true,
+            "showPricing": true
+        },
+        {
+            "apiName": "Double Roller Blind",
+            "handle": "double-roller-blind",
+            "name": "Double Roller Blinds",
+            "shortName": "Double Roller Blinds",
+            "image": "https://www.diyblinds.com.au/uploads/rangeIcons/double-roller-blinds.svg",
+            "types": [
+                {
+                    "url": "https://www.diyblinds.com.au/blinds/double-roller-blinds",
+                    "category": "Blinds",
+                    "_id": "5b3d99a87636707f2336ced6",
+                    "name": "Blockout + Sunscreen Double Roller Blind",
+                    "fromPrice": 196,
+                    "image": "https://media.diyblinds.com.au/uploads/products/double-roller-blind-blockout-and-sunscreen@2x.jpg",
+                    "fabricGroups": [
+                        {
+                            "_id": "5b3d99a87636707f2336ced3",
+                            "name": "Blockout"
+                        },
+                        {
+                            "_id": "5b3d99a87636707f2336ced5",
+                            "name": "Sunscreen"
+                        }
+                    ],
+                    "attributes": [
+                        "Blockout for darkening the room",
+                        "Sunscreen to maintain the view",
+                        "Day & night privacy",
+                        "Add motorisation for wireless interaction"
+                    ]
+                },
+                {
+                    "url": "https://www.diyblinds.com.au/blinds/double-roller-blinds",
+                    "category": "Blinds",
+                    "_id": "5b3d99a87636707f2336ced7",
+                    "name": "Blockout + Light Filtering Double Roller Blind",
+                    "fromPrice": 194,
+                    "image": "https://media.diyblinds.com.au/uploads/products/double-roller-blind-blockout-and-light-filtering@2x.jpg",
+                    "fabricGroups": [
+                        {
+                            "_id": "5b3d99a87636707f2336ced3",
+                            "name": "Blockout"
+                        },
+                        {
+                            "_id": "5b3d99a87636707f2336ced4",
+                            "name": "Light Filtering"
+                        }
+                    ],
+                    "attributes": [
+                        "Blockout for darkening the room",
+                        "Light filtering to diffuse the light",
+                        "Day & night privacy",
+                        "Ideal for bedrooms & TV rooms",
+                        "Add motorisation for wireless interaction"
+                    ]
+                },
+                {
+                    "url": "https://www.diyblinds.com.au/blinds/double-roller-blinds",
+                    "category": "Blinds",
+                    "_id": "5b3d99a87636707f2336ced8",
+                    "name": "Light Filtering + Sunscreen Double Roller Blind",
+                    "fromPrice": 199,
+                    "image": "https://media.diyblinds.com.au/uploads/products/double-roller-blind-light-filtering-and-sunscreen@2x.jpg",
+                    "fabricGroups": [
+                        {
+                            "_id": "5b3d99a87636707f2336ced4",
+                            "name": "Light Filtering"
+                        },
+                        {
+                            "_id": "5b3d99a87636707f2336ced5",
+                            "name": "Sunscreen"
+                        }
+                    ],
+                    "attributes": [
+                        "Light filtering to diffuse the light",
+                        "Sunscreen for maintain the view",
+                        "When total privacy isn't required",
+                        "Ideal for casual living areas",
+                        "Add motorisation for wireless interaction"
+                    ]
+                }
+            ],
+            "guides": {
+                "how-to-measure": {
+                    "title": "How to measure for roller blinds",
+                    "url": "https://www.diyblinds.com.au/guides/how-to-measure/how-to-measure-roller-blinds"
+                },
+                "how-to-install": {
+                    "title": "How to install roller blinds",
+                    "url": "https://www.diyblinds.com.au/guides/how-to-install/how-to-install-roller-blinds"
+                }
+            },
+            "groups": [],
+            "freesamples": true,
+            "showPricing": true
+        },
+        {
+            "apiName": "Whispertech Bundle",
+            "handle": "whispertech-bundle",
+            "name": "Whispertech™ Bundle",
+            "shortName": "Whispertech™ Bundle",
+            "image": "https://www.diyblinds.com.au/uploads/rangeIcons/smart-roller-blinds.svg",
+            "types": [
+                {
+                    "url": "https://www.diyblinds.com.au/blinds/whispertech-bundle",
+                    "category": "Blinds",
+                    "_id": "66b35b7d7425bea3d68a9555",
+                    "name": "Blockout Whispertech™ Bundle",
+                    "fromPrice": 399,
+                    "image": "https://media.diyblinds.com.au/uploads/products/SmartView-Bundle-Blockout@2x.jpg",
+                    "fabricGroups": [
+                        {
+                            "_id": "66b35b7d7425bea3d68a9555",
+                            "name": "Blockout"
+                        }
+                    ],
+                    "attributes": [
+                        "Includes a remote and charger",
+                        "5 Year Warranty",
+                        "Great for blocking out light",
+                        "Provides ultimate privacy",
+                        "Perfect for bedrooms"
+                    ]
+                },
+                {
+                    "url": "https://www.diyblinds.com.au/blinds/whispertech-bundle",
+                    "category": "Blinds",
+                    "_id": "66b35b7d7425bea3d68a9556",
+                    "name": "Light Filtering Whispertech™ Bundle",
+                    "fromPrice": 399,
+                    "image": "https://media.diyblinds.com.au/uploads/products/SmartView-Bundle-LightFiltering@2x.jpg",
+                    "fabricGroups": [
+                        {
+                            "_id": "66b35b7d7425bea3d68a9556",
+                            "name": "Light Filtering"
+                        }
+                    ],
+                    "attributes": [
+                        "Includes a remote and charger",
+                        "5 Year Warranty",
+                        "Diffuses and softens light",
+                        "Provides daytime privacy and filters the view while maintaining light"
+                    ]
+                },
+                {
+                    "url": "https://www.diyblinds.com.au/blinds/whispertech-bundle",
+                    "category": "Blinds",
+                    "_id": "66b35b7d7425bea3d68a9557",
+                    "name": "Sunscreen Whispertech™ Bundle",
+                    "fromPrice": 399,
+                    "image": "https://media.diyblinds.com.au/uploads/products/SmartView-Bundle-Sunscreen@2x.jpg",
+                    "fabricGroups": [
+                        {
+                            "_id": "66b35b7d7425bea3d68a9557",
+                            "name": "Sunscreen"
+                        }
+                    ],
+                    "attributes": [
+                        "Includes a remote and charger",
+                        "5 Year Warranty",
+                        "Allows for daytime privacy",
+                        "Blocks 95% of UV rays",
+                        "Ideal for reducing glare & heat while maintaining a view"
+                    ]
+                }
+            ],
+            "guides": {
+                "how-to-install": {
+                    "title": "How to install & setup Whispertech™ motorised blinds",
+                    "url": "https://www.diyblinds.com.au/guides/how-to-install/how-to-install-setup-whispertech-motorised-blinds"
+                },
+                "how-to-measure": {
+                    "title": "How to measure for roller blinds",
+                    "url": "https://www.diyblinds.com.au/guides/how-to-measure/how-to-measure-roller-blinds"
+                }
+            },
+            "groups": [],
+            "freesamples": false,
+            "showPricing": false
+        },
+        {
+            "apiName": "Linked Roller Blind",
+            "handle": "linked-roller-blind",
+            "name": "Linked Roller Blinds",
+            "shortName": "Linked Roller Blinds",
+            "image": "https://www.diyblinds.com.au/uploads/rangeIcons/linked-roller-blinds.svg",
+            "types": [],
+            "guides": {
+                "how-to-measure": {
+                    "title": "How to Measure for Sliding Doors Blinds",
+                    "url": "https://www.diyblinds.com.au/guides/how-to-measure/how-to-measure-for-sliding-doors-blinds"
+                },
+                "how-to-install": {
+                    "title": "How to install linked roller blinds",
+                    "url": "https://www.diyblinds.com.au/guides/how-to-install/how-to-install-linked-roller-blinds"
+                }
+            },
+            "groups": [
+                {
+                    "groupHandle": "linked-single-roller-blinds",
+                    "rangeHandle": "roller-blind"
+                },
+                {
+                    "groupHandle": "linked-double-roller-blinds",
+                    "rangeHandle": "double-roller-blind"
+                }
+            ],
+            "freesamples": true,
+            "showPricing": true
+        },
+        {
+            "apiName": "Double Curtain",
+            "handle": "double-curtain",
+            "name": "Double Curtains",
+            "shortName": "Double Curtains",
+            "image": "https://www.diyblinds.com.au/uploads/rangeIcons/double-curtains_double-curtains.svg",
+            "types": [
+                {
+                    "url": "https://www.diyblinds.com.au/curtains/double-curtains",
+                    "category": "Curtains",
+                    "_id": "605057fbe41c271fc48bf628",
+                    "name": "Sheer and blockout double curtains",
+                    "fromPrice": 673,
+                    "image": "https://media.diyblinds.com.au/uploads/products/double-curtain-sheer-and-blockout@2x.jpg",
+                    "fabricGroups": [
+                        {
+                            "_id": "5b3d99a87636707f2336ceda",
+                            "name": "Sheer Curtain"
+                        },
+                        {
+                            "_id": "5b3d99a87636707f2336cedb",
+                            "name": "Blockout Curtain"
+                        }
+                    ],
+                    "attributes": [
+                        "Fantastic for thermal insulation",
+                        "Day and night privacy",
+                        "Blockouts darken your room",
+                        "Add motorisation to effortlessly control your curtains"
+                    ]
+                }
+            ],
+            "guides": {
+                "how-to-measure": {
+                    "title": "How to measure for double curtains",
+                    "url": "https://www.diyblinds.com.au/guides/how-to-measure/how-to-measure-double-curtains"
+                },
+                "how-to-install": {
+                    "title": "How to install double track curtains",
+                    "url": "https://www.diyblinds.com.au/guides/how-to-install/how-to-install-designer-curtains-with-double-tracks"
+                }
+            },
+            "groups": [],
+            "freesamples": false,
+            "showPricing": true
+        },
+        {
+            "apiName": "Lined Curtain",
+            "handle": "lined-curtain",
+            "name": "Lined Curtains",
+            "shortName": "Lined Curtains",
+            "image": "https://www.diyblinds.com.au/uploads/rangeIcons/lined-curtains_210509_095626.svg",
+            "types": [
+                {
+                    "url": "https://www.diyblinds.com.au/curtains/lined-curtains",
+                    "category": "Curtains",
+                    "_id": "60542dd69e835ae760d22752",
+                    "name": "Lined Sheer Curtains",
+                    "fromPrice": 673,
+                    "image": "https://media.diyblinds.com.au/uploads/products/curtain-blockout-topfit@2x.jpg",
+                    "fabricGroups": [
+                        {
+                            "_id": "5b3d99a87636707f2336ceda",
+                            "name": "Sheer Curtain"
+                        },
+                        {
+                            "_id": "5b3d99a87636707f2336cedc",
+                            "name": "Lining"
+                        }
+                    ],
+                    "attributes": [
+                        "Excellent thermal insulation option",
+                        "Totally blocks light and absorbs UV to protect your sheers",
+                        "Reduces outside noise and improves acoustics",
+                        "Ultra plush feel",
+                        "Choose your sheer and add a lining"
+                    ]
+                }
+            ],
+            "guides": {
+                "how-to-install": {
+                    "title": "How to install curtains",
+                    "url": "https://www.diyblinds.com.au/guides/how-to-install/how-to-install-curtains"
+                },
+                "how-to-measure": {
+                    "title": "How to measure for curtains",
+                    "url": "https://www.diyblinds.com.au/guides/how-to-measure/how-to-measure-curtains"
+                }
+            },
+            "groups": [],
+            "freesamples": false,
+            "showPricing": true
+        },
+        {
+            "apiName": "Curved Curtain",
+            "handle": "curved-curtain",
+            "name": "Curved Curtains",
+            "shortName": "Curved Curtains",
+            "image": "https://www.diyblinds.com.au/uploads/rangeIcons/corner_corner-curtain-2.svg",
+            "types": [
+                {
+                    "url": "https://www.diyblinds.com.au/curtains/curved-curtains",
+                    "category": "Curtains",
+                    "_id": "5b3d99a87636707f2336ceda",
+                    "name": "Sheer Curved Curtains",
+                    "fromPrice": 544,
+                    "image": "https://media.diyblinds.com.au/uploads/products/corner-curtain-wrap-around-sheer@2x.png",
+                    "fabricGroups": [
+                        {
+                            "_id": "5b3d99a87636707f2336ceda",
+                            "name": "Sheer Curtain"
+                        }
+                    ],
+                    "attributes": [
+                        "Softens light",
+                        "Ideal for adding texture to a room",
+                        "Choose to wrap around or fit inside one or two corners"
+                    ]
+                },
+                {
+                    "url": "https://www.diyblinds.com.au/curtains/curved-curtains",
+                    "category": "Curtains",
+                    "_id": "5b3d99a87636707f2336cedb",
+                    "name": "Blockout Curved Curtains",
+                    "fromPrice": 687,
+                    "image": "https://media.diyblinds.com.au/uploads/products/corner-curtain-wrap-around-blockout@2x.png",
+                    "fabricGroups": [
+                        {
+                            "_id": "5b3d99a87636707f2336cedb",
+                            "name": "Blockout Curtains"
+                        }
+                    ],
+                    "attributes": [
+                        "Ideal for blocking out light",
+                        "Provides ultimate privacy",
+                        "Offers great insulation",
+                        "Choose to wrap around or fit inside one or two corners"
+                    ]
+                }
+            ],
+            "guides": {
+                "how-to-measure": {
+                    "title": "How to measure corner windows for curved curtains",
+                    "url": "https://www.diyblinds.com.au/guides/how-to-measure/how-to-measure-corner-windows-for-designer-curtains"
+                },
+                "how-to-install": {
+                    "title": "How to install curved curtains for corner windows",
+                    "url": "https://www.diyblinds.com.au/guides/how-to-install/how-to-install-designer-curtains-for-corner-windows"
+                }
+            },
+            "groups": [],
+            "freesamples": false,
+            "showPricing": true
+        },
+        {
+            "apiName": "Bay Window Curtain",
+            "handle": "bay-window-curtain",
+            "name": "Box and Bay Curtains",
+            "shortName": "Box and Bay Curtains",
+            "image": "https://www.diyblinds.com.au/uploads/rangeIcons/product-range-icons_bay-curtain.svg",
+            "types": [
+                {
+                    "url": "https://www.diyblinds.com.au/curtains/box-and-bay-curtains",
+                    "category": "Curtains",
+                    "_id": "5b3d99a87636707f2336ceda",
+                    "name": "Sheer Box and Bay Curtains",
+                    "fromPrice": 714,
+                    "image": "https://media.diyblinds.com.au/uploads/products/baywindow-topfit-sheer@2x.png",
+                    "fabricGroups": [
+                        {
+                            "_id": "5b3d99a87636707f2336ceda",
+                            "name": "Sheer Curtain"
+                        }
+                    ],
+                    "attributes": [
+                        "Softens light",
+                        "Ideal for adding texture to a room",
+                        "Our 45 and 90 degree curved tracks are perfect for box and bay windows"
+                    ]
+                },
+                {
+                    "url": "https://www.diyblinds.com.au/curtains/box-and-bay-curtains",
+                    "category": "Curtains",
+                    "_id": "5b3d99a87636707f2336cedb",
+                    "name": "Blockout Box and Bay Curtains",
+                    "fromPrice": 921,
+                    "image": "https://media.diyblinds.com.au/uploads/products/baywindow-topfit-blockout@2x.png",
+                    "fabricGroups": [
+                        {
+                            "_id": "5b3d99a87636707f2336cedb",
+                            "name": "Blockout Curtains"
+                        }
+                    ],
+                    "attributes": [
+                        "Ideal for blocking out light",
+                        "Provides ultimate privacy",
+                        "Offers great insulation",
+                        "Our 45 and 90 degree curved tracks are perfect for box and bay windows"
+                    ]
+                }
+            ],
+            "guides": {
+                "how-to-measure": {
+                    "title": "How to measure bay windows for curved curtains",
+                    "url": "https://www.diyblinds.com.au/guides/how-to-measure/how-to-measure-bay-windows-for-designer-curtains"
+                },
+                "how-to-install": {
+                    "title": "How to install curved curtains for bay windows",
+                    "url": "https://www.diyblinds.com.au/guides/how-to-install/how-to-install-designer-curtains-for-bay-windows"
+                }
+            },
+            "groups": [],
+            "freesamples": false,
+            "showPricing": true
+        },
+        {
+            "apiName": "Curtain",
+            "handle": "curtain",
+            "name": "Sheer Curtains",
+            "shortName": "Sheer Curtains",
+            "image": "",
+            "types": [],
+            "guides": {
+                "how-to-install": {
+                    "title": "How to install curtains",
+                    "url": "https://www.diyblinds.com.au/guides/how-to-install/how-to-install-curtains"
+                },
+                "how-to-measure": {
+                    "title": "How to measure for curtains",
+                    "url": "https://www.diyblinds.com.au/guides/how-to-measure/how-to-measure-curtains"
+                }
+            },
+            "groups": [],
+            "freesamples": true,
+            "showPricing": true
+        },
+        {
+            "apiName": "Curtain",
+            "handle": "curtain",
+            "name": "S-Fold Curtains",
+            "shortName": "S-Fold Curtains",
+            "image": "",
+            "types": [],
+            "guides": {
+                "how-to-install": {
+                    "title": "How to install curtains",
+                    "url": "https://www.diyblinds.com.au/guides/how-to-install/how-to-install-curtains"
+                },
+                "how-to-measure": {
+                    "title": "How to measure for curtains",
+                    "url": "https://www.diyblinds.com.au/guides/how-to-measure/how-to-measure-curtains"
+                }
+            },
+            "groups": [],
+            "freesamples": true,
+            "showPricing": true
+        },
+        {
+            "apiName": "Curtain",
+            "handle": "curtain",
+            "name": "Blockout Curtains",
+            "shortName": "Blockout Curtains",
+            "image": "",
+            "types": [],
+            "guides": {
+                "how-to-install": {
+                    "title": "How to install curtains",
+                    "url": "https://www.diyblinds.com.au/guides/how-to-install/how-to-install-curtains"
+                },
+                "how-to-measure": {
+                    "title": "How to measure for curtains",
+                    "url": "https://www.diyblinds.com.au/guides/how-to-measure/how-to-measure-curtains"
+                }
+            },
+            "groups": [],
+            "freesamples": true,
+            "showPricing": true
+        },
+        {
+            "apiName": "Curtain",
+            "handle": "curtain",
+            "name": "Linen Curtains",
+            "shortName": "Linen Curtains",
+            "image": "",
+            "types": [],
+            "guides": {
+                "how-to-install": {
+                    "title": "How to install curtains",
+                    "url": "https://www.diyblinds.com.au/guides/how-to-install/how-to-install-curtains"
+                },
+                "how-to-measure": {
+                    "title": "How to measure for curtains",
+                    "url": "https://www.diyblinds.com.au/guides/how-to-measure/how-to-measure-curtains"
+                }
+            },
+            "groups": [],
+            "freesamples": true,
+            "showPricing": true
+        },
+        {
+            "apiName": "Zip Screen",
+            "handle": "zip-screen",
+            "name": "Zipscreen Blinds",
+            "shortName": "Zipscreen Blinds",
+            "image": "https://www.diyblinds.com.au/uploads/rangeIcons/icon_awnings.svg",
+            "types": [],
+            "guides": {},
+            "groups": [],
+            "freesamples": false,
+            "showPricing": true
+        }
+]
