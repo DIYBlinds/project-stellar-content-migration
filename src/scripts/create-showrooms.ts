@@ -1,9 +1,10 @@
+import path from 'path';
 import showrooms from '../../.in/showrooms.json';
 import { upsertEntry } from '../utils/contentful';
 const LOCALE = 'en-AU';
 
 const run = async () => {
-    for (const showroom of showrooms.slice(0, 5)) {
+    for (const showroom of showrooms) {
         const heroImage = await upsertHeroImage(showroom);
         upsertShowroom(showroom, heroImage.sys.id);
     }
@@ -13,14 +14,25 @@ const getSlug = (url: string): string => {
     const segments = url.split('/').filter(Boolean);
     const slug = segments[segments.length - 1];
 
-    return slug.replace(/\.[^.]+$/, '')
+    // remove file extension and replace all dots to dashes
+    return slug.replace(/\.[^.]+$/, '').replace(/\./g, '-').replace(/\@/g, '');
 };
-
 const upsertHeroImage = async (showroom: typeof showrooms[0]) => {
-    const heroImageEntry = await upsertEntry('heroImage', `showroom-${showroom._id}`, {
+    const heroImageEntry = await upsertEntry('heroImage', `heroimage-showroom-${showroom._id}`, {
+        metadata: {
+            tags: [
+                {
+                    sys: {
+                        type: 'Link',
+                        linkType: 'Tag',
+                        id: "showroom"
+                    }
+                }
+            ]
+        },
         fields: {
             title: {
-                [LOCALE]: `Showroom > ${showroom._source.title}`
+                [LOCALE]: `Showroom Image > ${getSlug(showroom._source.path)}`
             },
             image: {
                 [LOCALE]: showroom._source.cloudinaryImage
@@ -36,9 +48,20 @@ const upsertShowroom = async (showroom: typeof showrooms[0], heroImageId: string
     const tags = [loc, photographer].filter(Boolean);
 
     const data = {
+        metadata: {
+            tags: [
+                {
+                    sys: {
+                        type: 'Link',
+                        linkType: 'Tag',
+                        id: "showroom"
+                    }
+                }
+            ]
+        },
         fields: {
             name: {
-                [LOCALE]: `Showroom > ${showroom._source.title}` 
+                [LOCALE]: `Showroom > ${getSlug(showroom._source.path)}` 
             },
             title: {
                 [LOCALE]: showroom._source.title
@@ -71,16 +94,16 @@ const upsertShowroom = async (showroom: typeof showrooms[0], heroImageId: string
                 [LOCALE]: showroom._source.space
             },
             colorGroup: {
-                [LOCALE]: [...new Set(showroom._source.fabrics?.map(fabric => fabric.colorGroup))]
+                [LOCALE]: [...new Set(showroom._source.fabrics?.filter(fabric => fabric.fabricColorVariantKey)?.map(fabric => fabric.colorGroup))]
             },
             productCategory: {
-                [LOCALE]: [... new Set(showroom._source.fabrics?.map(fabric => fabric.category))]
+                [LOCALE]: [... new Set(showroom._source.fabrics?.filter(fabric => fabric.fabricColorVariantKey)?.map(fabric => fabric.category))]
             },
             productSubCategory: {
-                [LOCALE]: [... new Set(showroom._source.fabrics?.map(fabric => fabric.range))]
+                [LOCALE]: [... new Set(showroom._source.fabrics?.filter(fabric => fabric.fabricColorVariantKey)?.map(fabric => fabric.range))]
             },
             productKeys: {
-                [LOCALE]: [...new Set(showroom._source.fabrics?.map(fabric => fabric.fabricColorVariantKey))]
+                [LOCALE]: [...new Set(showroom._source.fabrics?.filter(fabric => fabric.fabricColorVariantKey)?.map(fabric => fabric.fabricColorVariantKey))]
             },
             tags: {
                 [LOCALE]: tags

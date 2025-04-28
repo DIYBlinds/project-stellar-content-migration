@@ -18,6 +18,7 @@ export async function upsertEntry(contentTypeId: string, id: string, data: any) 
         if (await tryGetEntry(environment, id)) {
             let entry = await environment.getEntry(id);
             entry.fields = Object.assign({}, entry.fields, data.fields);
+            entry.metadata = Object.assign({}, entry.metadata, data.metadata);
             entry = await entry.update();
             await entry.publish();
 
@@ -26,10 +27,11 @@ export async function upsertEntry(contentTypeId: string, id: string, data: any) 
         }
 
         const entry = await environment.createEntryWithId(contentTypeId, id, {
-            fields: data.fields
+            fields: data.fields,
+            metadata: data.metadata
         });
         await entry.publish();
-
+        
         console.log('Entry created:', entry.sys.id);
 
         return entry;
@@ -38,6 +40,16 @@ export async function upsertEntry(contentTypeId: string, id: string, data: any) 
         throw error;
     }
 }
+
+export async function deleteEntry(id: string) {
+    const environment = await getEnvironment;
+
+    const entry = await environment.getEntry(id);
+    await entry.unpublish();
+    await entry.delete();
+    console.log('Entry deleted:', id);
+}
+
 
 const tryGetEntry = async (environment: any, id: string) => {
     try {

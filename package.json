@@ -13,7 +13,9 @@
     "scrape-showrooms": "ts-node src/scripts/scrape-showrooms.ts",
     "scrape-showrooms-fabrics": "ts-node src/scripts/scrape-showrooms-fabrics.ts",
     "upload-fabric-images": "ts-node src/scripts/upload-fabric-images.ts",
-    "create-showrooms": "ts-node src/scripts/create-showrooms.ts"
+    "create-showrooms": "ts-node src/scripts/create-showrooms.ts",
+    "delete-showrooms": "ts-node src/scripts/delete-showrooms.ts",
+    "scrape-blogs": "ts-node src/scripts/scrape-blogs.ts"
   },
   "dependencies": {
     "axios": "^1.8.4",
@@ -21,8 +23,10 @@
     "cloudinary": "^2.6.0",
     "contentful": "^11.5.16",
     "contentful-management": "^11.52.1",
+    "contentful-migration": "^4.28.4",
     "dotenv": "^16.4.1",
     "fs": "^0.0.1-security",
+    "html-to-richtext-contentful": "^2.1.1",
     "node-fetch": "^2.7.0",
     "path": "^0.12.7",
     "puppeteer": "^24.4.0"
