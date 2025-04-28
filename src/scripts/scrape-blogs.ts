@@ -16,7 +16,6 @@ const run = (async () => {
       await page.goto(blog.url, {
         waitUntil: 'domcontentloaded', // wait until all XHRs finish
       });
-      console.log('done');
       // Now the page is fully rendered. You can extract HTML or run DOM queries.
 
       blog.title = await page.$eval('div.header__limit-title-width h1',  el => el.innerText);
@@ -25,7 +24,20 @@ const run = (async () => {
       blog.contentBlocks = [];
       // convert below code to for loop
       for (const block of contentBlocks) {
-        // if block has css class 'rich-block' then convert to rich text
+        // text columns
+        if (await page.evaluate(el => el.classList.contains('rich-block'), block) && (await block.$$('div.u-text-columns')).length > 0) {
+          const html = await block.$eval('div.u-text-columns', el => el.innerHTML);
+
+          blog.contentBlocks.push(
+            {
+              type: 'richText',
+              content: htmlToRichText(html)
+            }
+          );
+          continue;
+        }
+
+        // Richtext
         if (await page.evaluate(el => el.classList.contains('rich-block'), block)) {
           const html = await page.evaluate(el => el.innerHTML, block);
 
@@ -35,10 +47,11 @@ const run = (async () => {
               content: htmlToRichText(html)
             }
           );
+          continue;
         }
 
-        // if block has css class 'card-grid' then add images to content blocks
-        if (await block.$$('ul.card-grid')) {
+        // Content Tiles
+        if ((await block.$$('ul.card-grid')).length > 0) {
           const images = (await block.$$eval('img', els => els.map(e => e.getAttribute('data-src')))).filter(Boolean);
 
           // get last part of image url
@@ -50,6 +63,67 @@ const run = (async () => {
               images: imageUrls
             });
           }
+          continue;
+        }
+
+        // Image
+        if ((await block.$$('div.image--center')).length > 0) {
+          const image = await block.$eval('img', el => el.getAttribute('data-src') ?? '');
+          if (image) {
+            blog.contentBlocks.push({
+              type: 'image',
+              image: decodeBase64(image)
+            });
+          }
+          continue;
+        }
+
+        // Image Carousel
+        if ((await block.$$('div.image-carousel')).length > 0) {
+          const images = await block.$$eval('img', els => els.map(e => e.getAttribute('data-srcset') ?? ''));
+          if (images.length > 0) {
+            blog.contentBlocks.push({
+              type: 'imageCarousel',
+              images: images.map(image => decodeBase64(image))
+            });
+          }
+          continue;
+        }
+
+        // gallery 
+        if ((await block.$$('section.gallery')).length > 0) {
+          const images = await block.$$eval('img', els => els.map(e => e.getAttribute('data-src') ?? ''));
+          if (images.length > 0) {
+            blog.contentBlocks.push({
+              type: 'gallery',
+              images: images.map(image => decodeBase64(image))
+            });
+          }
+          continue;
+        }
+
+        // Video
+        if ((await block.$$('div.video__content')).length > 0) {
+          const video = await block.$eval('div.video', el => el.getAttribute('data-youtube'));
+          if (video) {
+            blog.contentBlocks.push({
+              type: 'video',
+              youtube: `https://www.youtube.com/embed/${video}`
+            });
+          }
+          continue;
+        }
+
+        // Quote
+        if ((await block.$$('div.lockup--ruled')).length > 0) {
+          const quote = await block.$eval('h3', el => el.innerText);
+          if (quote) {
+            blog.contentBlocks.push({
+              type: 'quote',
+              quote: quote
+            });
+          }
+          continue;
         }
       }
 

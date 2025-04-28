@@ -1,10 +1,12 @@
-import path from 'path';
 import showrooms from '../../.in/showrooms.json';
+import shoroomExclusions from '../../.in/shoroom-exclusions.json';
 import { upsertEntry } from '../utils/contentful';
 const LOCALE = 'en-AU';
 
+const imports = showrooms.filter(showroom => !shoroomExclusions.includes(+showroom._id));
+
 const run = async () => {
-    for (const showroom of showrooms) {
+    for (const showroom of imports) {
         const heroImage = await upsertHeroImage(showroom);
         upsertShowroom(showroom, heroImage.sys.id);
     }
@@ -17,7 +19,7 @@ const getSlug = (url: string): string => {
     // remove file extension and replace all dots to dashes
     return slug.replace(/\.[^.]+$/, '').replace(/\./g, '-').replace(/\@/g, '');
 };
-const upsertHeroImage = async (showroom: typeof showrooms[0]) => {
+const upsertHeroImage = async (showroom: typeof imports[0]) => {
     const heroImageEntry = await upsertEntry('heroImage', `heroimage-showroom-${showroom._id}`, {
         metadata: {
             tags: [
@@ -73,7 +75,7 @@ const upsertShowroom = async (showroom: typeof showrooms[0], heroImageId: string
                 [LOCALE]: `/diyblinds/online-showrooms/${getSlug(showroom._source.path)}`
             },
             thumbnail: {
-                [LOCALE]: showroom._source.cloudinaryImage
+                [LOCALE]: showroom._source.cloudinaryImage.replace(/%40/g, '@') 
             },
             heroImage: {
                 [LOCALE]: {
@@ -129,7 +131,6 @@ const upsertShowroom = async (showroom: typeof showrooms[0], heroImageId: string
                     nodeType: "document"
                 }
             }
-            
         }
     }
 
