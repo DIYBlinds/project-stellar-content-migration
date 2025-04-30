@@ -8,3 +8,5 @@ dist
 .in/showrooms
 .in/fabrics/**
 .in/showrooms/**
+.in/blogs
+.in/blogs/**

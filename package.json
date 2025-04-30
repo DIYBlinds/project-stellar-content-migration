@@ -16,7 +16,9 @@
     "create-showrooms": "ts-node src/scripts/create-showrooms.ts",
     "delete-showrooms": "ts-node src/scripts/delete-showrooms.ts",
     "scrape-blogs": "ts-node src/scripts/scrape-blogs.ts",
-    "fix-showroom-images": "ts-node src/scripts/fix-showroom-images.ts"
+    "fix-showroom-images": "ts-node src/scripts/fix-showroom-images.ts",
+    "download-blog-images": "ts-node src/scripts/download-blog-images.ts",
+    "upload-blog-images": "ts-node src/scripts/upload-blog-images.ts"
   },
   "dependencies": {
     "axios": "^1.8.4",

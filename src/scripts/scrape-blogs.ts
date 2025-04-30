@@ -19,7 +19,7 @@ const run = (async () => {
       // Now the page is fully rendered. You can extract HTML or run DOM queries.
 
       blog.title = await page.$eval('div.header__limit-title-width h1',  el => el.innerText);
-      blog.heroImage = await page.$eval('div.header--negative-feature-image img',  el => el.getAttribute('srcset')?.split(' ')[0] ?? '');
+      blog.heroImage = decodeBase64(await page.$eval('div.header--negative-feature-image img',  el => el.getAttribute('srcset')?.split(' ')[0] ?? ''));
       const contentBlocks = await page.$$('div.b');
       blog.contentBlocks = [];
       // convert below code to for loop
@@ -114,13 +114,16 @@ const run = (async () => {
           continue;
         }
 
-        // Quote
+        // Text centered
         if ((await block.$$('div.lockup--ruled')).length > 0) {
-          const quote = await block.$eval('h3', el => el.innerText);
-          if (quote) {
+          const title = await block.$eval('h3', el => el.innerText);
+          const text = await block.$('div.u-text-center');
+          
+          if (title) {
             blog.contentBlocks.push({
-              type: 'quote',
-              quote: quote
+              type: 'text-centered',
+              title: title,
+              //text: text ? await text.$eval('div', el => el.innerText) : ''
             });
           }
           continue;
