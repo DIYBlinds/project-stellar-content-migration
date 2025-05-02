@@ -1,14 +1,30 @@
 import blogs from '../../.in/blogs.json';
 import exclusions from '../../.in/blog-exclusions.json';
 import { upsertEntry } from '../utils/contentful';
-const LOCALE = 'en-AU';
+import mappings from '../../.in/blog-image-mappings.json';
+import { generateId } from '../utils/id';
 
+const LOCALE = 'en-AU';
+import fs from 'fs';
 const imports = blogs.filter(blog => !exclusions.map(exclusion => exclusion.url).includes(blog.url));
 
+
+const metadata = {
+    tags: [
+        {
+            sys: {
+                type: 'Link',
+                linkType: 'Tag',
+                id: "blog"
+            }
+        }
+    ]
+}
+
 const run = async () => {
-    for (const blog of imports) {
-        const heroImage = await upsertHeroImage(showroom);
-        upsertShowroom(showroom, heroImage.sys.id);
+    for (const blog of imports.slice(10, 11)) {
+        const heroImage = await upsertHeroImage(blog);
+        await upsertBlogs(blog, heroImage.sys.id);
     }
 }
 
@@ -19,63 +35,65 @@ const getSlug = (url: string): string => {
     // remove file extension and replace all dots to dashes
     return slug.replace(/\.[^.]+$/, '').replace(/\./g, '-').replace(/\@/g, '');
 };
+
 const upsertHeroImage = async (blog: typeof imports[0]) => {
-    const heroImageEntry = await upsertEntry('heroImage', `heroimage-showroom-${showroom._id}`, {
-        metadata: {
-            tags: [
-                {
-                    sys: {
-                        type: 'Link',
-                        linkType: 'Tag',
-                        id: "showroom"
-                    }
-                }
-            ]
-        },
+    const heroImageEntry = await upsertEntry('heroImage', `heroimage-blog-${blog.id}`, {
+        metadata: metadata,
         fields: {
+            name: {
+                [LOCALE]: `Blog > ${getSlug(blog.heroImage)}`
+            },
             title: {
-                [LOCALE]: `Showroom Image > ${getSlug(showroom._source.path)}`
+                [LOCALE]: `${blog.title}`
             },
             image: {
-                [LOCALE]: showroom._source.cloudinaryImage
+                [LOCALE]: lookupImage(blog.title, blog.heroImage)?.image
             }
         }
     }); 
     return heroImageEntry;
 }
 
-const upsertShowroom = async (showroom: typeof showrooms[0], heroImageId: string) => {
-    const loc = showroom._source.location && `Location: ${showroom._source.location}`;
-    const photographer = showroom._source.photographer && `Photographer: ${showroom._source.photographer}`;
-    const tags = [loc, photographer].filter(Boolean);
+const lookupImage = (title : string, url: string) => {
+    const mapping = (mappings as any).find((mapping: any) => mapping.blogTitle === title && mapping.originalImage === url);
+    return {
+        image: mapping.cloudinaryImage.replace(/%40/g, '@'),
+        id: mapping.id
+    }
+}
+
+const upsertBlogs = async (blog: typeof blogs[0], heroImageId: string) => {
+
+    const blocks = []
+    for (const block of blog.contentBlocks) {
+        if (block.type === 'richText') {
+            await createRichTextBlock(blog, block);
+        }   
+        if (block.type === 'contentTiles') {
+            await createContentTilesBlock(blog, block);
+        }
+        if (block.type === 'image') {
+            await createImageBlock(blog, block);
+        }
+    }
 
     const data = {
-        metadata: {
-            tags: [
-                {
-                    sys: {
-                        type: 'Link',
-                        linkType: 'Tag',
-                        id: "showroom"
-                    }
-                }
-            ]
-        },
+        metadata: metadata,
         fields: {
             name: {
-                [LOCALE]: `Showroom > ${getSlug(showroom._source.path)}` 
+                [LOCALE]: blog.title
             },
             title: {
-                [LOCALE]: showroom._source.title
+                [LOCALE]: blog.title
             },
             articleType: {
-                [LOCALE]: 'Online showroom'
+                [LOCALE]: 'DIY blog'
             },
             slug: {
-                [LOCALE]: `/diyblinds/online-showrooms/${getSlug(showroom._source.path)}`
+                [LOCALE]: `/diyblinds/blogs/${getSlug(blog.url)}`
             },
             thumbnail: {
-                [LOCALE]: showroom._source.cloudinaryImage.replace(/%40/g, '@') 
+                [LOCALE]: lookupImage(blog.title, blog.heroImage)?.image 
             },
             heroImage: {
                 [LOCALE]: {
@@ -92,49 +110,115 @@ const upsertShowroom = async (showroom: typeof showrooms[0], heroImageId: string
             brand: {
                 [LOCALE]: 'DIY'
             },
-            space: {
-                [LOCALE]: showroom._source.space
-            },
-            colorGroup: {
-                [LOCALE]: [...new Set(showroom._source.fabrics?.filter(fabric => fabric.fabricColorVariantKey)?.map(fabric => fabric.colorGroup))]
-            },
-            productCategory: {
-                [LOCALE]: [... new Set(showroom._source.fabrics?.filter(fabric => fabric.fabricColorVariantKey)?.map(fabric => fabric.category))]
-            },
-            productSubCategory: {
-                [LOCALE]: [... new Set(showroom._source.fabrics?.filter(fabric => fabric.fabricColorVariantKey)?.map(fabric => fabric.range))]
-            },
-            productKeys: {
-                [LOCALE]: [...new Set(showroom._source.fabrics?.filter(fabric => fabric.fabricColorVariantKey)?.map(fabric => fabric.fabricColorVariantKey))]
-            },
-            tags: {
-                [LOCALE]: tags
-            },
-            
-            text: {
-                [LOCALE]: {
-                    data: {},
-                    content: [
-                        {
-                            data: {},
-                            content: [
-                                {
-                                    data: {},
-                                    marks: [],
-                                    value: showroom._source.description,
-                                    nodeType: "text"
-                                }
-                            ],
-                            nodeType: "paragraph"
+            contentBlocks: {
+                [LOCALE]: blog.contentBlocks?.filter((block: any) => !['imageCarousel', 'gallery'].includes(block.type)).map((block: any) => {
+                    return {
+                        sys: {
+                            type: 'Link',
+                            linkType: 'Entry',
+                            id: `${block.type.toLowerCase()}-${block.id}`
                         }
-                    ],
-                    nodeType: "document"
-                }
+                    }
+                })
             }
         }
     }
 
-    await upsertEntry('inspiration', showroom._id, data);
+    await upsertEntry('inspiration', 'blog-'+blog.id, data);
+}
+
+const createImageBlock = async (blog: typeof blogs[0], block: any) => { 
+    return await upsertEntry('heroImage', `${block.type.toLowerCase()}-${block.id}`, {
+        metadata: metadata,
+        fields: {
+            name: {
+                [LOCALE]: 'Image > ' + blog.title
+            },
+            title: {
+                [LOCALE]: blog.title
+            },
+            image: {
+                [LOCALE]: lookupImage(blog.title, block.image)?.image
+            }
+        }
+    });
+}
+
+const createRichTextBlock = async (blog: typeof blogs[0], block: any) => {
+    return await upsertEntry('richText', `${block.type.toLowerCase()}-${block.id}`, {
+        metadata: metadata,
+        fields: {
+            name: {
+                [LOCALE]: 'Blog > ' + blog.title
+            },
+            textAlignment: {
+                [LOCALE]: 'left'
+            },
+            text: {
+                [LOCALE]: block.content
+            },
+            hasGlossary: {
+                [LOCALE]: false
+            }
+        }
+    });
+}
+
+const createContentTilesBlock = async (blog: typeof blogs[0], block: any) => {
+    const tiles = [];
+    for(const image of block.images) {
+        const tile = await createTile(blog, image);
+        if (tile) {
+            tiles.push(tile);
+        }
+    }
+
+    const data = {
+        metadata: metadata,
+        fields: {
+            name: {
+                [LOCALE]: 'Blog > ' + blog.title
+            },
+            columnLayout: {
+                [LOCALE]: 'two'
+            },
+            tiles: {
+                [LOCALE]: tiles.map((tile: any) => {
+                    return {
+                        sys: {
+                            type: 'Link',
+                            linkType: 'Entry',
+                            id: tile.sys.id
+                        }
+                    }
+                })  
+            }
+        }
+    }
+
+    await upsertEntry('contentTiles', `${block.type.toLowerCase()}-${block.id}`, data);
+}
+
+const createTile = async (blog: typeof blogs[0], image: string) => {    
+    const coundinaryImage = lookupImage(blog.title, image);
+
+    if (!coundinaryImage) {
+        console.log('no image found for:', image);
+        return null;
+    }
+    const tile = {
+        metadata: metadata,
+        fields: {
+            name: {
+                [LOCALE]: 'Blog > Content Tiles > ' + blog.title
+            },
+            image: {
+                [LOCALE]: coundinaryImage.image 
+            }
+        }
+    }
+
+    return await upsertEntry('tile', 'tile-'+coundinaryImage.id, tile);
 }
 
 run();

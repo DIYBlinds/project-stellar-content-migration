@@ -33,8 +33,11 @@ const upsertHeroImage = async (showroom: typeof imports[0]) => {
             ]
         },
         fields: {
-            title: {
+            name: {
                 [LOCALE]: `Showroom Image > ${getSlug(showroom._source.path)}`
+            },
+            title: {
+                [LOCALE]: `${getSlug(showroom._source.path)}`
             },
             image: {
                 [LOCALE]: showroom._source.cloudinaryImage
