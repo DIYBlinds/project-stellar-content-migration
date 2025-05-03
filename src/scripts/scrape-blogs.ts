@@ -1,5 +1,5 @@
 import puppeteer, { Page } from 'puppeteer';
-import blogsJson from '../../.in/blogs.json'
+import blogsJson from '../../.in/blogs2.json'
 import fs from 'fs';
 import { Blog } from '../types/blog';
 import { htmlToRichText } from 'html-to-richtext-contentful';
@@ -130,14 +130,14 @@ const run = (async () => {
         }
       }
 
-      fs.writeFileSync('./.in/blogs.json', JSON.stringify(blogs, null, 2));
+      fs.writeFileSync('./.in/blogs2.json', JSON.stringify(blogs, null, 2));
     } catch (error) {
-      fs.writeFileSync('./.in/blogs.json', JSON.stringify(blogs, null, 2));
+      fs.writeFileSync('./.in/blogs2.json', JSON.stringify(blogs, null, 2));
       console.log(error);
     }
   }
 
-  fs.writeFileSync('./.in/blogs.json', JSON.stringify(blogs, null, 2));
+  fs.writeFileSync('./.in/blogs2.json', JSON.stringify(blogs, null, 2));
   await browser.close();
 });
 

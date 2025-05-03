@@ -3735,50 +3735,6 @@
                     ]
                  },
                  {
-                   "data":{},
-                    "content":[
-                       {
-                          "data":{
-                             "target":{
-                                "sys":{
-                                   "space":{
-                                      
-                                   },
-                                   "type":"Asset",
-                                   "createdAt":"",
-                                   "updatedAt":"",
-                                   "environment":{
-                                      
-                                   },
-                                   "revision":null,
-                                   "locale":"en-US"
-                                },
-                                "fields":{
-                                   "title":"image-5",
-                                   "description":"Whispertech Bundle",
-                                   "file":{
-                                      "url":"https://media.diyblinds.com.au/uploads/general/image-5.png",
-                                      "details":{
-                                         "size":46234,
-                                         "image":{
-                                            "width":null,
-                                            "height":null
-                                         }
-                                      },
-                                      "fileName":"image-5.png",
-                                      "contentType":"image/png"
-                                   }
-                                }
-                             }
-                          },
-                          "content":[
-                             
-                          ],
-                          "nodeType":"embedded-asset-block"
-                       }
-                    ]
-                 },
-                 {
                     "nodeType":"heading-4",
                    "data":{},
                     "content":[
@@ -4624,7 +4580,6 @@
                              {
                                 "nodeType":"paragraph",
                                 "data":{
-                                   
                                 },
                                 "content":[
                                    {
@@ -4641,25 +4596,7 @@
                                    },
                                    {
                                       "nodeType":"text",
-                                      "value":": Always test paint and ",
-                                      "marks":[
-                                         
-                                      ],
-                                      "data":{
-                                         
-                                      }
-                                   }
-                                ]
-                             },
-                             {
-                                "nodeType":"hyperlink",
-                                "data":{
-                                   "uri":"https://www.diyblinds.com.au/samples"
-                                },
-                                "content":[
-                                   {
-                                      "nodeType":"text",
-                                      "value":"fabric samples",
+                                      "value":": Always test paint and fabric samples",
                                       "marks":[
                                          
                                       ],
@@ -4887,15 +4824,6 @@
                        },
                        {
                           "nodeType":"text",
-                          "data":{},
-                          "marks":[
-                             {
-                                "type":"italic"
-                             }
-                          ]
-                       },
-                       {
-                          "nodeType":"text",
                           "value":", Kumo Recycled is a modern fabric made from 92% recycled polyester, blending eco-conscious production with stylish, functional design.",
                           "marks":[],
                           "data":{}
@@ -4975,56 +4903,6 @@
                           "value":" certified, ensuring no harmful chemicals are used during production.",
                           "marks":[],
                           "data":{}
-                       }
-                    ]
-                 },
-                 {
-                   "data":{},
-                    "content":[
-                       {
-                          "data":{
-                             "target":{
-                                "sys":{
-                                   "space":{
-                                      
-                                   },
-                                   "type":"Asset",
-                                   "createdAt":"",
-                                   "updatedAt":"",
-                                   "environment":{
-                                      
-                                   },
-                                   "revision":null,
-                                   "locale":"en-US"
-                                },
-                                "fields":{
-                                   "title":"The-equivalent-of-400-x-400-px",
-                                   "description":"1kg of yarn = 25 plastic 1 litre bottles",
-                                   "file":{
-                                      "url":"https://media.diyblinds.com.au/uploads/general/The-equivalent-of-400-x-400-px.svg",
-                                      "details":{
-                                         "size":46234,
-                                         "image":{
-                                            "width":null,
-                                            "height":null
-                                         }
-                                      },
-                                      "fileName":"The-equivalent-of-400-x-400-px.svg",
-                                      "contentType":"image/svg"
-                                   }
-                                }
-                             }
-                          },
-                          "content":[
-                             
-                          ],
-                          "nodeType":"embedded-asset-block"
-                       },
-                       {
-                          "data":{},
-                          "content":[
-                             
-                          ]
                        }
                     ]
                  },
@@ -5407,15 +5285,6 @@
                     "content":[
                        {
                           "nodeType":"text",
-                          "data":{},
-                          "marks":[
-                             {
-                                "type":"italic"
-                             }
-                          ]
-                       },
-                       {
-                          "nodeType":"text",
                           "value":"Key design elements of Moditerranean",
                           "marks":[],
                           "data":{}
@@ -5467,15 +5336,6 @@
                           "value":"HomePro by DIYblinds, window furnishings partner on ",
                           "marks":[],
                           "data":{}
-                       },
-                       {
-                          "nodeType":"text",
-                          "data":{},
-                          "marks":[
-                             {
-                                "type":"italic"
-                             }
-                          ]
                        },
                        {
                           "nodeType":"text",
@@ -5794,50 +5654,6 @@
                                 }
                              }
                           ]
-                       }
-                    ]
-                 },
-                 {
-                   "data":{},
-                    "content":[
-                       {
-                          "data":{
-                             "target":{
-                                "sys":{
-                                   "space":{
-                                      
-                                   },
-                                   "type":"Asset",
-                                   "createdAt":"",
-                                   "updatedAt":"",
-                                   "environment":{
-                                      
-                                   },
-                                   "revision":null,
-                                   "locale":"en-US"
-                                },
-                                "fields":{
-                                   "title":"Untitled-275-x-375-px",
-                                   "description":"",
-                                   "file":{
-                                      "url":"https://media.diyblinds.com.au/uploads/general/Untitled-275-x-375-px.svg",
-                                      "details":{
-                                         "size":46234,
-                                         "image":{
-                                            "width":null,
-                                            "height":null
-                                         }
-                                      },
-                                      "fileName":"Untitled-275-x-375-px.svg",
-                                      "contentType":"image/svg"
-                                   }
-                                }
-                             }
-                          },
-                          "content":[
-                             
-                          ],
-                          "nodeType":"embedded-asset-block"
                        }
                     ]
                  }
@@ -8699,50 +8515,6 @@
                     ]
                  },
                  {
-                   "data":{},
-                    "content":[
-                       {
-                          "data":{
-                             "target":{
-                                "sys":{
-                                   "space":{
-                                      
-                                   },
-                                   "type":"Asset",
-                                   "createdAt":"",
-                                   "updatedAt":"",
-                                   "environment":{
-                                      
-                                   },
-                                   "revision":null,
-                                   "locale":"en-US"
-                                },
-                                "fields":{
-                                   "title":"Blinds-Curtains-For-Living-Room",
-                                   "description":"",
-                                   "file":{
-                                      "url":"https://media.diyblinds.com.au/uploads/general/Blinds-Curtains-For-Living-Room.jpg",
-                                      "details":{
-                                         "size":46234,
-                                         "image":{
-                                            "width":null,
-                                            "height":null
-                                         }
-                                      },
-                                      "fileName":"Blinds-Curtains-For-Living-Room.jpg",
-                                      "contentType":"image/jpg"
-                                   }
-                                }
-                             }
-                          },
-                          "content":[
-                             
-                          ],
-                          "nodeType":"embedded-asset-block"
-                       }
-                    ]
-                 },
-                 {
                     "nodeType":"heading-3",
                    "data":{},
                     "content":[
@@ -8843,50 +8615,6 @@
                           "value":"Visionwood Venetian blinds and PolyLux plantation shutters are manufactured with durable materials that make them easy to clean and perfect for use in high-humidity areas.",
                           "marks":[],
                           "data":{}
-                       }
-                    ]
-                 },
-                 {
-                   "data":{},
-                    "content":[
-                       {
-                          "data":{
-                             "target":{
-                                "sys":{
-                                   "space":{
-                                      
-                                   },
-                                   "type":"Asset",
-                                   "createdAt":"",
-                                   "updatedAt":"",
-                                   "environment":{
-                                      
-                                   },
-                                   "revision":null,
-                                   "locale":"en-US"
-                                },
-                                "fields":{
-                                   "title":"Blinds-For-Kitchen",
-                                   "description":"",
-                                   "file":{
-                                      "url":"https://media.diyblinds.com.au/uploads/general/Blinds-For-Kitchen.jpg",
-                                      "details":{
-                                         "size":46234,
-                                         "image":{
-                                            "width":null,
-                                            "height":null
-                                         }
-                                      },
-                                      "fileName":"Blinds-For-Kitchen.jpg",
-                                      "contentType":"image/jpg"
-                                   }
-                                }
-                             }
-                          },
-                          "content":[
-                             
-                          ],
-                          "nodeType":"embedded-asset-block"
                        }
                     ]
                  },
@@ -8998,50 +8726,6 @@
                           "value":"Visionwood Venetian blinds and PolyLux plantation shutters are moisture resistant so that they won't warp or mould in high-humidity areas like bathrooms. They're easy to clean, too, so you don't need to sacrifice style with functionality.",
                           "marks":[],
                           "data":{}
-                       }
-                    ]
-                 },
-                 {
-                   "data":{},
-                    "content":[
-                       {
-                          "data":{
-                             "target":{
-                                "sys":{
-                                   "space":{
-                                      
-                                   },
-                                   "type":"Asset",
-                                   "createdAt":"",
-                                   "updatedAt":"",
-                                   "environment":{
-                                      
-                                   },
-                                   "revision":null,
-                                   "locale":"en-US"
-                                },
-                                "fields":{
-                                   "title":"Blinds-For-Bathroom",
-                                   "description":"",
-                                   "file":{
-                                      "url":"https://media.diyblinds.com.au/uploads/general/Blinds-For-Bathroom.jpg",
-                                      "details":{
-                                         "size":46234,
-                                         "image":{
-                                            "width":null,
-                                            "height":null
-                                         }
-                                      },
-                                      "fileName":"Blinds-For-Bathroom.jpg",
-                                      "contentType":"image/jpg"
-                                   }
-                                }
-                             }
-                          },
-                          "content":[
-                             
-                          ],
-                          "nodeType":"embedded-asset-block"
                        }
                     ]
                  },
@@ -9193,50 +8877,6 @@
                     ]
                  },
                  {
-                   "data":{},
-                    "content":[
-                       {
-                          "data":{
-                             "target":{
-                                "sys":{
-                                   "space":{
-                                      
-                                   },
-                                   "type":"Asset",
-                                   "createdAt":"",
-                                   "updatedAt":"",
-                                   "environment":{
-                                      
-                                   },
-                                   "revision":null,
-                                   "locale":"en-US"
-                                },
-                                "fields":{
-                                   "title":"Blinds-Curtains-For-Bedroom",
-                                   "description":"",
-                                   "file":{
-                                      "url":"https://media.diyblinds.com.au/uploads/general/Blinds-Curtains-For-Bedroom.jpg",
-                                      "details":{
-                                         "size":46234,
-                                         "image":{
-                                            "width":null,
-                                            "height":null
-                                         }
-                                      },
-                                      "fileName":"Blinds-Curtains-For-Bedroom.jpg",
-                                      "contentType":"image/jpg"
-                                   }
-                                }
-                             }
-                          },
-                          "content":[
-                             
-                          ],
-                          "nodeType":"embedded-asset-block"
-                       }
-                    ]
-                 },
-                 {
                     "nodeType":"heading-3",
                    "data":{},
                     "content":[
@@ -9348,50 +8988,6 @@
                     ]
                  },
                  {
-                   "data":{},
-                    "content":[
-                       {
-                          "data":{
-                             "target":{
-                                "sys":{
-                                   "space":{
-                                      
-                                   },
-                                   "type":"Asset",
-                                   "createdAt":"",
-                                   "updatedAt":"",
-                                   "environment":{
-                                      
-                                   },
-                                   "revision":null,
-                                   "locale":"en-US"
-                                },
-                                "fields":{
-                                   "title":"Blinds-Curtains-For-Dining-Room",
-                                   "description":"",
-                                   "file":{
-                                      "url":"https://media.diyblinds.com.au/uploads/general/Blinds-Curtains-For-Dining-Room.jpg",
-                                      "details":{
-                                         "size":46234,
-                                         "image":{
-                                            "width":null,
-                                            "height":null
-                                         }
-                                      },
-                                      "fileName":"Blinds-Curtains-For-Dining-Room.jpg",
-                                      "contentType":"image/jpg"
-                                   }
-                                }
-                             }
-                          },
-                          "content":[
-                             
-                          ],
-                          "nodeType":"embedded-asset-block"
-                       }
-                    ]
-                 },
-                 {
                     "nodeType":"heading-3",
                    "data":{},
                     "content":[
@@ -9491,50 +9087,6 @@
                     ]
                  },
                  {
-                   "data":{},
-                    "content":[
-                       {
-                          "data":{
-                             "target":{
-                                "sys":{
-                                   "space":{
-                                      
-                                   },
-                                   "type":"Asset",
-                                   "createdAt":"",
-                                   "updatedAt":"",
-                                   "environment":{
-                                      
-                                   },
-                                   "revision":null,
-                                   "locale":"en-US"
-                                },
-                                "fields":{
-                                   "title":"Blinds-Curtains-For-Home-Office",
-                                   "description":"",
-                                   "file":{
-                                      "url":"https://media.diyblinds.com.au/uploads/general/Blinds-Curtains-For-Home-Office.jpg",
-                                      "details":{
-                                         "size":46234,
-                                         "image":{
-                                            "width":null,
-                                            "height":null
-                                         }
-                                      },
-                                      "fileName":"Blinds-Curtains-For-Home-Office.jpg",
-                                      "contentType":"image/jpg"
-                                   }
-                                }
-                             }
-                          },
-                          "content":[
-                             
-                          ],
-                          "nodeType":"embedded-asset-block"
-                       }
-                    ]
-                 },
-                 {
                     "nodeType":"heading-3",
                    "data":{},
                     "content":[
@@ -9616,50 +9168,6 @@
                     ]
                  },
                  {
-                   "data":{},
-                    "content":[
-                       {
-                          "data":{
-                             "target":{
-                                "sys":{
-                                   "space":{
-                                      
-                                   },
-                                   "type":"Asset",
-                                   "createdAt":"",
-                                   "updatedAt":"",
-                                   "environment":{
-                                      
-                                   },
-                                   "revision":null,
-                                   "locale":"en-US"
-                                },
-                                "fields":{
-                                   "title":"Automated-Blinds",
-                                   "description":"",
-                                   "file":{
-                                      "url":"https://media.diyblinds.com.au/uploads/general/Automated-Blinds.jpg",
-                                      "details":{
-                                         "size":46234,
-                                         "image":{
-                                            "width":null,
-                                            "height":null
-                                         }
-                                      },
-                                      "fileName":"Automated-Blinds.jpg",
-                                      "contentType":"image/jpg"
-                                   }
-                                }
-                             }
-                          },
-                          "content":[
-                             
-                          ],
-                          "nodeType":"embedded-asset-block"
-                       }
-                    ]
-                 },
-                 {
                     "nodeType":"heading-3",
                    "data":{},
                     "content":[
@@ -9731,50 +9239,6 @@
                           "value":" are designed to withstand elements and provide shade and privacy in outdoor settings",
                           "marks":[],
                           "data":{}
-                       }
-                    ]
-                 },
-                 {
-                   "data":{},
-                    "content":[
-                       {
-                          "data":{
-                             "target":{
-                                "sys":{
-                                   "space":{
-                                      
-                                   },
-                                   "type":"Asset",
-                                   "createdAt":"",
-                                   "updatedAt":"",
-                                   "environment":{
-                                      
-                                   },
-                                   "revision":null,
-                                   "locale":"en-US"
-                                },
-                                "fields":{
-                                   "title":"StephGianZipscreen13",
-                                   "description":"",
-                                   "file":{
-                                      "url":"https://media.diyblinds.com.au/uploads/general/StephGianZipscreen13.jpg",
-                                      "details":{
-                                         "size":46234,
-                                         "image":{
-                                            "width":null,
-                                            "height":null
-                                         }
-                                      },
-                                      "fileName":"StephGianZipscreen13.jpg",
-                                      "contentType":"image/jpg"
-                                   }
-                                }
-                             }
-                          },
-                          "content":[
-                             
-                          ],
-                          "nodeType":"embedded-asset-block"
                        }
                     ]
                  },
@@ -9975,57 +9439,6 @@
               },
               "content":[
                  {
-                    "data":{
-                       "target":{
-                          "sys":{
-                             "space":{
-                                
-                             },
-                             "type":"Asset",
-                             "createdAt":"",
-                             "updatedAt":"",
-                             "environment":{
-                                
-                             },
-                             "revision":null,
-                             "locale":"en-US"
-                          },
-                          "fields":{
-                             "title":"Lucy-Smart-Design-Consultant-at-DIYBlinds",
-                             "description":"",
-                             "file":{
-                                "url":"https://media.diyblinds.com.au/uploads/general/Lucy-Smart-Design-Consultant-at-DIYBlinds.com.au-1.png",
-                                "details":{
-                                   "size":46234,
-                                   "image":{
-                                      "width":null,
-                                      "height":null
-                                   }
-                                },
-                                "fileName":"Lucy-Smart-Design-Consultant-at-DIYBlinds.com.au-1.png",
-                                "contentType":"image/png"
-                             }
-                          }
-                       }
-                    },
-                    "content":[
-                       
-                    ],
-                    "nodeType":"embedded-asset-block"
-                 }
-              ]
-           },
-           "id":"q8w2b4w0q5p"
-        },
-        {
-           "type":"richText",
-           "content":{
-              "nodeType":"document",
-              "data":{
-                 
-              },
-              "content":[
-                 {
                     "nodeType":"heading-3",
                    "data":{},
                     "content":[
@@ -10041,65 +9454,7 @@
                        }
                     ]
                  },
-                 {
-                   "data":{},
-                    "content":[
-                       {
-                          "data":{
-                             "target":{
-                                "sys":{
-                                   "space":{
-                                      
-                                   },
-                                   "type":"Asset",
-                                   "createdAt":"",
-                                   "updatedAt":"",
-                                   "environment":{
-                                      
-                                   },
-                                   "revision":null,
-                                   "locale":"en-US"
-                                },
-                                "fields":{
-                                   "title":"Soft-Roman-Blinds",
-                                   "description":"",
-                                   "file":{
-                                      "url":"https://media.diyblinds.com.au/uploads/general/Soft-Roman-Blinds.png",
-                                      "details":{
-                                         "size":46234,
-                                         "image":{
-                                            "width":null,
-                                            "height":null
-                                         }
-                                      },
-                                      "fileName":"Soft-Roman-Blinds.png",
-                                      "contentType":"image/png"
-                                   }
-                                }
-                             }
-                          },
-                          "content":[
-                             
-                          ],
-                          "nodeType":"embedded-asset-block"
-                       },
-                       {
-                          "data":{},
-                          "content":[
-                             {
-                                "nodeType":"text",
-                                "value":"Soft Roman Blinds",
-                                "marks":[
-                                   
-                                ],
-                                "data":{
-                                   
-                                }
-                             }
-                          ]
-                       }
-                    ]
-                 },
+                 
                  {
                     "nodeType":"paragraph",
                    "data":{},
@@ -10153,50 +9508,7 @@
                        }
                     ]
                  },
-                 {
-                   "data":{},
-                    "content":[
-                       {
-                          "data":{
-                             "target":{
-                                "sys":{
-                                   "space":{
-                                      
-                                   },
-                                   "type":"Asset",
-                                   "createdAt":"",
-                                   "updatedAt":"",
-                                   "environment":{
-                                      
-                                   },
-                                   "revision":null,
-                                   "locale":"en-US"
-                                },
-                                "fields":{
-                                   "title":"Double-Curtains-and-Decorative-Rods-Make-a-Comeback-2",
-                                   "description":"",
-                                   "file":{
-                                      "url":"https://media.diyblinds.com.au/uploads/general/Double-Curtains-and-Decorative-Rods-Make-a-Comeback-2.png",
-                                      "details":{
-                                         "size":46234,
-                                         "image":{
-                                            "width":null,
-                                            "height":null
-                                         }
-                                      },
-                                      "fileName":"Double-Curtains-and-Decorative-Rods-Make-a-Comeback-2.png",
-                                      "contentType":"image/png"
-                                   }
-                                }
-                             }
-                          },
-                          "content":[
-                             
-                          ],
-                          "nodeType":"embedded-asset-block"
-                       }
-                    ]
-                 },
+                 
                  {
                     "nodeType":"paragraph",
                    "data":{},
@@ -10280,50 +9592,7 @@
                        }
                     ]
                  },
-                 {
-                   "data":{},
-                    "content":[
-                       {
-                          "data":{
-                             "target":{
-                                "sys":{
-                                   "space":{
-                                      
-                                   },
-                                   "type":"Asset",
-                                   "createdAt":"",
-                                   "updatedAt":"",
-                                   "environment":{
-                                      
-                                   },
-                                   "revision":null,
-                                   "locale":"en-US"
-                                },
-                                "fields":{
-                                   "title":"A-Shift-in-Color-Palettes-2",
-                                   "description":"",
-                                   "file":{
-                                      "url":"https://media.diyblinds.com.au/uploads/general/A-Shift-in-Color-Palettes-2.png",
-                                      "details":{
-                                         "size":46234,
-                                         "image":{
-                                            "width":null,
-                                            "height":null
-                                         }
-                                      },
-                                      "fileName":"A-Shift-in-Color-Palettes-2.png",
-                                      "contentType":"image/png"
-                                   }
-                                }
-                             }
-                          },
-                          "content":[
-                             
-                          ],
-                          "nodeType":"embedded-asset-block"
-                       }
-                    ]
-                 },
+                 
                  {
                     "nodeType":"paragraph",
                    "data":{},
@@ -11640,11 +10909,6 @@
                                    
                                 }
                              }
-                          ],
-                          "marks":[
-                             {
-                                "type":"bold"
-                             }
                           ]
                        }
                     ]
@@ -11734,7 +10998,7 @@
      "heroImage":"uploads/general/JT_SG_01.jpg",
      "contentBlocks":[
         {
-           "type":"text-centered",
+           "type":"headline",
            "title":"The Block’s Steph and Gian embraced a pairing of interior trends in their beautiful, renovation styling.",
            "id":"8v65wy2ehz"
         },
@@ -12890,7 +12154,7 @@
      "heroImage":"uploads/general/ATE_EL_01_v2.jpg",
      "contentBlocks":[
         {
-           "type":"text-centered",
+           "type":"headline",
            "title":"When Eliza and Liberty joined The Block, they had no renovation experience. A DIY Blinds’ Design Consultant stepped in to help.",
            "id":"xl8fle72s1s"
         },
@@ -13320,21 +12584,6 @@
                           ]
                        }
                     ]
-                 },
-                 {
-                    "nodeType":"paragraph",
-                   "data":{},
-                    "content":[
-                       {
-                          "nodeType":"text",
-                          "data":{},
-                          "marks":[
-                             {
-                                "type":"italic"
-                             }
-                          ]
-                       }
-                    ]
                  }
               ]
            },
@@ -13365,50 +12614,6 @@
                    "data":{},
                     "content":[
                        
-                    ]
-                 },
-                 {
-                   "data":{},
-                    "content":[
-                       {
-                          "data":{
-                             "target":{
-                                "sys":{
-                                   "space":{
-                                      
-                                   },
-                                   "type":"Asset",
-                                   "createdAt":"",
-                                   "updatedAt":"",
-                                   "environment":{
-                                      
-                                   },
-                                   "revision":null,
-                                   "locale":"en-US"
-                                },
-                                "fields":{
-                                   "title":"Expert_Advice_Icon",
-                                   "description":"Expert Advice",
-                                   "file":{
-                                      "url":"https://media.diyblinds.com.au/uploads/general/Expert_Advice_Icon.png",
-                                      "details":{
-                                         "size":46234,
-                                         "image":{
-                                            "width":null,
-                                            "height":null
-                                         }
-                                      },
-                                      "fileName":"Expert_Advice_Icon.png",
-                                      "contentType":"image/png"
-                                   }
-                                }
-                             }
-                          },
-                          "content":[
-                             
-                          ],
-                          "nodeType":"embedded-asset-block"
-                       }
                     ]
                  },
                  {
@@ -13472,50 +12677,6 @@
                     ]
                  },
                  {
-                   "data":{},
-                    "content":[
-                       {
-                          "data":{
-                             "target":{
-                                "sys":{
-                                   "space":{
-                                      
-                                   },
-                                   "type":"Asset",
-                                   "createdAt":"",
-                                   "updatedAt":"",
-                                   "environment":{
-                                      
-                                   },
-                                   "revision":null,
-                                   "locale":"en-US"
-                                },
-                                "fields":{
-                                   "title":"Samples_Icon",
-                                   "description":"samples_icon",
-                                   "file":{
-                                      "url":"https://media.diyblinds.com.au/uploads/general/Samples_Icon.png",
-                                      "details":{
-                                         "size":46234,
-                                         "image":{
-                                            "width":null,
-                                            "height":null
-                                         }
-                                      },
-                                      "fileName":"Samples_Icon.png",
-                                      "contentType":"image/png"
-                                   }
-                                }
-                             }
-                          },
-                          "content":[
-                             
-                          ],
-                          "nodeType":"embedded-asset-block"
-                       }
-                    ]
-                 },
-                 {
                     "nodeType":"paragraph",
                    "data":{},
                     "content":[
@@ -13564,50 +12725,6 @@
                           "value":" and we’ll deliver them by priority post to your door.",
                           "marks":[],
                           "data":{}
-                       }
-                    ]
-                 },
-                 {
-                   "data":{},
-                    "content":[
-                       {
-                          "data":{
-                             "target":{
-                                "sys":{
-                                   "space":{
-                                      
-                                   },
-                                   "type":"Asset",
-                                   "createdAt":"",
-                                   "updatedAt":"",
-                                   "environment":{
-                                      
-                                   },
-                                   "revision":null,
-                                   "locale":"en-US"
-                                },
-                                "fields":{
-                                   "title":"Measure_Icon",
-                                   "description":"measure_icon",
-                                   "file":{
-                                      "url":"https://media.diyblinds.com.au/uploads/general/Measure_Icon.png",
-                                      "details":{
-                                         "size":46234,
-                                         "image":{
-                                            "width":null,
-                                            "height":null
-                                         }
-                                      },
-                                      "fileName":"Measure_Icon.png",
-                                      "contentType":"image/png"
-                                   }
-                                }
-                             }
-                          },
-                          "content":[
-                             
-                          ],
-                          "nodeType":"embedded-asset-block"
                        }
                     ]
                  },
@@ -13664,50 +12781,6 @@
                     ]
                  },
                  {
-                   "data":{},
-                    "content":[
-                       {
-                          "data":{
-                             "target":{
-                                "sys":{
-                                   "space":{
-                                      
-                                   },
-                                   "type":"Asset",
-                                   "createdAt":"",
-                                   "updatedAt":"",
-                                   "environment":{
-                                      
-                                   },
-                                   "revision":null,
-                                   "locale":"en-US"
-                                },
-                                "fields":{
-                                   "title":"Customise_Icon",
-                                   "description":"custom_icon",
-                                   "file":{
-                                      "url":"https://media.diyblinds.com.au/uploads/general/Customise_Icon.png",
-                                      "details":{
-                                         "size":46234,
-                                         "image":{
-                                            "width":null,
-                                            "height":null
-                                         }
-                                      },
-                                      "fileName":"Customise_Icon.png",
-                                      "contentType":"image/png"
-                                   }
-                                }
-                             }
-                          },
-                          "content":[
-                             
-                          ],
-                          "nodeType":"embedded-asset-block"
-                       }
-                    ]
-                 },
-                 {
                     "nodeType":"paragraph",
                    "data":{},
                     "content":[
@@ -13732,50 +12805,6 @@
                           "value":"Choose your blinds, shutters or curtains, order online, then we’ll take care of the rest.",
                           "marks":[],
                           "data":{}
-                       }
-                    ]
-                 },
-                 {
-                   "data":{},
-                    "content":[
-                       {
-                          "data":{
-                             "target":{
-                                "sys":{
-                                   "space":{
-                                      
-                                   },
-                                   "type":"Asset",
-                                   "createdAt":"",
-                                   "updatedAt":"",
-                                   "environment":{
-                                      
-                                   },
-                                   "revision":null,
-                                   "locale":"en-US"
-                                },
-                                "fields":{
-                                   "title":"DIY_Install_Icon",
-                                   "description":"DIY Install",
-                                   "file":{
-                                      "url":"https://media.diyblinds.com.au/uploads/general/DIY_Install_Icon.png",
-                                      "details":{
-                                         "size":46234,
-                                         "image":{
-                                            "width":null,
-                                            "height":null
-                                         }
-                                      },
-                                      "fileName":"DIY_Install_Icon.png",
-                                      "contentType":"image/png"
-                                   }
-                                }
-                             }
-                          },
-                          "content":[
-                             
-                          ],
-                          "nodeType":"embedded-asset-block"
                        }
                     ]
                  },
@@ -13828,50 +12857,6 @@
                           "value":".",
                           "marks":[],
                           "data":{}
-                       }
-                    ]
-                 },
-                 {
-                   "data":{},
-                    "content":[
-                       {
-                          "data":{
-                             "target":{
-                                "sys":{
-                                   "space":{
-                                      
-                                   },
-                                   "type":"Asset",
-                                   "createdAt":"",
-                                   "updatedAt":"",
-                                   "environment":{
-                                      
-                                   },
-                                   "revision":null,
-                                   "locale":"en-US"
-                                },
-                                "fields":{
-                                   "title":"Professional_Install_Icon",
-                                   "description":"WDIFY",
-                                   "file":{
-                                      "url":"https://media.diyblinds.com.au/uploads/general/Professional_Install_Icon.png",
-                                      "details":{
-                                         "size":46234,
-                                         "image":{
-                                            "width":null,
-                                            "height":null
-                                         }
-                                      },
-                                      "fileName":"Professional_Install_Icon.png",
-                                      "contentType":"image/png"
-                                   }
-                                }
-                             }
-                          },
-                          "content":[
-                             
-                          ],
-                          "nodeType":"embedded-asset-block"
                        }
                     ]
                  },
@@ -13940,7 +12925,7 @@
      "heroImage":"uploads/general/CRB_KB_01.jpg",
      "contentBlocks":[
         {
-           "type":"text-centered",
+           "type":"headline",
            "title":"Kristy and Brett used a clever combination of products to create a beautiful, functional look for their renovation.",
            "id":"sb1dssx4fp"
         },
@@ -15020,7 +14005,7 @@
      "heroImage":"uploads/general/PC_Hero_01.jpg",
      "contentBlocks":[
         {
-           "type":"text-centered",
+           "type":"headline",
            "title":"The Block’s Steph and Gian’s mix-and-match approach shows how window furnishings can define different rooms",
            "id":"j4kjxgs3c2"
         },
@@ -18761,50 +17746,6 @@
                     ]
                  },
                  {
-                   "data":{},
-                    "content":[
-                       {
-                          "data":{
-                             "target":{
-                                "sys":{
-                                   "space":{
-                                      
-                                   },
-                                   "type":"Asset",
-                                   "createdAt":"",
-                                   "updatedAt":"",
-                                   "environment":{
-                                      
-                                   },
-                                   "revision":null,
-                                   "locale":"en-US"
-                                },
-                                "fields":{
-                                   "title":"Expert_Advice_Icon",
-                                   "description":"Expert Advice",
-                                   "file":{
-                                      "url":"https://media.diyblinds.com.au/uploads/general/Expert_Advice_Icon.png",
-                                      "details":{
-                                         "size":46234,
-                                         "image":{
-                                            "width":null,
-                                            "height":null
-                                         }
-                                      },
-                                      "fileName":"Expert_Advice_Icon.png",
-                                      "contentType":"image/png"
-                                   }
-                                }
-                             }
-                          },
-                          "content":[
-                             
-                          ],
-                          "nodeType":"embedded-asset-block"
-                       }
-                    ]
-                 },
-                 {
                     "nodeType":"heading-4",
                    "data":{},
                     "content":[
@@ -18865,50 +17806,6 @@
                     ]
                  },
                  {
-                   "data":{},
-                    "content":[
-                       {
-                          "data":{
-                             "target":{
-                                "sys":{
-                                   "space":{
-                                      
-                                   },
-                                   "type":"Asset",
-                                   "createdAt":"",
-                                   "updatedAt":"",
-                                   "environment":{
-                                      
-                                   },
-                                   "revision":null,
-                                   "locale":"en-US"
-                                },
-                                "fields":{
-                                   "title":"Samples_Icon",
-                                   "description":"samples_icon",
-                                   "file":{
-                                      "url":"https://media.diyblinds.com.au/uploads/general/Samples_Icon.png",
-                                      "details":{
-                                         "size":46234,
-                                         "image":{
-                                            "width":null,
-                                            "height":null
-                                         }
-                                      },
-                                      "fileName":"Samples_Icon.png",
-                                      "contentType":"image/png"
-                                   }
-                                }
-                             }
-                          },
-                          "content":[
-                             
-                          ],
-                          "nodeType":"embedded-asset-block"
-                       }
-                    ]
-                 },
-                 {
                     "nodeType":"paragraph",
                    "data":{},
                     "content":[
@@ -18957,50 +17854,6 @@
                           "value":" and we’ll deliver them by priority post to your door.",
                           "marks":[],
                           "data":{}
-                       }
-                    ]
-                 },
-                 {
-                   "data":{},
-                    "content":[
-                       {
-                          "data":{
-                             "target":{
-                                "sys":{
-                                   "space":{
-                                      
-                                   },
-                                   "type":"Asset",
-                                   "createdAt":"",
-                                   "updatedAt":"",
-                                   "environment":{
-                                      
-                                   },
-                                   "revision":null,
-                                   "locale":"en-US"
-                                },
-                                "fields":{
-                                   "title":"Measure_Icon",
-                                   "description":"measure_icon",
-                                   "file":{
-                                      "url":"https://media.diyblinds.com.au/uploads/general/Measure_Icon.png",
-                                      "details":{
-                                         "size":46234,
-                                         "image":{
-                                            "width":null,
-                                            "height":null
-                                         }
-                                      },
-                                      "fileName":"Measure_Icon.png",
-                                      "contentType":"image/png"
-                                   }
-                                }
-                             }
-                          },
-                          "content":[
-                             
-                          ],
-                          "nodeType":"embedded-asset-block"
                        }
                     ]
                  },
@@ -19057,50 +17910,6 @@
                     ]
                  },
                  {
-                   "data":{},
-                    "content":[
-                       {
-                          "data":{
-                             "target":{
-                                "sys":{
-                                   "space":{
-                                      
-                                   },
-                                   "type":"Asset",
-                                   "createdAt":"",
-                                   "updatedAt":"",
-                                   "environment":{
-                                      
-                                   },
-                                   "revision":null,
-                                   "locale":"en-US"
-                                },
-                                "fields":{
-                                   "title":"Customise_Icon",
-                                   "description":"custom_icon",
-                                   "file":{
-                                      "url":"https://media.diyblinds.com.au/uploads/general/Customise_Icon.png",
-                                      "details":{
-                                         "size":46234,
-                                         "image":{
-                                            "width":null,
-                                            "height":null
-                                         }
-                                      },
-                                      "fileName":"Customise_Icon.png",
-                                      "contentType":"image/png"
-                                   }
-                                }
-                             }
-                          },
-                          "content":[
-                             
-                          ],
-                          "nodeType":"embedded-asset-block"
-                       }
-                    ]
-                 },
-                 {
                     "nodeType":"paragraph",
                    "data":{},
                     "content":[
@@ -19125,50 +17934,6 @@
                           "value":"Choose your blinds, shutters or curtains, order online, then we’ll take care of the rest.",
                           "marks":[],
                           "data":{}
-                       }
-                    ]
-                 },
-                 {
-                   "data":{},
-                    "content":[
-                       {
-                          "data":{
-                             "target":{
-                                "sys":{
-                                   "space":{
-                                      
-                                   },
-                                   "type":"Asset",
-                                   "createdAt":"",
-                                   "updatedAt":"",
-                                   "environment":{
-                                      
-                                   },
-                                   "revision":null,
-                                   "locale":"en-US"
-                                },
-                                "fields":{
-                                   "title":"DIY_Install_Icon",
-                                   "description":"DIY Install",
-                                   "file":{
-                                      "url":"https://media.diyblinds.com.au/uploads/general/DIY_Install_Icon.png",
-                                      "details":{
-                                         "size":46234,
-                                         "image":{
-                                            "width":null,
-                                            "height":null
-                                         }
-                                      },
-                                      "fileName":"DIY_Install_Icon.png",
-                                      "contentType":"image/png"
-                                   }
-                                }
-                             }
-                          },
-                          "content":[
-                             
-                          ],
-                          "nodeType":"embedded-asset-block"
                        }
                     ]
                  },
@@ -19221,50 +17986,6 @@
                           "value":".",
                           "marks":[],
                           "data":{}
-                       }
-                    ]
-                 },
-                 {
-                   "data":{},
-                    "content":[
-                       {
-                          "data":{
-                             "target":{
-                                "sys":{
-                                   "space":{
-                                      
-                                   },
-                                   "type":"Asset",
-                                   "createdAt":"",
-                                   "updatedAt":"",
-                                   "environment":{
-                                      
-                                   },
-                                   "revision":null,
-                                   "locale":"en-US"
-                                },
-                                "fields":{
-                                   "title":"Professional_Install_Icon",
-                                   "description":"WDIFY",
-                                   "file":{
-                                      "url":"https://media.diyblinds.com.au/uploads/general/Professional_Install_Icon.png",
-                                      "details":{
-                                         "size":46234,
-                                         "image":{
-                                            "width":null,
-                                            "height":null
-                                         }
-                                      },
-                                      "fileName":"Professional_Install_Icon.png",
-                                      "contentType":"image/png"
-                                   }
-                                }
-                             }
-                          },
-                          "content":[
-                             
-                          ],
-                          "nodeType":"embedded-asset-block"
                        }
                     ]
                  },
@@ -35745,50 +34466,6 @@
                     ]
                  },
                  {
-                   "data":{},
-                    "content":[
-                       {
-                          "data":{
-                             "target":{
-                                "sys":{
-                                   "space":{
-                                      
-                                   },
-                                   "type":"Asset",
-                                   "createdAt":"",
-                                   "updatedAt":"",
-                                   "environment":{
-                                      
-                                   },
-                                   "revision":null,
-                                   "locale":"en-US"
-                                },
-                                "fields":{
-                                   "title":"Expert_Advice_Icon",
-                                   "description":"Expert Advice",
-                                   "file":{
-                                      "url":"https://media.diyblinds.com.au/uploads/general/Expert_Advice_Icon.png",
-                                      "details":{
-                                         "size":46234,
-                                         "image":{
-                                            "width":null,
-                                            "height":null
-                                         }
-                                      },
-                                      "fileName":"Expert_Advice_Icon.png",
-                                      "contentType":"image/png"
-                                   }
-                                }
-                             }
-                          },
-                          "content":[
-                             
-                          ],
-                          "nodeType":"embedded-asset-block"
-                       }
-                    ]
-                 },
-                 {
                     "nodeType":"heading-4",
                    "data":{},
                     "content":[
@@ -35849,50 +34526,6 @@
                     ]
                  },
                  {
-                   "data":{},
-                    "content":[
-                       {
-                          "data":{
-                             "target":{
-                                "sys":{
-                                   "space":{
-                                      
-                                   },
-                                   "type":"Asset",
-                                   "createdAt":"",
-                                   "updatedAt":"",
-                                   "environment":{
-                                      
-                                   },
-                                   "revision":null,
-                                   "locale":"en-US"
-                                },
-                                "fields":{
-                                   "title":"Samples_Icon",
-                                   "description":"samples_icon",
-                                   "file":{
-                                      "url":"https://media.diyblinds.com.au/uploads/general/Samples_Icon.png",
-                                      "details":{
-                                         "size":46234,
-                                         "image":{
-                                            "width":null,
-                                            "height":null
-                                         }
-                                      },
-                                      "fileName":"Samples_Icon.png",
-                                      "contentType":"image/png"
-                                   }
-                                }
-                             }
-                          },
-                          "content":[
-                             
-                          ],
-                          "nodeType":"embedded-asset-block"
-                       }
-                    ]
-                 },
-                 {
                     "nodeType":"paragraph",
                    "data":{},
                     "content":[
@@ -35941,50 +34574,6 @@
                           "value":" and we’ll deliver them by priority post to your door.",
                           "marks":[],
                           "data":{}
-                       }
-                    ]
-                 },
-                 {
-                   "data":{},
-                    "content":[
-                       {
-                          "data":{
-                             "target":{
-                                "sys":{
-                                   "space":{
-                                      
-                                   },
-                                   "type":"Asset",
-                                   "createdAt":"",
-                                   "updatedAt":"",
-                                   "environment":{
-                                      
-                                   },
-                                   "revision":null,
-                                   "locale":"en-US"
-                                },
-                                "fields":{
-                                   "title":"Measure_Icon",
-                                   "description":"measure_icon",
-                                   "file":{
-                                      "url":"https://media.diyblinds.com.au/uploads/general/Measure_Icon.png",
-                                      "details":{
-                                         "size":46234,
-                                         "image":{
-                                            "width":null,
-                                            "height":null
-                                         }
-                                      },
-                                      "fileName":"Measure_Icon.png",
-                                      "contentType":"image/png"
-                                   }
-                                }
-                             }
-                          },
-                          "content":[
-                             
-                          ],
-                          "nodeType":"embedded-asset-block"
                        }
                     ]
                  },
@@ -36041,50 +34630,6 @@
                     ]
                  },
                  {
-                   "data":{},
-                    "content":[
-                       {
-                          "data":{
-                             "target":{
-                                "sys":{
-                                   "space":{
-                                      
-                                   },
-                                   "type":"Asset",
-                                   "createdAt":"",
-                                   "updatedAt":"",
-                                   "environment":{
-                                      
-                                   },
-                                   "revision":null,
-                                   "locale":"en-US"
-                                },
-                                "fields":{
-                                   "title":"Customise_Icon",
-                                   "description":"custom_icon",
-                                   "file":{
-                                      "url":"https://media.diyblinds.com.au/uploads/general/Customise_Icon.png",
-                                      "details":{
-                                         "size":46234,
-                                         "image":{
-                                            "width":null,
-                                            "height":null
-                                         }
-                                      },
-                                      "fileName":"Customise_Icon.png",
-                                      "contentType":"image/png"
-                                   }
-                                }
-                             }
-                          },
-                          "content":[
-                             
-                          ],
-                          "nodeType":"embedded-asset-block"
-                       }
-                    ]
-                 },
-                 {
                     "nodeType":"paragraph",
                    "data":{},
                     "content":[
@@ -36109,50 +34654,6 @@
                           "value":"Choose your blinds, shutters or curtains, order online, then we’ll take care of the rest.",
                           "marks":[],
                           "data":{}
-                       }
-                    ]
-                 },
-                 {
-                   "data":{},
-                    "content":[
-                       {
-                          "data":{
-                             "target":{
-                                "sys":{
-                                   "space":{
-                                      
-                                   },
-                                   "type":"Asset",
-                                   "createdAt":"",
-                                   "updatedAt":"",
-                                   "environment":{
-                                      
-                                   },
-                                   "revision":null,
-                                   "locale":"en-US"
-                                },
-                                "fields":{
-                                   "title":"DIY_Install_Icon",
-                                   "description":"DIY Install",
-                                   "file":{
-                                      "url":"https://media.diyblinds.com.au/uploads/general/DIY_Install_Icon.png",
-                                      "details":{
-                                         "size":46234,
-                                         "image":{
-                                            "width":null,
-                                            "height":null
-                                         }
-                                      },
-                                      "fileName":"DIY_Install_Icon.png",
-                                      "contentType":"image/png"
-                                   }
-                                }
-                             }
-                          },
-                          "content":[
-                             
-                          ],
-                          "nodeType":"embedded-asset-block"
                        }
                     ]
                  },
@@ -36205,50 +34706,6 @@
                           "value":".",
                           "marks":[],
                           "data":{}
-                       }
-                    ]
-                 },
-                 {
-                   "data":{},
-                    "content":[
-                       {
-                          "data":{
-                             "target":{
-                                "sys":{
-                                   "space":{
-                                      
-                                   },
-                                   "type":"Asset",
-                                   "createdAt":"",
-                                   "updatedAt":"",
-                                   "environment":{
-                                      
-                                   },
-                                   "revision":null,
-                                   "locale":"en-US"
-                                },
-                                "fields":{
-                                   "title":"Professional_Install_Icon",
-                                   "description":"WDIFY",
-                                   "file":{
-                                      "url":"https://media.diyblinds.com.au/uploads/general/Professional_Install_Icon.png",
-                                      "details":{
-                                         "size":46234,
-                                         "image":{
-                                            "width":null,
-                                            "height":null
-                                         }
-                                      },
-                                      "fileName":"Professional_Install_Icon.png",
-                                      "contentType":"image/png"
-                                   }
-                                }
-                             }
-                          },
-                          "content":[
-                             
-                          ],
-                          "nodeType":"embedded-asset-block"
                        }
                     ]
                  },
@@ -40296,7 +38753,7 @@
      "heroImage":"uploads/general/Landscape-Imagery-Hero.jpg",
      "contentBlocks":[
         {
-           "type":"text-centered",
+           "type":"headline",
            "title":"Having already worked with DIY Blinds on three occasions, designer Alison Lewis of Alison Lewis Interiors knew exactly where to turn when renovating her family’s Californian bungalow, Hartley House.",
            "id":"tf5no1ur7vi"
         },
@@ -40604,7 +39061,7 @@
      "heroImage":"uploads/general/11.21-Rathmines-South-House-Dylan-James-Living-Curved-Sheer-Curtains-Burano-Frost-1.jpg",
      "contentBlocks":[
         {
-           "type":"text-centered",
+           "type":"headline",
            "title":"At DIY Blinds, we’ve spent the last few years working with Rebekah and the team from BuildHer Collective, providing the perfect window furnishings for their home transformations all around Melbourne.",
            "id":"g8bloxw2w"
         },
@@ -41299,7 +39756,7 @@
      "heroImage":"uploads/general/01.22-Leith-Road-Dylan-James-Living-Double-Curtains-Bali-Cloud-and-Aspro-Ecru-1.jpg",
      "contentBlocks":[
         {
-           "type":"text-centered",
+           "type":"headline",
            "title":"We sat down with Kribashini Hannon @buildplaylive and co-founder of The BuildHer Collective to chat about her latest renovation marathon.",
            "id":"czlzumfnrz"
         },
@@ -41653,24 +40110,8 @@
                           "marks":[],
                           "data":{}
                        },
-                       {
-                          "nodeType":"text",
-                          "data":{},
-                          "marks":[
-                             {
-                                "type":"italic"
-                             }
-                          ]
-                       },
-                       {
-                          "nodeType":"text",
-                          "data":{},
-                          "marks":[
-                             {
-                                "type":"italic"
-                             }
-                          ]
-                       },
+
+
                        {
                           "nodeType":"text",
                           "data":{},
@@ -41718,7 +40159,7 @@
      "heroImage":"uploads/general/11.21-Light-House-Project-_-Ben-Cole-_-Living-_-Sheer-Curtains-_-Allusion-Pearl-1.jpg",
      "contentBlocks":[
         {
-           "type":"text-centered",
+           "type":"headline",
            "title":"Ever wondered what the ideal, modern family home looks like? We think we may have just found it!",
            "id":"ufqbzazm2bf"
         },
@@ -41756,12 +40197,12 @@
            "id":"zjuxbw1xxki"
         },
         {
-           "type":"text-centered",
+           "type":"headline",
            "title":"Helping to create warmth and matching the natural textures of the open-plan kitchen and lounge, sheer curtains from the ever-popular Allusion range in colour Pearl were the perfect choice.",
            "id":"fse49fcft4"
         },
         {
-           "type":"text-centered",
+           "type":"headline",
            "title":"A modern home means indoor-outdoor living is a must, and as witnessed here, The Light House effortlessly achieves this integral aspect every homeowner desires to accomplish.",
            "id":"am7c18erik7"
         },
@@ -41803,7 +40244,7 @@
            "id":"gvcs5cukd8c"
         },
         {
-           "type":"text-centered",
+           "type":"headline",
            "title":"Understandably, the impeccable style choices, custom-made joinery and accents from Loughlin Furniture are where The Light House Project really shines.",
            "id":"tjvwni8gwxj"
         },
@@ -41836,7 +40277,7 @@
      "heroImage":"uploads/general/Xavier-Ave-House-001.jpg",
      "contentBlocks":[
         {
-           "type":"text-centered",
+           "type":"headline",
            "title":"Brad & Susie’s Hawthorn home was always envisioned as a calm sanctuary, something practical, aesthetically pleasing and timeless that would ensure that their ‘forever home’ was worth the 10 year design journey.",
            "id":"6spsv6b7vse"
         },
@@ -41917,7 +40358,7 @@
            "id":"ptkqk5scncr"
         },
         {
-           "type":"text-centered",
+           "type":"headline",
            "title":"“We found the DIY team really responsive and really helpful with giving us some ideas and thoughts about final design decisions and optionality with the window furnishings and automation as well, which was something I was really interested in.”",
            "id":"7bcobgvycj5"
         },
@@ -42019,7 +40460,7 @@
            "id":"qfoyf5wfdxe"
         },
         {
-           "type":"text-centered",
+           "type":"headline",
            "title":"“We had all of the pelmets custom-made for us and so when you come into the house, everything's super minimal, very clean, and it feels like the sheers are just seamlessly falling from the ceiling and cascading onto the floor, puddling beautifully.”",
            "id":"9wb5tknybbu"
         },
@@ -42121,7 +40562,7 @@
            "id":"kvgvumstsz"
         },
         {
-           "type":"text-centered",
+           "type":"headline",
            "title":"“We have our master bedroom facing east and we've got these beautiful sheers that let in the morning light, but also give us privacy.”",
            "id":"upd6ntwby3e"
         },
@@ -42199,7 +40640,7 @@
            "id":"7wnsg47jx2a"
         },
         {
-           "type":"text-centered",
+           "type":"headline",
            "title":"“With the kids' rooms upstairs, being able to set the blinds to go up and down when they get up in the morning and when they go to bed at night - it seems like a pretty small thing, but it's been one of the things I love the most about the house.”",
            "id":"qb4cyiz82t"
         },
@@ -42270,7 +40711,7 @@
            "id":"jt9ztqeuo19"
         },
         {
-           "type":"text-centered",
+           "type":"headline",
            "title":"“In summer, you can get the blinds to drop down under certain conditions to reduce the heat loss from the house. If I'm out and about and I want to close the blinds, I can just open the app up and do it remotely. It's really easy to use.”",
            "id":"1yax43buclu"
         },
@@ -42360,7 +40801,7 @@
            "id":"xt5g2i7j0xs"
         },
         {
-           "type":"text-centered",
+           "type":"headline",
            "title":"“We love the end result. It's just beautiful and it feels exactly like our home”",
            "id":"fpf28myc8et"
         },
@@ -42527,7 +40968,7 @@
      "heroImage":"uploads/general/7.jpg",
      "contentBlocks":[
         {
-           "type":"text-centered",
+           "type":"headline",
            "title":"One look through Glenn Residence and you'll quickly picture a very happy home life.",
            "id":"c98mjd9bi6d"
         },
@@ -42589,7 +41030,7 @@
            "id":"utd1ar8q1v8"
         },
         {
-           "type":"text-centered",
+           "type":"headline",
            "title":"“Find the perfect balance between practical meets remarkable when choosing the right piece for any space of the home.”",
            "id":"u3ho6l66py"
         },
@@ -42667,7 +41108,7 @@
            "id":"ihs0nz4qh6e"
         },
         {
-           "type":"text-centered",
+           "type":"headline",
            "title":"“Biggest tip: get a variety of samples and make sure you present them in the exact space that they will be installed.”",
            "id":"17zmc5o8hn5"
         },
@@ -42717,7 +41158,7 @@
            "id":"rcrx5avrb6m"
         },
         {
-           "type":"text-centered",
+           "type":"headline",
            "title":"“Upon receiving our samples, we immediately knew we would be using DIY blinds for this project.”",
            "id":"i0iepq3j0kp"
         },
@@ -42835,7 +41276,7 @@
            "id":"dik4egzwr7g"
         },
         {
-           "type":"text-centered",
+           "type":"headline",
            "title":"“Sometimes it’s the most simple, subtle details that bring the project to life.”",
            "id":"qb1pdbtyfd"
         },
@@ -42897,7 +41338,7 @@
            "id":"vzbnzsm9prb"
         },
         {
-           "type":"text-centered",
+           "type":"headline",
            "title":"“The combination of timbers, soft grey furniture pieces and hints of olive, really do capture a relaxed yet super stylish home.”",
            "id":"uu8m44pd2hs"
         },
@@ -43040,7 +41481,7 @@
      "heroImage":"uploads/general/NP_DIY_BLINDS_Canning_Street_0051-Edit_2021-10-15-034726.jpg",
      "contentBlocks":[
         {
-           "type":"text-centered",
+           "type":"headline",
            "title":"The Canning St Project in North Melbourne is a sight to behold. A cute heritage-listed cottage that sits directly across from the main residence - this is a masterclass in utilising space and natural light.",
            "id":"cxsxm0rquur"
         },
@@ -43121,7 +41562,7 @@
            "id":"22de5137pyzh"
         },
         {
-           "type":"text-centered",
+           "type":"headline",
            "title":"“We’ve got a two-and-a-half metre pivot door that weighs 250 kilos, so we can open-up the whole façade of the house to the courtyard – there’s nothing in the way from the inside to the outside.”",
            "id":"qb3cs8gdcvh"
         },
@@ -43183,7 +41624,7 @@
            "id":"f6ovcujy2zw"
         },
         {
-           "type":"text-centered",
+           "type":"headline",
            "title":"“We worked with one of the Design Consultants and came up with a solution where we had a split through our curtains, which allowed us to open the door perfectly to fit between that split and the stack-back of the curtains sit either side.\"",
            "id":"2lwo6w5m9f8"
         },
@@ -43226,7 +41667,7 @@
            "id":"n1e8wnkb778"
         },
         {
-           "type":"text-centered",
+           "type":"headline",
            "title":"\"It really is a practical solution for a huge pivot door that we wouldn’t have been able to come up with on our own.”",
            "id":"jhhyh3urfxj"
         },
@@ -43316,7 +41757,7 @@
            "id":"6o80rjhenou"
         },
         {
-           "type":"text-centered",
+           "type":"headline",
            "title":"“Shutters are great to allow the light to filter in and also block that light out, but most important for us was how a shutter looks on the façade of an old home. You just can’t beat the look of it.“",
            "id":"p7w6vsbntx"
         },
@@ -43397,7 +41838,7 @@
            "id":"s0esnc8h1jp"
         },
         {
-           "type":"text-centered",
+           "type":"headline",
            "title":"“I loved working with the team at DIY Blinds – they know their stuff.”",
            "id":"fjwlkr37654"
         },
@@ -43475,7 +41916,7 @@
            "id":"jb4w9y7xbm"
         },
         {
-           "type":"text-centered",
+           "type":"headline",
            "title":"“We had the lovely guys from DIY Blinds come to measure-up for us and install them, we needed something that was done and dusted so we could sit back and relax throughout the process!”",
            "id":"0fd7g1thj17u"
         },
@@ -43565,7 +42006,7 @@
            "id":"usphdw3oub"
         },
         {
-           "type":"text-centered",
+           "type":"headline",
            "title":"“We’ll definitely be taking DIY Blinds on the next journey with us!”",
            "id":"o6sa7qdhzw"
         },
@@ -43724,7 +42165,7 @@
      "heroImage":"uploads/general/Website-Resolution-46.jpg",
      "contentBlocks":[
         {
-           "type":"text-centered",
+           "type":"headline",
            "title":"An amalgamation of architecture, building and interior design, Witta Circle is a breathtaking property.",
            "id":"0ik5jqmfdr5o"
         },
@@ -43774,7 +42215,7 @@
            "id":"yg6rkz7t9n"
         },
         {
-           "type":"text-centered",
+           "type":"headline",
            "title":"\"We wanted to match the interiors to the elements outside – the water and the garden. We wanted to keep it light. Natural. Airy. Very minimal.\"",
            "id":"og0cfkb0gnh"
         },
@@ -43869,7 +42310,7 @@
            "id":"rvt6cg08jwp"
         },
         {
-           "type":"text-centered",
+           "type":"headline",
            "title":"\"The linen-look was perfect, it matched well with the colour of the walls, all the elements of the room and was consistent with the idea of keeping everything light, natural, and airy.\"",
            "id":"sqkcjskzags"
         },
@@ -43983,7 +42424,7 @@
            "id":"g4bz9bicqlb"
         },
         {
-           "type":"text-centered",
+           "type":"headline",
            "title":"\"Sheers were utilised to filter light nicely and created the perfect amount of texture.\"",
            "id":"zpfkky4pm3"
         },
@@ -44041,7 +42482,7 @@
            "id":"d4vdgq2btae"
         },
         {
-           "type":"text-centered",
+           "type":"headline",
            "title":"\"That first moment, when they opened the door and started running from room to room – it was amazing. The squeals from the kids. The delight. Their reactions. That’s the most satisfying part for me.\"",
            "id":"8uphyh69wmc"
         },
@@ -44202,7 +42643,7 @@
      "heroImage":"uploads/general/64-Anderson-15_hero.jpg",
      "contentBlocks":[
         {
-           "type":"text-centered",
+           "type":"headline",
            "title":"Chamberlain Property opted for glamorous sheers, blockout roller blinds and PolyLux® shutters in their two luxurious family townhouse developments in Templestowe.",
            "id":"pywmgrvfvp7"
         },
@@ -44212,7 +42653,7 @@
            "id":"t9doi61xmdm"
         },
         {
-           "type":"text-centered",
+           "type":"headline",
            "title":"\"Our Templestowe townhouses are architect-designed family homes, blending functionality with luxury.\"",
            "id":"g82ad3toy0u"
         },
@@ -44329,7 +42770,7 @@
            "id":"ydmohg849v"
         },
         {
-           "type":"text-centered",
+           "type":"headline",
            "title":"\"Outdoor aspect is really important to us in a build, and we love incorporating greenery. We decided to plant as early as possible during construction, which was great advice from BuildHer Collective.\"",
            "id":"dk3osb2yjfc"
         },
@@ -44375,7 +42816,7 @@
            "id":"dy0dmvum4s"
         },
         {
-           "type":"text-centered",
+           "type":"headline",
            "title":"\"Don’t underestimate how premium window furnishings can completely lift a space. They’re great value and a cost-efficient way to make an impact.\"",
            "id":"2gzwk4a6vs9"
         },
@@ -44433,7 +42874,7 @@
            "id":"cg0gc4k4ulg"
         },
         {
-           "type":"text-centered",
+           "type":"headline",
            "title":"\"Our sheers help prospective buyers feel an emotional connection with the homes, especially in the hero spaces. They are a fantastic choice if you’re building to sell.\"",
            "id":"qwa2cxom39"
         },
@@ -44491,7 +42932,7 @@
            "id":"e3s6zujpyiq"
         },
         {
-           "type":"text-centered",
+           "type":"headline",
            "title":"\"We incorporated generously wide hallways, which feel totally luxurious. They create an instant wow factor when you walk in the front door.\"",
            "id":"sn8mqd067b"
         },
@@ -44537,7 +42978,7 @@
            "id":"mrwvcezw5m"
         },
         {
-           "type":"text-centered",
+           "type":"headline",
            "title":"\"Having the DIY Blinds professional installation team come out to install our window furnishings in one day was fantastic.\"",
            "id":"lqrh04c925"
         },
@@ -44607,7 +43048,7 @@
            "id":"xyuqn2su3xa"
         },
         {
-           "type":"text-centered",
+           "type":"headline",
            "title":"\"We are currently working full-time on a number of townhouse development projects across Melbourne, including in Middle Footscray and Doncaster.\"",
            "id":"l3js07nkf0e"
         },
@@ -44653,7 +43094,7 @@
            "id":"wp1b53ymagt"
         },
         {
-           "type":"text-centered",
+           "type":"headline",
            "title":"Watch our home tour video to see more of the Templestowe townhouses!",
            "id":"16qotd2jz3a"
         },
@@ -44702,7 +43143,7 @@
      "heroImage":"uploads/general/DSC06531-Fire-_-Fly-Media_hero.jpg",
      "contentBlocks":[
         {
-           "type":"text-centered",
+           "type":"headline",
            "title":"The Eyrie is a tiny house with designer touches and incredible mountain views. Combined recess and face-fit roller blinds have minimal projection. They maximise space, light, privacy, views and thermal insulation.",
            "id":"n3e462d2lu"
         },
@@ -44712,7 +43153,7 @@
            "id":"ij0kjt4bfkk"
         },
         {
-           "type":"text-centered",
+           "type":"headline",
            "title":"\"We spoke a lot about living in a smaller home on a big property one day. It’s only been in the last 18 months that we started seriously considering the reality of living in a tiny house on wheels.\"",
            "id":"hf6zgj82z6w"
         },
@@ -44786,7 +43227,7 @@
            "id":"l7wtd5t19j"
         },
         {
-           "type":"text-centered",
+           "type":"headline",
            "title":"\"Having a smaller space also makes us more conscious about the items we buy. It’s totally curbed my desire to make impulse shopping purchases! Now everything we own, we love.\"",
            "id":"6mu522xj83d"
         },
@@ -44856,7 +43297,7 @@
            "id":"rniyhccc4m"
         },
         {
-           "type":"text-centered",
+           "type":"headline",
            "title":"\"A benefit of having a smaller footprint is that creating a luxury space is way more affordable.\"",
            "id":"4ncppvkdc3"
         },
@@ -44926,7 +43367,7 @@
            "id":"kvesdbxtva7"
         },
         {
-           "type":"text-centered",
+           "type":"headline",
            "title":"\"The blinds have completely changed the feel of our home! In such a small space, having window coverings with minimal projection into the room is so important.\"",
            "id":"qwusilu4tb8"
         },
@@ -45000,7 +43441,7 @@
            "id":"i5m2ze9p84f"
         },
         {
-           "type":"text-centered",
+           "type":"headline",
            "title":"\"We were very conscious about creating a light and airy home, so we may have gone overboard with the windows. We’ve definitely got more windows than wall space!\"",
            "id":"daoi3p6ispv"
         },
@@ -45062,7 +43503,7 @@
            "id":"7e2tsv7o03l"
         },
         {
-           "type":"text-centered",
+           "type":"headline",
            "title":"\"I sent Ashley from DIY Blinds photos of all 10 windows. She worked through them with me one by one to confirm how each would fit. By the end of the process I felt confident they would all work, and they have!\"",
            "id":"vwdelatqhte"
         },
@@ -45132,7 +43573,7 @@
            "id":"hvrl79av7x"
         },
         {
-           "type":"text-centered",
+           "type":"headline",
            "title":"\"Our home is completely off-grid, which means we have a very low carbon footprint and no bills to pay!\"",
            "id":"qwojophmr2"
         },
@@ -45190,7 +43631,7 @@
            "id":"j6fb2qpkdgc"
         },
         {
-           "type":"text-centered",
+           "type":"headline",
            "title":"\"I’m looking forward to finishing the inside of the tiny house and getting stuck into landscaping. So prepare for a whole lot of tiny house spam, I’d say!\"",
            "id":"kwz3x99sw5"
         },
@@ -45278,7 +43719,7 @@
      "heroImage":"uploads/general/123-Clarke-sheers-hero.jpg",
      "contentBlocks":[
         {
-           "type":"text-centered",
+           "type":"headline",
            "title":"123 Clarke is the latest project by DevelopHer Yolanda. The renovated Federation-style family home oozes charisma, and features sheer linen curtains throughout.",
            "id":"um42zekbd6n"
         },
@@ -45288,7 +43729,7 @@
            "id":"0tbv6xmd71e"
         },
         {
-           "type":"text-centered",
+           "type":"headline",
            "title":"\"123 Clarke is a pretty special house, and I’m very proud of the outcome.\"",
            "id":"vbqm912i9ko"
         },
@@ -45406,7 +43847,7 @@
            "id":"dhrplo82n4w"
         },
         {
-           "type":"text-centered",
+           "type":"headline",
            "title":"\"My advice for aspiring renovators and people designing their forever home is seek the advice of professionals who share your passion and enthusiasm.\"",
            "id":"baq162nb094"
         },
@@ -45476,7 +43917,7 @@
            "id":"6m4ijipr5n6"
         },
         {
-           "type":"text-centered",
+           "type":"headline",
            "title":"\"We incorporated playful elements like an open mezzanine to encourage more interaction across the ground and first floors.\"",
            "id":"jontkxzo89"
         },
@@ -45558,7 +43999,7 @@
            "id":"eex1vyw585c"
         },
         {
-           "type":"text-centered",
+           "type":"headline",
            "title":"\"As soon as I had my initial house plans, I sent them to Evan at DIY Blinds who was able to workshop ideas with me. We also worked to fit everything within my budget.\"",
            "id":"4ee5zmub2lt"
         },
@@ -45628,7 +44069,7 @@
            "id":"v0jxejnpff"
         },
         {
-           "type":"text-centered",
+           "type":"headline",
            "title":"\"From the first moment I received my samples from DIY Blinds, I knew that the Allusion range would be right for this house. The price point of the sheers is so great.\"",
            "id":"4shmh8p9x3g"
         },
@@ -45722,7 +44163,7 @@
            "id":"4y5dg9typqv"
         },
         {
-           "type":"text-centered",
+           "type":"headline",
            "title":"\"I was adamant about including colour within the house. You don’t often see colour in developments, especially organic greens like the ones we used in the bedrooms.\"",
            "id":"mwpp1yf1kjh"
         },
@@ -45804,7 +44245,7 @@
            "id":"3hry5jetf3e"
         },
         {
-           "type":"text-centered",
+           "type":"headline",
            "title":"\"It was a pleasure and an achievement to return this house to its original glory and bring it into the modern day, so it can be enjoyed for generations to come.\"",
            "id":"g0x7600f37f"
         },
@@ -45850,7 +44291,7 @@
            "id":"ry8kpmc8qfr"
         },
         {
-           "type":"text-centered",
+           "type":"headline",
            "title":"\"We loved renovating and extending this beautiful 1920s Federation-style home, which was hidden under a not-so-beautiful 1980s renovation.\"",
            "id":"9mx0dnn7ele"
         },
@@ -45920,7 +44361,7 @@
            "id":"h9m28fbisnc"
         },
         {
-           "type":"text-centered",
+           "type":"headline",
            "title":"Watch our home tour video to hear Yolanda talk about her incredible home!",
            "id":"12zd8hvr381g"
         },
@@ -45972,7 +44413,7 @@
      "heroImage":"uploads/general/20210114-Graya-Arcos-_sitting_hero.jpg",
      "contentBlocks":[
         {
-           "type":"text-centered",
+           "type":"headline",
            "title":"Meet Arcos. A jaw-dropping Brisbane home by Graya and Joe Adsett Architects. It features luxe sheers and motorised roller blinds from our great value online range.",
            "id":"vivn0d5jo4a"
         },
@@ -46094,7 +44535,7 @@
            "id":"pujo3clo0e"
         },
         {
-           "type":"text-centered",
+           "type":"headline",
            "title":"For effortless privacy and thermal insulation Rob and Meghan installed Somfy-powered motorised blockout roller blinds",
            "id":"pwmb05tid2o"
         },
@@ -46148,7 +44589,7 @@
            "id":"uu30lg71lr"
         },
         {
-           "type":"text-centered",
+           "type":"headline",
            "title":"We're disrupting the blinds industry by making it quick and easy to buy great value blinds online",
            "id":"8e0pwyu8nse"
         },
@@ -46218,7 +44659,7 @@
            "id":"dtu34z63auq"
         },
         {
-           "type":"text-centered",
+           "type":"headline",
            "title":"The sheer curtains at Arcos filter sunlight, let in the gentle Brisbane breeze and are soft and tactile",
            "id":"i9tz2b39rok"
         },
@@ -46296,12 +44737,12 @@
      "heroImage":"uploads/general/Three-Gables-living_sheer_curtains_webready.jpg",
      "contentBlocks":[
         {
-           "type":"text-centered",
+           "type":"headline",
            "title":"Sheer linen curtains add drama and softness to the perfectly monochromatic design of Taf and Bree's new home, Three Gables.",
            "id":"9vrsy2skzef"
         },
         {
-           "type":"text-centered",
+           "type":"headline",
            "title":"\"Three Gables is a home balancing imperfect and natural finishes with sleek and refined elements.\"",
            "id":"rayndkc93ha"
         },
@@ -46433,7 +44874,7 @@
            "id":"c0kdjdxbrts"
         },
         {
-           "type":"text-centered",
+           "type":"headline",
            "title":"\"Because this is the first home we designed and built just for us, we wanted to be super hands-on and do as much as we could ourselves.\"",
            "id":"ph8tmivp5qd"
         },
@@ -46537,7 +44978,7 @@
            "id":"pojq7jyew7n"
         },
         {
-           "type":"text-centered",
+           "type":"headline",
            "title":"\"Our sheer linen curtains play a massive role in softening the space, adding drama and bringing everything together.\"",
            "id":"ya1okaw7tl7"
         },
@@ -46634,7 +45075,7 @@
            "id":"cblorucn0l6"
         },
         {
-           "type":"text-centered",
+           "type":"headline",
            "title":"\"Window furnishings complete a home and need to have more importance within the building industry, not just the styling and decorating industry.\"",
            "id":"zb3expoj1e"
         },
@@ -46873,7 +45314,7 @@
            "id":"ecle4geudai"
         },
         {
-           "type":"text-centered",
+           "type":"headline",
            "title":"\"We can control our motorised blinds from our phones, without having to move rooms. The fully customisable options like the timer, the weather settings and routine-based programming are amazing.\"",
            "id":"m9lx0dmeta"
         },
@@ -47029,7 +45470,7 @@
      "heroImage":"uploads/general/Zephyr-Scandi_sheers_kitchen_hero.jpg",
      "contentBlocks":[
         {
-           "type":"text-centered",
+           "type":"headline",
            "title":"Sheers add a touch of magic in these serene designer homes by Zephyr + Stone. Meet the women behind these incredible projects.",
            "id":"abb3mnbm3oh"
         },
@@ -47039,7 +45480,7 @@
            "id":"mj2gmg747l"
         },
         {
-           "type":"text-centered",
+           "type":"headline",
            "title":"\"Our website is a resource hub packed with valuable information we share from our own development projects\"",
            "id":"o8rut8j93e"
         },
@@ -47140,7 +45581,7 @@
            "id":"19f2vxkkt9s"
         },
         {
-           "type":"text-centered",
+           "type":"headline",
            "title":"\"We really endeavour to answer questions individuals wouldn’t think to ask, so they can avoid problems and achieve a designer look and finish in their own homes.\"",
            "id":"pxg5xhlysmg"
         },
@@ -47198,7 +45639,7 @@
            "id":"8tyfh2fwe33"
         },
         {
-           "type":"text-centered",
+           "type":"headline",
            "title":"\"We design quality homes that are uncomplicated, open, cohesive, and always flooded with as much natural light as possible.\"",
            "id":"llr2zveukjb"
         },
@@ -47295,7 +45736,7 @@
            "id":"vcz51un8z0l"
         },
         {
-           "type":"text-centered",
+           "type":"headline",
            "title":"\"We love how sheers work their magic to instantly make a room feel complete.\"",
            "id":"7fkvsnau2dj"
         },
@@ -47365,7 +45806,7 @@
            "id":"vgo0ogtk0fp"
         },
         {
-           "type":"text-centered",
+           "type":"headline",
            "title":"\"Planning window furnishings is essential before you sign off on your construction drawings!\"",
            "id":"cg851pba3ph"
         },
@@ -47457,7 +45898,7 @@
            "id":"8utz692bx84"
         },
         {
-           "type":"text-centered",
+           "type":"headline",
            "title":"\"Dress your curtains after you've installed them. You'll get that designer look with beautiful soft folds.\"",
            "id":"u3jnonvtbnn"
         },
@@ -47492,12 +45933,12 @@
      "heroImage":"uploads/general/DIY_curtains_sheers_coffstocali_hero_webready.jpg",
      "contentBlocks":[
         {
-           "type":"text-centered",
+           "type":"headline",
            "title":"Coffs to Cali: an incredible beachside reno by Ash and Simon Vos, featuring designer sheer curtains from our Allusion range.",
            "id":"mvlrjqqk90a"
         },
         {
-           "type":"text-centered",
+           "type":"headline",
            "title":"\"We're really into the minimal yet design focussed Palm Springs aesthetic that brings the outdoors in!\"",
            "id":"w1w55hleq3i"
         },
@@ -47550,7 +45991,7 @@
            "id":"t7db0qa477"
         },
         {
-           "type":"text-centered",
+           "type":"headline",
            "title":"\"We brought in bold colours and took our inspiration from nature and the Great Dividing Range\".",
            "id":"cxk82lgkqq"
         },
@@ -47615,7 +46056,7 @@
            "id":"ngykp0nxfj"
         },
         {
-           "type":"text-centered",
+           "type":"headline",
            "title":"\"We have a really strong vision for our lifestyle; it keeps us on point and ensures our creative energy isn’t taken up with hard conversations.\"",
            "id":"efgd9djljg4"
         },
@@ -47758,7 +46199,7 @@
            "id":"9ezgwet26a8"
         },
         {
-           "type":"text-centered",
+           "type":"headline",
            "title":"\"We wanted to furnish our windows in a bespoke way; retain maximum natural light; and add softness and calm to the space\".",
            "id":"8pzdomxuosv"
         },
@@ -47835,7 +46276,7 @@
            "id":"8x71tf4b71t"
         },
         {
-           "type":"text-centered",
+           "type":"headline",
            "title":"\"We talked through our ideas with the DIY Blinds team, who were so helpful from start to finish and gave us confidence in our decisions.\"",
            "id":"bbc2t5jijld"
         },
@@ -47961,12 +46402,12 @@
      "heroImage":"uploads/general/builtbywilson_sheer_curtains_hero.jpg",
      "contentBlocks":[
         {
-           "type":"text-centered",
+           "type":"headline",
            "title":"Built by Wilson's #NewtownCourtyardHouse has just been listed for sale. Snap up this light-filled architect designed home before it's gone! Featuring custom shutters, sheer curved curtains and roller blinds.",
            "id":"4i2pwgmajud"
         },
         {
-           "type":"text-centered",
+           "type":"headline",
            "title":"\"We wanted to create the ultimate family home that allows connection and flow, but also has separate zones for living, work and kids.\"",
            "id":"je27zichl6q"
         },
@@ -48115,7 +46556,7 @@
            "id":"s65d8qlwfjs"
         },
         {
-           "type":"text-centered",
+           "type":"headline",
            "title":"\"Furniture, art and object selections reflect the home's mid-century vibes and complement our luxurious internal finishes.\"",
            "id":"7k318a4i4r9"
         },
@@ -48244,7 +46685,7 @@
            "id":"3ac5xhth2ub"
         },
         {
-           "type":"text-centered",
+           "type":"headline",
            "title":"\"We worked with a DIY Blinds design consultant, Kia, over the phone and on email. Together we chose window furnishings to complement each space.\"",
            "id":"qhr1mi2vf7"
         },
@@ -48326,7 +46767,7 @@
            "id":"pt4htwdm3j"
         },
         {
-           "type":"text-centered",
+           "type":"headline",
            "title":"\"We love natural, textural and layered finishes, together with lots of light.\"",
            "id":"mi4mif71wqg"
         },
@@ -48390,7 +46831,7 @@
            "id":"2sqencfql6q"
         },
         {
-           "type":"text-centered",
+           "type":"headline",
            "title":"\"I suggest getting your samples and materials together and viewing them in different lights.\"",
            "id":"jp45s8hju9e"
         },
@@ -48472,7 +46913,7 @@
            "id":"k8w91xb04i"
         },
         {
-           "type":"text-centered",
+           "type":"headline",
            "title":"At DIY Blinds we deliver designer quality for every budget",
            "id":"bpfmj9fpc2"
         },
@@ -48533,12 +46974,12 @@
      "heroImage":"uploads/general/Cecil-Street-lined_curtains_hero_web.jpg",
      "contentBlocks":[
         {
-           "type":"text-centered",
+           "type":"headline",
            "title":"Order lined curtains for winter! Pick a luxe sheer and add a lining to insulate your home and block cold draughts.",
            "id":"dvx0qgeqa7o"
         },
         {
-           "type":"text-centered",
+           "type":"headline",
            "title":"Twice the luxury: lined sheer curtains",
            "id":"5djglqt6n1g"
         },
@@ -48664,7 +47105,7 @@
            "id":"4zf4u8as4vh"
         },
         {
-           "type":"text-centered",
+           "type":"headline",
            "title":"Enjoy better insulation and noise absorption",
            "id":"mlxajcaftvl"
         },
@@ -48748,7 +47189,7 @@
            "id":"rfgo6tzeabr"
         },
         {
-           "type":"text-centered",
+           "type":"headline",
            "title":"How to order lined curtains",
            "id":"arhqt81xotb"
         },
@@ -49137,7 +47578,7 @@
      "heroImage":"uploads/general/Baha_Mar_sheer_curtains_living_webready.jpg",
      "contentBlocks":[
         {
-           "type":"text-centered",
+           "type":"headline",
            "title":"Sheer curtains perfectly complement the laidback vibe of this Caribbean-inspired home. BahaMar is the latest project by Revolution Building Projects.",
            "id":"qg603cs7ccq"
         },
@@ -49147,7 +47588,7 @@
            "id":"t1gqwcqbr9k"
         },
         {
-           "type":"text-centered",
+           "type":"headline",
            "title":"\"My inspiration for BahaMar comes from beautiful hotels in the Bahamas, as well as the colonial hotels in Singapore such as Raffles.\"",
            "id":"1hf5zbojrzi"
         },
@@ -49307,7 +47748,7 @@
            "id":"zninjmktqrg"
         },
         {
-           "type":"text-centered",
+           "type":"headline",
            "title":"\"I love that feeling of designing a concept and seeing it come together.\"",
            "id":"v3e7a1hen4s"
         },
@@ -49408,7 +47849,7 @@
            "id":"0j5gtqeiruap"
         },
         {
-           "type":"text-centered",
+           "type":"headline",
            "title":"\"We really love the plush texture of our sheers as it helps to create the feeling of luxury.\"",
            "id":"blwpeepgji4"
         },
@@ -49485,7 +47926,7 @@
            "id":"ltuhy7cea6d"
         },
         {
-           "type":"text-centered",
+           "type":"headline",
            "title":"\"The DIY Blinds team were fantastic. We ordered online and the team contacted us to check the measurements and confirm all the details.\"",
            "id":"hja5n7czr1"
         },
@@ -49558,7 +47999,7 @@
      "heroImage":"uploads/general/2-7-Kingsley-she_builds_interiors_shutters_bedroom_recess_fit1.jpg",
      "contentBlocks":[
         {
-           "type":"text-centered",
+           "type":"headline",
            "title":"We talk to Lisa Kefford from She Builds Interiors about all things design, the incredible community of fellow BuildHers and why she loves plantation shutters. Thank you for your time, Lisa!",
            "id":"lfsglvx94ha"
         },
@@ -49571,7 +48012,7 @@
            "id":"38ceozm6rf"
         },
         {
-           "type":"text-centered",
+           "type":"headline",
            "title":"\"Our clients are often amazed at how moving a piece of furniture can completely change the vibe, energy and feel of their space.\"",
            "id":"ftj9i5bp4fr"
         },
@@ -49701,7 +48142,7 @@
            "id":"zp11pbgs5cn"
         },
         {
-           "type":"text-centered",
+           "type":"headline",
            "title":"\"I’m always trying to develop myself. Workshops are a great way to network and meet people who are happy to share their knowledge.\"",
            "id":"h8v72z4zlsd"
         },
@@ -49766,7 +48207,7 @@
            "id":"1fi07juuk21"
         },
         {
-           "type":"text-centered",
+           "type":"headline",
            "title":"\"The colour palette needs to appeal to the broadest spectrum of potential buyers. It turned out very much how I wanted it: soothing with designer elements.\"",
            "id":"ogrh4h6861b"
         },
@@ -49835,7 +48276,7 @@
            "id":"itgga291wa"
         },
         {
-           "type":"text-centered",
+           "type":"headline",
            "title":"\"I like that all DIY Blinds products are made in Australia. I support local and Australian businesses whenever I can.\"",
            "id":"ynosfkjbsx"
         },
@@ -49946,7 +48387,7 @@
            "id":"b7cvj3kvj05"
         },
         {
-           "type":"text-centered",
+           "type":"headline",
            "title":"\"I love bespoke details and have been brought up to honour authentic design.\"",
            "id":"zl151zjlpmo"
         },
@@ -50014,8 +48455,9 @@
      "heroImage":"uploads/general/Hunting-for-George-Motorisation_curtains_blind_webready2.jpg",
      "contentBlocks":[
         {
-           "type":"text-centered",
+           "type":"headline",
            "title":"Lucy from Hunting for George has updated her window furnishings with designer, motorised blinds and curtains for two breathtaking, home renovations.",
+           "description": "She tells us what she loves about motorisation and the amazing home automation features available when you pair your blinds and curtains with Somfy's Connexoon Hub and your smart home device. Let's dive in!",
            "id":"1iqqb2ubqsz"
         },
         {
@@ -50055,7 +48497,7 @@
            "id":"r4wz3qxv88"
         },
         {
-           "type":"text-centered",
+           "type":"headline",
            "title":"\"I thought motorised curtains and blinds were smart enough but the Connexoon Hub makes them even smarter\".",
            "id":"tpew94y6qap"
         },
@@ -50162,7 +48604,7 @@
            "id":"ro0uyf65wzr"
         },
         {
-           "type":"text-centered",
+           "type":"headline",
            "title":"\"Motorised roller blinds allow for complete privacy while sheer curtains create a soft, tactile barrier that frames the space beautifully.\"",
            "id":"t320qxzld1j"
         },
@@ -50218,7 +48660,7 @@
            "id":"roamcn9o52f"
         },
         {
-           "type":"text-centered",
+           "type":"headline",
            "title":"\"I installed motorised blinds and curtains throughout the entire apartment.\"",
            "id":"l61m6nfb36l"
         },
@@ -50267,7 +48709,7 @@
            "id":"q0vomi73wcc"
         },
         {
-           "type":"text-centered",
+           "type":"headline",
            "title":"\"The battery powered Somfy motors are very easy to install and totally DIY friendly.\"",
            "id":"tbjklwbtfln"
         },
@@ -50436,7 +48878,7 @@
            "id":"wiaouzdato8"
         },
         {
-           "type":"text-centered",
+           "type":"headline",
            "title":"4 easy steps to smart home automation in your own home.",
            "id":"jqv55tc8l5o"
         },
@@ -51002,7 +49444,7 @@
      "heroImage":"uploads/general/08-fitzroy-house@2x.jpg",
      "contentBlocks":[
         {
-           "type":"text-centered",
+           "type":"headline",
            "title":"So, you’ve settled on the style of blinds you wish to adorn your beautiful home. Hard part over, right? Wrong.",
            "id":"lps6rxeh3ul"
         },
@@ -51301,7 +49743,7 @@
      "heroImage":"uploads/general/01-recess-face-fit@1x.jpg",
      "contentBlocks":[
         {
-           "type":"text-centered",
+           "type":"headline",
            "title":"Making that decision about how your blinds will sit against your window can undeniably be a tough and long-deliberated process.",
            "id":"1zt82flecz6"
         },
@@ -51570,7 +50012,7 @@
      "heroImage":"uploads/general/361488428432.jpg",
      "contentBlocks":[
         {
-           "type":"text-centered",
+           "type":"headline",
            "title":"When it comes to giving your windows that pinch of panache they deserve, there are plenty of different methods you can try.",
            "id":"t4qaxwxwg8"
         },
@@ -51987,7 +50429,7 @@
            "id":"bu6c15csbjr"
         },
         {
-           "type":"text-centered",
+           "type":"headline",
            "title":"The short and sharp answer: sunscreen blinds",
            "id":"e4s9uczs38d"
         },
@@ -52016,7 +50458,7 @@
            "id":"pzz995b27rc"
         },
         {
-           "type":"text-centered",
+           "type":"headline",
            "title":"Double up the benefits with double roller blinds",
            "id":"02ul4yvhsd8n"
         },
@@ -52045,7 +50487,7 @@
            "id":"zixvinhok9a"
         },
         {
-           "type":"text-centered",
+           "type":"headline",
            "title":"Save on your air conditioner bills by choosing honeycomb blinds",
            "id":"q40p3v716kj"
         },
@@ -52101,7 +50543,7 @@
      "heroImage":"uploads/general/features-1.jpg",
      "contentBlocks":[
         {
-           "type":"text-centered",
+           "type":"headline",
            "title":"Renovation veterans and former The Block contestants Bec and George Douros recently got DIY-savvy, turning an old 1950s weatherboard home into a fresh, modern and cosy abode.",
            "id":"wrmahtawnra"
         },
@@ -52616,7 +51058,7 @@
      "heroImage":"uploads/general/polylux-article-image.jpg",
      "contentBlocks":[
         {
-           "type":"text-centered",
+           "type":"headline",
            "title":"Julia and Sasha’s latest project #LittleWillowReno is now complete; they had a huge turnout for their recent open-for-inspections and their home is now ready to go under the auctioneers hammer this coming weekend.",
            "id":"k87vlvnswl"
         },
@@ -52713,7 +51155,7 @@
            "id":"r4onzyuxy2o"
         },
         {
-           "type":"text-centered",
+           "type":"headline",
            "title":"“We were also able to meet the hardworking team in the factory who supplied us with the highest quality Australian Made window furnishing.”",
            "id":"f38gjgkwxi5"
         },

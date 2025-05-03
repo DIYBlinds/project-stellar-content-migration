@@ -1,13 +1,12 @@
 import blogs from '../../.in/blogs.json';
-import exclusions from '../../.in/blog-exclusions.json';
+import inclusions from '../../.in/blog-inclusuins.json';
 import { upsertEntry } from '../utils/contentful';
 import mappings from '../../.in/blog-image-mappings.json';
-import { generateId } from '../utils/id';
 
 const LOCALE = 'en-AU';
-import fs from 'fs';
-const imports = blogs.filter(blog => !exclusions.map(exclusion => exclusion.url).includes(blog.url));
-
+const samples = ['https://www.diyblinds.com.au/inspiration/hunting-for-george-two-outstanding-projects-using-motorisation-and-smart-home-automation'];
+const imports = blogs.filter(blog => inclusions.includes(blog.url));//.filter(blog => samples.includes(blog.url));
+console.log('imports', inclusions.filter(url => !blogs.map(blog => blog.url).includes(url)));
 
 const metadata = {
     tags: [
@@ -22,7 +21,7 @@ const metadata = {
 }
 
 const run = async () => {
-    for (const blog of imports.slice(10, 11)) {
+    for (const blog of imports) {
         const heroImage = await upsertHeroImage(blog);
         await upsertBlogs(blog, heroImage.sys.id);
     }
@@ -75,6 +74,15 @@ const upsertBlogs = async (blog: typeof blogs[0], heroImageId: string) => {
         if (block.type === 'image') {
             await createImageBlock(blog, block);
         }
+        if (block.type === 'video') {
+            await createVideoBlock(blog, block);
+        }
+        if (block.type === 'headline') {
+            await createHeadlineBlock(blog, block);
+        }
+        if (block.type === 'gallery') {
+            await createGalleryBlock(blog, block);
+        }
     }
 
     const data = {
@@ -111,7 +119,7 @@ const upsertBlogs = async (blog: typeof blogs[0], heroImageId: string) => {
                 [LOCALE]: 'DIY'
             },
             contentBlocks: {
-                [LOCALE]: blog.contentBlocks?.filter((block: any) => !['imageCarousel', 'gallery'].includes(block.type)).map((block: any) => {
+                [LOCALE]: blog.contentBlocks?.filter((block: any) => !['imageCarousel'].includes(block.type)).map((block: any) => {
                     return {
                         sys: {
                             type: 'Link',
@@ -126,6 +134,111 @@ const upsertBlogs = async (blog: typeof blogs[0], heroImageId: string) => {
 
     await upsertEntry('inspiration', 'blog-'+blog.id, data);
 }
+
+const createGalleryBlock = async (blog: typeof blogs[0], block: any) => {
+
+    const cells = [];
+    let index = 0;
+    const count = block.images.length;
+    let colSpan = 1;
+    let rowSpan = 1;
+    for (const image of block.images) {
+        if (count === 4 || count === 7) {
+            rowSpan = index === 0 || index === 2 ? 2 : 1;
+        }
+
+        const cell = await createCell(blog, image, colSpan, rowSpan);
+        if (cell) {
+            cells.push(cell);
+        }
+        index++;
+    }
+
+    return await upsertEntry('featuredGrid', `${block.type.toLowerCase()}-${block.id}`, {
+        metadata: metadata,
+        fields: {
+            name: {
+                [LOCALE]: 'Blog > ' + blog.title
+            },
+            variant: {
+                [LOCALE]: 'default'
+            },
+            cells: {
+                [LOCALE]: cells.filter(Boolean).map((cell: any) => {
+                    return {
+                        sys: {
+                            type: 'Link',
+                            linkType: 'Entry',
+                            id: cell.sys.id
+                        }
+                    }
+                })
+            }
+        }
+    });
+}
+
+const createCell = async (blog: typeof blogs[0], image: string, colSpan: number, rowSpan: number) => {
+    const cloudinaryImage = lookupImage(blog.title, image)
+    if (!cloudinaryImage) return null;
+    return await upsertEntry('featuredGridCell', `cell-${cloudinaryImage.id}`, {
+        metadata: metadata,
+        fields: {
+            name: {
+                [LOCALE]: getSlug(cloudinaryImage.image)
+            },
+            variant: {
+                [LOCALE]: 'gallery-tout'
+            },
+            image: {
+                [LOCALE]: cloudinaryImage.image
+            },
+            columnSpan: {
+                [LOCALE]: colSpan
+            },
+            rowSpan: {
+                [LOCALE]: rowSpan
+            }
+        }
+    });
+}
+
+const createHeadlineBlock = async (blog: typeof blogs[0], block: any) => {
+    return await upsertEntry('headline', `${block.type.toLowerCase()}-${block.id}`, {
+        metadata: metadata,
+        fields: {
+            name: {
+                [LOCALE]: 'Blog > ' + block.title
+            },
+            title: {
+                [LOCALE]: block.title
+            },
+            subTitle: {
+                [LOCALE]: block.description
+            }
+        }
+    });
+}
+
+const createVideoBlock = async (blog: typeof blogs[0], block: any) => {
+    return await upsertEntry('video', `${block.type.toLowerCase()}-${block.id}`, {
+        metadata: metadata,
+        fields: {
+            name: { 
+                [LOCALE]: 'Blog > ' + blog.title
+            },
+            video: {
+                [LOCALE]: block.youtube
+            },
+            autoPlay: {
+                [LOCALE]: false
+            },
+            loop: {
+                [LOCALE]: false
+            }
+        }
+    });
+}   
 
 const createImageBlock = async (blog: typeof blogs[0], block: any) => { 
     return await upsertEntry('heroImage', `${block.type.toLowerCase()}-${block.id}`, {
@@ -221,4 +334,4 @@ const createTile = async (blog: typeof blogs[0], image: string) => {
     return await upsertEntry('tile', 'tile-'+coundinaryImage.id, tile);
 }
 
-run();
+//run();
