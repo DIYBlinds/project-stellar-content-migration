@@ -1,10 +1,13 @@
 // upload.ts
 import cloudinary from '../utils/cloudinary';
 import fs from 'fs';
-import path from 'path';
-import mappings from '../../.in/blog-image-mappings.json';
-import showrooms from '../../.in/showrooms.json';
+import mappingsJson from '../../.in/blog-image-mappings.json';
+import showroomsJson from '../../.in/showrooms.json';
+import blogs from '../../.in/blogs.json';
 
+
+const mappings = mappingsJson as any[];
+const showrooms = showroomsJson as any[];
 interface Blog {
   title: string;
   heroImage: string;
@@ -116,7 +119,7 @@ const uploadImage = async (
 
 const collectImageTasks = (blog: Blog, folder: string): ImageUploadTask[] => {
   const tasks: ImageUploadTask[] = [];
-  const processedImages = new Set<string>(mappings.map(mapping => getSlug(mapping.originalImage)));
+  const processedImages = new Set<string>(mappings.map((mapping: any) => getSlug(mapping.originalImage)));
 
   // Add hero image task
   const heroImageSlug = getSlug(blog.heroImage);
@@ -227,7 +230,6 @@ const saveProgress = (blogs: Blog[], imageMappings: ImageMapping[], index: numbe
 };
 
 const run = async (): Promise<void> => {
-  const blogs: Blog[] = require('../../.in/blogs.json');
   const allImageMappings: ImageMapping[] = [];
   const processedImages = new Map<string, ProcessedImage>();
   
@@ -244,7 +246,7 @@ const run = async (): Promise<void> => {
       for (const task of uploadTasks) {
         const imageSlug = getSlug(task.filePath);
         const existingImage = processedImages.get(imageSlug);
-        const showroomImages = showrooms.filter(showroom => showroom._source.cloudinaryImage.split('/').pop() == imageSlug);
+        const showroomImages = showrooms.filter((showroom: any) => showroom._source.cloudinaryImage.split('/').pop() == imageSlug);
         const showroomImage = showroomImages.length > 0 ? showroomImages[0] : null;
         
         if (existingImage || showroomImage) {

@@ -1,5 +1,8 @@
 import blogs from '../../.in/blogs.json';
 import fs from 'fs';
+import { generateId } from '../utils/id';
+import mappingsJson from '../../.in/blog-image-mappings.json';
+
 
 const convertItalicNodes = (content: any[]) => {
     return content.map(node => {
@@ -25,9 +28,13 @@ const convertItalicNodes = (content: any[]) => {
 };
 
 const run = async () => {
+
     for (const blog of blogs) {
+        (blog as any).id = generateId();
         for (const block of blog.contentBlocks) {
+            (block as any).id = generateId();
             if (block.type === 'richText') {
+                fixRixchtextDocument(block);
                 const document = block.content as any;
                 if (document.content) {
                     document.content = convertItalicNodes(document.content);
@@ -39,4 +46,28 @@ const run = async () => {
     fs.writeFileSync('./.in/blogs2.json', JSON.stringify(blogs, null, 2));
 };
 
-run(); 
+const fixRixchtextDocument = (block: any) => {
+    const document = block.content;
+    let content = document.content;
+    while (content.length > 0 && !content[0].nodeType && content[0].content) {
+        content = content[0].content;
+    }
+    document.content = content;
+}
+
+
+const removeRedundantImages = async () => {
+    // remove distinct items from mappings baed on title, originalImage and cloudinaryImage field values
+    const distinctMappings = (mappingsJson as any[]).filter((mapping: any, index: number, self: any[]) =>
+        index === self.findIndex((t: any) => t.title === mapping.title && t.originalImage === mapping.originalImage && t.cloudinaryImage === mapping.cloudinaryImage)
+    );
+
+    await Promise.all(distinctMappings.map((mapping: any) => {
+        mapping.id = generateId();
+    }));
+    
+    fs.writeFileSync('./.in/blog-image-mappings.json', JSON.stringify(distinctMappings, null, 2));
+
+}
+
+removeRedundantImages(); 

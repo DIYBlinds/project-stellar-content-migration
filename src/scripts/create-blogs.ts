@@ -4,9 +4,11 @@ import { upsertEntry } from '../utils/contentful';
 import mappings from '../../.in/blog-image-mappings.json';
 
 const LOCALE = 'en-AU';
-const samples = ['https://www.diyblinds.com.au/inspiration/hunting-for-george-two-outstanding-projects-using-motorisation-and-smart-home-automation'];
-const imports = blogs.filter(blog => inclusions.includes(blog.url));//.filter(blog => samples.includes(blog.url));
-console.log('imports', inclusions.filter(url => !blogs.map(blog => blog.url).includes(url)));
+const samples = [
+    'https://www.diyblinds.com.au/inspiration/are-you-winter-ready-thermally-insulate-your-home-using-window-furnishings'
+];
+const imports = blogs.filter(blog => inclusions.includes(blog.url)); //.filter(blog => samples.includes(blog.url));
+console.log('imports>>>', imports.length);
 
 const metadata = {
     tags: [
@@ -22,6 +24,7 @@ const metadata = {
 
 const run = async () => {
     for (const blog of imports) {
+        console.log('blog>>>',blog.title);
         const heroImage = await upsertHeroImage(blog);
         await upsertBlogs(blog, heroImage.sys.id);
     }
@@ -54,10 +57,11 @@ const upsertHeroImage = async (blog: typeof imports[0]) => {
 }
 
 const lookupImage = (title : string, url: string) => {
+    console.log(title, url);
     const mapping = (mappings as any).find((mapping: any) => mapping.blogTitle === title && mapping.originalImage === url);
     return {
-        image: mapping.cloudinaryImage.replace(/%40/g, '@'),
-        id: mapping.id
+        image: mapping?.cloudinaryImage.replace(/%40/g, '@'),
+        id: mapping?.id
     }
 }
 
@@ -181,6 +185,7 @@ const createGalleryBlock = async (blog: typeof blogs[0], block: any) => {
 const createCell = async (blog: typeof blogs[0], image: string, colSpan: number, rowSpan: number) => {
     const cloudinaryImage = lookupImage(blog.title, image)
     if (!cloudinaryImage) return null;
+    console.log('CELL>>>>', cloudinaryImage.image);
     return await upsertEntry('featuredGridCell', `cell-${cloudinaryImage.id}`, {
         metadata: metadata,
         fields: {
@@ -334,4 +339,4 @@ const createTile = async (blog: typeof blogs[0], image: string) => {
     return await upsertEntry('tile', 'tile-'+coundinaryImage.id, tile);
 }
 
-//run();
+run();

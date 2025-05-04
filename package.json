@@ -20,7 +20,8 @@
     "download-blog-images": "ts-node src/scripts/download-blog-images.ts",
     "upload-blog-images": "ts-node src/scripts/upload-blog-images.ts",
     "create-blogs": "ts-node src/scripts/create-blogs.ts",
-    "helper": "ts-node src/scripts/helper.ts"
+    "helper": "ts-node src/scripts/helper.ts",
+    "scrape-hometours": "ts-node src/scripts/scrape-hometours.ts"
   },
   "dependencies": {
     "axios": "^1.8.4",
