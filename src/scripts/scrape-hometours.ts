@@ -29,30 +29,30 @@ const run = (async () => {
 
       for (const block of contentBlocks) {
         // text columns
-        // if (await page.evaluate(el => el.classList.contains('rich-block'), block) && (await block.$$('div.u-text-columns')).length > 0) {
-        //   const html = await block.$eval('div.u-text-columns', el => el.innerHTML);
+        if (await page.evaluate(el => el.classList.contains('rich-block'), block) && (await block.$$('div.u-text-columns')).length > 0) {
+          const html = await block.$eval('div.u-text-columns', el => el.innerHTML);
 
-        //   tour.contentBlocks.push(
-        //     {
-        //       type: 'richText',
-        //       content: htmlToRichText(html)
-        //     }
-        //   );
-        //   continue;
-        // }
+          tour.contentBlocks.push(
+            {
+              type: 'richText',
+              content: htmlToRichText(html)
+            }
+          );
+          continue;
+        }
 
-        // // Richtext
-        // if (await page.evaluate(el => el.classList.contains('rich-block'), block)) {
-        //   const html = await page.evaluate(el => el.innerHTML, block);
+        // Richtext
+        if (await page.evaluate(el => el.classList.contains('rich-block'), block)) {
+          const html = await page.evaluate(el => el.innerHTML, block);
 
-        //   tour.contentBlocks.push(
-        //     {
-        //       type: 'richText',
-        //       content: htmlToRichText(html)
-        //     }
-        //   );
-        //   continue;
-        // }
+          tour.contentBlocks.push(
+            {
+              type: 'richText',
+              content: htmlToRichText(html)
+            }
+          );
+          continue;
+        }
 
         // Content Tiles
         if ((await block.$$('div.two-images')).length > 0) {
@@ -86,17 +86,17 @@ const run = (async () => {
           continue;
         }
 
-        // // Image
-        // if ((await block.$$('div.image--center')).length > 0) {
-        //   const image = await block.$eval('img', el => el.getAttribute('data-src') ?? '');
-        //   if (image) {
-        //     tour.contentBlocks.push({
-        //       type: 'image',
-        //       image: decodeBase64(image)
-        //     });
-        //   }
-        //   continue;
-        // }
+        // Image
+        if ((await block.$$('div.image--center')).length > 0) {
+          const image = await block.$eval('img', el => el.getAttribute('data-src') ?? '');
+          if (image) {
+            tour.contentBlocks.push({
+              type: 'image',
+              image: decodeBase64(image)
+            });
+          }
+          continue;
+        }
 
         // // Image Carousel
         // if ((await block.$$('div.image-carousel')).length > 0) {

@@ -47677,57 +47677,85 @@
                   ]
                 }
               ]
-            },
-            {
-              "nodeType": "paragraph",
-              "data": {},
-              "content": [
-                {
-                  "nodeType": "text",
-                  "value": " Ideal for high humidity areas, guaranteeing no fading, peeling, or blistering. Adds value to your home.",
-                  "marks": [],
-                  "data": {}
-                }
-              ]
-            },
-            {
-              "nodeType": "heading-4",
-              "data": {},
-              "content": [
-                {
-                  "nodeType": "text",
-                  "value": "2. ",
-                  "marks": [],
-                  "data": {}
+            }
+          ]
+        },
+        "id": "xfihf7c2gf"
+      },
+      {
+        "type": "image",
+        "image": "uploads/general/PolyLux-Plantation-Shutters-For-Bathroom-2.jpg",
+        "id": "bmwcn9vc291"
+      },
+      {
+        "type": "richText",
+        "content": {
+          "nodeType": "document",
+          "data": {},
+          "content": [            {
+            "nodeType": "paragraph",
+            "data": {},
+            "content": [
+              {
+                "nodeType": "text",
+                "value": " Ideal for high humidity areas, guaranteeing no fading, peeling, or blistering. Adds value to your home.",
+                "marks": [],
+                "data": {}
+              }
+            ]
+          },
+          {
+            "nodeType": "heading-4",
+            "data": {},
+            "content": [
+              {
+                "nodeType": "text",
+                "value": "2. ",
+                "marks": [],
+                "data": {}
+              },
+              {
+                "nodeType": "hyperlink",
+                "data": {
+                  "uri": "https://www.diyblinds.com.au/blinds/venetian-blinds"
                 },
-                {
-                  "nodeType": "hyperlink",
-                  "data": {
-                    "uri": "https://www.diyblinds.com.au/blinds/venetian-blinds"
-                  },
-                  "content": [
-                    {
-                      "nodeType": "text",
-                      "value": "Visionwood Venetian Blinds",
-                      "marks": [],
-                      "data": {}
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "nodeType": "paragraph",
-              "data": {},
-              "content": [
-                {
-                  "nodeType": "text",
-                  "value": " Resistant to moisture, lightweight for easy installation, and cost-effective compared to traditional timber.",
-                  "marks": [],
-                  "data": {}
-                }
-              ]
-            },
+                "content": [
+                  {
+                    "nodeType": "text",
+                    "value": "Visionwood Venetian Blinds",
+                    "marks": [],
+                    "data": {}
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "nodeType": "paragraph",
+            "data": {},
+            "content": [
+              {
+                "nodeType": "text",
+                "value": " Resistant to moisture, lightweight for easy installation, and cost-effective compared to traditional timber.",
+                "marks": [],
+                "data": {}
+              }
+            ]
+          }]
+        },
+        "id": "xfihf7c2g1"
+      },
+      {
+        "type": "image",
+        "image": "uploads/general/Visionwood-Venetian-Blinds-For-Bathroom-and-Kitchen-2.jpg",
+        "id": "bmwcn9vc291"
+      },
+      {
+        "type": "richText",
+        "content": {
+          "nodeType": "document",
+          "data": {},
+          "content": [ 
             {
               "nodeType": "heading-4",
               "data": {},
@@ -47765,7 +47793,22 @@
                   "data": {}
                 }
               ]
-            },
+            }
+          ]
+        },
+        "id": "xfihf7c2g2"
+      },
+      {
+        "type": "image",
+        "image": "uploads/general/Blockout-or-Light-Filtering-Roller-Blinds-For-Bathroom.jpg",
+        "id": "bmwcn9vc293"
+      },
+      {
+        "type": "richText",
+        "content": {
+          "nodeType": "document",
+          "data": {},
+          "content": [ 
             {
               "nodeType": "paragraph",
               "data": {},
@@ -47856,8 +47899,9 @@
             }
           ]
         },
-        "id": "xfihf7c2gf"
+        "id": "xfihf7c2g3"
       },
+
       {
         "type": "headline",
         "title": "So, what's the solution?",
@@ -47896,51 +47940,61 @@
       {
         "type": "headline",
         "title": "1. Sun Seeker",
+        "description": "This swift little app functions to determine the natural sunshine available in your room at any given time of the day. It harnesses your phone’s GPS system to work out which direction you are facing in and maps out the path of potential rays of light. Perfect for deciding what kind of blinds your room might need!",
         "id": "695ztw4kzux"
       },
       {
         "type": "headline",
         "title": "2. iHandy Carpenter",
+        "description": "For those who don’t want to invest in expensive toolkits, the iHandy Carpenter provides you with a neat little collection of virtual tools: a spirit level, a protractor, a ruler, a plumb bob and a surface level. Compact and cheap – what more could you want?",
         "id": "zjc1y122i5e"
       },
       {
         "type": "headline",
         "title": "3. Peppermint",
+        "description": "If you’re feeling a little hesitant about trying a daring new lick of paint for your walls, this colour palette app enables you to play around with different combinations and shades. You get to see what works and what doesn’t without making that costly commitment.",
         "id": "5ztkv9b7856"
       },
       {
         "type": "headline",
         "title": "4. MyPantone",
+        "description": "Speaking of paint hues, MyPantone is a highly extensive colour library that allows you to accurately discover the name of your dream shade so you no longer have to play guessing game or battle with miscommunications at the hardware store. You can even use it to generate a colour palette from everyday objects whose hues you have fallen in love with.",
         "id": "ytqsuyvxdi"
       },
       {
         "type": "headline",
         "title": "5. Photomeasures",
+        "description": "Furnishing a room? Photomeasures lets you snap away pictures of your space then add the measurements, making your shopping experience a whole lot easier. It even lets you zoom in for details and magnify for better accuracy.",
         "id": "5n7d0rll7th"
       },
       {
         "type": "headline",
         "title": "6. Homestyler Interior Design",
+        "description": "Known as a “virtual fitting room”, the Homestyler app is a more visual way to work out those room-to-furniture ratios. The app allows you to superimpose real products into your space, so you can assess whether you’re over-cluttering, under-furnishing, or taking the mismatching trend a tad too far.",
         "id": "kzib7g1bsy"
       },
       {
         "type": "headline",
         "title": "7. Houzz",
+        "description": "When looking for a hint of inspiration, this nifty little app is ideal. It’s been hailed by design gurus all over the world as the “Wikipedia of interior and exterior design”; basically, it consists of a database that houses more than 5 million images, all of which have been tagged and organised based on style, room and location. Like Pinterest, you can search, browse and save your favourites, compiling your own digital scrapbook of ideas.",
         "id": "4kh95ai2bxw"
       },
       {
         "type": "headline",
         "title": "8. Curate",
+        "description": "Choosing artwork for your abode can be one of the most stressful and time-consuming tasks of the whole decorating experience. Curate simplifies the process by allowing you to virtually display a piece of art upon a snapshot of your blank wall, helping you to make a confident purchasing decision.",
         "id": "5xdr1472yhi"
       },
       {
         "type": "headline",
         "title": "9. LikeThatDecor and Furniture",
+        "description": "Next time you’re sitting in your favourite café and notice a piece of furniture that really grabs your eye, take a quick photo and download the LikeThatDecor app. It “reads” images and identifies the products within its own digital inventory, which holds a ridiculous 25-million-and-counting homeware items. The app then not only finds and regurgitates the model for you, but also generates similar styles so you can cross-check prices.",
         "id": "vx55ilxo60h"
       },
       {
         "type": "headline",
         "title": "10. BrightNest",
+        "description": "We all know how important home maintenance is if you want to preserve that beautifully-styled room, which is exactly what BrightNest is for. It’s kind of like a personal assistant for your home – it keeps track of your household tasks in an orderly schedule, providing little reminders when they’re due while also giving nifty housekeeping advice.",
         "id": "pfjdd4x5azl"
       }
     ],
@@ -49441,6 +49495,7 @@
       {
         "type": "headline",
         "title": "Collection 1: ‘Pastel’",
+        "description": "Style: Soft and silky with a matte chalk finish. Think: New York apartment",
         "id": "c6j2ptxyftu"
       },
       {
@@ -49468,6 +49523,7 @@
       {
         "type": "headline",
         "title": "Collection 2: ‘Shadow’",
+        "description": "Style: Bold, masculine and uber-contemporary. Think: Warehouse studio",
         "id": "iap38c2vv2c"
       },
       {
@@ -49495,6 +49551,7 @@
       {
         "type": "headline",
         "title": "Collection 3: ‘Urban’",
+        "description": "Style: For that grainy, authentic wooden look. Think: Cottage chic",
         "id": "cvufz0r3ega"
       },
       {
@@ -49552,26 +49609,31 @@
       {
         "type": "headline",
         "title": "Banish computer screen glare without sacrificing your views.",
+        "description": "Sunscreen roller blinds are the perfect solution for this. They function to restrict sun rays bouncing off monitors, therefore heavily reducing the eyestrain on your employees, while still maintaining those views of big wide skies that are essential motivation-boosters for your workers",
         "id": "3hqj5b2i5rp"
       },
       {
         "type": "headline",
         "title": "Keep private areas just that – private.",
+        "description": "While sunscreen blinds are great for preserving your views, they admittedly don’t offer much privacy. This is where double roller blinds are super handy. By installing a double roller blind consisting of a sunscreen blind and a blockout blind, you can give your office the options of providing ultimate privacy for meeting rooms and boardrooms while still delivering sweeping views of the city.",
         "id": "elxhzlvbx1i"
       },
       {
         "type": "headline",
         "title": "Reflect the mood and culture of your business.",
+        "description": "All elements of interior design contribute to the feel of your office, working together to communicate your business’s vibes to your clients. Colours such as light browns and blue-whites can provide a warm, comfortable and calming atmosphere and are therefore ideal for offices with long working hours. On the other hand, blinds in bold, striking tones can promote vigour and energy in the office and convey a highly-dynamic atmosphere.",
         "id": "x9f4th4b01"
       },
       {
         "type": "headline",
         "title": "Minimise your use of artificial light and in turn boost your employees’ energy levels.",
+        "description": "It has been proven that too much exposure to artificial lighting can actually affect how much cortisol – the chemical that deals with stress – is produced by your body. When stuck working in a room that lacks sunlight, you will have less energy, make more mistakes, and find your attention frequently wavering. Sunscreen and Venetian blinds can allow all that valuable daylight to enter your work space and give your employees those vitamin D-rich benefits their bodies need.",
         "id": "2wxep8op4ii"
       },
       {
         "type": "headline",
         "title": "Enhance the professional look and appeal of your office.",
+        "description": "By choosing stylish window treatments that have been constructed of the highest-quality fabrics and materials, you can complement the overall professional tone of your office. Curate your corporate culture today with Australian-crafted, tailor-made blinds for your office from DIY Blinds.",
         "id": "51mw2nzmvcw"
       }
     ],

@@ -49,22 +49,26 @@ const run = async () => {
     await downloadImage( `https://media.diyblinds.com.au/${tour.heroImage}`, tour.title, getSlug(tour.heroImage));
     tour.contentBlocks.forEach((block: any) => {
       if (block.type == 'image') {
-        downloadImage( `https://media.diyblinds.com.au/${block.image}`, blog.title, getSlug(block.image));
+        downloadImage( `https://media.diyblinds.com.au/${block.image}`, tour.title, getSlug(block.image));
       }
       if (block.type == 'contentTiles') {
         block.images.forEach((image: string) => {
-          downloadImage( `https://media.diyblinds.com.au/${image}`, blog.title, getSlug(image));
+          downloadImage( `https://media.diyblinds.com.au/${image}`, tour.title, getSlug(image));
         });
       }
       if (block.type == 'gallery') {
         block.images.forEach((image: string) => {
-          downloadImage( `https://media.diyblinds.com.au/${image}`, blog.title, getSlug(image));
+          downloadImage( `https://media.diyblinds.com.au/${image}`, tour.title, getSlug(image));
         });
       }
       if (block.type == 'imageCarousel') {
         block.images.forEach((image: string) => {
-          downloadImage( `https://media.diyblinds.com.au/${image}`, blog.title, getSlug(image));
+          downloadImage( `https://media.diyblinds.com.au/${image}`, tour.title, getSlug(image));
         });
+      }
+      if (block.type == 'fancyImagePanel') {
+        block.image1 != "" && downloadImage( `https://media.diyblinds.com.au/${block.image1}`, tour.title, getSlug(block.image1));
+        block.image2 != "" && downloadImage( `https://media.diyblinds.com.au/${block.image2}`, tour.title, getSlug(block.image2));
       }
     });
   }

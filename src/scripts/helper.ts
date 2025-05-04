@@ -1,8 +1,9 @@
 import blogs from '../../.in/blogs.json';
 import fs from 'fs';
 import { generateId } from '../utils/id';
-import mappingsJson from '../../.in/blog-image-mappings.json';
-
+import mappingsJson from '../../.in/image-mappings.json';
+import tours from '../../.in/hometours.json';
+import showrooms from '../../.in/showrooms.json';
 
 const convertItalicNodes = (content: any[]) => {
     return content.map(node => {
@@ -29,6 +30,25 @@ const convertItalicNodes = (content: any[]) => {
 
 const run = async () => {
 
+    for (const tour of tours) {
+        (tour as any).id = generateId();
+        for (const block of tour.contentBlocks) {
+            (block as any).id = generateId();
+        }
+    }
+    fs.writeFileSync('./.in/hometours.json', JSON.stringify(tours, null, 2));
+};
+
+const fixRixchtextDocument = (block: any) => {
+    const document = block.content;
+    let content = document.content;
+    while (content.length > 0 && !content[0].nodeType && content[0].content) {
+        content = content[0].content;
+    }
+    document.content = content;
+}
+
+const fixBlogsRichtextItalics = (block: any) => {
     for (const blog of blogs) {
         (blog as any).id = generateId();
         for (const block of blog.contentBlocks) {
@@ -43,18 +63,8 @@ const run = async () => {
         }
     }
 
-    fs.writeFileSync('./.in/blogs2.json', JSON.stringify(blogs, null, 2));
-};
-
-const fixRixchtextDocument = (block: any) => {
-    const document = block.content;
-    let content = document.content;
-    while (content.length > 0 && !content[0].nodeType && content[0].content) {
-        content = content[0].content;
-    }
-    document.content = content;
+    fs.writeFileSync('./.in/blogs.json', JSON.stringify(blogs, null, 2));
 }
-
 
 const removeRedundantImages = async () => {
     // remove distinct items from mappings baed on title, originalImage and cloudinaryImage field values
@@ -65,9 +75,23 @@ const removeRedundantImages = async () => {
     await Promise.all(distinctMappings.map((mapping: any) => {
         mapping.id = generateId();
     }));
-    
-    fs.writeFileSync('./.in/blog-image-mappings.json', JSON.stringify(distinctMappings, null, 2));
+
+    fs.writeFileSync('./.in/image-mappings.json', JSON.stringify(distinctMappings, null, 2));
 
 }
 
+const updateImageMappings = async () => {
+    const mappings = mappingsJson as any[];
+    for (const showroom of showrooms) {
+        mappings.push({
+            blogTitle: `Showroom: ${showroom._source.title}`,
+            originalImage: showroom._source.path,
+            cloudinaryImage: showroom._source.cloudinaryImage,
+            id: showroom._id
+        });
+    }
+
+    fs.writeFileSync('./.in/image-mappings2.json', JSON.stringify(mappings, null, 2));
+    
+}   
 removeRedundantImages(); 

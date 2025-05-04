@@ -1,7 +1,7 @@
 // upload.ts
 import cloudinary from '../utils/cloudinary';
 import fs from 'fs';
-import mappingsJson from '../../.in/blog-image-mappings.json';
+import mappingsJson from '../../.in/image-mappings.json';
 import showroomsJson from '../../.in/showrooms.json';
 import blogs from '../../.in/blogs.json';
 
@@ -225,7 +225,7 @@ const updateBlogWithUploadedImages = (
 const saveProgress = (blogs: Blog[], imageMappings: ImageMapping[], index: number): void => {
   if (index % 10 === 0) {
     fs.writeFileSync('./.in/blogs.json', JSON.stringify(blogs, null, 2));
-    fs.writeFileSync('./.in/blog-image-mappings.json', JSON.stringify(imageMappings, null, 2));
+    fs.writeFileSync('./.in/image-mappings.json', JSON.stringify(imageMappings, null, 2));
   }
 };
 
@@ -283,11 +283,11 @@ const run = async (): Promise<void> => {
 
     // Final save
     fs.writeFileSync('./.in/blogs.json', JSON.stringify(blogs, null, 2));
-    fs.writeFileSync('./.in/blog-image-mappings.json', JSON.stringify(allImageMappings, null, 2));
+    fs.writeFileSync('./.in/image-mappings.json', JSON.stringify(allImageMappings, null, 2));
   } catch (error) {
     // Save progress even if there's an error
     fs.writeFileSync('./.in/blogs.json', JSON.stringify(blogs, null, 2));
-    fs.writeFileSync('./.in/blog-image-mappings.json', JSON.stringify(allImageMappings, null, 2));
+    fs.writeFileSync('./.in/image-mappings.json', JSON.stringify(allImageMappings, null, 2));
     console.error('Upload error:', error);
     throw error;
   }
