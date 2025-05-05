@@ -1,12 +1,18 @@
 import blogs from '../../.in/blogs.json';
 import inclusions from '../../.in/blog-inclusuins.json';
 import { upsertEntry } from '../utils/contentful';
-import mappings from '../../.in/blog-image-mappings.json';
+import mappings from '../../.in/image-mappings.json';
 
 const LOCALE = 'en-AU';
 const samples = [
-    'https://www.diyblinds.com.au/inspiration/are-you-winter-ready-thermally-insulate-your-home-using-window-furnishings'
+    'https://www.diyblinds.com.au/inspiration/10-must-have-interior-design-apps-for-your-mobile',
+    'https://www.diyblinds.com.au/inspiration/5-hints-for-choosing-your-office-blinds'
 ];
+const excludes = [
+    'https://www.diyblinds.com.au/inspiration/10-must-have-interior-design-apps-for-your-mobile',
+    'https://www.diyblinds.com.au/inspiration/5-hints-for-choosing-your-office-blinds'
+];
+
 const imports = blogs.filter(blog => inclusions.includes(blog.url)); //.filter(blog => samples.includes(blog.url));
 console.log('imports>>>', imports.length);
 

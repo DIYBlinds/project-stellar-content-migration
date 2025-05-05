@@ -1,8 +1,9 @@
 import puppeteer, { Page } from 'puppeteer';
-import blogsJson from '../../.in/blogs2.json'
+import blogsJson from '../../.in/blogs.json'
 import fs from 'fs';
 import { Blog } from '../types/blog';
 import { htmlToRichText } from 'html-to-richtext-contentful';
+import { generateId } from '../utils/id';
 
 const blogs = blogsJson as Blog[];
 
@@ -18,6 +19,7 @@ const run = (async () => {
       });
       // Now the page is fully rendered. You can extract HTML or run DOM queries.
 
+      blog.id = generateId();
       blog.title = await page.$eval('div.header__limit-title-width h1',  el => el.innerText);
       blog.heroImage = decodeBase64(await page.$eval('div.header--negative-feature-image img',  el => el.getAttribute('data-srcset')?.split(' ')[0] ?? ''));
       const contentBlocks = await page.$$('div.b');
@@ -31,7 +33,8 @@ const run = (async () => {
           blog.contentBlocks.push(
             {
               type: 'richText',
-              content: htmlToRichText(html)
+              content: htmlToRichText(html),
+              id: generateId()
             }
           );
           continue;
@@ -44,7 +47,8 @@ const run = (async () => {
           blog.contentBlocks.push(
             {
               type: 'richText',
-              content: htmlToRichText(html)
+              content: htmlToRichText(html),
+              id: generateId()
             }
           );
           continue;
@@ -60,7 +64,8 @@ const run = (async () => {
           if (images.length > 0) {
             blog.contentBlocks.push({
               type: 'contentTiles',
-              images: imageUrls
+              images: imageUrls,
+              id: generateId()
             });
           }
           continue;
@@ -72,7 +77,8 @@ const run = (async () => {
           if (image) {
             blog.contentBlocks.push({
               type: 'image',
-              image: decodeBase64(image)
+              image: decodeBase64(image),
+              id: generateId()
             });
           }
           continue;
@@ -84,7 +90,8 @@ const run = (async () => {
           if (images.length > 0) {
             blog.contentBlocks.push({
               type: 'imageCarousel',
-              images: images.map(image => decodeBase64(image))
+              images: images.map(image => decodeBase64(image)),
+              id: generateId()
             });
           }
           continue;
@@ -96,7 +103,8 @@ const run = (async () => {
           if (images.length > 0) {
             blog.contentBlocks.push({
               type: 'gallery',
-              images: images.map(image => decodeBase64(image))
+              images: images.map(image => decodeBase64(image)),
+              id: generateId()
             });
           }
           continue;
@@ -108,7 +116,8 @@ const run = (async () => {
           if (video) {
             blog.contentBlocks.push({
               type: 'video',
-              youtube: `https://www.youtube.com/embed/${video}`
+              youtube: `https://www.youtube.com/embed/${video}`,
+              id: generateId()
             });
           }
           continue;
@@ -123,21 +132,35 @@ const run = (async () => {
             blog.contentBlocks.push({
               type: 'headline',
               title: title,
+              id: generateId()
               //text: text ? await text.$eval('div', el => el.innerText) : ''
+            });
+          }
+          continue;
+        }
+
+        // Image left
+        if ((await block.$$('div.image--left')).length > 0) {
+          const image = await block.$eval('img', el => el.getAttribute('data-src') ?? '');
+          if (image) {
+            blog.contentBlocks.push({
+              type: 'image',
+              image: decodeBase64(image),
+              id: generateId()
             });
           }
           continue;
         }
       }
 
-      fs.writeFileSync('./.in/blogs2.json', JSON.stringify(blogs, null, 2));
+      fs.writeFileSync('./.in/blogs.json', JSON.stringify(blogs, null, 2));
     } catch (error) {
-      fs.writeFileSync('./.in/blogs2.json', JSON.stringify(blogs, null, 2));
+      fs.writeFileSync('./.in/blogs.json', JSON.stringify(blogs, null, 2));
       console.log(error);
     }
   }
 
-  fs.writeFileSync('./.in/blogs2.json', JSON.stringify(blogs, null, 2));
+  fs.writeFileSync('./.in/blogs.json', JSON.stringify(blogs, null, 2));
   await browser.close();
 });
 

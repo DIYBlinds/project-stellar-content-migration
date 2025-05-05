@@ -30,13 +30,15 @@ const convertItalicNodes = (content: any[]) => {
 
 const run = async () => {
 
-    for (const tour of tours) {
-        (tour as any).id = generateId();
-        for (const block of tour.contentBlocks) {
-            (block as any).id = generateId();
+    for (const blog of blogs) {
+        for (const block of blog.contentBlocks) {
+            if (!(block as any).id) {
+                (block as any).id = generateId();
+            }
         }
     }
-    fs.writeFileSync('./.in/hometours.json', JSON.stringify(tours, null, 2));
+
+    fs.writeFileSync('./.in/blogs.json', JSON.stringify(blogs, null, 2));
 };
 
 const fixRixchtextDocument = (block: any) => {
@@ -48,7 +50,7 @@ const fixRixchtextDocument = (block: any) => {
     document.content = content;
 }
 
-const fixBlogsRichtextItalics = (block: any) => {
+const fixBlogsRichtextItalics = () => {
     for (const blog of blogs) {
         (blog as any).id = generateId();
         for (const block of blog.contentBlocks) {
@@ -80,7 +82,7 @@ const removeRedundantImages = async () => {
 
 }
 
-const updateImageMappings = async () => {
+const mergeImageMappings = async () => {
     const mappings = mappingsJson as any[];
     for (const showroom of showrooms) {
         mappings.push({
@@ -91,7 +93,7 @@ const updateImageMappings = async () => {
         });
     }
 
-    fs.writeFileSync('./.in/image-mappings2.json', JSON.stringify(mappings, null, 2));
+    fs.writeFileSync('./.in/image-mappings.json', JSON.stringify(mappings, null, 2));
     
 }   
-removeRedundantImages(); 
+run(); 
