@@ -248,7 +248,7 @@ const saveProgress = (tours: Tour[], imageMappings: ImageMapping[], index: numbe
 };
 
 const run = async (): Promise<void> => {
-  const allImageMappings: ImageMapping[] = [];
+  const allImageMappings: ImageMapping[] = [...mappings];
   const processedImages = new Map<string, ProcessedImage>();
   
   try {
@@ -292,7 +292,7 @@ const run = async (): Promise<void> => {
 
       // Get image mappings for this blog
       const tourImageMappings = updateBlogWithUploadedImages(tour, uploadResults);
-      allImageMappings.push(...mappings,...tourImageMappings);
+      allImageMappings.push(...tourImageMappings);
 
       saveProgress(tours, allImageMappings, index);
     }

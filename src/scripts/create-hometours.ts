@@ -153,16 +153,22 @@ const createSplitContentFeatureBlock = async (tour: typeof tours[0], block: any)
                 [LOCALE]: 'tour > ' + tour.title
             },
             leftBlockImage: {
-                [LOCALE]: lookupImage(tour.title, block.image1)?.image
+                [LOCALE]: block.flipped ? lookupImage(tour.title, block.image2)?.image : lookupImage(tour.title, block.image1)?.image
             },
             rightBlockImage: {
-                [LOCALE]: lookupImage(tour.title, block.image2)?.image
+                [LOCALE]: block.flipped ? lookupImage(tour.title, block.image1)?.image : lookupImage(tour.title, block.image2)?.image
             },
             rightBlockText: {
-                [LOCALE]: toRichtext(block.copy)
+                [LOCALE]: !block.flipped && toRichtext(block.copy) 
+            },
+            leftBlockText: {
+                [LOCALE]: block.flipped && toRichtext(block.copy) 
             },
             rightBlickTitle: {
-                [LOCALE]: block.caption
+                [LOCALE]: !block.flipped && block.caption
+            },
+            leftBlockTitle: {
+                [LOCALE]: block.flipped && block.caption
             }
         }
     });
