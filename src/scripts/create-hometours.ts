@@ -60,8 +60,7 @@ const upsertHeroImage = async (tour: typeof imports[0]) => {
 }
 
 const lookupImage = (title : string, url: string) => {
-    console.log(title, url);
-    const mapping = (mappings as any).find((mapping: any) => mapping.tourTitle === title && mapping.originalImage === url);
+    console.log(title, url);    const mapping = (mappings as any).find((mapping: any) => mapping.blogTitle === title && mapping.originalImage === url);
     return {
         image: mapping?.cloudinaryImage.replace(/%40/g, '@'),
         id: mapping?.id
@@ -90,7 +89,7 @@ const upserttours = async (tour: typeof tours[0], heroImageId: string) => {
         if (block.type === 'gallery') {
             await createGalleryBlock(tour, block);
         }
-        if (block.type === 'fancyImagePanel') {
+        if (block.type === 'splitContentFeature') {
             await createSplitContentFeatureBlock(tour, block);
         }
     }
@@ -105,7 +104,7 @@ const upserttours = async (tour: typeof tours[0], heroImageId: string) => {
                 [LOCALE]: tour.title
             },
             articleType: {
-                [LOCALE]: 'DIY tour'
+                [LOCALE]: 'Home tour'
             },
             slug: {
                 [LOCALE]: `/diyblinds/tours/${getSlug(tour.url)}`
@@ -146,29 +145,53 @@ const upserttours = async (tour: typeof tours[0], heroImageId: string) => {
 }
 
 const createSplitContentFeatureBlock = async (tour: typeof tours[0], block: any) => {
-    return await upsertEntry('splitContentFeature', `feature-${block.id}`, {
+    const splitted = block.image1 !== "";
+    let leftBlock = !splitted ? {
+        leftBlockTitle: {
+            [LOCALE]: block.flipped ? block.caption : undefined
+        },
+        leftBlockImage: {
+            [LOCALE]: block.flipped ? lookupImage(tour.title, block.image2)?.image : lookupImage(tour.title, block.image1)?.image
+        },
+        leftBlockText: {
+            [LOCALE]: block.flipped ? toRichtext(block.copy) : undefined
+        }
+    } : {
+        leftBlockTitle: {
+            [LOCALE]: block.caption
+        },
+        leftBlockImage: {
+            [LOCALE]: lookupImage(tour.title, block.image2)?.image
+        },
+        leftBlockText: {
+            [LOCALE]: toRichtext(block.copy) 
+        }
+    }
+
+    const rightBlock = splitted ? {
+        rightBlockTitle: {
+            [LOCALE]: !block.flipped ? block.caption : undefined
+        },
+        rightBlockImage: {
+            [LOCALE]: (block.flipped ? lookupImage(tour.title, block.image1)?.image : lookupImage(tour.title, block.image2)?.image)
+        },
+        rightBlockText: {
+            [LOCALE]: !block.flipped ? toRichtext(block.copy) : undefined 
+        }
+    } : {};
+
+    //console.log('rightBlock>>>', rightBlock);
+
+    return await upsertEntry('splitContentFeature', `${block.type.toLowerCase()}-${block.id}`, {
         metadata: metadata,
         fields: {
             name: {
                 [LOCALE]: 'tour > ' + tour.title
             },
-            leftBlockImage: {
-                [LOCALE]: block.flipped ? lookupImage(tour.title, block.image2)?.image : lookupImage(tour.title, block.image1)?.image
-            },
-            rightBlockImage: {
-                [LOCALE]: block.flipped ? lookupImage(tour.title, block.image1)?.image : lookupImage(tour.title, block.image2)?.image
-            },
-            rightBlockText: {
-                [LOCALE]: !block.flipped && toRichtext(block.copy) 
-            },
-            leftBlockText: {
-                [LOCALE]: block.flipped && toRichtext(block.copy) 
-            },
-            rightBlickTitle: {
-                [LOCALE]: !block.flipped && block.caption
-            },
-            leftBlockTitle: {
-                [LOCALE]: block.flipped && block.caption
+            ...leftBlock,
+            ...rightBlock,
+            flipLayout: {
+                [LOCALE]: block.flipped ? true : false
             }
         }
     });
@@ -202,7 +225,7 @@ const createGalleryBlock = async (tour: typeof tours[0], block: any) => {
     const count = block.images.length;
     let colSpan = 1;
     let rowSpan = 1;
-    for (const image of block.images) {
+    for (const image of block.images.splice(0, 12)) {
         if (count === 4 || count === 7) {
             rowSpan = index === 0 || index === 2 ? 2 : 1;
         }
@@ -240,6 +263,7 @@ const createGalleryBlock = async (tour: typeof tours[0], block: any) => {
 
 const createCell = async (tour: typeof tours[0], image: string, colSpan: number, rowSpan: number) => {
     const cloudinaryImage = lookupImage(tour.title, image)
+    console.log('cloudinaryImage>>>', tour.title, image, cloudinaryImage);
     if (!cloudinaryImage) return null;
     console.log('CELL>>>>', cloudinaryImage.image);
     return await upsertEntry('featuredGridCell', `cell-${cloudinaryImage.id}`, {

@@ -167,7 +167,7 @@ const run = (async () => {
           const copy = await tryGet(() => block.$eval('div.image-caption__copy', el => el.innerText));
           
           tour.contentBlocks.push({
-            type: 'fancyImagePanel',
+            type: 'splitContentFeature',
             image1: image1 ? decodeBase64(image1) : '',
             image2: image2 ? decodeBase64(image2) : '',
             caption: caption,
@@ -185,7 +185,7 @@ const run = (async () => {
           const copy = await tryGet(() => block.$eval('div.image-caption__copy', el => el.innerText));
           
           tour.contentBlocks.push({
-            type: 'fancyImagePanel',
+            type: 'splitContentFeature',
             image1: image1 ? decodeBase64(image1) : '',
             image2: image2 ? decodeBase64(image2) : '',
             caption: caption,

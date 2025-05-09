@@ -30,8 +30,8 @@ const convertItalicNodes = (content: any[]) => {
 
 const run = async () => {
     for (const mapping of mappingsJson as any[]) {
-        if (!mapping.type) {
-            mapping.type = 'blog';
+        if (!mapping.id) {
+            mapping.id = generateId();
         }
     }
 

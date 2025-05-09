@@ -16,7 +16,7 @@
         "id": "5905yfe921e"
       },
       {
-        "type": "fancyImagePanel",
+        "type": "splitContentFeature",
         "image1": "uploads/general/Rectangle-1.jpg",
         "image2": "uploads/general/Rectangle-2.jpg",
         "caption": "Homely Quarters",
@@ -24,7 +24,7 @@
         "id": "8armd2zx0mn"
       },
       {
-        "type": "fancyImagePanel",
+        "type": "splitContentFeature",
         "image1": "uploads/general/Rectangle-11.jpg",
         "image2": "uploads/general/Rectangle-4.jpg",
         "caption": "Sheer Softness",
@@ -33,7 +33,7 @@
         "id": "7f9pibmhein"
       },
       {
-        "type": "fancyImagePanel",
+        "type": "splitContentFeature",
         "image1": "uploads/general/Rectangle-5.jpg",
         "image2": "uploads/general/Rectangle-6.jpg",
         "caption": "Effortless Living",
@@ -41,7 +41,7 @@
         "id": "hoy14orag0j"
       },
       {
-        "type": "fancyImagePanel",
+        "type": "splitContentFeature",
         "image1": "uploads/general/Rectangle-7.jpg",
         "image2": "uploads/general/Rectangle-8.jpg",
         "caption": "Designer Finishes",
@@ -50,7 +50,7 @@
         "id": "mcdy5xizdyj"
       },
       {
-        "type": "fancyImagePanel",
+        "type": "splitContentFeature",
         "image1": "uploads/general/Rectangle-9.jpg",
         "image2": "uploads/general/Rectangle-10.jpg",
         "caption": "Motorised Luxury",
@@ -111,7 +111,7 @@
         "id": "hgwl6r7lbwl"
       },
       {
-        "type": "fancyImagePanel",
+        "type": "splitContentFeature",
         "image1": "",
         "image2": "uploads/general/DIYB006_KJ_HT_C1_LS.jpg",
         "caption": "Function and form with finesse",
@@ -119,7 +119,7 @@
         "id": "covxxjmi0pm"
       },
       {
-        "type": "fancyImagePanel",
+        "type": "splitContentFeature",
         "image1": "",
         "image2": "uploads/general/DIYB006_KJ_HT_C3_LS.jpg",
         "caption": "A classically modern finish with a twist",
@@ -128,7 +128,7 @@
         "id": "ouymibjp2ko"
       },
       {
-        "type": "fancyImagePanel",
+        "type": "splitContentFeature",
         "image1": "",
         "image2": "uploads/general/DIYB006_KJ_HT_C2.jpg",
         "caption": "Smarter style choices",
@@ -155,7 +155,7 @@
         "id": "946s74zqlz"
       },
       {
-        "type": "fancyImagePanel",
+        "type": "splitContentFeature",
         "image1": "uploads/general/LB-Portrait-BP-1.jpg",
         "image2": "uploads/general/LB-Landscape-BP-1.jpg",
         "caption": "Chic Palette & Considerations",
@@ -163,7 +163,7 @@
         "id": "avi787i21nl"
       },
       {
-        "type": "fancyImagePanel",
+        "type": "splitContentFeature",
         "image1": "uploads/general/LB-Portrait-BP-2.jpg",
         "image2": "uploads/general/LB-Landscape-BP-2.jpg",
         "caption": "Clever Design Features",
@@ -172,7 +172,7 @@
         "id": "mrliypq8wu"
       },
       {
-        "type": "fancyImagePanel",
+        "type": "splitContentFeature",
         "image1": "uploads/general/LB-Portrait-BP-3.jpg",
         "image2": "uploads/general/LB-Landscape-BP-3.jpg",
         "caption": "High-Performing Function",
@@ -180,7 +180,7 @@
         "id": "8nv7mm7yfqq"
       },
       {
-        "type": "fancyImagePanel",
+        "type": "splitContentFeature",
         "image1": "uploads/general/LB-Portrait-BP-4.jpg",
         "image2": "uploads/general/LB-Landscape-BP-4.jpg",
         "caption": "Effortless Motorisation",
@@ -239,7 +239,7 @@
         "id": "rs2xzlcn2ii"
       },
       {
-        "type": "fancyImagePanel",
+        "type": "splitContentFeature",
         "image1": "uploads/general/LB-Portrait-KR-1.jpg",
         "image2": "uploads/general/LB-Landscape-KR-1.jpg",
         "caption": "Homely Details",
@@ -247,7 +247,7 @@
         "id": "m7otxjpnxoh"
       },
       {
-        "type": "fancyImagePanel",
+        "type": "splitContentFeature",
         "image1": "uploads/general/LB-Portrait-KR-2.jpg",
         "image2": "uploads/general/LB-Landscape-KR-2.jpg",
         "caption": "Sheer Softness",
@@ -256,7 +256,7 @@
         "id": "laqxxttz5tl"
       },
       {
-        "type": "fancyImagePanel",
+        "type": "splitContentFeature",
         "image1": "uploads/general/LB-Portrait-KR-3.jpg",
         "image2": "uploads/general/LB-Landscape-KR-3.jpg",
         "caption": "Integrated Function",
@@ -264,7 +264,7 @@
         "id": "b8ebdge71fb"
       },
       {
-        "type": "fancyImagePanel",
+        "type": "splitContentFeature",
         "image1": "uploads/general/LB-Portrait-KR-4.jpg",
         "image2": "uploads/general/LB-Landscape-KR-4.jpg",
         "caption": "Clever Considerations",
@@ -273,7 +273,7 @@
         "id": "6o90komby7u"
       },
       {
-        "type": "fancyImagePanel",
+        "type": "splitContentFeature",
         "image1": "uploads/general/LB-Portrait-KR-5.jpg",
         "image2": "uploads/general/LB-Landscape-KR-5.jpg",
         "caption": "Seamless Automation",
@@ -324,7 +324,7 @@
         "id": "p399wu9cu8i"
       },
       {
-        "type": "fancyImagePanel",
+        "type": "splitContentFeature",
         "image1": "uploads/general/Portrait-Imagery-GR1.jpg",
         "image2": "uploads/general/Landscape-Imagery-GR1.jpg",
         "caption": "Sheer Introduction",
@@ -332,7 +332,7 @@
         "id": "cv6xb7udrnw"
       },
       {
-        "type": "fancyImagePanel",
+        "type": "splitContentFeature",
         "image1": "uploads/general/Portrait-Imagery-GR2.jpg",
         "image2": "uploads/general/Landscape-Imagery-GR2.jpg",
         "caption": "Colour Cohesion",
@@ -341,7 +341,7 @@
         "id": "qxui4crdav"
       },
       {
-        "type": "fancyImagePanel",
+        "type": "splitContentFeature",
         "image1": "uploads/general/Portrait-Imagery-GR3.jpg",
         "image2": "uploads/general/Landscape-Imagery-GR3.jpg",
         "caption": "Perfect Balance",
@@ -349,7 +349,7 @@
         "id": "rquggudvcba"
       },
       {
-        "type": "fancyImagePanel",
+        "type": "splitContentFeature",
         "image1": "uploads/general/Portrait-Imagery-GR4.jpg",
         "image2": "uploads/general/Landscape-Imagery-GR4.jpg",
         "caption": "Custom Considerations",
@@ -358,7 +358,7 @@
         "id": "u3r9hs1hewj"
       },
       {
-        "type": "fancyImagePanel",
+        "type": "splitContentFeature",
         "image1": "uploads/general/Portrait-Imagery-GR5.jpg",
         "image2": "uploads/general/Landscape-Imagery-GR5.jpg",
         "caption": "Transformed Oasis",
@@ -416,7 +416,7 @@
         "id": "20ksmolpoit"
       },
       {
-        "type": "fancyImagePanel",
+        "type": "splitContentFeature",
         "image1": "uploads/general/Portrait-Imagery-R1.jpg",
         "image2": "uploads/general/Landscape-Imagery-R1.jpg",
         "caption": "Refined Coastal Living",
@@ -424,7 +424,7 @@
         "id": "iyi3fzwmga"
       },
       {
-        "type": "fancyImagePanel",
+        "type": "splitContentFeature",
         "image1": "uploads/general/Portrait-Imagery-R3.jpg",
         "image2": "uploads/general/Landscape-Imagery-R3.1.jpg",
         "caption": "Classic Look, Modern Finish",
@@ -433,7 +433,7 @@
         "id": "9aojddzizy7"
       },
       {
-        "type": "fancyImagePanel",
+        "type": "splitContentFeature",
         "image1": "uploads/general/Portrait-Imagery-R2.jpg",
         "image2": "uploads/general/Landscape-Imagery-R2.jpg",
         "caption": "Optimal Natural Light",
@@ -441,7 +441,7 @@
         "id": "ijhh4ysvfmp"
       },
       {
-        "type": "fancyImagePanel",
+        "type": "splitContentFeature",
         "image1": "uploads/general/Portrait-Imagery-R4.jpg",
         "image2": "uploads/general/Landscape-Imagery-R4.jpg",
         "caption": "Soft and Tactile",
@@ -450,7 +450,7 @@
         "id": "kb37pu8rmq"
       },
       {
-        "type": "fancyImagePanel",
+        "type": "splitContentFeature",
         "image1": "uploads/general/Portrait-Imagery-R5.jpg",
         "image2": "uploads/general/Landscape-Imagery-R5.jpg",
         "caption": "Water Resistant",
@@ -507,7 +507,7 @@
         "id": "os73n6fji69"
       },
       {
-        "type": "fancyImagePanel",
+        "type": "splitContentFeature",
         "image1": "uploads/general/Portrait-BR-R1.1.jpg",
         "image2": "uploads/general/Landscape-BR-R3.jpg",
         "caption": "A Perfect Finish",
@@ -515,7 +515,7 @@
         "id": "lgzg3wvanws"
       },
       {
-        "type": "fancyImagePanel",
+        "type": "splitContentFeature",
         "image1": "uploads/general/Portrait-BR-R2.jpg",
         "image2": "uploads/general/Landscape-BR-R2.jpg",
         "caption": "Considered Designs",
@@ -524,7 +524,7 @@
         "id": "qsfeukkg5v"
       },
       {
-        "type": "fancyImagePanel",
+        "type": "splitContentFeature",
         "image1": "uploads/general/Portrait-BR-R3.jpg",
         "image2": "uploads/general/Landscape-BR-R1.jpg",
         "caption": "Ease Of Access",
@@ -532,7 +532,7 @@
         "id": "hovztw0cbhk"
       },
       {
-        "type": "fancyImagePanel",
+        "type": "splitContentFeature",
         "image1": "uploads/general/Portrait-BR-R4.1.jpg",
         "image2": "uploads/general/Landscape-BR-R4.1.jpg",
         "caption": "Total Functionality",
@@ -541,7 +541,7 @@
         "id": "7o0cn5qs9ts"
       },
       {
-        "type": "fancyImagePanel",
+        "type": "splitContentFeature",
         "image1": "uploads/general/Portrait-BR-R5.jpg",
         "image2": "uploads/general/Landscape-BR-R5.jpg",
         "caption": "Charming Touches",
@@ -599,7 +599,7 @@
         "id": "jmy0rnh3fj"
       },
       {
-        "type": "fancyImagePanel",
+        "type": "splitContentFeature",
         "image1": "uploads/general/Portrait-Imagery-Row1.1.jpg",
         "image2": "uploads/general/Landscape-Imagery-Row1.jpg",
         "caption": "Sheer Magic",
@@ -607,7 +607,7 @@
         "id": "yjwzewywizn"
       },
       {
-        "type": "fancyImagePanel",
+        "type": "splitContentFeature",
         "image1": "uploads/general/Portrait-Imagery-Row2.1.jpg",
         "image2": "uploads/general/Landscape-Imagery-Row2.jpg",
         "caption": "Privacy and Light",
@@ -616,7 +616,7 @@
         "id": "ip1i77n2jcf"
       },
       {
-        "type": "fancyImagePanel",
+        "type": "splitContentFeature",
         "image1": "uploads/general/Portrait-Imagery-Row3.jpg",
         "image2": "uploads/general/Landscape-Imagery-Row3.jpg",
         "caption": "Form and Function",
@@ -624,7 +624,7 @@
         "id": "fjdohhwfxgc"
       },
       {
-        "type": "fancyImagePanel",
+        "type": "splitContentFeature",
         "image1": "uploads/general/Portrait-Imagery-Row4.jpg",
         "image2": "uploads/general/Landscape-Imagery-Row4.jpg",
         "caption": "Timeless Touch",
@@ -633,7 +633,7 @@
         "id": "dvg2rf2as3"
       },
       {
-        "type": "fancyImagePanel",
+        "type": "splitContentFeature",
         "image1": "uploads/general/Portrait-Imagery-Row5.jpg",
         "image2": "uploads/general/Landscape-Imagery-Row5.jpg",
         "caption": "Charming Considerations",
@@ -694,7 +694,7 @@
         "id": "6h5p1zcknxd"
       },
       {
-        "type": "fancyImagePanel",
+        "type": "splitContentFeature",
         "image1": "uploads/general/BT-Bedroom-P.jpg",
         "image2": "uploads/general/BT-Bedroom.jpg",
         "caption": "Seamless Function",
@@ -702,7 +702,7 @@
         "id": "t9ouxvqon2p"
       },
       {
-        "type": "fancyImagePanel",
+        "type": "splitContentFeature",
         "image1": "uploads/general/BT-Hallway-P.jpg",
         "image2": "uploads/general/BT-Hallway.jpg",
         "caption": "Luxurious Additions",
@@ -711,7 +711,7 @@
         "id": "id6mekn0x"
       },
       {
-        "type": "fancyImagePanel",
+        "type": "splitContentFeature",
         "image1": "uploads/general/BT-Hem-P.jpg",
         "image2": "uploads/general/BT-Dining.jpg",
         "caption": "Flowing Access",
@@ -719,7 +719,7 @@
         "id": "fg5aafzv2m"
       },
       {
-        "type": "fancyImagePanel",
+        "type": "splitContentFeature",
         "image1": "uploads/general/BT-Detail-P.jpg",
         "image2": "uploads/general/BT-Living.jpg",
         "caption": "Artful Solutions",
@@ -728,7 +728,7 @@
         "id": "m06pg8t0pu"
       },
       {
-        "type": "fancyImagePanel",
+        "type": "splitContentFeature",
         "image1": "",
         "image2": "uploads/general/BT-Dining-2.jpg",
         "caption": "Coastal Sophistication",
@@ -786,7 +786,7 @@
         "id": "j31igqefrcl"
       },
       {
-        "type": "fancyImagePanel",
+        "type": "splitContentFeature",
         "image1": "uploads/general/185-Morgans-Mill-0019-Lowres.jpg",
         "image2": "uploads/general/185-Morgans-Mill-001-Lowres.jpg",
         "caption": "Capture the Light",
@@ -794,7 +794,7 @@
         "id": "5rl0aavxo7q"
       },
       {
-        "type": "fancyImagePanel",
+        "type": "splitContentFeature",
         "image1": "uploads/general/CE-Blog-Image5.1.jpg",
         "image2": "uploads/general/185-Morgans-Mill-004-Lowres.jpg",
         "caption": "Comfort Meets Convenience",
@@ -803,7 +803,7 @@
         "id": "s137p3j89fp"
       },
       {
-        "type": "fancyImagePanel",
+        "type": "splitContentFeature",
         "image1": "uploads/general/185-Morgans-Mill-0032-Lowres.jpg",
         "image2": "uploads/general/185-Morgans-Mill-001-Lowres.jpg",
         "caption": "Family-Friendly Style",
@@ -811,7 +811,7 @@
         "id": "0fdzvo1renn"
       },
       {
-        "type": "fancyImagePanel",
+        "type": "splitContentFeature",
         "image1": "uploads/general/CE-Blog-Image6.1.jpg",
         "image2": "uploads/general/185-Morgans-Mill-0012-Lowres.jpg",
         "caption": "Dark and Dramatic",
@@ -820,7 +820,7 @@
         "id": "2rwzf32tlxj"
       },
       {
-        "type": "fancyImagePanel",
+        "type": "splitContentFeature",
         "image1": "uploads/general/185-Morgans-Mill-0031-Lowres.jpg",
         "image2": "uploads/general/Portrait-Imagery-Bathroom.jpg",
         "caption": "Pamper in Privacy",
@@ -828,7 +828,7 @@
         "id": "jqo1ixk7myq"
       },
       {
-        "type": "fancyImagePanel",
+        "type": "splitContentFeature",
         "image1": "uploads/general/185-Morgans-Mill-0018-Lowres.jpg",
         "image2": "uploads/general/185-Morgans-Mill-006-Lowres.jpg",
         "caption": "Bedroom Bliss",
@@ -880,7 +880,7 @@
         "id": "2h3zwbxah1f"
       },
       {
-        "type": "fancyImagePanel",
+        "type": "splitContentFeature",
         "image1": "uploads/general/Rathmines-North-House-Dylan-James-No-Product-1.jpg",
         "image2": "uploads/general/12.21-Rathmines-North-House-Dylan-James-Bedroom-Lined-Curtains-Allusion-Pearl-and-Aspro-Sand-1.jpg",
         "caption": "Designed For Family Living",
@@ -888,7 +888,7 @@
         "id": "22wocgaqex5"
       },
       {
-        "type": "fancyImagePanel",
+        "type": "splitContentFeature",
         "image1": "uploads/general/12.21-Rathmines-North-House-Dylan-James-Living-Sheer-Curtains-Allusion-Pearl-1.jpg",
         "image2": "uploads/general/12.21-Rathmines-North-House-Dylan-James-Dining-Sheer-Curtains-Allusion-Pearl-2.jpg",
         "caption": "Maintaining Elegance",
@@ -897,7 +897,7 @@
         "id": "ccrhdogdcsc"
       },
       {
-        "type": "fancyImagePanel",
+        "type": "splitContentFeature",
         "image1": "uploads/general/12.21-Rathmines-North-House-Dylan-James-Lifestyle-Lined-Curtains-Allusion-Snow-and-Aspro-Sand-3.jpg",
         "image2": "uploads/general/12.21-Rathmines-North-House-Dylan-James-Lifestyle-Lined-Curtains-Allusion-Snow-and-Aspro-Sand-1.jpg",
         "caption": "Bedroom Bliss",
@@ -905,7 +905,7 @@
         "id": "p6u1j180ue"
       },
       {
-        "type": "fancyImagePanel",
+        "type": "splitContentFeature",
         "image1": "uploads/general/12.21-Rathmines-North-House-Dylan-James-Lifestyle-Sheer-Curtains-Allusion-Snow-2.jpg",
         "image2": "uploads/general/12.21-Rathmines-North-House-Dylan-James-Lifestyle-Sheer-Curtains-Allusion-Snow-1.jpg",
         "caption": "Tone And Texture",
@@ -963,7 +963,7 @@
         "id": "nbwm2esxhh9"
       },
       {
-        "type": "fancyImagePanel",
+        "type": "splitContentFeature",
         "image1": "uploads/general/11.21-Rathmines-South-House-Dylan-James-Living-Sheer-Curtains-Burano-Frost-3.jpg",
         "image2": "uploads/general/11.21-Rathmines-South-House-Dylan-James-Dining-Curved-Sheer-Curtains-Burano-Frost-2.jpg",
         "caption": "Clever Curves",
@@ -971,7 +971,7 @@
         "id": "l9d3qsaffs9"
       },
       {
-        "type": "fancyImagePanel",
+        "type": "splitContentFeature",
         "image1": "",
         "image2": "uploads/general/11.21-Rathmines-South-House-Dylan-James-Living-Curved-Sheer-Curtains-Burano-Frost-1.jpg",
         "caption": "An Incredible Feat",
@@ -980,7 +980,7 @@
         "id": "asi6l5oxhxb"
       },
       {
-        "type": "fancyImagePanel",
+        "type": "splitContentFeature",
         "image1": "uploads/general/11.21-Rathmines-South-House-Markus-Cruz-Bedroom-Roller-Blinds-One-Block-Ice-2.jpg",
         "image2": "uploads/general/11.21-Rathmines-South-House-Markus-Cruz-Bedroom-Roller-Blinds-One-Block-Ice-7.jpg",
         "caption": "The Perfect Fit",
@@ -988,7 +988,7 @@
         "id": "pi70frkuwsm"
       },
       {
-        "type": "fancyImagePanel",
+        "type": "splitContentFeature",
         "image1": "",
         "image2": "uploads/general/11.21-Rathmines-South-House-Dylan-James-Outdoor-Sheer-Curtains-Burano-Frost-2_2022-02-09-004632.jpg",
         "caption": "Alluring Street Appeal",
@@ -997,7 +997,7 @@
         "id": "57pzyz24ou4"
       },
       {
-        "type": "fancyImagePanel",
+        "type": "splitContentFeature",
         "image1": "",
         "image2": "uploads/general/11.21-Rathmines-South-House-Dylan-James-Bedroom-Lined-Curtains-Burano-Frost-and-Aspro-Ecru-1.jpg",
         "caption": "Backed By Function",
@@ -1005,7 +1005,7 @@
         "id": "z4dl9bmkgzp"
       },
       {
-        "type": "fancyImagePanel",
+        "type": "splitContentFeature",
         "image1": "",
         "image2": "uploads/general/11.21-Rathmines-South-House-Dylan-James-Living-Sheer-Curtains-Burano-Frost-4.jpg",
         "caption": "Gorgeous Curves",
@@ -1014,7 +1014,7 @@
         "id": "bqj0j7mrcyl"
       },
       {
-        "type": "fancyImagePanel",
+        "type": "splitContentFeature",
         "image1": "",
         "image2": "uploads/general/11.21-Rathmines-South-House-Dylan-James-Outdoor-Sheer-Curtains-Burano-Frost-1_2022-02-09-004630.jpg",
         "caption": "A Grand Entrance",
@@ -1022,7 +1022,7 @@
         "id": "lfzs3290m6"
       },
       {
-        "type": "fancyImagePanel",
+        "type": "splitContentFeature",
         "image1": "",
         "image2": "uploads/general/11.21-Rathmines-South-House-Dylan-James-Bedroom-Sheer-Curtains-Burano-Frost-1.jpg",
         "caption": "A Natural Solution",
@@ -1031,7 +1031,7 @@
         "id": "3ngzjh2z0ev"
       },
       {
-        "type": "fancyImagePanel",
+        "type": "splitContentFeature",
         "image1": "",
         "image2": "uploads/general/11.21-Rathmines-South-House-Dylan-James-Bedroom-Sheer-Curtains-Burano-Frost-2.jpg",
         "caption": "Subtle Sophistication",
@@ -1039,7 +1039,7 @@
         "id": "gf72k60pk6t"
       },
       {
-        "type": "fancyImagePanel",
+        "type": "splitContentFeature",
         "image1": "",
         "image2": "uploads/general/11.21-Rathmines-South-House-Dylan-James-Hallway-Roller-Blinds-One-Block-Ice-1.jpg",
         "caption": "Seamless Connection",
@@ -1089,7 +1089,7 @@
         "id": "q9wk8vquvu"
       },
       {
-        "type": "fancyImagePanel",
+        "type": "splitContentFeature",
         "image1": "uploads/general/11.21-Light-House-Project-_-Ben-Cole-_-Living-_-Sheer-Curtains-_-Allusion-Pearl-3.jpg",
         "image2": "uploads/general/11.21-Light-House-Project-_-Ben-Cole-_-Living-_-Sheer-Curtains-_-Allusion-Pearl-2.jpg",
         "caption": "Complimenting Texture and Tone",
@@ -1097,7 +1097,7 @@
         "id": "gac3obsth2"
       },
       {
-        "type": "fancyImagePanel",
+        "type": "splitContentFeature",
         "image1": "uploads/general/11.21-Light-House-Project-_-Ben-Cole-_-Kitchen-_-Sheer-Curtains-_-Allusion-Pearl-2.jpg",
         "image2": "uploads/general/Social-Posts-DIYBlinds-5.jpg",
         "caption": "Creating Blissful Moments",
@@ -1106,7 +1106,7 @@
         "id": "hbc7owp4vz"
       },
       {
-        "type": "fancyImagePanel",
+        "type": "splitContentFeature",
         "image1": "uploads/general/11.21-Light-House-Project-_-Ben-Cole-_-Dining-_-Sheer-Curtains-_-Allusion-Pearl-1.jpg",
         "image2": "uploads/general/11.21-Light-House-Project-_-Ben-Cole-_-Dining-_-Sheer-Curtains-_-Allusion-Pearl-4.jpg",
         "caption": "A Unique Design",
@@ -1114,7 +1114,7 @@
         "id": "pn4t4aweyze"
       },
       {
-        "type": "fancyImagePanel",
+        "type": "splitContentFeature",
         "image1": "uploads/general/11.21-Light-House-Project-_-Ben-Cole-_-Outdoor-_-Sheer-Curtains-_-Allusion-Pearl-2.jpg",
         "image2": "uploads/general/11.21-Light-House-Project-_-Ben-Cole-_-Outdoor-_-Sheer-Curtains-_-Allusion-Pearl-9.jpg",
         "caption": "An Entertainers Dream",
@@ -1178,7 +1178,7 @@
         "id": "oz9sds1dg5"
       },
       {
-        "type": "fancyImagePanel",
+        "type": "splitContentFeature",
         "image1": "uploads/general/lightfilter-roller.jpg",
         "image2": "uploads/general/roller-closeup.jpg",
         "caption": "Minimalism with impact",
@@ -1186,7 +1186,7 @@
         "id": "336mln5m5as"
       },
       {
-        "type": "fancyImagePanel",
+        "type": "splitContentFeature",
         "image1": "uploads/general/Xavier-Ave-House-009.jpg",
         "image2": "uploads/general/curtain-bedroom-crop.jpg",
         "caption": "Functionality and Form",
@@ -1195,7 +1195,7 @@
         "id": "udoeyh46m2a"
       },
       {
-        "type": "fancyImagePanel",
+        "type": "splitContentFeature",
         "image1": "uploads/general/Xavier-Ave-House-007.jpg",
         "image2": "uploads/general/11.21-Project-Hawthorn-Dylan-James-Detail-Lined-Curtains-Jilliby-Grey-Sands-and-Domino-Natural-1_2021-12-22-014715.jpg",
         "caption": "Where design meets functionality",
@@ -1203,7 +1203,7 @@
         "id": "psqeg9dl9n8"
       },
       {
-        "type": "fancyImagePanel",
+        "type": "splitContentFeature",
         "image1": "uploads/general/roller-closeup2.jpg",
         "image2": "uploads/general/dining-roller-crop.jpg",
         "caption": "Plan To Plan",
@@ -1257,7 +1257,7 @@
         "id": "hvofgmlrr0k"
       },
       {
-        "type": "fancyImagePanel",
+        "type": "splitContentFeature",
         "image1": "uploads/general/FEN-NORTHCOTE-003-web.jpg",
         "image2": "uploads/general/123-Clarke-003.jpg",
         "caption": "Packed with personality",
@@ -1273,7 +1273,7 @@
         "id": "w2oay8iee6"
       },
       {
-        "type": "fancyImagePanel",
+        "type": "splitContentFeature",
         "image1": "uploads/general/FEN-NORTHCOTE-016-web.jpg",
         "image2": "uploads/general/FEN-NORTHCOTE-013-web.jpg",
         "caption": "Luxe details",
@@ -1282,7 +1282,7 @@
         "id": "nkuphnpst8"
       },
       {
-        "type": "fancyImagePanel",
+        "type": "splitContentFeature",
         "image1": "uploads/general/123-Clarke-009.jpg",
         "image2": "uploads/general/123-Clarke-043.jpg",
         "caption": "Add drama to any room",
@@ -1347,7 +1347,7 @@
         "id": "hw8qadjlf2n"
       },
       {
-        "type": "fancyImagePanel",
+        "type": "splitContentFeature",
         "image1": "uploads/general/RE-64-Anderson-003.jpg",
         "image2": "uploads/general/RE-64-Anderson-002.jpg",
         "caption": "Daytime privacy",
@@ -1369,7 +1369,7 @@
         "id": "z3583xhrvx"
       },
       {
-        "type": "fancyImagePanel",
+        "type": "splitContentFeature",
         "image1": "uploads/general/64-Anderson-8.jpg",
         "image2": "uploads/general/64-Anderson-11.jpg",
         "caption": "Laidback drama",
@@ -1377,7 +1377,7 @@
         "id": "8cvro2q8mu9"
       },
       {
-        "type": "fancyImagePanel",
+        "type": "splitContentFeature",
         "image1": "uploads/general/64-Anderson-13.jpg",
         "image2": "uploads/general/64-Anderson-1-blind.jpg",
         "caption": "Stop the heat escaping",
@@ -1439,7 +1439,7 @@
         "id": "hleo1eynna4"
       },
       {
-        "type": "fancyImagePanel",
+        "type": "splitContentFeature",
         "image1": "uploads/general/DIYBlindsArcos-18.jpg",
         "image2": "uploads/general/DIYBlindsArcos-9.jpg",
         "caption": "Dreamy linen sheer curtains",
@@ -1455,7 +1455,7 @@
         "id": "5d1tscsxfek"
       },
       {
-        "type": "fancyImagePanel",
+        "type": "splitContentFeature",
         "image1": "uploads/general/DIYBlindsArcos-33.jpg",
         "image2": "uploads/general/20210114-Graya-Arcos-_0409_Chatfield.jpg",
         "caption": "Effortless luxury with motorisation",
@@ -1472,7 +1472,7 @@
         "id": "ybl4dus9hy"
       },
       {
-        "type": "fancyImagePanel",
+        "type": "splitContentFeature",
         "image1": "uploads/general/20210114-Graya-Arcos-_0305_2_Chatfield.jpg",
         "image2": "uploads/general/DIYBlindsArcos-37.jpg",
         "caption": "Thermal insulation",
@@ -1488,7 +1488,7 @@
         "id": "c6o8p8zjwtu"
       },
       {
-        "type": "fancyImagePanel",
+        "type": "splitContentFeature",
         "image1": "uploads/general/DIYBlindsArcos-22.jpg",
         "image2": "uploads/general/DIYBlindsArcos-27.jpg",
         "caption": "Soft and tactile",
@@ -1511,7 +1511,7 @@
         "id": "i9ztckwfaq"
       },
       {
-        "type": "fancyImagePanel",
+        "type": "splitContentFeature",
         "image1": "uploads/general/Three-Gables-WR-0472.jpg",
         "image2": "uploads/general/Three-Gables-WR-0378.jpg",
         "caption": "Add drama with sheer linen curtains",
@@ -1527,7 +1527,7 @@
         "id": "2nia2admxfi"
       },
       {
-        "type": "fancyImagePanel",
+        "type": "splitContentFeature",
         "image1": "uploads/general/Three-Gables-WR-0496.jpg",
         "image2": "uploads/general/Three-Gables-WR-0396.jpg",
         "caption": "Keep it simple and neutral.",
@@ -1558,7 +1558,7 @@
         "id": "rgne6lzrr8"
       },
       {
-        "type": "fancyImagePanel",
+        "type": "splitContentFeature",
         "image1": "uploads/general/2-7-Kingsley-018.jpg",
         "image2": "uploads/general/2-7-Kingsley-010.jpg",
         "caption": "Brilliant PolyLux® plantation shutters",
@@ -1574,7 +1574,7 @@
         "id": "rum9lnv6jpr"
       },
       {
-        "type": "fancyImagePanel",
+        "type": "splitContentFeature",
         "image1": "uploads/general/2-7-Kingsley-004.jpg",
         "image2": "uploads/general/2-7-Kingsley-015.jpg",
         "caption": "Aussie made plantation shutters",
@@ -1605,7 +1605,7 @@
         "id": "hz54kws8h2f"
       },
       {
-        "type": "fancyImagePanel",
+        "type": "splitContentFeature",
         "image1": "uploads/general/BLB_KitchenLivingDining-4.jpg",
         "image2": "uploads/general/BLB_KitchenLivingDining-48.jpg",
         "caption": "Heart of the home",
@@ -1613,7 +1613,7 @@
         "id": "zu88j77l1l"
       },
       {
-        "type": "fancyImagePanel",
+        "type": "splitContentFeature",
         "image1": "uploads/general/BLB_KitchenLivingDining-75.jpg",
         "image2": "uploads/general/BLB_KitchenLivingDining-34.jpg",
         "caption": "Curtains that open like magic",
@@ -1635,7 +1635,7 @@
         "id": "jqmfpei8si"
       },
       {
-        "type": "fancyImagePanel",
+        "type": "splitContentFeature",
         "image1": "uploads/general/2_BlueLagoon_Mud_Room.jpg",
         "image2": "uploads/general/3_BlueLagoon_GuestBed.jpg",
         "caption": "Australian Coastal Meets Mediterranean Villa",
@@ -1643,7 +1643,7 @@
         "id": "2zghq0jq3op"
       },
       {
-        "type": "fancyImagePanel",
+        "type": "splitContentFeature",
         "image1": "uploads/general/3_BlueLagoon_GuestBed.jpg",
         "image2": "uploads/general/17_BlueLagoon_Rumpus.jpg",
         "caption": "Cool, Calm, and Collected",
@@ -1673,7 +1673,7 @@
         "id": "6nn66ilsjja"
       },
       {
-        "type": "fancyImagePanel",
+        "type": "splitContentFeature",
         "image1": "uploads/general/40_BlueLagoon_Rumpus.jpg",
         "image2": "uploads/general/37_BlueLagoon_Rumpus.jpg",
         "caption": "Stairway to Kid's Heaven",
@@ -1681,7 +1681,7 @@
         "id": "ewtcet0ulsv"
       },
       {
-        "type": "fancyImagePanel",
+        "type": "splitContentFeature",
         "image1": "uploads/general/8_BlueLagoon_KidsRoom.jpg",
         "image2": "uploads/general/Cover_BlueLagoon_ToyRoom.jpg",
         "caption": "Focus on Fun",
@@ -1703,7 +1703,7 @@
         "id": "ato4gik74wd"
       },
       {
-        "type": "fancyImagePanel",
+        "type": "splitContentFeature",
         "image1": "uploads/general/29_BlueLagoon_Master_Bedroom.jpg",
         "image2": "uploads/general/15_BlueLagoon_Master_Bedroom.jpg",
         "caption": "Master Oasis",
@@ -1711,7 +1711,7 @@
         "id": "eaijy9xp27"
       },
       {
-        "type": "fancyImagePanel",
+        "type": "splitContentFeature",
         "image1": "uploads/general/19_BlueLagoon_Master_Bedroom.jpg",
         "image2": "uploads/general/18_BlueLagoon_Master_Bedroom.jpg",
         "caption": "When two is better than one",
@@ -1733,7 +1733,7 @@
         "id": "m4nshnhtdn"
       },
       {
-        "type": "fancyImagePanel",
+        "type": "splitContentFeature",
         "image1": "uploads/general/48_BlueLagoon_Studio_Living.jpg",
         "image2": "uploads/general/44_BlueLagoon_Studio_Living.jpg",
         "caption": "Warm and Inviting",
@@ -1741,7 +1741,7 @@
         "id": "bwfrt6b8ed"
       },
       {
-        "type": "fancyImagePanel",
+        "type": "splitContentFeature",
         "image1": "uploads/general/15_BlueLagoon_Studio_Living.jpg",
         "image2": "uploads/general/35_BlueLagoon_Studio_Living.jpg",
         "caption": "Beyond Windows",
@@ -1763,7 +1763,7 @@
         "id": "xx61d65ip8"
       },
       {
-        "type": "fancyImagePanel",
+        "type": "splitContentFeature",
         "image1": "uploads/general/31-Kellett-020.jpg",
         "image2": "uploads/general/31-Kellett-022.jpg",
         "caption": "Textures and Tones",
@@ -1771,7 +1771,7 @@
         "id": "s1w7ggdathl"
       },
       {
-        "type": "fancyImagePanel",
+        "type": "splitContentFeature",
         "image1": "uploads/general/31-Kellett-052.jpg",
         "image2": "uploads/general/31-Kellett-026.jpg",
         "caption": "Forget the spotlight, it’s all about natural light",
@@ -1793,7 +1793,7 @@
         "id": "4k71o81gpv4"
       },
       {
-        "type": "fancyImagePanel",
+        "type": "splitContentFeature",
         "image1": "uploads/general/38-Llaneast-003-copy.jpg",
         "image2": "uploads/general/38-Llaneast-018.jpg",
         "caption": "Edwardian Drama",
@@ -1801,7 +1801,7 @@
         "id": "yy9qc3nb13k"
       },
       {
-        "type": "fancyImagePanel",
+        "type": "splitContentFeature",
         "image1": "uploads/general/38-Llaneast-018.jpg",
         "image2": "uploads/general/38-Llaneast-019.jpg",
         "caption": "Bathroom Sheer",
@@ -1809,7 +1809,7 @@
         "id": "a9s5fnhxltl"
       },
       {
-        "type": "fancyImagePanel",
+        "type": "splitContentFeature",
         "image1": "uploads/general/38-Llaneast-010.jpg",
         "image2": "uploads/general/38-Llaneast-009.jpg",
         "caption": "",
@@ -1831,7 +1831,7 @@
         "id": "gmksj3nj8q"
       },
       {
-        "type": "fancyImagePanel",
+        "type": "splitContentFeature",
         "image1": "uploads/general/THEDESIGNORYSET1.1-38.jpg",
         "image2": "uploads/general/THEDESIGNORYSET1.1-46.jpg",
         "caption": "Let there be light",
@@ -1839,7 +1839,7 @@
         "id": "1bmpcgdso5u"
       },
       {
-        "type": "fancyImagePanel",
+        "type": "splitContentFeature",
         "image1": "uploads/general/THEDESIGNORYSET2.1-29-2.jpg",
         "image2": "uploads/general/THEDESIGNORYSET1.1-7.jpg",
         "caption": "The perfect blend",
@@ -1861,7 +1861,7 @@
         "id": "81n2u6bilqs"
       },
       {
-        "type": "fancyImagePanel",
+        "type": "splitContentFeature",
         "image1": "uploads/general/Bayview-022.jpg",
         "image2": "uploads/general/Bayview-003.jpg",
         "caption": "Custom Creations",
@@ -1869,7 +1869,7 @@
         "id": "ix752t0ng6"
       },
       {
-        "type": "fancyImagePanel",
+        "type": "splitContentFeature",
         "image1": "uploads/general/Bayview-073.jpg",
         "image2": "uploads/general/Bayview-005.jpg",
         "caption": "Motorised Curtains",
@@ -1891,7 +1891,7 @@
         "id": "icf12o67jys"
       },
       {
-        "type": "fancyImagePanel",
+        "type": "splitContentFeature",
         "image1": "uploads/general/02-fitzroy-house@2x.jpg",
         "image2": "uploads/general/03-fitzroy-house@2x.jpg",
         "caption": "Industrial Warmth",
@@ -1915,7 +1915,7 @@
         "id": "x48y12r79k"
       },
       {
-        "type": "fancyImagePanel",
+        "type": "splitContentFeature",
         "image1": "uploads/general/13-fitzroy-house@2x.jpg",
         "image2": "uploads/general/12-fitzroy-house@2x.jpg",
         "caption": "Multiple Blinds, Seamless Design",
@@ -1938,7 +1938,7 @@
         "id": "vv96ydi35im"
       },
       {
-        "type": "fancyImagePanel",
+        "type": "splitContentFeature",
         "image1": "uploads/general/02-little-willow-reno@2x.jpg",
         "image2": "uploads/general/03-little-willow-reno@2x.jpg",
         "caption": "Everyday Luxury",
@@ -1962,7 +1962,7 @@
         "id": "0e6bswdaf1up"
       },
       {
-        "type": "fancyImagePanel",
+        "type": "splitContentFeature",
         "image1": "uploads/general/12-little-willow-reno@2x.jpg",
         "image2": "uploads/general/11-little-willow-reno@2x.jpg",
         "caption": "Edwardian Charm",
@@ -1985,7 +1985,7 @@
         "id": "vn3djy436wb"
       },
       {
-        "type": "fancyImagePanel",
+        "type": "splitContentFeature",
         "image1": "uploads/general/02-barefoot-bay-cottage@2x.jpg",
         "image2": "uploads/general/03-barefoot-bay-cottage@2x.jpg",
         "caption": "A Mix of Textures",
@@ -2009,7 +2009,7 @@
         "id": "f32h6qnies"
       },
       {
-        "type": "fancyImagePanel",
+        "type": "splitContentFeature",
         "image1": "uploads/general/13-barefoot-bay-cottage@2x.jpg",
         "image2": "uploads/general/12-barefoot-bay-cottage@2x.jpg",
         "caption": "Hidden Secrets",
@@ -2032,7 +2032,7 @@
         "id": "6rd46k1gm8q"
       },
       {
-        "type": "fancyImagePanel",
+        "type": "splitContentFeature",
         "image1": "uploads/general/02-beaconsfield-project@2x.jpg",
         "image2": "uploads/general/03-beaconsfield-project@2x.jpg",
         "caption": "Back to Black",
@@ -2056,7 +2056,7 @@
         "id": "bvd2qqx5q9f"
       },
       {
-        "type": "fancyImagePanel",
+        "type": "splitContentFeature",
         "image1": "uploads/general/11-beaconsfield-project@2x.jpg",
         "image2": "uploads/general/12-beaconsfield-project@2x.jpg",
         "caption": "Warmth Creation",
@@ -2079,7 +2079,7 @@
         "id": "8ci5suhecmf"
       },
       {
-        "type": "fancyImagePanel",
+        "type": "splitContentFeature",
         "image1": "uploads/general/02-robert-st-spotswood@2x.jpg",
         "image2": "uploads/general/03-robert-st-spotswood@2x.jpg",
         "caption": "Shutters for Every Room",
@@ -2103,7 +2103,7 @@
         "id": "huvw5fs6bmk"
       },
       {
-        "type": "fancyImagePanel",
+        "type": "splitContentFeature",
         "image1": "uploads/general/12-robert-st-spotswood@2x.jpg",
         "image2": "uploads/general/11-robert-st-spotswood@2x.jpg",
         "caption": "From Mid-Century to Modern",
@@ -2126,7 +2126,7 @@
         "id": "bp9cdqzes09"
       },
       {
-        "type": "fancyImagePanel",
+        "type": "splitContentFeature",
         "image1": "uploads/general/02-maidstone@2x.jpg",
         "image2": "uploads/general/03-minimalist@2x.jpg",
         "caption": "Linear Luxury",
@@ -2150,7 +2150,7 @@
         "id": "asf24bntwjc"
       },
       {
-        "type": "fancyImagePanel",
+        "type": "splitContentFeature",
         "image1": "uploads/general/14-maidstone@2x.jpg",
         "image2": "uploads/general/13-maidstone@2x.jpg",
         "caption": "Textures and Tones",
@@ -2173,7 +2173,7 @@
         "id": "3vcvtiq52vu"
       },
       {
-        "type": "fancyImagePanel",
+        "type": "splitContentFeature",
         "image1": "uploads/general/02-long-jetty@2x.jpg",
         "image2": "uploads/general/03-long-jetty@2x.jpg",
         "caption": "Luxurious Finish with Hidden Functionality",
@@ -2197,7 +2197,7 @@
         "id": "a3ugvkk3mko"
       },
       {
-        "type": "fancyImagePanel",
+        "type": "splitContentFeature",
         "image1": "uploads/general/14-long-jetty@2x.jpg",
         "image2": "uploads/general/13-long-jetty@2x.jpg",
         "caption": "Window Dressing that Won't Feel the Heat",
