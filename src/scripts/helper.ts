@@ -29,16 +29,13 @@ const convertItalicNodes = (content: any[]) => {
 };
 
 const run = async () => {
-
-    for (const blog of blogs) {
-        for (const block of blog.contentBlocks) {
-            if (!(block as any).id) {
-                (block as any).id = generateId();
-            }
+    for (const mapping of mappingsJson as any[]) {
+        if (!mapping.type) {
+            mapping.type = 'blog';
         }
     }
 
-    fs.writeFileSync('./.in/blogs.json', JSON.stringify(blogs, null, 2));
+    fs.writeFileSync('./.in/image-mappings.json', JSON.stringify(mappingsJson, null, 2));
 };
 
 const fixRixchtextDocument = (block: any) => {

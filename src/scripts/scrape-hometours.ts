@@ -3,6 +3,7 @@ import toursJson from '../../.in/hometours.json'
 import fs from 'fs';
 import { HomeTour } from '../types/home-tour';
 import { htmlToRichText } from 'html-to-richtext-contentful';
+import { generateId } from '../utils/id';
 
 const tours = toursJson as HomeTour[];
 
@@ -35,7 +36,8 @@ const run = (async () => {
           tour.contentBlocks.push(
             {
               type: 'richText',
-              content: htmlToRichText(html)
+              content: htmlToRichText(html),
+              id: generateId()
             }
           );
           continue;
@@ -48,7 +50,8 @@ const run = (async () => {
           tour.contentBlocks.push(
             {
               type: 'richText',
-              content: htmlToRichText(html)
+              content: htmlToRichText(html),
+              id: generateId()
             }
           );
           continue;
@@ -65,7 +68,8 @@ const run = (async () => {
             if (images.length > 0) {
               tour.contentBlocks.push({
                 type: 'contentTiles',
-                images: imageUrls
+                images: imageUrls,
+                id: generateId()
               });
             }
           } else {
@@ -79,7 +83,8 @@ const run = (async () => {
             
             tour.contentBlocks.push({
               type: 'contentTiles',
-              images: [image1Url, image2Url]
+              images: [image1Url, image2Url],
+              id: generateId()
             });
           }
           
@@ -92,7 +97,8 @@ const run = (async () => {
           if (image) {
             tour.contentBlocks.push({
               type: 'image',
-              image: decodeBase64(image)
+              image: decodeBase64(image),
+              id: generateId()
             });
           }
           continue;
@@ -104,7 +110,8 @@ const run = (async () => {
         //   if (images.length > 0) {
         //     tour.contentBlocks.push({
         //       type: 'imageCarousel',
-        //       images: images.map(image => decodeBase64(image))
+        //       images: images.map(image => decodeBase64(image)),
+        //       id: generateId()
         //     });
         //   }
         //   continue;
@@ -116,7 +123,8 @@ const run = (async () => {
           if (images.length > 0) {
             tour.contentBlocks.push({
               type: 'gallery',
-              images: images.map(image => decodeBase64(image))
+              images: images.map(image => decodeBase64(image)),
+              id: generateId()
             });
           }
           continue;
@@ -128,7 +136,8 @@ const run = (async () => {
           if (video) {
             tour.contentBlocks.push({
               type: 'video',
-              youtube: `https://www.youtube.com/embed/${video}`
+              youtube: `https://www.youtube.com/embed/${video}`,
+              id: generateId()
             });
           }
           continue;
@@ -143,7 +152,8 @@ const run = (async () => {
             tour.contentBlocks.push({
               type: 'headline',
               title: title,
-              description: text
+              description: text,
+              id: generateId()
             });
           }
           continue;
@@ -161,7 +171,27 @@ const run = (async () => {
             image1: image1 ? decodeBase64(image1) : '',
             image2: image2 ? decodeBase64(image2) : '',
             caption: caption,
-            copy: copy
+            copy: copy,
+            id: generateId()
+          });
+          
+          continue;
+        }
+
+        if ((await block.$$('div.fancy-image-panel--flipped')).length > 0) {
+          const image1 = await tryGet(() => block.$eval('div.fancy-image-panel__extra figure', el => el.getAttribute('data-bgset') ?? ''));
+          const image2 = await tryGet(() => block.$eval('div.fancy-image-panel__main img', el => el.getAttribute('data-src') ?? ''));
+          const caption = await tryGet(() => block.$eval('div.fancy-image-panel__caption h3', el => el.innerText));
+          const copy = await tryGet(() => block.$eval('div.image-caption__copy', el => el.innerText));
+          
+          tour.contentBlocks.push({
+            type: 'fancyImagePanel',
+            image1: image1 ? decodeBase64(image1) : '',
+            image2: image2 ? decodeBase64(image2) : '',
+            caption: caption,
+            copy: copy,
+            flipped: true,
+            id: generateId()
           });
           
           continue;

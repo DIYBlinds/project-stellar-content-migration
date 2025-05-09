@@ -2,12 +2,10 @@
 import cloudinary from '../utils/cloudinary';
 import fs from 'fs';
 import mappingsJson from '../../.in/image-mappings.json';
-import showroomsJson from '../../.in/showrooms.json';
 import tours from '../../.in/hometours.json';
 
 
 const mappings = mappingsJson as any[];
-const showrooms = showroomsJson as any[];
 interface Tour {
   title: string;
   heroImage: string;
@@ -40,6 +38,7 @@ interface ImageMapping {
   blogTitle: string;
   originalImage: string;
   cloudinaryImage: string;
+  type?: string;
 }
 
 interface ProcessedImage {
@@ -199,7 +198,8 @@ const updateBlogWithUploadedImages = (
     imageMappings.push({
       blogTitle: tour.title,
       originalImage: tour.heroImage,
-      cloudinaryImage: heroImageResult.url
+      cloudinaryImage: heroImageResult.url,
+      type: 'homeTour'
     });
   }
 
@@ -212,7 +212,8 @@ const updateBlogWithUploadedImages = (
         imageMappings.push({
           blogTitle: tour.title,
           originalImage: block.image,
-          cloudinaryImage: result.url
+          cloudinaryImage: result.url,
+          type: 'homeTour'
         });
       }
     } else if (
@@ -228,7 +229,8 @@ const updateBlogWithUploadedImages = (
           imageMappings.push({
             blogTitle: tour.title,
             originalImage: image,
-            cloudinaryImage: result.url
+            cloudinaryImage: result.url,
+            type: 'homeTour'
           });
         }
       }
@@ -262,12 +264,10 @@ const run = async (): Promise<void> => {
       for (const task of uploadTasks) {
         const imageSlug = getSlug(task.filePath);
         const existingImage = processedImages.get(imageSlug);
-        const showroomImages = showrooms.filter((showroom: any) => showroom._source.cloudinaryImage.split('/').pop() == imageSlug);
-        const showroomImage = showroomImages.length > 0 ? showroomImages[0] : null;
         
-        if (existingImage || showroomImage) {
+        if (existingImage) {
           // If image was already processed, use its existing URL
-          uploadResults.set(imageSlug, { url: existingImage?.cloudinaryUrl ?? showroomImage?._source?.cloudinaryImage ?? ''});
+          uploadResults.set(imageSlug, { url: existingImage?.cloudinaryUrl ?? ''});
           console.log(`Reusing existing image: ${imageSlug}`);
         } else {
           try {

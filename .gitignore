@@ -12,3 +12,5 @@ dist
 .in/blogs/**
 .in/blogs-backup/**
 .in/blogs-backup
+.in/hometours
+.in/hometours/**
