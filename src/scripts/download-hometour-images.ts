@@ -66,7 +66,7 @@ const run = async () => {
           downloadImage( `https://media.diyblinds.com.au/${image}`, tour.title, getSlug(image));
         });
       }
-      if (block.type == 'fancyImagePanel') {
+      if (block.type == 'splitContentFeature') {
         block.image1 != "" && downloadImage( `https://media.diyblinds.com.au/${block.image1}`, tour.title, getSlug(block.image1));
         block.image2 != "" && downloadImage( `https://media.diyblinds.com.au/${block.image2}`, tour.title, getSlug(block.image2));
       }

@@ -1083,10 +1083,27 @@
     "heroImage": "uploads/general/11.21-Light-House-Project-_-Ben-Cole-_-Living-_-Sheer-Curtains-_-Allusion-Pearl-1.jpg",
     "contentBlocks": [
       {
-        "type": "headline",
-        "title": "The Light House Project at Norah Head is a project developed by homeowners and directors of Loughlin Furniture, Rob & Jess Loughlin. Situated in an idyllic location on the coast of NSW, this family home is light, bright and inviting, with lots of natural textures and earthy tones to enhance its coastal feel.",
-        "description": "",
-        "id": "q9wk8vquvu"
+        "type": "richText",
+        "id": "q9wk8vquvu",
+        "textAlignment": "center",
+        "content": {
+          "nodeType": "document",
+          "data": {},
+          "content": [
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "The Light House Project at Norah Head is a project developed by homeowners and directors of Loughlin Furniture, Rob & Jess Loughlin. Situated in an idyllic location on the coast of NSW, this family home is light, bright and inviting, with lots of natural textures and earthy tones to enhance its coastal feel.",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            }
+          ]
+        }
       },
       {
         "type": "splitContentFeature",
@@ -1172,10 +1189,27 @@
         "id": "repcwm9njuk"
       },
       {
-        "type": "headline",
-        "title": "Creating a forever home",
-        "description": "As a calming sanctuary for their growing family and a retreat from their busy lives, Susie & Brad's home was truly a unique project. The curated design and bespoke window furnishings allowed them to navigate the long sunlight hours while complementing the tone and curves of their home.",
-        "id": "oz9sds1dg5"
+        "type": "richText",
+        "id": "oz9sds1dg5",
+        "textAlignment": "center",
+        "content": {
+          "nodeType": "document",
+          "data": {},
+          "content": [
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "As a calming sanctuary for their growing family and a retreat from their busy lives, Susie & Brad's home was truly a unique project. The curated design and bespoke window furnishings allowed them to navigate the long sunlight hours while complementing the tone and curves of their home.",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            }
+          ]
+        }
       },
       {
         "type": "splitContentFeature",
@@ -1212,8 +1246,31 @@
         "id": "k5983pamrxb"
       },
       {
+        "type": "richText",
+        "id": "jqmfpei8s1",
+        "textAlignment": "center",
+        "content": {
+          "nodeType": "document",
+          "data": {},
+          "content": [
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "“We wanted it to feel soft, organic, integrated, like we had really thought about it from the beginning. I would definitely advise to work with DIY Blinds early and think about what is the mood of the house that you want to create because blinds can make a huge difference.”",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
         "type": "headline",
-        "title": "“We wanted it to feel soft, organic, integrated, like we had really thought about it from the beginning. I would definitely advise to work with DIY Blinds early and think about what is the mood of the house that you want to create because blinds can make a huge difference.”",
+        "title": "",
         "description": "Susie & Brad",
         "id": "twnvrvil7s"
       },
@@ -1601,8 +1658,31 @@
       {
         "type": "headline",
         "title": "This is Living",
-        "description": "We first fell in love with Kyal and Kara when they appeared on The Block and have loved following their progress. Now we watch them undertake their first knock-down rebuild with the fabulous Blue Lagoon beachside family home. With their living, dining and kitchen space, Kyal and Kara have created a true heart of the home. Not only is this a space for family and friends to hang out, it also connects to every other area in the home.",
+        "description": "",
         "id": "hz54kws8h2f"
+      },
+      {
+        "type": "richText",
+        "id": "jqmfpei8s1",
+        "textAlignment": "center",
+        "content": {
+          "nodeType": "document",
+          "data": {},
+          "content": [
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "We first fell in love with Kyal and Kara when they appeared on The Block and have loved following their progress. Now we watch them undertake their first knock-down rebuild with the fabulous Blue Lagoon beachside family home. With their living, dining and kitchen space, Kyal and Kara have created a true heart of the home. Not only is this a space for family and friends to hang out, it also connects to every other area in the home.",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            }
+          ]
+        }
       },
       {
         "type": "splitContentFeature",
@@ -1631,8 +1711,31 @@
       {
         "type": "headline",
         "title": "Let’s Dive In!",
-        "description": "We first fell in love with Kyal and Kara when they appeared on The Block and have loved following their progress. Now we watch them undertake their first knock-down rebuild with the fabulous Blue Lagoon beachside family home. This time, the duo really dived into the Blue Lagoon, tackling the pool, laundry and mudroom, powder room, main bathroom and guest bedroom. While these may seem like a lot of different spaces, Kara works her design magic to make them all feel connected to each other and the rest of the house.",
+        "description": "",
         "id": "jqmfpei8si"
+      },
+      {
+        "type": "richText",
+        "id": "jqmfpei8s1",
+        "textAlignment": "center",
+        "content": {
+          "nodeType": "document",
+          "data": {},
+          "content": [
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "We first fell in love with Kyal and Kara when they appeared on The Block and have loved following their progress. Now we watch them undertake their first knock-down rebuild with the fabulous Blue Lagoon beachside family home. This time, the duo really dived into the Blue Lagoon, tackling the pool, laundry and mudroom, powder room, main bathroom and guest bedroom. While these may seem like a lot of different spaces, Kara works her design magic to make them all feel connected to each other and the rest of the house.",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            }
+          ]
+        }
       },
       {
         "type": "splitContentFeature",
@@ -1669,8 +1772,31 @@
       {
         "type": "headline",
         "title": "A Loft of Fun",
-        "description": "We first fell in love with Kyal and Kara when they appeared on The Block and have loved following their progress. Now we watch them undertake their first knock-down rebuild with the fabulous Blue Lagoon beachside family home. And the focus on family has never been more evident than in the designs for the kids’ bedroom, the toy room and, of course the dual-level rumpus room. All three rooms prioritise fun above all else, while still providing plenty of functional elements and while keeping with Kyal and Kara’s luxe coastal style.",
+        "description": "",
         "id": "6nn66ilsjja"
+      },
+      {
+        "type": "richText",
+        "id": "jqmfpei811",
+        "textAlignment": "center",
+        "content": {
+          "nodeType": "document",
+          "data": {},
+          "content": [
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "We first fell in love with Kyal and Kara when they appeared on The Block and have loved following their progress. Now we watch them undertake their first knock-down rebuild with the fabulous Blue Lagoon beachside family home. And the focus on family has never been more evident than in the designs for the kids’ bedroom, the toy room and, of course the dual-level rumpus room. All three rooms prioritise fun above all else, while still providing plenty of functional elements and while keeping with Kyal and Kara’s luxe coastal style.",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            }
+          ]
+        }
       },
       {
         "type": "splitContentFeature",
@@ -1699,8 +1825,31 @@
       {
         "type": "headline",
         "title": "The Hideout",
-        "description": "We first fell in love with Kyal and Kara when they appeared on The Block and have loved following their progress. Now we watch them undertake their first knock-down rebuild with the fabulous Blue Lagoon beachside family home. Every family home needs a luxurious parents retreat, so Kyal and Kara have turned the master bedroom into an oasis of their own.",
+        "description": "",
         "id": "ato4gik74wd"
+      },
+      {
+        "type": "richText",
+        "id": "ato4gik74w1",
+        "textAlignment": "center",
+        "content": {
+          "nodeType": "document",
+          "data": {},
+          "content": [
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "We first fell in love with Kyal and Kara when they appeared on The Block and have loved following their progress. Now we watch them undertake their first knock-down rebuild with the fabulous Blue Lagoon beachside family home. Every family home needs a luxurious parents retreat, so Kyal and Kara have turned the master bedroom into an oasis of their own.",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            }
+          ]
+        }
       },
       {
         "type": "splitContentFeature",
@@ -1729,8 +1878,31 @@
       {
         "type": "headline",
         "title": "Be Our Guest",
-        "description": "We first fell in love with Kyal and Kara when they appeared on The Block and have loved following their progress. Now we watch them undertake their first knock-down rebuild with the fabulous Blue Lagoon beachside family home. Family extends beyond just their immediate household though, so the Blue Lagoon features a studio out the back for guests. The compact yet inviting space is perfect for holidays with a hotel feel that still retains some of the old beach shack charm.",
+        "description": "",
         "id": "m4nshnhtdn"
+      },
+      {
+        "type": "richText",
+        "id": "m4nshnhtd1",
+        "textAlignment": "center",
+        "content": {
+          "nodeType": "document",
+          "data": {},
+          "content": [
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "We first fell in love with Kyal and Kara when they appeared on The Block and have loved following their progress. Now we watch them undertake their first knock-down rebuild with the fabulous Blue Lagoon beachside family home. Family extends beyond just their immediate household though, so the Blue Lagoon features a studio out the back for guests. The compact yet inviting space is perfect for holidays with a hotel feel that still retains some of the old beach shack charm.",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            }
+          ]
+        }
       },
       {
         "type": "splitContentFeature",
@@ -1759,8 +1931,31 @@
       {
         "type": "headline",
         "title": "Modern Modernism",
-        "description": "This brand new family home is an instant classic, mixing mid-century geometric shapes with modern tones for a timeless result. Backed by a stellar team of professionals including JBM Builders, designer Melissa Vukadin and interior stylist Kimberley Baker and of course DIY Blinds, the home combines textures with a soft yet minimal palette for a tranquil sanctuary.",
+        "description": "",
         "id": "xx61d65ip8"
+      },
+      {
+        "type": "richText",
+        "id": "xx61d65ip1",
+        "textAlignment": "center",
+        "content": {
+          "nodeType": "document",
+          "data": {},
+          "content": [
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "This brand new family home is an instant classic, mixing mid-century geometric shapes with modern tones for a timeless result. Backed by a stellar team of professionals including JBM Builders, designer Melissa Vukadin and interior stylist Kimberley Baker and of course DIY Blinds, the home combines textures with a soft yet minimal palette for a tranquil sanctuary.",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            }
+          ]
+        }
       },
       {
         "type": "splitContentFeature",
@@ -1789,8 +1984,31 @@
       {
         "type": "headline",
         "title": "Armadale Edwardian",
-        "description": "First-time builder, Ivy Huang’s renovation has transformed this weatherboard Edwardian into one of Melbourne’s most sought after properties. “I wanted to create a beautiful, functional family home that would also feel like we were on holidays all the time!”. Ivy combined her engineering background with professional project manager skills along with help from the talented team at BuildHer Collective to bring to life this “sanctuary” in the heart of Armadale.",
+        "description": "",
         "id": "4k71o81gpv4"
+      },
+      {
+        "type": "richText",
+        "id": "4k71o81gpv1",
+        "textAlignment": "center",
+        "content": {
+          "nodeType": "document",
+          "data": {},
+          "content": [
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "First-time builder, Ivy Huang’s renovation has transformed this weatherboard Edwardian into one of Melbourne’s most sought after properties. “I wanted to create a beautiful, functional family home that would also feel like we were on holidays all the time!”. Ivy combined her engineering background with professional project manager skills along with help from the talented team at BuildHer Collective to bring to life this “sanctuary” in the heart of Armadale.",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            }
+          ]
+        }
       },
       {
         "type": "splitContentFeature",
@@ -1827,8 +2045,31 @@
       {
         "type": "headline",
         "title": "A Design Masterclass",
-        "description": "The Designory’s director Melissa Bonney had a vision for The Barefoot Villa. She wanted to create a luxurious getaway with the soul of a home. Melissa says, “We filled this home with carefully curated selections from businesses we really believe in. The home is as much a testament to them as it is to our design team…”. Discover the DIY Blinds range used to achieve Melissa’s vision.",
+        "description": "",
         "id": "gmksj3nj8q"
+      },
+      {
+        "type": "richText",
+        "id": "gmksj3nj81",
+        "textAlignment": "center",
+        "content": {
+          "nodeType": "document",
+          "data": {},
+          "content": [
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "The Designory’s director Melissa Bonney had a vision for The Barefoot Villa. She wanted to create a luxurious getaway with the soul of a home. Melissa says, “We filled this home with carefully curated selections from businesses we really believe in. The home is as much a testament to them as it is to our design team…”. Discover the DIY Blinds range used to achieve Melissa’s vision.",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            }
+          ]
+        }
       },
       {
         "type": "splitContentFeature",
@@ -1857,8 +2098,31 @@
       {
         "type": "headline",
         "title": "Northcote Luxury",
-        "description": "BuildHer Collective believe that with the “right tools anyone can build” but it takes a special team to create a home as stunning as their Bayview House. BuildHer took full advantage of DIY Blinds’ products and services to create this luxurious family home.",
+        "description": "",
         "id": "81n2u6bilqs"
+      },
+      {
+        "type": "richText",
+        "id": "81n2u6bilq1",
+        "textAlignment": "center",
+        "content": {
+          "nodeType": "document",
+          "data": {},
+          "content": [
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "BuildHer Collective believe that with the “right tools anyone can build” but it takes a special team to create a home as stunning as their Bayview House. BuildHer took full advantage of DIY Blinds’ products and services to create this luxurious family home.",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            }
+          ]
+        }
       },
       {
         "type": "splitContentFeature",
@@ -2167,10 +2431,27 @@
     "heroImage": "uploads/general/01-long-jetty@2x.jpg",
     "contentBlocks": [
       {
-        "type": "headline",
-        "title": "Kyal and Kara’s light and bright renovation in New South Wales took nine months to transform the former beach house into the masterpiece it is today. See how the pair used DIY Blinds in every room of the house to maintain their “Palm Springs meets long Jetty” aesthetic without compromising on functionality.",
-        "description": "",
-        "id": "3vcvtiq52vu"
+        "type": "richText",
+        "id": "3vcvtiq52vu",
+        "textAlignment": "center",
+        "content": {
+          "nodeType": "document",
+          "data": {},
+          "content": [
+            {
+              "nodeType": "paragraph",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "text",
+                  "value": "Kyal and Kara’s light and bright renovation in New South Wales took nine months to transform the former beach house into the masterpiece it is today. See how the pair used DIY Blinds in every room of the house to maintain their “Palm Springs meets long Jetty” aesthetic without compromising on functionality.",
+                  "marks": [],
+                  "data": {}
+                }
+              ]
+            }
+          ]
+        }
       },
       {
         "type": "splitContentFeature",

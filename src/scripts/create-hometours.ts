@@ -10,7 +10,7 @@ const excludes = [
 
 ];
 
-const imports = tours.splice(0, 1) //.filter(tour => samples.includes(tour.url));
+const imports = tours.splice(20, 50) //.filter(tour => samples.includes(tour.url));
 console.log('imports>>>', imports.length);
 
 const metadata = {
@@ -60,7 +60,12 @@ const upsertHeroImage = async (tour: typeof imports[0]) => {
 }
 
 const lookupImage = (title : string, url: string) => {
-    console.log(title, url);    const mapping = (mappings as any).find((mapping: any) => mapping.blogTitle === title && mapping.originalImage === url);
+    console.log(title, url);    
+    let mapping = (mappings as any).find((mapping: any) => mapping.blogTitle === title && mapping.originalImage === url);
+    if (!mapping) {
+        mapping = (mappings as any).find((mapping: any) => getSlug(mapping.originalImage) === getSlug(url));
+    }
+
     return {
         image: mapping?.cloudinaryImage.replace(/%40/g, '@'),
         id: mapping?.id
@@ -72,25 +77,32 @@ const upserttours = async (tour: typeof tours[0], heroImageId: string) => {
     const blocks = []
     for (const block of tour.contentBlocks) {
         if (block.type === 'richText') {
-            await createRichTextBlock(tour, block);
+            const entry = await createRichTextBlock(tour, block);
+            blocks.push(entry.sys.id);
         }   
         if (block.type === 'contentTiles') {
-            await createContentTilesBlock(tour, block);
+            const entry = await createContentTilesBlock(tour, block);
+            blocks.push(entry.sys.id);
         }
         if (block.type === 'image') {
-            await createImageBlock(tour, block);
+            const entry = await createImageBlock(tour, block);
+            blocks.push(entry.sys.id);
         }
         if (block.type === 'video') {
-            await createVideoBlock(tour, block);
+            const entry = await createVideoBlock(tour, block);
+            blocks.push(entry.sys.id);
         }
         if (block.type === 'headline') {
-            await createHeadlineBlock(tour, block);
+            const entry = await createHeadlineBlock(tour, block);
+            blocks.push(entry.sys.id);
         }
         if (block.type === 'gallery') {
-            await createGalleryBlock(tour, block);
+            const entries = await createGalleryBlock(tour, block);
+            blocks.push(...entries.map((entry: any) => entry.sys.id));
         }
         if (block.type === 'splitContentFeature') {
-            await createSplitContentFeatureBlock(tour, block);
+            const entry = block.image1 !== "" ? await createSplitContentFeatureBlock(tour, block) : await createContentFeatureBlock(tour, block);
+            blocks.push(entry.sys.id);
         }
     }
 
@@ -107,7 +119,7 @@ const upserttours = async (tour: typeof tours[0], heroImageId: string) => {
                 [LOCALE]: 'Home tour'
             },
             slug: {
-                [LOCALE]: `/diyblinds/tours/${getSlug(tour.url)}`
+                [LOCALE]: `/diyblinds/home-tours/${getSlug(tour.url)}`
             },
             thumbnail: {
                 [LOCALE]: lookupImage(tour.title, tour.heroImage)?.image 
@@ -128,12 +140,12 @@ const upserttours = async (tour: typeof tours[0], heroImageId: string) => {
                 [LOCALE]: 'DIY'
             },
             contentBlocks: {
-                [LOCALE]: tour.contentBlocks?.filter((block: any) => !['imageCarousel'].includes(block.type)).map((block: any) => {
+                [LOCALE]: blocks.map((blockId: any) => {
                     return {
                         sys: {
                             type: 'Link',
                             linkType: 'Entry',
-                            id: `${block.type.toLowerCase()}-${block.id}`
+                            id: `${blockId}`
                         }
                     }
                 })
@@ -144,43 +156,53 @@ const upserttours = async (tour: typeof tours[0], heroImageId: string) => {
     await upsertEntry('inspiration', 'tour-'+tour.id, data);
 }
 
-const createSplitContentFeatureBlock = async (tour: typeof tours[0], block: any) => {
-    const splitted = block.image1 !== "";
-    let leftBlock = !splitted ? {
-        leftBlockTitle: {
-            [LOCALE]: block.flipped ? block.caption : undefined
-        },
-        leftBlockImage: {
-            [LOCALE]: block.flipped ? lookupImage(tour.title, block.image2)?.image : lookupImage(tour.title, block.image1)?.image
-        },
-        leftBlockText: {
-            [LOCALE]: block.flipped ? toRichtext(block.copy) : undefined
+const createContentFeatureBlock = async (tour: typeof tours[0], block: any) => {
+    return await upsertEntry('contentFeature', `contentfeature-${block.id}`, {
+        metadata: metadata,
+        fields: {
+            name: {
+                [LOCALE]: 'tour > ' + tour.title
+            },
+            title: {
+                [LOCALE]: block.title
+            },
+            text: {
+                [LOCALE]: toRichtext(block.copy) 
+            },
+            image: {
+                [LOCALE]: lookupImage(tour.title, block.image2)?.image
+            },
+            flipLayout: {
+                [LOCALE]: block.flipped ? true : false
+            }
         }
-    } : {
+    });
+}
+
+const createSplitContentFeatureBlock = async (tour: typeof tours[0], block: any) => {
+    let leftBlock = {
         leftBlockTitle: {
-            [LOCALE]: block.caption
+            [LOCALE]: undefined
         },
         leftBlockImage: {
-            [LOCALE]: lookupImage(tour.title, block.image2)?.image
+            [LOCALE]: (block.flipped ? lookupImage(tour.title, block.image2)?.image : lookupImage(tour.title, block.image1)?.image)
         },
         leftBlockText: {
-            [LOCALE]: toRichtext(block.copy) 
+            [LOCALE]: undefined
         }
     }
 
-    const rightBlock = splitted ? {
+    const rightBlock = {
         rightBlockTitle: {
-            [LOCALE]: !block.flipped ? block.caption : undefined
+            [LOCALE]: block.caption
         },
         rightBlockImage: {
             [LOCALE]: (block.flipped ? lookupImage(tour.title, block.image1)?.image : lookupImage(tour.title, block.image2)?.image)
         },
         rightBlockText: {
-            [LOCALE]: !block.flipped ? toRichtext(block.copy) : undefined 
+            [LOCALE]: toRichtext(block.copy) 
         }
-    } : {};
-
-    //console.log('rightBlock>>>', rightBlock);
+    }
 
     return await upsertEntry('splitContentFeature', `${block.type.toLowerCase()}-${block.id}`, {
         metadata: metadata,
@@ -219,46 +241,65 @@ const toRichtext = (text: string) => {
 }
 
 const createGalleryBlock = async (tour: typeof tours[0], block: any) => {
-
-    const cells = [];
-    let index = 0;
-    const count = block.images.length;
-    let colSpan = 1;
-    let rowSpan = 1;
-    for (const image of block.images.splice(0, 12)) {
-        if (count === 4 || count === 7) {
-            rowSpan = index === 0 || index === 2 ? 2 : 1;
-        }
-
-        const cell = await createCell(tour, image, colSpan, rowSpan);
-        if (cell) {
-            cells.push(cell);
-        }
-        index++;
-    }
-
-    return await upsertEntry('featuredGrid', `${block.type.toLowerCase()}-${block.id}`, {
-        metadata: metadata,
-        fields: {
-            name: {
-                [LOCALE]: 'tour > ' + tour.title
-            },
-            variant: {
-                [LOCALE]: 'default'
-            },
-            cells: {
-                [LOCALE]: cells.filter(Boolean).map((cell: any) => {
-                    return {
-                        sys: {
-                            type: 'Link',
-                            linkType: 'Entry',
-                            id: cell.sys.id
-                        }
-                    }
-                })
-            }
-        }
+    const entries = [];
+    const sets: Record<number, string[]> = {};
+    const IMAGES_PER_GROUP = 7;
+    
+    // Create groups of images without modifying the original array
+    const imageGroups = Array.from({ length: Math.ceil(block.images.length / IMAGES_PER_GROUP) }, (_, i) => 
+        block.images.slice(i * IMAGES_PER_GROUP, (i + 1) * IMAGES_PER_GROUP)
+    );
+    
+    // Convert groups to sets object
+    imageGroups.forEach((group, index) => {
+        sets[index] = group;
     });
+
+    let groupId = 1;
+    for (const set of Object.values(sets)) {
+        let count = set.length;
+        let colSpan = 1;
+        let rowSpan = 1;
+        let index = 0;
+        const cells = [];
+
+        for (const image of set) {
+            if (count === 4 || count === 7) {
+                rowSpan = index === 0 || index === 2 ? 2 : 1;
+            }
+    
+            const cell = await createCell(tour, image, colSpan, rowSpan);
+            if (cell) {
+                cells.push(cell);
+            }
+            index++;
+        }
+    
+        const entry = await upsertEntry('featuredGrid', `gallery-${block.id}-${groupId++}`, {
+            metadata: metadata,
+            fields: {
+                name: {
+                    [LOCALE]: 'tour > ' + tour.title
+                },
+                variant: {
+                    [LOCALE]: 'default'
+                },
+                cells: {
+                    [LOCALE]: cells.filter(Boolean).map((cell: any) => {
+                        return {
+                            sys: {
+                                type: 'Link',
+                                linkType: 'Entry',
+                                id: cell.sys.id
+                            }
+                        }
+                    })
+                }
+            }
+        });
+        entries.push(entry);
+    }    
+    return entries;
 }
 
 const createCell = async (tour: typeof tours[0], image: string, colSpan: number, rowSpan: number) => {
@@ -394,7 +435,7 @@ const createContentTilesBlock = async (tour: typeof tours[0], block: any) => {
         }
     }
 
-    await upsertEntry('contentTiles', `${block.type.toLowerCase()}-${block.id}`, data);
+    return await upsertEntry('contentTiles', `${block.type.toLowerCase()}-${block.id}`, data);
 }
 
 const createTile = async (tour: typeof tours[0], image: string) => {    

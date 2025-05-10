@@ -164,9 +164,9 @@ const collectImageTasks = (tour: Tour, folder: string): ImageUploadTask[] => {
           processedImages.add(imageSlug);
         }
       }
-    } else if (block.type === 'fancyImagePanel') {
+    } else if (block.type === 'splitContentFeature') {
       for (const image of [block.image1, block.image2]) {
-        if (image) {
+        if (image && image !== "") {
           const imageSlug = getSlug(image);
           if (!processedImages.has(imageSlug)) {
             tasks.push({
@@ -232,6 +232,21 @@ const updateBlogWithUploadedImages = (
             cloudinaryImage: result.url,
             type: 'homeTour'
           });
+        }
+      }
+    } else if (block.type === 'splitContentFeature') {
+      for (const image of [block.image1, block.image2]) {
+        if (image && image !== "") {
+          const imageSlug = getSlug(image);
+          const result = uploadResults.get(imageSlug);
+          if (result) {
+            imageMappings.push({
+              blogTitle: tour.title,
+              originalImage: image,
+              cloudinaryImage: result.url,
+              type: 'homeTour'
+            });
+          }
         }
       }
     }
