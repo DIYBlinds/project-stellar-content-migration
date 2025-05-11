@@ -5,6 +5,7 @@ import mappingsJson from '../../.in/image-mappings.json';
 import tours from '../../.in/hometours.json';
 import showrooms from '../../.in/showrooms.json';
 import trends from '../../.in/trends.json';
+import tips from '../../.in/tips.json';
 
 const convertItalicNodes = (content: any[]) => {
     return content.map(node => {
@@ -30,11 +31,11 @@ const convertItalicNodes = (content: any[]) => {
 };
 
 const run = async () => {
-    for (const trend of trends as any[]) {
-        trend.id = generateId();
+    for (const tip of tips as any[]) {
+        tip.id = generateId();
     }
 
-    fs.writeFileSync('./.in/trends.json', JSON.stringify(trends, null, 2));
+    fs.writeFileSync('./.in/tips.json', JSON.stringify(tips, null, 2));
 };
 
 const fixRixchtextDocument = (block: any) => {
