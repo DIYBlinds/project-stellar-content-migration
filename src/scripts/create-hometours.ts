@@ -104,6 +104,10 @@ const upserttours = async (tour: typeof tours[0], heroImageId: string) => {
             const entry = block.image1 !== "" ? await createSplitContentFeatureBlock(tour, block) : await createContentFeatureBlock(tour, block);
             blocks.push(entry.sys.id);
         }
+        if (block.type === 'imageCarousel') {
+            const entry = await createImageCarouselBlock(tour, block);
+            blocks.push(entry.sys.id);
+        }
     }
 
     const data = {
@@ -154,6 +158,38 @@ const upserttours = async (tour: typeof tours[0], heroImageId: string) => {
     }
 
     await upsertEntry('inspiration', 'tour-'+tour.id, data);
+}
+
+const createImageCarouselBlock = async (tour: typeof tours[0], block: any) => {
+
+    const tiles = [];
+    for (const slide of block.slides) {
+        const tile = await createSlide(tour, slide, slide.text)
+        if (tile) {
+            tiles.push({
+                sys: {
+                    type: 'Link',
+                    linkType: 'Entry',
+                    id: tile.sys.id
+                }
+            })
+        }
+    }
+
+    return await upsertEntry('tilesBlock', `imagecarousel-${block.id}`, {
+        metadata: metadata,
+        fields: {
+            name: {
+                [LOCALE]: 'tour > ' + tour.title
+            },
+            variant: {
+                [LOCALE]: 'carousel'
+            },
+            tiles: {
+                [LOCALE]: tiles
+            }
+        }
+    });
 }
 
 const createContentFeatureBlock = async (tour: typeof tours[0], block: any) => {
@@ -341,6 +377,9 @@ const createHeadlineBlock = async (tour: typeof tours[0], block: any) => {
             },
             subTitle: {
                 [LOCALE]: block.description
+            },
+            text: {
+                [LOCALE]: fixRixchtextDocument(block.richText)
             }
         }
     });
@@ -394,7 +433,7 @@ const createRichTextBlock = async (tour: typeof tours[0], block: any) => {
                 [LOCALE]: 'left'
             },
             text: {
-                [LOCALE]: block.content
+                [LOCALE]: fixRixchtextDocument(block.content)
             },
             hasGlossary: {
                 [LOCALE]: false
@@ -458,6 +497,41 @@ const createTile = async (tour: typeof tours[0], image: string) => {
     }
 
     return await upsertEntry('tile', 'tile-'+coundinaryImage.id, tile);
+}
+
+const createSlide = async (tour: typeof tours[0], slide: any, text: any) => {    
+    const coundinaryImage = lookupImage(tour.title, slide.image);
+
+    if (!coundinaryImage) {
+        console.log('no image found for:', slide.image);
+        return null;
+    }
+    console.log('createSlide>>>', slide.id, coundinaryImage.image);
+    const tile = {
+        metadata: metadata,
+        fields: {
+            name: {
+                [LOCALE]: 'tour > Content Tiles > ' + tour.title
+            },
+            image: {
+                [LOCALE]: coundinaryImage.image 
+            },
+            text: {
+                [LOCALE]: text
+            }
+        }
+    }
+
+    return await upsertEntry('tile', 'tile-'+slide.id, tile);
+}
+
+const fixRixchtextDocument = (block: any) => {
+    const document = block.content;
+    let content = document.content;
+    while (content.length > 0 && !content[0].nodeType && content[0].content) {
+        content = content[0].content;
+    }
+    document.content = content;
 }
 
 run();

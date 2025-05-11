@@ -29,13 +29,19 @@ const convertItalicNodes = (content: any[]) => {
 };
 
 const run = async () => {
-    for (const mapping of mappingsJson as any[]) {
-        if (!mapping.id) {
-            mapping.id = generateId();
+    for (const tour of tours as any[]) {
+        for (const block of tour.contentBlocks) {
+            if (block.type === 'imageCarousel') {
+                for (const slide of block.slides) {
+                    if (!slide.id) {
+                        slide.id = generateId();
+                    }
+                }
+            }
         }
     }
 
-    fs.writeFileSync('./.in/image-mappings.json', JSON.stringify(mappingsJson, null, 2));
+    fs.writeFileSync('./.in/hometours.json', JSON.stringify(tours, null, 2));
 };
 
 const fixRixchtextDocument = (block: any) => {

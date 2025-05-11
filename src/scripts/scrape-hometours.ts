@@ -26,29 +26,29 @@ const run = (async () => {
         delete tour.shortDescription;
       } 
       const contentBlocks = await page.$$('div.b');
-      //tour.contentBlocks = [];
+      tour.contentBlocks = [];
 
       for (const block of contentBlocks) {
         // Text columns
-        // if (await scrapeTextColumns(page, block, tour)) continue;
+        if (await scrapeTextColumns(page, block, tour)) continue;
         // Richtext
-        // if (await scrapeRichtext(page, block, tour)) continue;
+        if (await scrapeRichtext(page, block, tour)) continue;
         // Content Tiles
-        // if (await scrapeContentTiles(page, block, tour)) continue;
+        if (await scrapeContentTiles(page, block, tour)) continue;
         // Image
-        // if (await scrapeImage(page, block, tour)) continue;
+        if (await scrapeImage(page, block, tour)) continue;
         // Image Carousel
         if (await scrapeImageCarousel(page, block, tour)) continue;
         // gallery 
-        // if (await scrapeGallery(page, block, tour)) continue;
+        if (await scrapeGallery(page, block, tour)) continue;
         // Video
-        // if (await scrapeVideo(page, block, tour)) continue;
+        if (await scrapeVideo(page, block, tour)) continue;
         // Headline
-        // if (await scrapeHeadline(page, block, tour)) continue;
+        if (await scrapeHeadline(page, block, tour)) continue;
         // Fancy image panel
-        // if (await scrapeFancyImagePanel(page, block, tour)) continue;
+        if (await scrapeFancyImagePanel(page, block, tour)) continue;
         // Fancy image panel - flipped
-        // if (await scrapeFancyImagePanelFlipped(page, block, tour)) continue;
+        if (await scrapeFancyImagePanelFlipped(page, block, tour)) continue;
       }
 
       fs.writeFileSync('./.in/hometours.json', JSON.stringify(tours, null, 2));
@@ -182,13 +182,13 @@ const scrapeVideo = async (page: Page, block: ElementHandle<Element>, tour: Home
 const scrapeHeadline = async (page: Page, block: ElementHandle<Element>, tour: HomeTour) => {
   if (await page.evaluate(el => el.classList.contains('title-block'), block)) {
     const title = await tryGet(() => block.$eval('h3', el => el.innerText))
-    const text = await tryGet(() => block.$eval('div.text', el => el.innerText))
-    
+    const richText = await tryGet(() => block.$eval('div.text', el => el.innerHTML));
+
     if (title) {
       tour.contentBlocks.push({
         type: 'headline',
         title: title,
-        description: text,
+        richText: htmlToRichText(richText),
         id: generateId()
       });
     }
