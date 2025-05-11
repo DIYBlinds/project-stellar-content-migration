@@ -1377,6 +1377,108 @@
           "uploads/general/FEN-NORTHCOTE-008-web.jpg"
         ],
         "id": "mbdi5hqwont"
+      },
+      {
+        "type": "imageCarousel",
+        "slides": [
+          {
+            "image": "uploads/general/123-Clarke-010.jpg",
+            "text": {
+              "nodeType": "document",
+              "data": {},
+              "content": []
+            }
+          },
+          {
+            "image": "uploads/general/123-Clarke-012.jpg",
+            "text": {
+              "nodeType": "document",
+              "data": {},
+              "content": []
+            }
+          },
+          {
+            "image": "uploads/general/123-Clarke-024.jpg",
+            "text": {
+              "nodeType": "document",
+              "data": {},
+              "content": []
+            }
+          },
+          {
+            "image": "uploads/general/123-Clarke-026-2_210618_001902.jpg",
+            "text": {
+              "nodeType": "document",
+              "data": {},
+              "content": []
+            }
+          },
+          {
+            "image": "uploads/general/123-Clarke-027.jpg",
+            "text": {
+              "nodeType": "document",
+              "data": {},
+              "content": []
+            }
+          },
+          {
+            "image": "uploads/general/123-Clarke-037.jpg",
+            "text": {
+              "nodeType": "document",
+              "data": {},
+              "content": []
+            }
+          },
+          {
+            "image": "uploads/general/123-Clarke-041.jpg",
+            "text": {
+              "nodeType": "document",
+              "data": {},
+              "content": []
+            }
+          },
+          {
+            "image": "uploads/general/123-Clarke-006.jpg",
+            "text": {
+              "nodeType": "document",
+              "data": {},
+              "content": []
+            }
+          },
+          {
+            "image": "uploads/general/FEN-NORTHCOTE-002-web.jpg",
+            "text": {
+              "nodeType": "document",
+              "data": {},
+              "content": []
+            }
+          },
+          {
+            "image": "uploads/general/FEN-NORTHCOTE-001-web.jpg",
+            "text": {
+              "nodeType": "document",
+              "data": {},
+              "content": []
+            }
+          },
+          {
+            "image": "uploads/general/FEN-NORTHCOTE-005-web.jpg",
+            "text": {
+              "nodeType": "document",
+              "data": {},
+              "content": []
+            }
+          },
+          {
+            "image": "uploads/general/FEN-NORTHCOTE-007-web.jpg",
+            "text": {
+              "nodeType": "document",
+              "data": {},
+              "content": []
+            }
+          }
+        ],
+        "id": "epgzdvupbk"
       }
     ],
     "id": "refuvsp9tf9"
@@ -1475,6 +1577,240 @@
           "uploads/general/64-Anderson-20.jpg"
         ],
         "id": "6q06lbc9gf4"
+      },
+      {
+        "type": "imageCarousel",
+        "slides": [
+          {
+            "image": "uploads/general/RE-64-Anderson-007.jpg",
+            "text": {
+              "nodeType": "document",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "\"When preparing to sell a home, choose luxe ",
+                      "marks": [],
+                      "data": {}
+                    },
+                    {
+                      "nodeType": "hyperlink",
+                      "data": {
+                        "uri": "https://www.diyblinds.com.au/curtains/diy-designer-curtains"
+                      },
+                      "content": [
+                        {
+                          "nodeType": "text",
+                          "value": "sheers",
+                          "marks": [],
+                          "data": {}
+                        }
+                      ]
+                    },
+                    {
+                      "nodeType": "text",
+                      "value": " for hero spaces like living rooms and master bedrooms. They help buyers feel emotionally connected to the property.\"",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "image": "uploads/general/RE-64-Anderson-001.jpg",
+            "text": {
+              "nodeType": "document",
+              "data": {},
+              "content": []
+            }
+          },
+          {
+            "image": "uploads/general/RE-64-Anderson-005.jpg",
+            "text": {
+              "nodeType": "document",
+              "data": {},
+              "content": []
+            }
+          },
+          {
+            "image": "uploads/general/RE-64-Anderson-010.jpg",
+            "text": {
+              "nodeType": "document",
+              "data": {},
+              "content": []
+            }
+          },
+          {
+            "image": "uploads/general/RE-64-Anderson-012.jpg",
+            "text": {
+              "nodeType": "document",
+              "data": {},
+              "content": []
+            }
+          },
+          {
+            "image": "uploads/general/RE-64-Anderson-015.jpg",
+            "text": {
+              "nodeType": "document",
+              "data": {},
+              "content": []
+            }
+          },
+          {
+            "image": "uploads/general/RE-64-Anderson-017.jpg",
+            "text": {
+              "nodeType": "document",
+              "data": {},
+              "content": []
+            }
+          },
+          {
+            "image": "uploads/general/RE-64-Anderson-019.jpg",
+            "text": {
+              "nodeType": "document",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "hyperlink",
+                      "data": {
+                        "uri": "https://www.diyblinds.com.au/blinds/roller-blinds"
+                      },
+                      "content": [
+                        {
+                          "nodeType": "text",
+                          "value": "Blockout roller blinds",
+                          "marks": [],
+                          "data": {}
+                        }
+                      ]
+                    },
+                    {
+                      "nodeType": "text",
+                      "value": " work hard to provide light control, nighttime privacy and thermal insulation.",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "image": "uploads/general/RE-64-Anderson-022.jpg",
+            "text": {
+              "nodeType": "document",
+              "data": {},
+              "content": []
+            }
+          },
+          {
+            "image": "uploads/general/RE-64-Anderson-008.jpg",
+            "text": {
+              "nodeType": "document",
+              "data": {},
+              "content": []
+            }
+          },
+          {
+            "image": "uploads/general/RE-64-Anderson-021.jpg",
+            "text": {
+              "nodeType": "document",
+              "data": {},
+              "content": []
+            }
+          },
+          {
+            "image": "uploads/general/RE-64-Anderson-020.jpg",
+            "text": {
+              "nodeType": "document",
+              "data": {},
+              "content": []
+            }
+          },
+          {
+            "image": "uploads/general/RE-64-Anderson-018.jpg",
+            "text": {
+              "nodeType": "document",
+              "data": {},
+              "content": []
+            }
+          },
+          {
+            "image": "uploads/general/RE-64-Anderson-016.jpg",
+            "text": {
+              "nodeType": "document",
+              "data": {},
+              "content": []
+            }
+          },
+          {
+            "image": "uploads/general/RE-64-Anderson-006.jpg",
+            "text": {
+              "nodeType": "document",
+              "data": {},
+              "content": []
+            }
+          }
+        ],
+        "id": "l3648tm9uk"
       }
     ],
     "id": "eo9bynrvaxc"
@@ -1552,6 +1888,92 @@
         "copy": "The sheers at ARCOS are soft and tactile and invite you to approach the windows and walk out onto the terrace. They diffuse the bright sunlight and add texture to the minimalist living spaces. They stack easily to the side when the couple wants to enjoy their amazing city views.",
         "flipped": true,
         "id": "eaa74wi3mm8"
+      },
+      {
+        "type": "imageCarousel",
+        "slides": [
+          {
+            "image": "uploads/general/20210114-Graya-Arcos-_0130_Chatfield.jpg",
+            "text": {
+              "nodeType": "document",
+              "data": {},
+              "content": []
+            }
+          },
+          {
+            "image": "uploads/general/20210114-Graya-Arcos-_0503_Chatfield.jpg",
+            "text": {
+              "nodeType": "document",
+              "data": {},
+              "content": []
+            }
+          },
+          {
+            "image": "uploads/general/DIYBlindsArcos-24.jpg",
+            "text": {
+              "nodeType": "document",
+              "data": {},
+              "content": []
+            }
+          },
+          {
+            "image": "uploads/general/DIYBlindsArcos-30.jpg",
+            "text": {
+              "nodeType": "document",
+              "data": {},
+              "content": []
+            }
+          },
+          {
+            "image": "uploads/general/DIYBlindsArcos-2.jpg",
+            "text": {
+              "nodeType": "document",
+              "data": {},
+              "content": []
+            }
+          },
+          {
+            "image": "uploads/general/20210114-Graya-Arcos-_0326_Chatfield.jpg",
+            "text": {
+              "nodeType": "document",
+              "data": {},
+              "content": []
+            }
+          },
+          {
+            "image": "uploads/general/DIYBlindsArcos-31.jpg",
+            "text": {
+              "nodeType": "document",
+              "data": {},
+              "content": []
+            }
+          },
+          {
+            "image": "uploads/general/DIYBlindsArcos-36.jpg",
+            "text": {
+              "nodeType": "document",
+              "data": {},
+              "content": []
+            }
+          },
+          {
+            "image": "uploads/general/DIYBlindsArcos-5.jpg",
+            "text": {
+              "nodeType": "document",
+              "data": {},
+              "content": []
+            }
+          },
+          {
+            "image": "uploads/general/20210114-Graya-Arcos-_0702_Chatfield.jpg",
+            "text": {
+              "nodeType": "document",
+              "data": {},
+              "content": []
+            }
+          }
+        ],
+        "id": "bkc740830t"
       }
     ],
     "id": "sb0z87038wg"
@@ -1599,6 +2021,231 @@
           "uploads/general/Three-Gables-WR-0573.jpg"
         ],
         "id": "jgcji33hq6"
+      },
+      {
+        "type": "imageCarousel",
+        "slides": [
+          {
+            "image": "uploads/general/Three-Gables-WR-0390.jpg",
+            "text": {
+              "nodeType": "document",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "Choose a texture you're already using in your home. Our home is full of natural materials including linen, so ",
+                      "marks": [],
+                      "data": {}
+                    },
+                    {
+                      "nodeType": "hyperlink",
+                      "data": {
+                        "uri": "https://www.diyblinds.com.au/curtains/diy-designer-curtains"
+                      },
+                      "content": [
+                        {
+                          "nodeType": "text",
+                          "value": "linen sheers",
+                          "marks": [],
+                          "data": {}
+                        }
+                      ]
+                    },
+                    {
+                      "nodeType": "text",
+                      "value": " were an obvious choice.",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "image": "uploads/general/Three-Gables-WR-0349.jpg",
+            "text": {
+              "nodeType": "document",
+              "data": {},
+              "content": []
+            }
+          },
+          {
+            "image": "uploads/general/Three-Gables-WR-0423.jpg",
+            "text": {
+              "nodeType": "document",
+              "data": {},
+              "content": []
+            }
+          },
+          {
+            "image": "uploads/general/Three-Gables-WR-0460.jpg",
+            "text": {
+              "nodeType": "document",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "Window furnishings complete a home and need to have more importance within the building industry, not just the styling and decorating industry.",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "image": "uploads/general/Three-Gables-WR-0478.jpg",
+            "text": {
+              "nodeType": "document",
+              "data": {},
+              "content": []
+            }
+          },
+          {
+            "image": "uploads/general/Three-Gables-WR-0505.jpg",
+            "text": {
+              "nodeType": "document",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "Link your curtain colour with your furniture and carpet fabrics, to make the connection with the rest of the house.",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "image": "uploads/general/Three-Gables-WR-0517.jpg",
+            "text": {
+              "nodeType": "document",
+              "data": {},
+              "content": []
+            }
+          },
+          {
+            "image": "uploads/general/Three-Gables-WR-0540.jpg",
+            "text": {
+              "nodeType": "document",
+              "data": {},
+              "content": []
+            }
+          },
+          {
+            "image": "uploads/general/Three-Gables-WR-0569.jpg",
+            "text": {
+              "nodeType": "document",
+              "data": {},
+              "content": []
+            }
+          },
+          {
+            "image": "uploads/general/Three-Gables-WR-0581.jpg",
+            "text": {
+              "nodeType": "document",
+              "data": {},
+              "content": []
+            }
+          },
+          {
+            "image": "uploads/general/Three-Gables-WR-0618.jpg",
+            "text": {
+              "nodeType": "document",
+              "data": {},
+              "content": []
+            }
+          }
+        ],
+        "id": "7co29hn8pde"
       }
     ],
     "id": "lhxgyq7tc8"
@@ -1646,6 +2293,92 @@
           "uploads/general/2-7-Kingsley-023.jpg"
         ],
         "id": "cm085fnmt8n"
+      },
+      {
+        "type": "imageCarousel",
+        "slides": [
+          {
+            "image": "uploads/general/2-7-Kingsley-011.jpg",
+            "text": {
+              "nodeType": "document",
+              "data": {},
+              "content": []
+            }
+          },
+          {
+            "image": "uploads/general/2-7-Kingsley-005.jpg",
+            "text": {
+              "nodeType": "document",
+              "data": {},
+              "content": []
+            }
+          },
+          {
+            "image": "uploads/general/2-7-Kingsley-007.jpg",
+            "text": {
+              "nodeType": "document",
+              "data": {},
+              "content": []
+            }
+          },
+          {
+            "image": "uploads/general/2-7-Kingsley-009.jpg",
+            "text": {
+              "nodeType": "document",
+              "data": {},
+              "content": []
+            }
+          },
+          {
+            "image": "uploads/general/2-7-Kingsley-013.jpg",
+            "text": {
+              "nodeType": "document",
+              "data": {},
+              "content": []
+            }
+          },
+          {
+            "image": "uploads/general/2-7-Kingsley-016.jpg",
+            "text": {
+              "nodeType": "document",
+              "data": {},
+              "content": []
+            }
+          },
+          {
+            "image": "uploads/general/2-7-Kingsley-019.jpg",
+            "text": {
+              "nodeType": "document",
+              "data": {},
+              "content": []
+            }
+          },
+          {
+            "image": "uploads/general/2-7-Kingsley-020.jpg",
+            "text": {
+              "nodeType": "document",
+              "data": {},
+              "content": []
+            }
+          },
+          {
+            "image": "uploads/general/2-7-Kingsley-024.jpg",
+            "text": {
+              "nodeType": "document",
+              "data": {},
+              "content": []
+            }
+          },
+          {
+            "image": "uploads/general/2-7-Kingsley-026.jpg",
+            "text": {
+              "nodeType": "document",
+              "data": {},
+              "content": []
+            }
+          }
+        ],
+        "id": "frvrb1tkbhe"
       }
     ],
     "id": "hjvrpj4qre4"
@@ -1699,6 +2432,192 @@
         "caption": "Curtains that open like magic",
         "copy": "This fantastic open plan area screams both functionality and design – so what better addition than motorised curtains! The entire kitchen was designed around multi-tasking, and now with just the press of a button (or a quick “Hey Google”), you can be preparing dinner and close the curtains without taking a single step.",
         "id": "n6r5evwl7im"
+      },
+      {
+        "type": "imageCarousel",
+        "slides": [
+          {
+            "image": "uploads/general/BLB_KitchenLivingDining-8.jpg",
+            "text": {
+              "nodeType": "document",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "The combination of oak and white cabinetry is perfect for the coastal colour scheme and also draw a connection with the same timber used throughout different rooms in the home. ",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "image": "uploads/general/BLB_KitchenLivingDining-23.jpg",
+            "text": {
+              "nodeType": "document",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "Large windows with sweeping sheer curtains, in colour Marizpan from our Allusion range, give a soft yet elegant touch to the entry. ",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "image": "uploads/general/BLB_KitchenLivingDining-33.jpg",
+            "text": {
+              "nodeType": "document",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "By installing curtains along the length of the wall, beyond the limits of individual windows, the space feels bigger and grander, while the soft linen-look curtains provide an earthy-luxe feel. ",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "image": "uploads/general/BLB_KitchenLivingDining-64.jpg",
+            "text": {
+              "nodeType": "document",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "With friends, family, kids and pets, it’s important to choose materials that will be long-lasting and durable. Our curtains and blinds are Australian made, and our Allusion range of materials is made from a linen-cotton-poly blend so you can have a linen-look with added durability. ",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ],
+        "id": "zyb4vih229"
       }
     ],
     "id": "lcdq9dzv5y"
@@ -1760,6 +2679,237 @@
           "uploads/general/32_BlueLagoon_Studio_Living.jpg"
         ],
         "id": "xqlja1t2g0j"
+      },
+      {
+        "type": "imageCarousel",
+        "slides": [
+          {
+            "image": "uploads/general/13_BlueLagoon_GuestBed.jpg",
+            "text": {
+              "nodeType": "document",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "This home’s stunning theme emphasises textures and natural colours. Our sheer curtains provide privacy in the bedroom but still let in plenty of natural light that highlights the material of this linen bedspread.",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "image": "uploads/general/7_BlueLagoon_GuestBed.jpg",
+            "text": {
+              "nodeType": "document",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "The natural textures continue throughout the room with an upholstered bedhead, wool carpet and wooden bedframe and side tables. Our Allusion range give you a linen look and feel with added durability with a linen-cotton-poly blend for a look that will last. ",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "image": "uploads/general/5_BlueLagoon_Main_Bathroom.jpg",
+            "text": {
+              "nodeType": "document",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "The focus on textures continues with extra-large travertine tiles for the bathroom walls and oak cabinetry completing the look, while arched mirrors continue the theme on soft curves found in other areas of the house, including the staircase and pool. ",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "image": "uploads/general/16_BlueLagoon_Laundry.jpg",
+            "text": {
+              "nodeType": "document",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "Proving that laundries can be more than just functional, this space nails the coastal and Mediterranean vibe with eucalyptus-blue tiles.",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "image": "uploads/general/3_BlueLagoon_Powder.jpg",
+            "text": {
+              "nodeType": "document",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "The powder room brings together elements from the laundry, with coastal blue tones, and from the main bathroom, with a cohesive inset sink. ",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ],
+        "id": "oiss8mmkvw"
       }
     ],
     "id": "1sfzr584xpl"
@@ -1813,6 +2963,335 @@
         "caption": "Focus on Fun",
         "copy": "If transforming a second kid’s bedroom into a dedicated toy room doesn’t scream fun and family, then we don’t know what does. The kids’ bedroom and the toy room have distinct difference but find harmony in similar design features including wood panelling in both rooms and sheer curtains that create a youthful, soft light. The use of Marzipan sheers in Allusion match the choice in the rumpus room and create a sense of cohesion throughout the three spaces.",
         "id": "g7tjtvcw2c4"
+      },
+      {
+        "type": "imageCarousel",
+        "slides": [
+          {
+            "image": "uploads/general/COVER.jpg",
+            "text": {
+              "nodeType": "document",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "With large windows on both sides of the room, light plays an important aspect in this room. Sheers were the perfect choice, creating a soft light on both sides of the room that highlights design features.",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "image": "uploads/general/17_BlueLagoon_Rumpus.jpg",
+            "text": {
+              "nodeType": "document",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "With essentially two ceiling heights above the sofa, Kyal and Kara chose a soft white that matches their paint colour to create a sense of unity.",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "image": "uploads/general/40_BlueLagoon_Rumpus.jpg",
+            "text": {
+              "nodeType": "document",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "In a room with so many heroes, these pale sheer curtains in Marizpan from the Allusion range, create the perfect textural backdrop that work as well with the coastal colour palette as they would in any home. ",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "image": "uploads/general/47_BlueLagoon_Rumpus.jpg",
+            "text": {
+              "nodeType": "document",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "Our Allusion range is great for common areas like this rumpus room. The material uses 54% linen and is woven for cotton and a small amount of polyester for a luxe, natural looking fabric with extra durability that is perfect for high use areas.",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "image": "uploads/general/Loft_BlueLagoon_2.jpg",
+            "text": {
+              "nodeType": "document",
+              "data": {},
+              "content": []
+            }
+          },
+          {
+            "image": "uploads/general/27_BlueLagoon_KidsRoom.jpg",
+            "text": {
+              "nodeType": "document",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "The combination of sheers and block out roller blinds works as well in the kids’ room as it would in any bedroom. The minimalist block out blind is ideal for sleep ins, while the sheers add a soft textural element and also provide privacy. ",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "image": "uploads/general/10_BlueLagoon_KidsRoom.jpg",
+            "text": {
+              "nodeType": "document",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "The neutral colour choices are ideal for rooms that may change. When the toy room eventually becomes another bedroom, the timeless curtains won’t need an update. ",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "image": "uploads/general/7_BlueLagoon_KidsRoom.jpg",
+            "text": {
+              "nodeType": "document",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "Our sheer curtains from the Alexandra range, colour Smoke is perfect for this kids bunk room. A great durable material which complements the colour palette of the room, but will the durability you expect from a polyester fabric.",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ],
+        "id": "yhgt7sgtz7l"
       }
     ],
     "id": "wzdlvs37aks"
@@ -1866,6 +3345,158 @@
         "caption": "When two is better than one",
         "copy": "Kyal and Kara get the best of both worlds with double curtains for total control over light and privacy in their bedroom. Blockout curtains in Antsey stone, block out as much light as possible for long weekend lie-ins, while sheer curtains in Alexandra smoke provide a subtle diffused light that gently accentuates the other textures in the room and providing the perfect match for this coastal colour scheme.",
         "id": "1d0nvl2zbfp"
+      },
+      {
+        "type": "imageCarousel",
+        "slides": [
+          {
+            "image": "uploads/general/30_BlueLagoon_Master_Bedroom.jpg",
+            "text": {
+              "nodeType": "document",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "Did we mention these beautiful and functional double curtains are motorised? Kyal and Kara have utilised our motorised curtain tracks from Somfy. The Somfy Glydea curtain track system provides zero touch interaction via remote control or even voice assistant for a truly future proofed solution.",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "image": "uploads/general/23_BlueLagoon_Master_Bedroom.jpg",
+            "text": {
+              "nodeType": "document",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "Double curtains are a luxurious and functional addition to any master suite. The luxe look and softness of our Alexandra sheers, paired with the full blockout functionality of our Anstey curtains are a designers dream.",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "image": "uploads/general/37_BlueLagoon_Master_Bedroom.jpg",
+            "text": {
+              "nodeType": "document",
+              "data": {},
+              "content": []
+            }
+          },
+          {
+            "image": "uploads/general/28_BlueLagoon_Master_Bedroom.jpg",
+            "text": {
+              "nodeType": "document",
+              "data": {},
+              "content": []
+            }
+          },
+          {
+            "image": "uploads/general/41_BlueLagoon_Master_Bedroom.jpg",
+            "text": {
+              "nodeType": "document",
+              "data": {},
+              "content": []
+            }
+          },
+          {
+            "image": "uploads/general/45_BlueLagoon_Master_Bedroom.jpg",
+            "text": {
+              "nodeType": "document",
+              "data": {},
+              "content": []
+            }
+          },
+          {
+            "image": "uploads/general/53_BlueLagoon_Master_Bedroom.jpg",
+            "text": {
+              "nodeType": "document",
+              "data": {},
+              "content": []
+            }
+          },
+          {
+            "image": "uploads/general/2_BlueLagoon_Ensuite.jpg",
+            "text": {
+              "nodeType": "document",
+              "data": {},
+              "content": []
+            }
+          },
+          {
+            "image": "uploads/general/20_BlueLagoon_Ensuite.jpg",
+            "text": {
+              "nodeType": "document",
+              "data": {},
+              "content": []
+            }
+          }
+        ],
+        "id": "gflddwqaqbl"
       }
     ],
     "id": "ax80uxt1514"
@@ -1919,6 +3550,317 @@
         "caption": "Beyond Windows",
         "copy": "Who ever said curtains had to go on windows? Kyal and Kara expertly break the rules, using our Aurora dimout curtains as a room divider over a stunning arch that separates the living and dining area maximising space and natural light.",
         "id": "ecbz9td08uq"
+      },
+      {
+        "type": "imageCarousel",
+        "slides": [
+          {
+            "image": "uploads/general/32_BlueLagoon_Studio_Living.jpg",
+            "text": {
+              "nodeType": "document",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "Located close to the street, airy sheers in Alexandra, colour Smoke provide daytime privacy and a beautiful diffused light on sunny days, while minimalistic ",
+                      "marks": [],
+                      "data": {}
+                    },
+                    {
+                      "nodeType": "hyperlink",
+                      "data": {
+                        "uri": "/blinds/roller-blinds"
+                      },
+                      "content": [
+                        {
+                          "nodeType": "text",
+                          "value": "blockout roller blinds",
+                          "marks": [],
+                          "data": {}
+                        }
+                      ]
+                    },
+                    {
+                      "nodeType": "text",
+                      "value": " provide added functionality without compromising on style.",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "image": "uploads/general/13_BlueLagoon_Studio_Living.jpg",
+            "text": {
+              "nodeType": "document",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "Proving that ",
+                      "marks": [],
+                      "data": {}
+                    },
+                    {
+                      "nodeType": "hyperlink",
+                      "data": {
+                        "uri": "/curtains/diy-designer-curtains"
+                      },
+                      "content": [
+                        {
+                          "nodeType": "text",
+                          "value": "curtains",
+                          "marks": [],
+                          "data": {}
+                        }
+                      ]
+                    },
+                    {
+                      "nodeType": "text",
+                      "value": " aren’t just for windows, our dimout curtains in Aurora provide a textural and functional room divider.",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "image": "uploads/general/16_BlueLagoon_Studio_Bedroom.jpg",
+            "text": {
+              "nodeType": "document",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "Soft ",
+                      "marks": [],
+                      "data": {}
+                    },
+                    {
+                      "nodeType": "hyperlink",
+                      "data": {
+                        "uri": "/blinds/roman-blinds"
+                      },
+                      "content": [
+                        {
+                          "nodeType": "text",
+                          "value": "roman blinds",
+                          "marks": [],
+                          "data": {}
+                        }
+                      ]
+                    },
+                    {
+                      "nodeType": "text",
+                      "value": " in matching Aurora material complement the floor-to-ceiling curtains in a smaller space. This is a custom solution we can provide a quote for.",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "image": "uploads/general/18_BlueLagoon_Studio_Bedroom.jpg",
+            "text": {
+              "nodeType": "document",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "Our dimout ",
+                      "marks": [],
+                      "data": {}
+                    },
+                    {
+                      "nodeType": "hyperlink",
+                      "data": {
+                        "uri": "/curtains/diy-designer-curtains"
+                      },
+                      "content": [
+                        {
+                          "nodeType": "text",
+                          "value": "curtains",
+                          "marks": [],
+                          "data": {}
+                        }
+                      ]
+                    },
+                    {
+                      "nodeType": "text",
+                      "value": " in Aurora allow just enough light through so the stunning arch is still a feature, even with the curtains drawn. ",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "image": "uploads/general/21_BlueLagoon_Studio_Bathroom.jpg",
+            "text": {
+              "nodeType": "document",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "Linen curtains provide the perfect texture to complement natural features like stone and wood, while the colour choice is the perfect pair with these clay-look tiles. ",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ],
+        "id": "91ym0no3q1c"
       }
     ],
     "id": "bc7l2mir7wh"
@@ -1972,6 +3914,446 @@
         "caption": "Forget the spotlight, it’s all about natural light",
         "copy": "Sheer S Fold curtains from our Audiance range, in 'Natural' colour, were the ideal choice for this modern family home. The diffused natural light softens harsher textures while also highlighting and enhancing the combinations of textures. The sophisticated muted palette adds to the effect for an unforgettable residence.",
         "id": "plsvivvhvp"
+      },
+      {
+        "type": "imageCarousel",
+        "slides": [
+          {
+            "image": "uploads/general/31-Kellett-019.jpg",
+            "text": {
+              "nodeType": "document",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "The careful selection of colours and textures continues to the kitchen where cabinetry mirrors the flooring, table and staircase, while the walls, ceiling and curtains remain the same shade of white to highlight the pale yet warm wood grain. ",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "image": "uploads/general/31-Kellett-015.jpg",
+            "text": {
+              "nodeType": "document",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "Our ",
+                      "marks": [],
+                      "data": {}
+                    },
+                    {
+                      "nodeType": "hyperlink",
+                      "data": {
+                        "uri": "/curtains/diy-designer-curtains"
+                      },
+                      "content": [
+                        {
+                          "nodeType": "text",
+                          "value": "sheer curtains",
+                          "marks": [],
+                          "data": {}
+                        }
+                      ]
+                    },
+                    {
+                      "nodeType": "text",
+                      "value": " in Audiance Natural, provide privacy and texture while still allowing plenty of natural light to stream into the home, highlighting and enhancing the individual textures. ",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "image": "uploads/general/31-Kellett-012.jpg",
+            "text": {
+              "nodeType": "document",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "Natural light has an ability to highlight natural textures like a stone and wood in a way that synthetic light just can’t match. When choosing window furnishings consider how much light you want to allow in, not just how much light to keep out. ",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "image": "uploads/general/31-Kellett-024.jpg",
+            "text": {
+              "nodeType": "document",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "hyperlink",
+                      "data": {
+                        "uri": "/curtains/diy-designer-curtains"
+                      },
+                      "content": [
+                        {
+                          "nodeType": "text",
+                          "value": "S Fold curtains",
+                          "marks": [],
+                          "data": {}
+                        }
+                      ]
+                    },
+                    {
+                      "nodeType": "text",
+                      "value": " provide a soft textured backdrop with neutral colours that allow your hero pieces to pop. ",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "image": "uploads/general/31-Kellett-032.jpg",
+            "text": {
+              "nodeType": "document",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "The Audiance Natural ",
+                      "marks": [],
+                      "data": {}
+                    },
+                    {
+                      "nodeType": "hyperlink",
+                      "data": {
+                        "uri": "/curtains/diy-designer-curtains"
+                      },
+                      "content": [
+                        {
+                          "nodeType": "text",
+                          "value": "S Fold curtains",
+                          "marks": [],
+                          "data": {}
+                        }
+                      ]
+                    },
+                    {
+                      "nodeType": "text",
+                      "value": " mirror the wall colour almost perfectly for a seamless experience in the stunning double-height living area.",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "image": "uploads/general/31-Kellett-041.jpg",
+            "text": {
+              "nodeType": "document",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "The mainly muted colour scheme allows for drama with the occasional pop of darker tones.",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "image": "uploads/general/31-Kellett-027.jpg",
+            "text": {
+              "nodeType": "document",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "Parted ",
+                      "marks": [],
+                      "data": {}
+                    },
+                    {
+                      "nodeType": "hyperlink",
+                      "data": {
+                        "uri": "/curtains/diy-designer-curtains"
+                      },
+                      "content": [
+                        {
+                          "nodeType": "text",
+                          "value": "sheer curtains",
+                          "marks": [],
+                          "data": {}
+                        }
+                      ]
+                    },
+                    {
+                      "nodeType": "text",
+                      "value": " reveal the simple yet luxurious plunge pool. The perfect partnership of muted tones and natural textures continues to the outside where sleek lines take centre stage. ",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "image": "uploads/general/31-Kellett-034.jpg",
+            "text": {
+              "nodeType": "document",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "This home’s study in texture and tones proves that all white is anything but boring.",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ],
+        "id": "bdxt3iz3lvd"
       }
     ],
     "id": "yz3hyfj139"
@@ -2033,6 +4415,215 @@
         "caption": "",
         "copy": "Privacy never looked so good! DIY Blinds’ Aurora linen curtains provide functional privacy with a touch of luxe from the natural linen texture. The pale linen paired with the Black Vanda curtain rod makes for a memorable design statement. Simple juxtapositions like this work to heighten design elements and also serve to highlight additional dark accent colours within the space.",
         "id": "vsig8ccosys"
+      },
+      {
+        "type": "imageCarousel",
+        "slides": [
+          {
+            "image": "uploads/general/38-Llaneast-001.jpg",
+            "text": {
+              "nodeType": "document",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "This beautiful bathroom complements the period elements of the home with subtle statements in the form of a modern colour palette and fixings. DIY Blinds’ Australian Made ",
+                      "marks": [],
+                      "data": {}
+                    },
+                    {
+                      "nodeType": "hyperlink",
+                      "data": {
+                        "uri": "https://www.diyblinds.com.au/shutters/plantation-shutters"
+                      },
+                      "content": [
+                        {
+                          "nodeType": "text",
+                          "value": "PolyLux shutters",
+                          "marks": [],
+                          "data": {}
+                        }
+                      ]
+                    },
+                    {
+                      "nodeType": "text",
+                      "value": " provide functional light and privacy control as well as yet another design element in this already elegant space.",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "image": "uploads/general/38-Llaneast-013.jpg",
+            "text": {
+              "nodeType": "document",
+              "data": {},
+              "content": []
+            }
+          },
+          {
+            "image": "uploads/general/38-Llaneast-009.jpg",
+            "text": {
+              "nodeType": "document",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "Privacy never looked so good! DIY Blinds’ Aurora linen ",
+                      "marks": [],
+                      "data": {}
+                    },
+                    {
+                      "nodeType": "hyperlink",
+                      "data": {
+                        "uri": "https://www.diyblinds.com.au/curtains/diy-designer-curtains"
+                      },
+                      "content": [
+                        {
+                          "nodeType": "text",
+                          "value": "curtains",
+                          "marks": [],
+                          "data": {}
+                        }
+                      ]
+                    },
+                    {
+                      "nodeType": "text",
+                      "value": " provide functional privacy with a touch of luxe from the natural linen texture. The pale linen paired with the Black Vanda curtain rod makes for a memorable design statement. Simple juxtapositions like this work to heighten design elements and also serve to highlight additional dark accent colours within the space. ",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "image": "uploads/general/38-Llaneast-003.jpg",
+            "text": {
+              "nodeType": "document",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "A match made in heaven. These heritage windows look incredible and provide amazing curb appeal. Pair these ornate windows with Australian Made ",
+                      "marks": [],
+                      "data": {}
+                    },
+                    {
+                      "nodeType": "hyperlink",
+                      "data": {
+                        "uri": "https://www.diyblinds.com.au/shutters/plantation-shutters"
+                      },
+                      "content": [
+                        {
+                          "nodeType": "text",
+                          "value": "PolyLux Shutters",
+                          "marks": [],
+                          "data": {}
+                        }
+                      ]
+                    },
+                    {
+                      "nodeType": "text",
+                      "value": " and your external appeal matches the incredible interior of this bedroom. ",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ],
+        "id": "hi27goufxag"
       }
     ],
     "id": "xscv0dv86ac"
@@ -2086,6 +4677,442 @@
         "caption": "The perfect blend",
         "copy": "Our Aesop range was the perfect choice for The Designory’s luxurious holiday home. The 50-50 linen-poly blend allows for a durable finish without compromising on the style and luxury that linen provides, while the choice of sheers in parchment create a perfect backdrop that works with design elements in every room.",
         "id": "hsfzygjsxao"
+      },
+      {
+        "type": "imageCarousel",
+        "slides": [
+          {
+            "image": "uploads/general/THEDESIGNORYSAMPLESRE-EDIT-1.jpg",
+            "text": {
+              "nodeType": "document",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "Nothing says coastal luxury quite like ",
+                      "marks": [],
+                      "data": {}
+                    },
+                    {
+                      "nodeType": "hyperlink",
+                      "data": {
+                        "uri": "https://www.diyblinds.com.au/curtains/sheer-curtains"
+                      },
+                      "content": [
+                        {
+                          "nodeType": "text",
+                          "value": "sheer curtains",
+                          "marks": [],
+                          "data": {}
+                        }
+                      ]
+                    },
+                    {
+                      "nodeType": "text",
+                      "value": ". The ripples of the light-weight fabric create an easy-going atmosphere while providing necessary privacy to bedrooms and living areas.",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "image": "uploads/general/THEDESIGNORYSET4.1-13.jpg",
+            "text": {
+              "nodeType": "document",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "These ",
+                      "marks": [],
+                      "data": {}
+                    },
+                    {
+                      "nodeType": "hyperlink",
+                      "data": {
+                        "uri": "https://www.diyblinds.com.au/curtains/sheer-curtains"
+                      },
+                      "content": [
+                        {
+                          "nodeType": "text",
+                          "value": "sheer curtains",
+                          "marks": [],
+                          "data": {}
+                        }
+                      ]
+                    },
+                    {
+                      "nodeType": "text",
+                      "value": " from our Aesop range are made from a linen-poly blend, giving the look of natural linen curtains with the durability and low maintenance of synthetic material.",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "image": "uploads/general/BAREFOOTESCAPES1.jpg",
+            "text": {
+              "nodeType": "document",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "Slim and subtle, ",
+                      "marks": [],
+                      "data": {}
+                    },
+                    {
+                      "nodeType": "hyperlink",
+                      "data": {
+                        "uri": "https://www.diyblinds.com.au/blinds/roller-blinds"
+                      },
+                      "content": [
+                        {
+                          "nodeType": "text",
+                          "value": "blockout roller blinds",
+                          "marks": [],
+                          "data": {}
+                        }
+                      ]
+                    },
+                    {
+                      "nodeType": "text",
+                      "value": " hide behind ",
+                      "marks": [],
+                      "data": {}
+                    },
+                    {
+                      "nodeType": "hyperlink",
+                      "data": {
+                        "uri": "https://www.diyblinds.com.au/curtains/sheer-curtains"
+                      },
+                      "content": [
+                        {
+                          "nodeType": "text",
+                          "value": "sheer curtains",
+                          "marks": [],
+                          "data": {}
+                        }
+                      ]
+                    },
+                    {
+                      "nodeType": "text",
+                      "value": " allowing for long holiday lie-ins without compromising on style. The Barefoot Villa combines Aesop sheer curtains in parchment and blockout blinds in natural from the Kew range.",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "image": "uploads/general/THEDESIGNORYSET1.1-42.jpg",
+            "text": {
+              "nodeType": "document",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "Neutral finishes, like these ",
+                      "marks": [],
+                      "data": {}
+                    },
+                    {
+                      "nodeType": "hyperlink",
+                      "data": {
+                        "uri": "https://www.diyblinds.com.au/curtains/sheer-curtains"
+                      },
+                      "content": [
+                        {
+                          "nodeType": "text",
+                          "value": "sheer curtains",
+                          "marks": [],
+                          "data": {}
+                        }
+                      ]
+                    },
+                    {
+                      "nodeType": "text",
+                      "value": " from our Aesop range in parchment, create a timeless design and allow the décor to take centre stage. With neutral and natural backdrops, The Barefoot Villa will always stay fresh and modern.",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "image": "uploads/general/THEDESIGNORYSET3.1-8.jpg",
+            "text": {
+              "nodeType": "document",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "By running ",
+                      "marks": [],
+                      "data": {}
+                    },
+                    {
+                      "nodeType": "hyperlink",
+                      "data": {
+                        "uri": "https://www.diyblinds.com.au/curtains/sheer-curtains"
+                      },
+                      "content": [
+                        {
+                          "nodeType": "text",
+                          "value": "sheer curtains",
+                          "marks": [],
+                          "data": {}
+                        }
+                      ]
+                    },
+                    {
+                      "nodeType": "text",
+                      "value": " along the full length of the wall, rather than finishing where the window does, The Designory has made this living area feel larger, creating a seamless flow from kitchen to dining to living zones.",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "image": "uploads/general/Barefoot-bay-Louvres.jpg",
+            "text": {
+              "nodeType": "document",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "Even louvred windows need to close eventually. ",
+                      "marks": [],
+                      "data": {}
+                    },
+                    {
+                      "nodeType": "hyperlink",
+                      "data": {
+                        "uri": "https://www.diyblinds.com.au/curtains/sheer-curtains"
+                      },
+                      "content": [
+                        {
+                          "nodeType": "text",
+                          "value": "Sheer curtains",
+                          "marks": [],
+                          "data": {}
+                        }
+                      ]
+                    },
+                    {
+                      "nodeType": "text",
+                      "value": " paired with ",
+                      "marks": [],
+                      "data": {}
+                    },
+                    {
+                      "nodeType": "hyperlink",
+                      "data": {
+                        "uri": "https://www.diyblinds.com.au/blinds/roller-blinds"
+                      },
+                      "content": [
+                        {
+                          "nodeType": "text",
+                          "value": "blockout roller blinds",
+                          "marks": [],
+                          "data": {}
+                        }
+                      ]
+                    },
+                    {
+                      "nodeType": "text",
+                      "value": " allow plenty of room for the windows to be opened and add to the luxury coastal feel. ",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ],
+        "id": "cbtfu537sgu"
       }
     ],
     "id": "dl0qm5a4uzs"
@@ -2139,6 +5166,252 @@
         "caption": "Motorised Curtains",
         "copy": "Experience hands-free living with smart curtains. At the touch of a button or a quick query to Alexa, watch your blinds or curtains glide open like magic. Set them to automatically open in the morning so you wake up to natural light, or use them as added security so it looks like someone’s at home – you’ll wonder how you lived without them. Motorise any curtain and blind including these sheer curtains in Jilliby.",
         "id": "lk504urgi0m"
+      },
+      {
+        "type": "imageCarousel",
+        "slides": [
+          {
+            "image": "uploads/general/Bayview-012.jpg",
+            "text": {
+              "nodeType": "document",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "For homes with period features, it’s hard to go past ",
+                      "marks": [],
+                      "data": {}
+                    },
+                    {
+                      "nodeType": "hyperlink",
+                      "data": {
+                        "uri": "https://www.diyblinds.com.au/shutters/plantation-shutters"
+                      },
+                      "content": [
+                        {
+                          "nodeType": "text",
+                          "value": "PolyLux Plantation Shutters",
+                          "marks": [],
+                          "data": {}
+                        }
+                      ]
+                    },
+                    {
+                      "nodeType": "text",
+                      "value": ". They provide added street appeal, plenty of privacy and excellent thermal insulation.",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "image": "uploads/general/Bayview-010.jpg",
+            "text": {
+              "nodeType": "document",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "Floor-to-ceiling windows and doors help to bring the outdoors in, but when it’s time for something a bit more intimate ",
+                      "marks": [],
+                      "data": {}
+                    },
+                    {
+                      "nodeType": "hyperlink",
+                      "data": {
+                        "uri": "https://www.diyblinds.com.au/curtains/diy-designer-curtains"
+                      },
+                      "content": [
+                        {
+                          "nodeType": "text",
+                          "value": "sheer curtains",
+                          "marks": [],
+                          "data": {}
+                        }
+                      ]
+                    },
+                    {
+                      "nodeType": "text",
+                      "value": " can create a soft light that elevates natural textures like stone and wood. ",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "image": "uploads/general/Bayview-065.jpg",
+            "text": {
+              "nodeType": "document",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "Don’t be afraid to stand-out. These custom-made two-toned ",
+                      "marks": [],
+                      "data": {}
+                    },
+                    {
+                      "nodeType": "hyperlink",
+                      "data": {
+                        "uri": "https://www.diyblinds.com.au/curtains/diy-designer-curtains"
+                      },
+                      "content": [
+                        {
+                          "nodeType": "text",
+                          "value": "designer curtains",
+                          "marks": [],
+                          "data": {}
+                        }
+                      ]
+                    },
+                    {
+                      "nodeType": "text",
+                      "value": " are effortlessly eye-catching and match the statement skirting for a cohesive look.",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "image": "uploads/general/Bayview-022.jpg",
+            "text": {
+              "nodeType": "document",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "It’s the details that create a home. Take time to picture how different elements, textures, materials and tones work together to turn every space into your personal sanctuary.",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ],
+        "id": "87hd4mpapro"
       }
     ],
     "id": "f22z5s4o9rk"
@@ -2186,6 +5459,270 @@
         "copy": "Create a seamless look throughout your house by using PolyLux® Plantation Shutters where possible and Visionwood Venetian Blinds in rooms shutters won't fit.",
         "flipped": true,
         "id": "x8jr0ddj38"
+      },
+      {
+        "type": "imageCarousel",
+        "slides": [
+          {
+            "image": "uploads/general/06-fitzroy-house@2x.jpg",
+            "text": {
+              "nodeType": "document",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "Blockout ",
+                      "marks": [],
+                      "data": {}
+                    },
+                    {
+                      "nodeType": "hyperlink",
+                      "data": {
+                        "uri": "https://www.diyblinds.com.au/curtains"
+                      },
+                      "content": [
+                        {
+                          "nodeType": "text",
+                          "value": "Designer Curtains",
+                          "marks": [],
+                          "data": {}
+                        }
+                      ]
+                    },
+                    {
+                      "nodeType": "text",
+                      "value": " add warmth and texture to both sides of the window, making them ideal choices for internal as well as external windows. ",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": []
+                },
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "image": "uploads/general/07-fitzroy-house@2x.jpg",
+            "text": {
+              "nodeType": "document",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "hyperlink",
+                      "data": {
+                        "uri": "https://www.diyblinds.com.au/blinds/venetian"
+                      },
+                      "content": [
+                        {
+                          "nodeType": "text",
+                          "value": "Venetian Blinds ",
+                          "marks": [],
+                          "data": {}
+                        }
+                      ]
+                    },
+                    {
+                      "nodeType": "text",
+                      "value": "are the ideal solution for slim spaces, allowing natural light through whilst maintaining privacy. Visionwood Venetian Blinds are ideal for humid rooms like the kitchen, bathroom and laundry. ",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": []
+                },
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "image": "uploads/general/08-fitzroy-house@2x.jpg",
+            "text": {
+              "nodeType": "document",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "The ",
+                      "marks": [],
+                      "data": {}
+                    },
+                    {
+                      "nodeType": "hyperlink",
+                      "data": {
+                        "uri": "https://www.diyblinds.com.au/curtains"
+                      },
+                      "content": [
+                        {
+                          "nodeType": "text",
+                          "value": "Designer Curtain ",
+                          "marks": [],
+                          "data": {}
+                        }
+                      ]
+                    },
+                    {
+                      "nodeType": "text",
+                      "value": "range lets you choose your preferred colour, fold and thickness to match your aesthetic and lifestyle.",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "image": "uploads/general/09-fitzroy-house@2x.jpg",
+            "text": {
+              "nodeType": "document",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "hyperlink",
+                      "data": {
+                        "uri": "https://www.diyblinds.com.au/blinds/venetian"
+                      },
+                      "content": [
+                        {
+                          "nodeType": "text",
+                          "value": "Venetian Blinds ",
+                          "marks": [],
+                          "data": {}
+                        }
+                      ]
+                    },
+                    {
+                      "nodeType": "text",
+                      "value": "offer the privacy needed for inner city living, whilst still allowing natural light to steam in throughout the day.",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ],
+        "id": "2p5xq76656m"
       }
     ],
     "id": "lvwm650ghgl"
@@ -2233,6 +5770,410 @@
         "copy": "This Edwardian cottage has been given a new lease on life with feminine touches and a timeless design that will last at least another 100 years.\n",
         "flipped": true,
         "id": "5z8p38nv7du"
+      },
+      {
+        "type": "imageCarousel",
+        "slides": [
+          {
+            "image": "uploads/general/06-little-willow-reno@2x.jpg",
+            "text": {
+              "nodeType": "document",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "Julia & Sasha chose a face-fit for their ",
+                      "marks": [],
+                      "data": {}
+                    },
+                    {
+                      "nodeType": "hyperlink",
+                      "data": {
+                        "uri": "https://www.diyblinds.com.au/blinds"
+                      },
+                      "content": [
+                        {
+                          "nodeType": "text",
+                          "value": "Roller Blinds",
+                          "marks": [],
+                          "data": {}
+                        }
+                      ]
+                    },
+                    {
+                      "nodeType": "text",
+                      "value": " but with a pelmet with matching fabric to hide the brackets and blinds.",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": []
+                },
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "image": "uploads/general/07-little-willow-reno@2x.jpg",
+            "text": {
+              "nodeType": "document",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "Flowy and feminine ",
+                      "marks": [],
+                      "data": {}
+                    },
+                    {
+                      "nodeType": "hyperlink",
+                      "data": {
+                        "uri": "https://www.diyblinds.com.au/curtains"
+                      },
+                      "content": [
+                        {
+                          "nodeType": "text",
+                          "value": "Sheer Designer Curtains",
+                          "marks": [],
+                          "data": {}
+                        }
+                      ]
+                    },
+                    {
+                      "nodeType": "text",
+                      "value": " were the perfect choice in this bedroom. The S-Fold curtains have warm tones with just a slight hint of dusty pink that fills the room with soft filtered light and contrast beautifully with the black curtain rod.",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": []
+                },
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "image": "uploads/general/08-little-willow-reno@2x.jpg",
+            "text": {
+              "nodeType": "document",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "hyperlink",
+                      "data": {
+                        "uri": "https://www.diyblinds.com.au/blinds"
+                      },
+                      "content": [
+                        {
+                          "nodeType": "text",
+                          "value": "Light Filtering Roller Blinds",
+                          "marks": [],
+                          "data": {}
+                        }
+                      ]
+                    },
+                    {
+                      "nodeType": "text",
+                      "value": " shield the open plan living area from the western afternoon sun. These blinds allow diffused light through without darkening the room so you can still enjoy the daylight.",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "image": "uploads/general/06-little-willow-reno@2x.jpg",
+            "text": {
+              "nodeType": "document",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "Julia & Sasha chose a face-fit for their ",
+                      "marks": [],
+                      "data": {}
+                    },
+                    {
+                      "nodeType": "hyperlink",
+                      "data": {
+                        "uri": "https://www.diyblinds.com.au/blinds"
+                      },
+                      "content": [
+                        {
+                          "nodeType": "text",
+                          "value": "Roller Blinds",
+                          "marks": [],
+                          "data": {}
+                        }
+                      ]
+                    },
+                    {
+                      "nodeType": "text",
+                      "value": " but with a pelmet with matching fabric to hide the brackets and blinds.",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": []
+                },
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "image": "uploads/general/07-little-willow-reno@2x.jpg",
+            "text": {
+              "nodeType": "document",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "Flowy and feminine ",
+                      "marks": [],
+                      "data": {}
+                    },
+                    {
+                      "nodeType": "hyperlink",
+                      "data": {
+                        "uri": "https://www.diyblinds.com.au/curtains"
+                      },
+                      "content": [
+                        {
+                          "nodeType": "text",
+                          "value": "Sheer Designer Curtains",
+                          "marks": [],
+                          "data": {}
+                        }
+                      ]
+                    },
+                    {
+                      "nodeType": "text",
+                      "value": " were the perfect choice in this bedroom. The S-Fold curtains have warm tones with just a slight hint of dusty pink that fills the room with soft filtered light and contrast beautifully with the black curtain rod.",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": []
+                },
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "image": "uploads/general/08-little-willow-reno@2x.jpg",
+            "text": {
+              "nodeType": "document",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "hyperlink",
+                      "data": {
+                        "uri": "https://www.diyblinds.com.au/blinds"
+                      },
+                      "content": [
+                        {
+                          "nodeType": "text",
+                          "value": "Light Filtering Roller Blinds",
+                          "marks": [],
+                          "data": {}
+                        }
+                      ]
+                    },
+                    {
+                      "nodeType": "text",
+                      "value": " shield the open plan living area from the western afternoon sun. These blinds allow diffused light through without darkening the room so you can still enjoy the daylight.",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ],
+        "id": "ro8o0opbuy9"
       }
     ],
     "id": "jggp7imdg7q"
@@ -2280,6 +6221,382 @@
         "copy": "At first glance the bathroom appears as a relaxing retreat with PolyLux® Plantation Shutters providing privacy and adding to the coastal theme. However behind the flowing Designer Curtains is a full laundry that can be hidden in an instant and still on trend.",
         "flipped": true,
         "id": "e2zvdu02g9i"
+      },
+      {
+        "type": "imageCarousel",
+        "slides": [
+          {
+            "image": "uploads/general/06-barefoot-bay-cottage@2x.jpg",
+            "text": {
+              "nodeType": "document",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "The Barefoot Bay Cottage uses different textures to create contrast. The hard stone in the kitchen bench and rendered walls creates a dramatic effect, whilst sage green panelled cabinetry add soft colour.",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": []
+                },
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "image": "uploads/general/07-barefoot-bay-cottage@2x.jpg",
+            "text": {
+              "nodeType": "document",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "The contemporary coastal palette starts outside and works its way in with navy and sage tones, pared with natural textures like wood and stone - echoed inside with ",
+                      "marks": [],
+                      "data": {}
+                    },
+                    {
+                      "nodeType": "hyperlink",
+                      "data": {
+                        "uri": "https://www.diyblinds.com.au/curtains"
+                      },
+                      "content": [
+                        {
+                          "nodeType": "text",
+                          "value": "Designer Curtains",
+                          "marks": [],
+                          "data": {}
+                        }
+                      ]
+                    },
+                    {
+                      "nodeType": "text",
+                      "value": " with woven fabric.",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": []
+                },
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "image": "uploads/general/08-barefoot-bay-cottage@2x.jpg",
+            "text": {
+              "nodeType": "document",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "The navy feature stands out against the remaining white walls. ",
+                      "marks": [],
+                      "data": {}
+                    },
+                    {
+                      "nodeType": "hyperlink",
+                      "data": {
+                        "uri": "https://www.diyblinds.com.au/shutters"
+                      },
+                      "content": [
+                        {
+                          "nodeType": "text",
+                          "value": "PolyLux® Plantation Shutters",
+                          "marks": [],
+                          "data": {}
+                        }
+                      ]
+                    },
+                    {
+                      "nodeType": "text",
+                      "value": " in pure white look seamless against the wall so the focus remains on the leather bedhead and navy wall.",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "image": "uploads/general/06-barefoot-bay-cottage@2x.jpg",
+            "text": {
+              "nodeType": "document",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "The Barefoot Bay Cottage uses different textures to create contrast. The hard stone in the kitchen bench and rendered walls creates a dramatic effect, whilst sage green panelled cabinetry add soft colour.",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": []
+                },
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "image": "uploads/general/07-barefoot-bay-cottage@2x.jpg",
+            "text": {
+              "nodeType": "document",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "The contemporary coastal palette starts outside and works its way in with navy and sage tones, pared with natural textures like wood and stone - echoed inside with ",
+                      "marks": [],
+                      "data": {}
+                    },
+                    {
+                      "nodeType": "hyperlink",
+                      "data": {
+                        "uri": "https://www.diyblinds.com.au/curtains"
+                      },
+                      "content": [
+                        {
+                          "nodeType": "text",
+                          "value": "Designer Curtains",
+                          "marks": [],
+                          "data": {}
+                        }
+                      ]
+                    },
+                    {
+                      "nodeType": "text",
+                      "value": " with woven fabric.",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": []
+                },
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "image": "uploads/general/08-barefoot-bay-cottage@2x.jpg",
+            "text": {
+              "nodeType": "document",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "The navy feature stands out against the remaining white walls. ",
+                      "marks": [],
+                      "data": {}
+                    },
+                    {
+                      "nodeType": "hyperlink",
+                      "data": {
+                        "uri": "https://www.diyblinds.com.au/shutters"
+                      },
+                      "content": [
+                        {
+                          "nodeType": "text",
+                          "value": "PolyLux® Plantation Shutters",
+                          "marks": [],
+                          "data": {}
+                        }
+                      ]
+                    },
+                    {
+                      "nodeType": "text",
+                      "value": " in pure white look seamless against the wall so the focus remains on the leather bedhead and navy wall.",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ],
+        "id": "pzzt21jp3x"
       }
     ],
     "id": "1v2g4m9ejnh"
@@ -2327,6 +6644,452 @@
         "copy": "Designer Curtains are the prefect solution to adding texture and softness to a room. As with Light Filtering Roller Blinds, it diffuses natural sunlight, creating warmth and also providing privacy at the same time.",
         "flipped": true,
         "id": "tyzxrkfyg8p"
+      },
+      {
+        "type": "imageCarousel",
+        "slides": [
+          {
+            "image": "uploads/general/06-beaconsfield-project@2x.jpg",
+            "text": {
+              "nodeType": "document",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "The sheer white ",
+                      "marks": [],
+                      "data": {}
+                    },
+                    {
+                      "nodeType": "hyperlink",
+                      "data": {
+                        "uri": "https://www.diyblinds.com.au/curtains"
+                      },
+                      "content": [
+                        {
+                          "nodeType": "text",
+                          "value": "Designer Curtains",
+                          "marks": [],
+                          "data": {}
+                        }
+                      ]
+                    },
+                    {
+                      "nodeType": "text",
+                      "value": " and kid's blackboard continue the Beaconsfield House's contrasting theme whilst providing both privacy and light.",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "image": "uploads/general/07-beaconsfield-project@2x.jpg",
+            "text": {
+              "nodeType": "document",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "Don't be afraid to play with colours and create a bold statement. Full-length ",
+                      "marks": [],
+                      "data": {}
+                    },
+                    {
+                      "nodeType": "hyperlink",
+                      "data": {
+                        "uri": "https://www.diyblinds.com.au/curtains"
+                      },
+                      "content": [
+                        {
+                          "nodeType": "text",
+                          "value": "Designer Curtains ",
+                          "marks": [],
+                          "data": {}
+                        }
+                      ]
+                    },
+                    {
+                      "nodeType": "text",
+                      "value": "create a statement, whilst ",
+                      "marks": [],
+                      "data": {}
+                    },
+                    {
+                      "nodeType": "hyperlink",
+                      "data": {
+                        "uri": "https://www.diyblinds.com.au/blinds"
+                      },
+                      "content": [
+                        {
+                          "nodeType": "text",
+                          "value": "Roller Blinds ",
+                          "marks": [],
+                          "data": {}
+                        }
+                      ]
+                    },
+                    {
+                      "nodeType": "text",
+                      "value": "provide a perfectly functional solution for smaller window.",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": []
+                },
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "image": "uploads/general/08-beaconsfield-project@2x.jpg",
+            "text": {
+              "nodeType": "document",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "This study nook feels bright and airy thanks to ",
+                      "marks": [],
+                      "data": {}
+                    },
+                    {
+                      "nodeType": "hyperlink",
+                      "data": {
+                        "uri": "https://www.diyblinds.com.au/blinds"
+                      },
+                      "content": [
+                        {
+                          "nodeType": "text",
+                          "value": "Roller Blinds",
+                          "marks": [],
+                          "data": {}
+                        }
+                      ]
+                    },
+                    {
+                      "nodeType": "text",
+                      "value": " that practically disappear with a recessed installation. The light filtering design to let you take full advantage of the natural light whilst enjoying privacy. ",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "image": "uploads/general/06-beaconsfield-project@2x.jpg",
+            "text": {
+              "nodeType": "document",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "The sheer white ",
+                      "marks": [],
+                      "data": {}
+                    },
+                    {
+                      "nodeType": "hyperlink",
+                      "data": {
+                        "uri": "https://www.diyblinds.com.au/curtains"
+                      },
+                      "content": [
+                        {
+                          "nodeType": "text",
+                          "value": "Designer Curtains",
+                          "marks": [],
+                          "data": {}
+                        }
+                      ]
+                    },
+                    {
+                      "nodeType": "text",
+                      "value": " and kid's blackboard continue the Beaconsfield House's contrasting theme whilst providing both privacy and light.",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "image": "uploads/general/07-beaconsfield-project@2x.jpg",
+            "text": {
+              "nodeType": "document",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "Don't be afraid to play with colours and create a bold statement. Full-length ",
+                      "marks": [],
+                      "data": {}
+                    },
+                    {
+                      "nodeType": "hyperlink",
+                      "data": {
+                        "uri": "https://www.diyblinds.com.au/curtains"
+                      },
+                      "content": [
+                        {
+                          "nodeType": "text",
+                          "value": "Designer Curtains ",
+                          "marks": [],
+                          "data": {}
+                        }
+                      ]
+                    },
+                    {
+                      "nodeType": "text",
+                      "value": "create a statement, whilst ",
+                      "marks": [],
+                      "data": {}
+                    },
+                    {
+                      "nodeType": "hyperlink",
+                      "data": {
+                        "uri": "https://www.diyblinds.com.au/blinds"
+                      },
+                      "content": [
+                        {
+                          "nodeType": "text",
+                          "value": "Roller Blinds ",
+                          "marks": [],
+                          "data": {}
+                        }
+                      ]
+                    },
+                    {
+                      "nodeType": "text",
+                      "value": "provide a perfectly functional solution for smaller window.",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": []
+                },
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "image": "uploads/general/08-beaconsfield-project@2x.jpg",
+            "text": {
+              "nodeType": "document",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "This study nook feels bright and airy thanks to ",
+                      "marks": [],
+                      "data": {}
+                    },
+                    {
+                      "nodeType": "hyperlink",
+                      "data": {
+                        "uri": "https://www.diyblinds.com.au/blinds"
+                      },
+                      "content": [
+                        {
+                          "nodeType": "text",
+                          "value": "Roller Blinds",
+                          "marks": [],
+                          "data": {}
+                        }
+                      ]
+                    },
+                    {
+                      "nodeType": "text",
+                      "value": " that practically disappear with a recessed installation. The light filtering design to let you take full advantage of the natural light whilst enjoying privacy. ",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ],
+        "id": "fa41iztx27p"
       }
     ],
     "id": "1qxcvl4fqgq"
@@ -2374,6 +7137,360 @@
         "copy": "This renovation perfectly marries traditional features with contemporary style, and PolyLux® Plantation Shutters help realise this vision.",
         "flipped": true,
         "id": "8tom828tok5"
+      },
+      {
+        "type": "imageCarousel",
+        "slides": [
+          {
+            "image": "uploads/general/06-robert-st-spotswood@2x.jpg",
+            "text": {
+              "nodeType": "document",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "By installing shutters in the master bedroom and the ensuite, Bec and George created a seamless look throughout the space.",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": []
+                },
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "image": "uploads/general/07-robert-st-spotswood@2x.jpg",
+            "text": {
+              "nodeType": "document",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "While the front bedrooms are original, the kitchen is bright and modern. ",
+                      "marks": [],
+                      "data": {}
+                    },
+                    {
+                      "nodeType": "hyperlink",
+                      "data": {
+                        "uri": "https://www.diyblinds.com.au/shutters"
+                      },
+                      "content": [
+                        {
+                          "nodeType": "text",
+                          "value": "PolyLux® Plantation Shutters",
+                          "marks": [],
+                          "data": {}
+                        }
+                      ]
+                    },
+                    {
+                      "nodeType": "text",
+                      "value": " provide a timeless solution that works with both new and old features.",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "image": "uploads/general/08-robert-st-spotswood@2x.jpg",
+            "text": {
+              "nodeType": "document",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "hyperlink",
+                      "data": {
+                        "uri": "https://www.diyblinds.com.au/shutters"
+                      },
+                      "content": [
+                        {
+                          "nodeType": "text",
+                          "value": "PolyLux® Plantation Shutters",
+                          "marks": [],
+                          "data": {}
+                        }
+                      ]
+                    },
+                    {
+                      "nodeType": "text",
+                      "value": " makes a statement inside and out. The horizontal lines of the shutters complement the white weather board perfectly. Just tilt the shutters for increased privacy. ",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "image": "uploads/general/06-robert-st-spotswood@2x.jpg",
+            "text": {
+              "nodeType": "document",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "By installing shutters in the master bedroom and the ensuite, Bec and George created a seamless look throughout the space.",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": []
+                },
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "image": "uploads/general/07-robert-st-spotswood@2x.jpg",
+            "text": {
+              "nodeType": "document",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "While the front bedrooms are original, the kitchen is bright and modern. ",
+                      "marks": [],
+                      "data": {}
+                    },
+                    {
+                      "nodeType": "hyperlink",
+                      "data": {
+                        "uri": "https://www.diyblinds.com.au/shutters"
+                      },
+                      "content": [
+                        {
+                          "nodeType": "text",
+                          "value": "PolyLux® Plantation Shutters",
+                          "marks": [],
+                          "data": {}
+                        }
+                      ]
+                    },
+                    {
+                      "nodeType": "text",
+                      "value": " provide a timeless solution that works with both new and old features.",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "image": "uploads/general/08-robert-st-spotswood@2x.jpg",
+            "text": {
+              "nodeType": "document",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "hyperlink",
+                      "data": {
+                        "uri": "https://www.diyblinds.com.au/shutters"
+                      },
+                      "content": [
+                        {
+                          "nodeType": "text",
+                          "value": "PolyLux® Plantation Shutters",
+                          "marks": [],
+                          "data": {}
+                        }
+                      ]
+                    },
+                    {
+                      "nodeType": "text",
+                      "value": " makes a statement inside and out. The horizontal lines of the shutters complement the white weather board perfectly. Just tilt the shutters for increased privacy. ",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ],
+        "id": "bm0qjcxlo5c"
       }
     ],
     "id": "htqos6l1hg"
@@ -2421,6 +7538,355 @@
         "copy": "With a woven finish, Blockout Designer Curtains add texture and work seamlessly with existing woven materials. All you need to do is choose the perfect tone for your home.",
         "flipped": true,
         "id": "rcgn6q66u1b"
+      },
+      {
+        "type": "imageCarousel",
+        "slides": [
+          {
+            "image": "uploads/general/06-maidstone@2x.jpg",
+            "text": {
+              "nodeType": "document",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "Street facing bedrooms require more privacy than the average room. The combination of ",
+                      "marks": [],
+                      "data": {}
+                    },
+                    {
+                      "nodeType": "hyperlink",
+                      "data": {
+                        "uri": "https://www.diyblinds.com.au/shutters"
+                      },
+                      "content": [
+                        {
+                          "nodeType": "text",
+                          "value": "PolyLux® Plantation Shutters",
+                          "marks": [],
+                          "data": {}
+                        }
+                      ]
+                    },
+                    {
+                      "nodeType": "text",
+                      "value": " and Sheer ",
+                      "marks": [],
+                      "data": {}
+                    },
+                    {
+                      "nodeType": "hyperlink",
+                      "data": {
+                        "uri": "https://www.diyblinds.com.au/curtains"
+                      },
+                      "content": [
+                        {
+                          "nodeType": "text",
+                          "value": "Designer Curtains ",
+                          "marks": [],
+                          "data": {}
+                        }
+                      ]
+                    },
+                    {
+                      "nodeType": "text",
+                      "value": "provide the ultimate solution, allowing light in while adding texture and warmth to the room.",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": []
+                },
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "image": "uploads/general/07-maidstone@2x.jpg",
+            "text": {
+              "nodeType": "document",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "hyperlink",
+                      "data": {
+                        "uri": "https://www.diyblinds.com.au/shutters"
+                      },
+                      "content": [
+                        {
+                          "nodeType": "text",
+                          "value": "PolyLux® Plantation Shutters",
+                          "marks": [],
+                          "data": {}
+                        }
+                      ]
+                    },
+                    {
+                      "nodeType": "text",
+                      "value": " allow light into the kitchen while providing a durable solution that are an ideal choice in hot and humid rooms.",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": []
+                },
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "image": "uploads/general/08-maidstone@2x.jpg",
+            "text": {
+              "nodeType": "document",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "These Sheer ",
+                      "marks": [],
+                      "data": {}
+                    },
+                    {
+                      "nodeType": "hyperlink",
+                      "data": {
+                        "uri": "https://www.diyblinds.com.au/curtains"
+                      },
+                      "content": [
+                        {
+                          "nodeType": "text",
+                          "value": "Designer Curtains",
+                          "marks": [],
+                          "data": {}
+                        }
+                      ]
+                    },
+                    {
+                      "nodeType": "text",
+                      "value": " hang above and below the windows, creating the impression of a larger window and making the space feel more open.",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "image": "uploads/general/09-maidstone@2x.jpg",
+            "text": {
+              "nodeType": "document",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "hyperlink",
+                      "data": {
+                        "uri": "https://www.diyblinds.com.au/curtains"
+                      },
+                      "content": [
+                        {
+                          "nodeType": "text",
+                          "value": "Designer Curtains",
+                          "marks": [],
+                          "data": {}
+                        }
+                      ]
+                    },
+                    {
+                      "nodeType": "text",
+                      "value": " help designate the living area as a warm inviting space with soft textured rugs and couches. They complement and help separate different living zones compared to the kitchen with its functional Plantation Shutters and harder surfaces. ",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "image": "uploads/general/10-maidstone@2x.jpg",
+            "text": {
+              "nodeType": "document",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "To match the rest of the house's subdued colour palette, Josh and Jenna chose Blockout ",
+                      "marks": [],
+                      "data": {}
+                    },
+                    {
+                      "nodeType": "hyperlink",
+                      "data": {
+                        "uri": "https://www.diyblinds.com.au/curtains"
+                      },
+                      "content": [
+                        {
+                          "nodeType": "text",
+                          "value": "Designer Curtains ",
+                          "marks": [],
+                          "data": {}
+                        }
+                      ]
+                    },
+                    {
+                      "nodeType": "text",
+                      "value": "in Anstey Latte; a warm brown tone with hints of dusty pink.",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ],
+        "id": "fudxeu32vg4"
       }
     ],
     "id": "iyb878ld7d"
@@ -2490,6 +7956,321 @@
         "type": "video",
         "youtube": "https://www.youtube.com/embed/ngUHe11gJ9g",
         "id": "si8mcms0e8"
+      },
+      {
+        "type": "imageCarousel",
+        "slides": [
+          {
+            "image": "uploads/general/06-long-jetty@2x.jpg",
+            "text": {
+              "nodeType": "document",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "With no cords to pull or trailing fabric, ",
+                      "marks": [],
+                      "data": {}
+                    },
+                    {
+                      "nodeType": "hyperlink",
+                      "data": {
+                        "uri": "https://www.diyblinds.com.au/shutters"
+                      },
+                      "content": [
+                        {
+                          "nodeType": "text",
+                          "value": "PolyLux Plantation Shutters",
+                          "marks": [],
+                          "data": {}
+                        }
+                      ]
+                    },
+                    {
+                      "nodeType": "text",
+                      "value": " are an ideal choice for kids rooms and require very little maintenance to keep looking their best.",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": []
+                },
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "image": "uploads/general/07-long-jetty@2x.jpg",
+            "text": {
+              "nodeType": "document",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "Bathroom window dressing can be difficult to find. ",
+                      "marks": [],
+                      "data": {}
+                    },
+                    {
+                      "nodeType": "hyperlink",
+                      "data": {
+                        "uri": "https://www.diyblinds.com.au/shutters"
+                      },
+                      "content": [
+                        {
+                          "nodeType": "text",
+                          "value": "PolyLux plantation shutters",
+                          "marks": [],
+                          "data": {}
+                        }
+                      ]
+                    },
+                    {
+                      "nodeType": "text",
+                      "value": " complement the sophisticated coastal interiors while providing plenty of natural light and privacy.",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": []
+                },
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "image": "uploads/general/08-long-jetty@2x.jpg",
+            "text": {
+              "nodeType": "document",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "For the front two bedrooms in the original part of the Long Jetty House, Kyal and Kara used ",
+                      "marks": [],
+                      "data": {}
+                    },
+                    {
+                      "nodeType": "hyperlink",
+                      "data": {
+                        "uri": "https://www.diyblinds.com.au/curtains"
+                      },
+                      "content": [
+                        {
+                          "nodeType": "text",
+                          "value": "Designer Curtains",
+                          "marks": [],
+                          "data": {}
+                        }
+                      ]
+                    },
+                    {
+                      "nodeType": "text",
+                      "value": " to provide privacy from the street and complement traditional elements including cornices and wall panelling",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "image": "uploads/general/09-long-jetty@2x.jpg",
+            "text": {
+              "nodeType": "document",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "Plantation shutters are simple to adjust to allow more or less light into a room. Simply tilt the shutters for the perfect angle and amount of light, swing them open for a completely sunlit room.",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "image": "uploads/general/10-long-jetty@2x.jpg",
+            "text": {
+              "nodeType": "document",
+              "data": {},
+              "content": [
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "hyperlink",
+                      "data": {
+                        "uri": "https://www.diyblinds.com.au/curtains"
+                      },
+                      "content": [
+                        {
+                          "nodeType": "text",
+                          "value": "Designer Curtains",
+                          "marks": [],
+                          "data": {}
+                        }
+                      ]
+                    },
+                    {
+                      "nodeType": "text",
+                      "value": " maintain privacy while adding a pop of texture to your facade and improving street appeal.",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                },
+                {
+                  "nodeType": "paragraph",
+                  "data": {},
+                  "content": [
+                    {
+                      "nodeType": "text",
+                      "value": "",
+                      "marks": [],
+                      "data": {}
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ],
+        "id": "m4d60py6jhg"
       }
     ],
     "id": "cm486mpxwas"

@@ -62,8 +62,8 @@ const run = async () => {
         });
       }
       if (block.type == 'imageCarousel') {
-        block.images.forEach((image: string) => {
-          downloadImage( `https://media.diyblinds.com.au/${image}`, tour.title, getSlug(image));
+        block.slides.forEach((slide: any) => {
+          slide.image != "" && downloadImage( `https://media.diyblinds.com.au/${slide.image}`, tour.title, getSlug(slide.image));
         });
       }
       if (block.type == 'splitContentFeature') {

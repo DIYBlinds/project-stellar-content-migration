@@ -10,7 +10,7 @@ const excludes = [
 
 ];
 
-const imports = tours.splice(20, 50) //.filter(tour => samples.includes(tour.url));
+const imports = tours //.filter(tour => samples.includes(tour.url));
 console.log('imports>>>', imports.length);
 
 const metadata = {
