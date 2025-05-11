@@ -1125,11 +1125,20 @@
     "contentBlocks": [
       {
         "type": "headline",
-        "title": "When Rebekah and the team from BuildHer Collective got in touch we knew we had to be involved. The result? An incredible collaboration that shows the impact window furnishings can have to elevate the ambience and functionality of a home.",
+        "title": "",
         "richText": {
           "nodeType": "document",
           "data": {},
-          "content": []
+          "content": [{
+            "nodeType": "paragraph",
+            "data": {},
+            "content": [{
+              "nodeType": "text",
+              "value": "When Rebekah and the team from BuildHer Collective got in touch we knew we had to be involved. The result? An incredible collaboration that shows the impact window furnishings can have to elevate the ambience and functionality of a home.",
+              "marks": [],
+              "data": {}
+            }]
+          }]
         },
         "id": "lrv869rhiug"
       },

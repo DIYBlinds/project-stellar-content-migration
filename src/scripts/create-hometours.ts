@@ -10,7 +10,7 @@ const excludes = [
 
 ];
 
-const imports = tours.splice(33, 50) //.filter(tour => samples.includes(tour.url));
+const imports = tours //.filter(tour => samples.includes(tour.url));
 console.log('imports>>>', imports.length);
 
 const metadata = {
@@ -46,7 +46,7 @@ const upsertHeroImage = async (tour: typeof imports[0]) => {
         metadata: metadata,
         fields: {
             name: {
-                [LOCALE]: `tour > ${getSlug(tour.heroImage)}`
+                [LOCALE]: `Home Tour > ${tour.title} > ${getSlug(tour.heroImage)}`
             },
             title: {
                 [LOCALE]: `${tour.title}`
@@ -113,7 +113,7 @@ const upserttours = async (tour: typeof tours[0], heroImageId: string) => {
         metadata: metadata,
         fields: {
             name: {
-                [LOCALE]: tour.title
+                [LOCALE]: `Home Tour > ${tour.title}`
             },
             title: {
                 [LOCALE]: tour.title
@@ -156,7 +156,7 @@ const upserttours = async (tour: typeof tours[0], heroImageId: string) => {
         }
     }
 
-    await upsertEntry('inspiration', 'tour-'+tour.id, data);
+    await upsertEntry('inspiration', 'home-tour-'+tour.id, data);
 }
 
 const createImageCarouselBlock = async (tour: typeof tours[0], block: any) => {
@@ -179,7 +179,7 @@ const createImageCarouselBlock = async (tour: typeof tours[0], block: any) => {
         metadata: metadata,
         fields: {
             name: {
-                [LOCALE]: 'tour > ' + tour.title
+                [LOCALE]: `Home Tour > ${tour.title} > Image Carousel`
             },
             variant: {
                 [LOCALE]: 'carousel'
@@ -196,7 +196,7 @@ const createContentFeatureBlock = async (tour: typeof tours[0], block: any) => {
         metadata: metadata,
         fields: {
             name: {
-                [LOCALE]: 'tour > ' + tour.title
+                [LOCALE]: `Home Tour > ${tour.title} > ${block.title}`
             },
             title: {
                 [LOCALE]: block.title
@@ -243,7 +243,7 @@ const createSplitContentFeatureBlock = async (tour: typeof tours[0], block: any)
         metadata: metadata,
         fields: {
             name: {
-                [LOCALE]: 'tour > ' + tour.title
+                [LOCALE]: `Home Tour > ${tour.title} > ${block.caption}`
             },
             ...leftBlock,
             ...rightBlock,
@@ -313,7 +313,7 @@ const createGalleryBlock = async (tour: typeof tours[0], block: any) => {
             metadata: metadata,
             fields: {
                 name: {
-                    [LOCALE]: 'tour > ' + tour.title
+                    [LOCALE]: `Home Tour > ${tour.title} > Image Gallery`
                 },
                 variant: {
                     [LOCALE]: 'default'
@@ -343,7 +343,7 @@ const createCell = async (tour: typeof tours[0], image: string, colSpan: number,
         metadata: metadata,
         fields: {
             name: {
-                [LOCALE]: getSlug(cloudinaryImage.image)
+                [LOCALE]: `Home Tour > ${tour.title} > Gallery Image > ${getSlug(cloudinaryImage.image)}`
             },
             variant: {
                 [LOCALE]: 'gallery-tout'
@@ -366,7 +366,7 @@ const createHeadlineBlock = async (tour: typeof tours[0], block: any) => {
         metadata: metadata,
         fields: {
             name: {
-                [LOCALE]: 'tour > ' + block.title
+                [LOCALE]: `Home Tour > ${tour.title} > ${block.title}`
             },
             title: {
                 [LOCALE]: block.title
@@ -386,7 +386,7 @@ const createVideoBlock = async (tour: typeof tours[0], block: any) => {
         metadata: metadata,
         fields: {
             name: { 
-                [LOCALE]: 'tour > ' + tour.title
+                [LOCALE]: `Home Tour > ${tour.title}`
             },
             video: {
                 [LOCALE]: block.youtube
@@ -406,7 +406,7 @@ const createImageBlock = async (tour: typeof tours[0], block: any) => {
         metadata: metadata,
         fields: {
             name: {
-                [LOCALE]: 'Image > ' + tour.title
+                [LOCALE]: `Home Tour > ${tour.title}`
             },
             title: {
                 [LOCALE]: tour.title
@@ -423,7 +423,7 @@ const createRichTextBlock = async (tour: typeof tours[0], block: any) => {
         metadata: metadata,
         fields: {
             name: {
-                [LOCALE]: 'tour > ' + tour.title
+                [LOCALE]: `Home Tour > ${tour.title}`
             },
             textAlignment: {
                 [LOCALE]: 'left'
@@ -451,7 +451,7 @@ const createContentTilesBlock = async (tour: typeof tours[0], block: any) => {
         metadata: metadata,
         fields: {
             name: {
-                [LOCALE]: 'tour > ' + tour.title
+                [LOCALE]: `Home Tour > ${tour.title}`
             },
             columnLayout: {
                 [LOCALE]: 'two'
@@ -484,7 +484,7 @@ const createTile = async (tour: typeof tours[0], image: string) => {
         metadata: metadata,
         fields: {
             name: {
-                [LOCALE]: 'tour > Content Tiles > ' + tour.title
+                [LOCALE]: `Home Tour > ${tour.title} > ${getSlug(coundinaryImage.image)}`
             },
             image: {
                 [LOCALE]: coundinaryImage.image 
@@ -506,7 +506,7 @@ const createSlide = async (tour: typeof tours[0], slide: any, text: any) => {
         metadata: metadata,
         fields: {
             name: {
-                [LOCALE]: 'tour > Content Tiles > ' + tour.title
+                [LOCALE]: `Home Tour > ${tour.title} > ${getSlug(coundinaryImage.image)}`
             },
             image: {
                 [LOCALE]: coundinaryImage.image 
