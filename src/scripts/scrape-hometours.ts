@@ -69,7 +69,7 @@ const scrapeTextColumns = async (page: Page, block: ElementHandle<Element>, tour
     tour.contentBlocks.push(
       {
         type: 'richText',
-        content: htmlToRichText(html),
+        content: fixRixchtextDocument(htmlToRichText(html)),
         id: generateId()
       }
     );
@@ -85,7 +85,7 @@ const scrapeRichtext = async (page: Page, block: ElementHandle<Element>, tour: H
     tour.contentBlocks.push(
       {
         type: 'richText',
-        content: htmlToRichText(html),
+        content: fixRixchtextDocument(htmlToRichText(html)),
         id: generateId()
       }
     );
@@ -152,9 +152,9 @@ const scrapeImageCarousel = async (page: Page, block: ElementHandle<Element>, to
         type: 'imageCarousel',
         slides: await Promise.all(slides.map(async (slide) => {
           const image = await tryGet(() => slide.$eval('img', el => el.getAttribute('data-srcset')?.split(' ')[0] ?? ''));
-          console.log('image', image);
+
           const text = await tryGet(() => slide.$eval('div.image-caption__copy', el => el.innerHTML));
-          return image ? {image: decodeBase64(image ?? ''), text: htmlToRichText(text ?? '')} : undefined
+          return image ? {image: decodeBase64(image ?? ''), text: fixRixchtextDocument(htmlToRichText(text ?? '')), id: generateId()} : undefined
         }).filter(Boolean)),
         id: generateId()
       });
@@ -182,13 +182,13 @@ const scrapeVideo = async (page: Page, block: ElementHandle<Element>, tour: Home
 const scrapeHeadline = async (page: Page, block: ElementHandle<Element>, tour: HomeTour) => {
   if (await page.evaluate(el => el.classList.contains('title-block'), block)) {
     const title = await tryGet(() => block.$eval('h3', el => el.innerText))
-    const richText = await tryGet(() => block.$eval('div.text', el => el.innerHTML));
-
+    const richText = await tryGet(() => block.$eval('div.text', el => `<p>${el.innerText}</p>`));
+    
     if (title) {
       tour.contentBlocks.push({
         type: 'headline',
         title: title,
-        richText: htmlToRichText(richText),
+        richText: fixRixchtextDocument(htmlToRichText(richText)),
         id: generateId()
       });
     }
@@ -273,6 +273,18 @@ const tryGet = async (func: () => Promise<any>) => {
   } catch (error) {
     return '';
   }
+}
+
+
+const fixRixchtextDocument = (docuemnt: any) => {
+  let content = docuemnt.content;
+  if (!content) return docuemnt;
+  while (content.length > 0 && !content[0].nodeType && content[0].content) {
+      content = content[0].content;
+  }
+  docuemnt.content = content;
+
+  return docuemnt;
 }
 
 run();

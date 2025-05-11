@@ -10,7 +10,7 @@ const excludes = [
 
 ];
 
-const imports = tours //.filter(tour => samples.includes(tour.url));
+const imports = tours.splice(33, 50) //.filter(tour => samples.includes(tour.url));
 console.log('imports>>>', imports.length);
 
 const metadata = {
@@ -60,7 +60,6 @@ const upsertHeroImage = async (tour: typeof imports[0]) => {
 }
 
 const lookupImage = (title : string, url: string) => {
-    console.log(title, url);    
     let mapping = (mappings as any).find((mapping: any) => mapping.blogTitle === title && mapping.originalImage === url);
     if (!mapping) {
         mapping = (mappings as any).find((mapping: any) => getSlug(mapping.originalImage) === getSlug(url));
@@ -279,7 +278,7 @@ const toRichtext = (text: string) => {
 const createGalleryBlock = async (tour: typeof tours[0], block: any) => {
     const entries = [];
     const sets: Record<number, string[]> = {};
-    const IMAGES_PER_GROUP = 7;
+    const IMAGES_PER_GROUP = 28;
     
     // Create groups of images without modifying the original array
     const imageGroups = Array.from({ length: Math.ceil(block.images.length / IMAGES_PER_GROUP) }, (_, i) => 
@@ -300,9 +299,8 @@ const createGalleryBlock = async (tour: typeof tours[0], block: any) => {
         const cells = [];
 
         for (const image of set) {
-            if (count === 4 || count === 7) {
-                rowSpan = index === 0 || index === 2 ? 2 : 1;
-            }
+           
+            rowSpan = [0, 2, 7, 9, 14, 16, 21, 23].includes(index) ? 2 : 1;
     
             const cell = await createCell(tour, image, colSpan, rowSpan);
             if (cell) {
@@ -340,9 +338,7 @@ const createGalleryBlock = async (tour: typeof tours[0], block: any) => {
 
 const createCell = async (tour: typeof tours[0], image: string, colSpan: number, rowSpan: number) => {
     const cloudinaryImage = lookupImage(tour.title, image)
-    console.log('cloudinaryImage>>>', tour.title, image, cloudinaryImage);
     if (!cloudinaryImage) return null;
-    console.log('CELL>>>>', cloudinaryImage.image);
     return await upsertEntry('featuredGridCell', `cell-${cloudinaryImage.id}`, {
         metadata: metadata,
         fields: {
@@ -379,7 +375,7 @@ const createHeadlineBlock = async (tour: typeof tours[0], block: any) => {
                 [LOCALE]: block.description
             },
             text: {
-                [LOCALE]: fixRixchtextDocument(block.richText)
+                [LOCALE]: block.richText
             }
         }
     });
@@ -433,7 +429,7 @@ const createRichTextBlock = async (tour: typeof tours[0], block: any) => {
                 [LOCALE]: 'left'
             },
             text: {
-                [LOCALE]: fixRixchtextDocument(block.content)
+                [LOCALE]: block.content
             },
             hasGlossary: {
                 [LOCALE]: false
@@ -506,7 +502,6 @@ const createSlide = async (tour: typeof tours[0], slide: any, text: any) => {
         console.log('no image found for:', slide.image);
         return null;
     }
-    console.log('createSlide>>>', slide.id, coundinaryImage.image);
     const tile = {
         metadata: metadata,
         fields: {
@@ -523,15 +518,6 @@ const createSlide = async (tour: typeof tours[0], slide: any, text: any) => {
     }
 
     return await upsertEntry('tile', 'tile-'+slide.id, tile);
-}
-
-const fixRixchtextDocument = (block: any) => {
-    const document = block.content;
-    let content = document.content;
-    while (content.length > 0 && !content[0].nodeType && content[0].content) {
-        content = content[0].content;
-    }
-    document.content = content;
 }
 
 run();
