@@ -4,6 +4,7 @@ import { generateId } from '../utils/id';
 import mappingsJson from '../../.in/image-mappings.json';
 import tours from '../../.in/hometours.json';
 import showrooms from '../../.in/showrooms.json';
+import trends from '../../.in/trends.json';
 
 const convertItalicNodes = (content: any[]) => {
     return content.map(node => {
@@ -29,19 +30,11 @@ const convertItalicNodes = (content: any[]) => {
 };
 
 const run = async () => {
-    for (const tour of tours as any[]) {
-        for (const block of tour.contentBlocks) {
-            if (block.type === 'imageCarousel') {
-                for (const slide of block.slides) {
-                    if (!slide.id) {
-                        slide.id = generateId();
-                    }
-                }
-            }
-        }
+    for (const trend of trends as any[]) {
+        trend.id = generateId();
     }
 
-    fs.writeFileSync('./.in/hometours.json', JSON.stringify(tours, null, 2));
+    fs.writeFileSync('./.in/trends.json', JSON.stringify(trends, null, 2));
 };
 
 const fixRixchtextDocument = (block: any) => {

@@ -14,3 +14,5 @@ dist
 .in/blogs-backup
 .in/hometours
 .in/hometours/**
+.in/trends
+.in/trends/**
