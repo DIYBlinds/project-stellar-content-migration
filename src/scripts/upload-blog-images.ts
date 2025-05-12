@@ -2,16 +2,13 @@
 import cloudinary from '../utils/cloudinary';
 import fs from 'fs';
 import mappingsJson from '../../.in/image-mappings.json';
-import showroomsJson from '../../.in/showrooms.json';
 import blogs from '../../.in/blogs.json';
 
 
 const mappings = mappingsJson as any[];
-const showrooms = showroomsJson as any[];
 interface Blog {
   title: string;
   heroImage: string;
-  heroImageCloudinary?: string;
   contentBlocks: ContentBlock[];
 }
 
@@ -21,6 +18,12 @@ interface ContentBlock {
   imageCloudinary?: string;
   images?: string[];
   imagesCloudinary?: string[];
+  image1?: string;
+  image2?: string;
+  slides?: {
+    image: string;
+    text: string;
+  }[];
 }
 
 interface CloudinaryResult {
@@ -39,6 +42,7 @@ interface ImageMapping {
   blogTitle: string;
   originalImage: string;
   cloudinaryImage: string;
+  type?: string;
 }
 
 interface ProcessedImage {
@@ -85,8 +89,18 @@ const uploadImage = async (
 ): Promise<CloudinaryResult> => {
   try {
     const folder = `${CLOUDINARY_FOLDER}/${subFolder}`;
-    // const randomString = Math.random().toString(36).substring(2, 9);
-    // publicId = `${publicId}-${randomString}`;
+    const existingImages = await cloudinary.api.resources({
+      type: 'upload',
+      folder,
+      max_results: 1000
+    });
+    const existingImageIds = existingImages.resources.map((image: any) => { return { publicId: image.public_id, url: image.url } });
+    const existingImage = existingImageIds.find((image: any) => image.publicId === publicId);
+    if (existingImage) {
+      console.log(`Image already exists: ${publicId}`);
+      return { url: existingImage.url };
+    }
+    
     // Upload the image
     await cloudinary.uploader.upload(filePath, {
       use_filename: true,
@@ -148,8 +162,7 @@ const collectImageTasks = (blog: Blog, folder: string): ImageUploadTask[] => {
       }
     } else if (
       (block.type === 'contentTiles' || 
-       block.type === 'gallery' || 
-       block.type === 'imageCarousel') && 
+       block.type === 'gallery') && 
       block.images
     ) {
       for (const image of block.images) {
@@ -162,6 +175,52 @@ const collectImageTasks = (blog: Blog, folder: string): ImageUploadTask[] => {
             context: ['Brand=DIY']
           });
           processedImages.add(imageSlug);
+        }
+      }
+    } else if (block.type === 'splitContentFeature') {
+      for (const image of [block.image1, block.image2]) {
+        if (image && image !== "") {
+          const imageSlug = getSlug(image);
+          if (!processedImages.has(imageSlug)) {
+            tasks.push({
+              filePath: `./.in/blogs/${folder}/${imageSlug}`,
+              publicId: sanitizePublicId(imageSlug),
+              folder,
+              context: ['Brand=DIY']
+            });
+            processedImages.add(imageSlug);
+          }
+        }
+      }
+    } else if (block.type === 'imageCarousel') {
+    for (const slide of (block as any).slides) {
+      const imageSlug = getSlug(slide.image);
+      if (!processedImages.has(imageSlug)) {
+        tasks.push({
+          filePath: `./.in/blogs/${folder}/${imageSlug}`,
+          publicId: sanitizePublicId(imageSlug),
+          folder,
+          context: ['Brand=DIY']
+        });
+        processedImages.add(imageSlug);
+      }
+      }
+    }
+    if (block.type == 'richText') {
+      const docuemnt = (block as any).content
+      for (const content of docuemnt.content) {
+        if (!content.nodeType && content.content[0].nodeType == 'embedded-asset-block') {
+          const embeddedAsset = content.content[0] as any;
+          const imageSlug = getSlug(embeddedAsset.data.target.fields.file.url);
+          if (!processedImages.has(imageSlug)) {
+            tasks.push({
+              filePath: `./.in/blogs/${folder}/${imageSlug}`,
+              publicId: sanitizePublicId(imageSlug),
+              folder,
+              context: ['Brand=DIY']
+            });
+            processedImages.add(imageSlug);
+          }
         }
       }
     }
@@ -183,7 +242,8 @@ const updateBlogWithUploadedImages = (
     imageMappings.push({
       blogTitle: blog.title,
       originalImage: blog.heroImage,
-      cloudinaryImage: heroImageResult.url
+      cloudinaryImage: heroImageResult.url,
+      type: 'blog'
     });
   }
 
@@ -196,13 +256,13 @@ const updateBlogWithUploadedImages = (
         imageMappings.push({
           blogTitle: blog.title,
           originalImage: block.image,
-          cloudinaryImage: result.url
+          cloudinaryImage: result.url,
+          type: 'blog'
         });
       }
     } else if (
       (block.type === 'contentTiles' || 
-       block.type === 'gallery' || 
-       block.type === 'imageCarousel') && 
+       block.type === 'gallery') && 
       block.images
     ) {
       for (const image of block.images) {
@@ -212,8 +272,55 @@ const updateBlogWithUploadedImages = (
           imageMappings.push({
             blogTitle: blog.title,
             originalImage: image,
-            cloudinaryImage: result.url
+            cloudinaryImage: result.url,
+            type: 'blog'
           });
+        }
+      }
+    } else if (block.type === 'splitContentFeature') {
+      for (const image of [block.image1, block.image2]) {
+        if (image && image !== "") {
+          const imageSlug = getSlug(image);
+          const result = uploadResults.get(imageSlug);
+          if (result) {
+              imageMappings.push({
+                blogTitle: blog.title,
+              originalImage: image,
+              cloudinaryImage: result.url,
+              type: 'blog'
+            });
+          }
+        }
+      }
+    } else if (block.type === 'imageCarousel') {
+      for (const slide of (block as any).slides) {
+        const imageSlug = getSlug(slide.image);
+        const result = uploadResults.get(imageSlug);
+        if (result) {
+          imageMappings.push({  
+            blogTitle: blog.title,
+            originalImage: slide.image,
+            cloudinaryImage: result.url,
+            type: 'blog'
+          });
+        }
+      }
+    }
+    if (block.type == 'richText') {
+      const docuemnt = (block as any).content
+      for (const content of docuemnt.content) {
+        if (!content.nodeType && content.content[0].nodeType == 'embedded-asset-block') {
+          const embeddedAsset = content.content[0] as any;
+          const imageSlug = getSlug(embeddedAsset.data.target.fields.file.url);
+          const result = uploadResults.get(imageSlug);
+          if (result) {
+            imageMappings.push({
+              blogTitle: blog.title,
+              originalImage: embeddedAsset.data.target.fields.file.url,
+              cloudinaryImage: result.url,
+              type: 'blog'
+            });
+          }
         }
       }
     }
@@ -230,28 +337,27 @@ const saveProgress = (blogs: Blog[], imageMappings: ImageMapping[], index: numbe
 };
 
 const run = async (): Promise<void> => {
-  const allImageMappings: ImageMapping[] = [];
+  const allImageMappings: ImageMapping[] = [...mappings];
   const processedImages = new Map<string, ProcessedImage>();
   
   try {
     for (let index = 0; index < blogs.length; index++) {
       const blog = blogs[index];
+
       const folder = sanitizeFolderName(blog.title);
       
       // Collect all distinct image upload tasks for this blog
-      const uploadTasks = collectImageTasks(blog, folder);
+      const uploadTasks = collectImageTasks(blog as any, folder);
       const uploadResults = new Map<string, CloudinaryResult>();
 
       // Process all upload tasks
       for (const task of uploadTasks) {
         const imageSlug = getSlug(task.filePath);
         const existingImage = processedImages.get(imageSlug);
-        const showroomImages = showrooms.filter((showroom: any) => showroom._source.cloudinaryImage.split('/').pop() == imageSlug);
-        const showroomImage = showroomImages.length > 0 ? showroomImages[0] : null;
         
-        if (existingImage || showroomImage) {
+        if (existingImage) {
           // If image was already processed, use its existing URL
-          uploadResults.set(imageSlug, { url: existingImage?.cloudinaryUrl ?? showroomImage?._source?.cloudinaryImage ?? ''});
+          uploadResults.set(imageSlug, { url: existingImage?.cloudinaryUrl ?? ''});
           console.log(`Reusing existing image: ${imageSlug}`);
         } else {
           try {
@@ -275,10 +381,10 @@ const run = async (): Promise<void> => {
       }
 
       // Get image mappings for this blog
-      const blogImageMappings = updateBlogWithUploadedImages(blog, uploadResults);
-      allImageMappings.push(...mappings,...blogImageMappings);
+      const blogImageMappings = updateBlogWithUploadedImages(blog as any, uploadResults);
+      allImageMappings.push(...blogImageMappings);
 
-      saveProgress(blogs, allImageMappings, index);
+      saveProgress(blogs as any, allImageMappings, index);
     }
 
     // Final save

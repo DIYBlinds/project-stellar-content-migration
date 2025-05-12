@@ -10,6 +10,8 @@ dist
 .in/showrooms/**
 .in/blogs
 .in/blogs/**
+.in/blogs2
+.in/blogs2/**
 .in/blogs-backup/**
 .in/blogs-backup
 .in/hometours

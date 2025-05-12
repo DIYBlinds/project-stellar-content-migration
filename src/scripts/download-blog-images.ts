@@ -20,7 +20,6 @@ const downloadImage = async (imgUrl: string, folder: string, filename: string): 
   // regex to remove all invalid characters not valid as windows folder name
   const invalidChars = /[<>"/\\?*x]/g;
   const imageFolder = path.join(imageFolderRoot, folder.replace(':', '-').replace('|', '-').replace(invalidChars, ''));
-  logger.info(`Downloading ${filename} to ${imageFolder}`);
 
   if (!fs.existsSync(imageFolder)) {
     fs.mkdirSync(imageFolder);
@@ -30,6 +29,7 @@ const downloadImage = async (imgUrl: string, folder: string, filename: string): 
     //logger.info(`Skipping ${filename} because it already exists.`);
     return;
   }
+  logger.info(`Downloading ${filename} to ${imageFolder}`);
 
   const fileStream = fs.createWriteStream(path.join(imageFolder, filename));
 
@@ -45,28 +45,39 @@ const downloadImage = async (imgUrl: string, folder: string, filename: string): 
 const run = async () => {
   
   for (const blog of blogs) {
-    logger.info(`Downloading ${blog.url}`);
+    logger.info(`blog>>> ${blog.url}`);
     await downloadImage( `https://media.diyblinds.com.au/${blog.heroImage}`, blog.title, getSlug(blog.heroImage));
-    blog.contentBlocks.forEach((block: any) => {
+    for(const contentBlock of blog.contentBlocks) {
+      const block = contentBlock as any;
       if (block.type == 'image') {
-        downloadImage( `https://media.diyblinds.com.au/${block.image}`, blog.title, getSlug(block.image));
+        await downloadImage( `https://media.diyblinds.com.au/${block.image}`, blog.title, getSlug(block.image));
       }
       if (block.type == 'contentTiles') {
-        block.images.forEach((image: string) => {
-          downloadImage( `https://media.diyblinds.com.au/${image}`, blog.title, getSlug(image));
+        block.images.forEach(async (image: string) => {
+          await downloadImage( `https://media.diyblinds.com.au/${image}`, blog.title, getSlug(image));
         });
       }
       if (block.type == 'gallery') {
-        block.images.forEach((image: string) => {
-          downloadImage( `https://media.diyblinds.com.au/${image}`, blog.title, getSlug(image));
+        block.images.forEach(async (image: string) => {
+          await downloadImage( `https://media.diyblinds.com.au/${image}`, blog.title, getSlug(image));
         });
       }
       if (block.type == 'imageCarousel') {
-        block.images.forEach((image: string) => {
-          downloadImage( `https://media.diyblinds.com.au/${image}`, blog.title, getSlug(image));
+        block.slides.forEach(async (slide: any) => {
+          await downloadImage( `https://media.diyblinds.com.au/${slide.image}`, blog.title, getSlug(slide.image));
         });
       }
-    });
+      if (block.type == 'richText') {
+        const docuemnt = block.content
+        for (const content of docuemnt.content) {
+          if (!content.nodeType && content.content[0].nodeType == 'embedded-asset-block') {
+            const embeddedAsset = content.content[0] as any;
+            console.log('embeddedAsset>>>>>>', blog.title, embeddedAsset.data.target.fields.file.url);
+            await downloadImage( `https://media.diyblinds.com.au/${embeddedAsset.data.target.fields.file.url}`, blog.title, getSlug(embeddedAsset.data.target.fields.file.url));
+          }
+        }
+      }
+    }
   }
 };
 

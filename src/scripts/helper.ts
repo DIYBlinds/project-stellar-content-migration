@@ -6,6 +6,7 @@ import tours from '../../.in/hometours.json';
 import showrooms from '../../.in/showrooms.json';
 import trends from '../../.in/trends.json';
 import tips from '../../.in/tips.json';
+import blogInclusions from '../../.in/blog-inclusions.json';
 
 const convertItalicNodes = (content: any[]) => {
     return content.map(node => {
@@ -31,11 +32,14 @@ const convertItalicNodes = (content: any[]) => {
 };
 
 const run = async () => {
-    for (const tip of tips as any[]) {
-        tip.id = generateId();
+    const newBlogs = []
+    for (const blog of blogs as any[]) {
+        if (blogInclusions.includes(blog.url)) {
+            newBlogs.push(blog);
+        }
     }
 
-    fs.writeFileSync('./.in/tips.json', JSON.stringify(tips, null, 2));
+    fs.writeFileSync('./.in/blogs.json', JSON.stringify(newBlogs, null, 2));
 };
 
 const fixRixchtextDocument = (block: any) => {

@@ -10,7 +10,7 @@ const excludes = [
 
 ];
 
-const imports = tips.splice(19, 30)
+const imports = tips
 console.log('imports>>>', imports.length);
 
 const metadata = {
