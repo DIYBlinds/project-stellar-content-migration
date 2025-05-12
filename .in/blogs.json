@@ -9759,18 +9759,10 @@
               "data": {},
               "content": [
                 {
-                  "nodeType": "hyperlink",
-                  "data": {
-                    "uri": "/inspiration/online-showroom/?spaces=Bathroom"
-                  },
-                  "content": [
-                    {
-                      "nodeType": "text",
-                      "value": "View more design inspirations at DIYBlinds",
-                      "marks": [],
-                      "data": {}
-                    }
-                  ]
+                  "nodeType": "text",
+                  "value": "View more design inspirations at DIYBlinds",
+                  "marks": [],
+                  "data": {}
                 }
               ]
             },
@@ -9821,18 +9813,10 @@
                   "data": {}
                 },
                 {
-                  "nodeType": "hyperlink",
-                  "data": {
-                    "uri": "/design-consult?ref=Blog"
-                  },
-                  "content": [
-                    {
-                      "nodeType": "text",
-                      "value": "design consultation service",
-                      "marks": [],
-                      "data": {}
-                    }
-                  ]
+                  "nodeType": "text",
+                  "value": "design consultation service",
+                  "marks": [],
+                  "data": {}
                 },
                 {
                   "nodeType": "text",
@@ -9849,6 +9833,7 @@
       {
         "type": "headline",
         "title": "So, what's the solution?",
+        "text": "",
         "id": "jj22hfugvx"
       }
     ],

@@ -10,7 +10,7 @@ const excludes = [
 
 ];
 
-const imports = blogs.filter((blog) => inclusions.includes(blog.url));
+const imports = blogs.filter((blog) => inclusions.includes(blog.url)).splice(20, 10);
 console.log('imports>>>', imports.length);
 
 const metadata = {
