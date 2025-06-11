@@ -33,7 +33,7 @@
     "download-tips-images": "ts-node src/scripts/download-tips-images.ts",
     "upload-tips-images": "ts-node src/scripts/upload-tips-images.ts",
     "create-tips": "ts-node src/scripts/create-tips.ts",
-    "upload-products-images": "ts-node src/scripts/upload-products-images.ts"
+    "upload-product-images": "ts-node src/scripts/upload-product-images.ts"
   },
   "dependencies": {
     "axios": "^1.8.4",
