@@ -1,8 +1,8 @@
-import rollerBlinds from '../../.in/roller-blinds.json'
+import venetian from '../../.in/venetian.json'
 import { upsertEntry } from '../utils/contentful'
 import { Fabric, FabricColour } from '../types/product'
 import fs from 'fs';
-const data = [...rollerBlinds]
+const data = [...venetian]
 
 const LOCALE = 'en-AU';
 const metadata = {
@@ -20,11 +20,29 @@ const metadata = {
 const helper = async () => {
     for(const fabricColour of data) {
         (fabricColour as any).slug = `/diyblinds/blinds/${fabricColour.productKey}`;
-        (fabricColour as any).faqTags = ['Blinds|Roller'];
+        (fabricColour as any).faqTags = ['Blinds|Venetian'];
+
+
+        (fabricColour as any).ref = `ref-${fabricColour.productKey.split('--')[0]}`;
+        (fabricColour as any).refVariant = `${(fabricColour as any).ref}-${fabricColour.fabricKey.split('--')[1]}`;
+        // extract minWidth and maxWidth from width property using regex
+        const width = (fabricColour as any).width;
+        
+        const minWidth = width.match(/min: (\d+)mm/)?.[1];
+        const maxWidth = width.match(/max: (\d+)mm/)?.[1];
+        (fabricColour as any).minWidth = minWidth;
+        (fabricColour as any).maxWidth = maxWidth;
+
+        // extract minDrop and maxDrop from drop property using regex
+        const drop = (fabricColour as any).drop;
+        const minDrop = drop.match(/min: (\d+)mm/)?.[1];
+        const maxDrop = drop.match(/max: (\d+)mm/)?.[1];
+        (fabricColour as any).minDrop = minDrop;
+        (fabricColour as any).maxDrop = maxDrop;
     }
 
     // save the data to a file
-    fs.writeFileSync('.in/roller-blinds.json', JSON.stringify(data, null, 2));
+    fs.writeFileSync('.in/venetian.json', JSON.stringify(data, null, 2));
 }
 
 const createFabrics = async () => {
@@ -63,7 +81,7 @@ const upsertFabricColour = async (fabricColour: FabricColour) => {
                 [LOCALE]: fabricColour.fabricColourKey
             },
             title: {
-                [LOCALE]: fabricColour.name
+                [LOCALE]: fabricColour.longHeadline
             },
             shortDescription    : {
                 [LOCALE]: toRichtext(fabricColour.shortDescription)
@@ -133,7 +151,7 @@ const upsertProduct = async (fabric: Fabric) => {
                     sys: {
                         type: 'Link',
                         linkType: 'Entry',
-                        id: '6b4P3Qbo6tVD70ifUENWg9'
+                        id: '4IRImZS6n9w1T6uaqieqko'
                     }
                 }
             },
