@@ -1,8 +1,10 @@
-import venetian from '../../.in/venetian.json'
+import rollerBlinds from '../../.in/roller-blinds.json'
+import venetianBlinds from '../../.in/venetian.json'
+import verticalBlinds from '../../.in/vertical-blinds.json'
 import { upsertEntry } from '../utils/contentful'
 import { Fabric, FabricColour } from '../types/product'
 import fs from 'fs';
-const data = [...venetian]
+const data = [...rollerBlinds, ...venetianBlinds, ...verticalBlinds]
 
 const LOCALE = 'en-AU';
 const metadata = {
@@ -20,7 +22,7 @@ const metadata = {
 const helper = async () => {
     for(const fabricColour of data) {
         (fabricColour as any).slug = `/diyblinds/blinds/${fabricColour.productKey}`;
-        (fabricColour as any).faqTags = ['Blinds|Venetian'];
+        (fabricColour as any).faqTags = ['Blinds|Vertical'];
 
 
         (fabricColour as any).ref = `ref-${fabricColour.productKey.split('--')[0]}`;
@@ -42,7 +44,7 @@ const helper = async () => {
     }
 
     // save the data to a file
-    fs.writeFileSync('.in/venetian.json', JSON.stringify(data, null, 2));
+    fs.writeFileSync('.in/vertical-blinds.json', JSON.stringify(data, null, 2));
 }
 
 const createFabrics = async () => {
@@ -73,10 +75,14 @@ const createFabrics = async () => {
 }
 
 const upsertFabricColour = async (fabricColour: FabricColour) => {
-    
+    const colour = fabricColour.fabricColourKey.split('--').pop()
+    const id = `fc--${fabricColour.productKey}--${colour}`
     const data = {
         metadata: metadata,
         fields: {
+            name: {
+                [LOCALE]: id
+            },
             fabricColourKey: {
                 [LOCALE]: fabricColour.fabricColourKey
             },
@@ -93,13 +99,17 @@ const upsertFabricColour = async (fabricColour: FabricColour) => {
         }
     }
 
-    await upsertEntry('fabricColour', fabricColour.fabricColourKey, data);
+    await upsertEntry('fabricColour', id, data);
 }
 
 const upsertFabric = async (fabric: Fabric) => {
+    const id = `f--${fabric.productKey}`
     const data = {
         metadata: metadata,
         fields: {
+            name: {
+                [LOCALE]: id
+            },
             fabricKey: {
                 [LOCALE]: fabric.fabricKey
             },
@@ -108,11 +118,12 @@ const upsertFabric = async (fabric: Fabric) => {
             },
             fabricColours: {
                 [LOCALE]: fabric.fabricColourKeys.map((fabricColourKey) => {    
+                    const colour = fabricColourKey.split('--').pop()
                     return {
                         sys: {
                             type: 'Link',
                             linkType: 'Entry',
-                            id: fabricColourKey
+                            id: `fc--${fabric.productKey}--${colour}`
                         }
                     }
                 })
@@ -120,7 +131,7 @@ const upsertFabric = async (fabric: Fabric) => {
         }
     }
 
-    await upsertEntry('fabric', fabric.fabricKey, data);
+    await upsertEntry('fabric', id, data);
 }
 
 const upsertProduct = async (fabric: Fabric) => {
@@ -139,7 +150,7 @@ const upsertProduct = async (fabric: Fabric) => {
                     sys: {
                         type: 'Link',
                         linkType: 'Entry',
-                        id: fabric.fabricKey
+                        id: `f--${fabric.productKey}`
                         }
                     }
             },

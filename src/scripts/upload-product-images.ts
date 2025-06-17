@@ -3,7 +3,7 @@ import path from 'path';
 import { uploadImage } from './upload';
 import { sanitizePublicId } from './upload';
 
-const rooms = ['living-room--panel-glides']
+const rooms = ['living-room--vertical-blinds', 'living-room--curtains']
 const run = async () => {
     const files = [];
     const refs = []
@@ -64,4 +64,30 @@ const run = async () => {
 
 };
 
-run().catch(console.error);
+const helper = async () => {
+    const refs = JSON.parse(fs.readFileSync('./.in/refs.json', 'utf8'))
+    for(const ref of refs) {
+        const fabric = ref.fabricKey.split('--').pop();
+        const color = ref.fabricVariantKey.split('--').pop();
+        if (ref.url.endsWith('blinds') || ref.url.endsWith('glides')) {
+            ref.fabricKey = `fabric-blinds--${fabric}`
+            ref.fabricVariantKey = `fabric-blinds--${fabric}--${color}`
+        }
+
+        if (ref.url.endsWith('curtains')) {
+            ref.fabricKey = `fabric-curtains--${fabric}`
+            ref.fabricVariantKey = `fabric-curtains--${fabric}--${color}`
+        }
+
+        if (ref.url.endsWith('shutters')) {
+            ref.fabricKey = `fabric-shutters--${fabric}`
+            ref.fabricVariantKey = `fabric-shutters--${fabric}--${color}`
+        }
+
+    }
+
+    fs.writeFileSync('./.in/refs.json', JSON.stringify(refs, null, 2))
+}
+
+//run().catch(console.error);
+helper()

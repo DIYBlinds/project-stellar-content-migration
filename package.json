@@ -34,7 +34,7 @@
     "upload-tips-images": "ts-node src/scripts/upload-tips-images.ts",
     "create-tips": "ts-node src/scripts/create-tips.ts",
     "upload-product-images": "ts-node src/scripts/upload-product-images.ts",
-    "create-fabrics": "ts-node src/scripts/create-fabrics.ts",
+    "create-preconfigured": "ts-node src/scripts/create-preconfigured.ts",
     "create-faq": "ts-node src/scripts/create-faq.ts"
   },
   "dependencies": {
