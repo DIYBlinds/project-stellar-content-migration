@@ -1,10 +1,11 @@
 import rollerBlinds from '../../.in/roller-blinds.json'
 import venetianBlinds from '../../.in/venetian.json'
 import verticalBlinds from '../../.in/vertical-blinds.json'
+import romanBlinds from '../../.in/roman-blinds.json'
 import { upsertEntry } from '../utils/contentful'
 import { Fabric, FabricColour } from '../types/product'
 import fs from 'fs';
-const data = [...rollerBlinds, ...venetianBlinds, ...verticalBlinds]
+const data = [...romanBlinds]
 
 const LOCALE = 'en-AU';
 const metadata = {
@@ -22,7 +23,7 @@ const metadata = {
 const helper = async () => {
     for(const fabricColour of data) {
         (fabricColour as any).slug = `/diyblinds/blinds/${fabricColour.productKey}`;
-        (fabricColour as any).faqTags = ['Blinds|Vertical'];
+        (fabricColour as any).faqTags = ['Blinds|Roman'];
 
 
         (fabricColour as any).ref = `ref-${fabricColour.productKey.split('--')[0]}`;
@@ -44,7 +45,7 @@ const helper = async () => {
     }
 
     // save the data to a file
-    fs.writeFileSync('.in/vertical-blinds.json', JSON.stringify(data, null, 2));
+    fs.writeFileSync('.in/roman-blinds.json', JSON.stringify(data, null, 2));
 }
 
 const createFabrics = async () => {
@@ -54,8 +55,8 @@ const createFabrics = async () => {
 
     // ransform fabricColours into Fabrics by groupping by fabricKey    
     const fabrics = data.reduce<Record<string, Fabric>>((acc, fabricColour) => {
-        acc[fabricColour.fabricKey] = acc[fabricColour.fabricKey] || [];
-        const fabric = acc[fabricColour.fabricKey]
+        acc[fabricColour.productKey] = acc[fabricColour.productKey] || [];
+        const fabric = acc[fabricColour.productKey]
         if (!fabric.fabricColourKeys) {
             fabric.fabricColourKeys = [];
         }
