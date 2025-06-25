@@ -3,6 +3,7 @@ export interface Fabric  {
     fabricKey: string;
     productKey: string;
     slug: string;
+    tagLine: string;
     featuredImage: string;
     faqTags: string[];
     longHeadline: string;

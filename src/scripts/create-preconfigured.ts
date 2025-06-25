@@ -2,10 +2,11 @@ import rollerBlinds from '../../.in/roller-blinds.json'
 import venetianBlinds from '../../.in/venetian.json'
 import verticalBlinds from '../../.in/vertical-blinds.json'
 import romanBlinds from '../../.in/roman-blinds.json'
+import curtains from '../../.in/curtains.json'
 import { upsertEntry } from '../utils/contentful'
 import { Fabric, FabricColour } from '../types/product'
 import fs from 'fs';
-const data = [...romanBlinds]
+const data = [...curtains,...romanBlinds, ...venetianBlinds, ...verticalBlinds,...rollerBlinds]
 
 const LOCALE = 'en-AU';
 const metadata = {
@@ -23,7 +24,7 @@ const metadata = {
 const helper = async () => {
     for(const fabricColour of data) {
         (fabricColour as any).slug = `/diyblinds/blinds/${fabricColour.productKey}`;
-        (fabricColour as any).faqTags = ['Blinds|Roman'];
+        (fabricColour as any).faqTags = ['Curtains','Curtains|Single'];
 
 
         (fabricColour as any).ref = `ref-${fabricColour.productKey.split('--')[0]}`;
@@ -45,13 +46,13 @@ const helper = async () => {
     }
 
     // save the data to a file
-    fs.writeFileSync('.in/roman-blinds.json', JSON.stringify(data, null, 2));
+    fs.writeFileSync('.in/curtains.json', JSON.stringify(data, null, 2));
 }
 
-const createFabrics = async () => {
-    for(const fabricColour of data) {
-        await upsertFabricColour(fabricColour)
-    }
+const run = async () => {
+    // for(const fabricColour of data) {
+    //     await upsertFabricColour(fabricColour)
+    // }
 
     // ransform fabricColours into Fabrics by groupping by fabricKey    
     const fabrics = data.reduce<Record<string, Fabric>>((acc, fabricColour) => {
@@ -66,11 +67,12 @@ const createFabrics = async () => {
         fabric.fabricKey = fabricColour.fabricKey;
         fabric.slug = fabricColour.slug;
         fabric.faqTags = fabricColour.faqTags;
+        fabric.tagLine = fabricColour.tagLine;
         return acc;
     }, {});
 
     for(const fabricKey in fabrics) {
-        await upsertFabric(fabrics[fabricKey])
+        //await upsertFabric(fabrics[fabricKey])
         await upsertProduct(fabrics[fabricKey])
     }
 }
@@ -146,6 +148,9 @@ const upsertProduct = async (fabric: Fabric) => {
             slug: {
                     [LOCALE]: fabric.slug
                 },
+            tagLine: {
+                [LOCALE]: fabric.tagLine
+            },
             fabric: {
                 [LOCALE]: {
                     sys: {
@@ -198,5 +203,5 @@ const toRichtext = (text: string) => {
     }
 }
 
-createFabrics()
+run()
 //helper()

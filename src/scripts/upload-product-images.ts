@@ -3,7 +3,7 @@ import path from 'path';
 import { uploadImage } from './upload';
 import { sanitizePublicId } from './upload';
 
-const rooms = ['living-room--vertical-blinds', 'living-room--curtains']
+const rooms = ['living-room--linked-blinds']
 const run = async () => {
     const files = [];
     const refs = []
@@ -40,7 +40,7 @@ const run = async () => {
             fabricVariantKey: `${imageName.split('.')[0]}`
         });
 
-        if (rooms.includes(room) || true) {
+        if (rooms.includes(room)) {
             // rename file
             fs.renameSync(imagePath, newImagePath);
             files.push({
@@ -53,15 +53,13 @@ const run = async () => {
     }
     fs.writeFileSync('./.in/refs.json', JSON.stringify(refs, null, 2))
 
-    // for(const file of files) {
-    //     const { path, product, room } = file
-    //     const publicId = path.split('\\').pop() ?? ''
-    //     if (product && room && path) {
-    //        await uploadImage(`06. Website/07. Renders/${room}/${product}`, path, publicId)
-    //     }
-    // }
-
-
+    for(const file of files) {
+        const { path, product, room } = file
+        const publicId = path.split('\\').pop() ?? ''
+        if (product && room && path) {
+           await uploadImage(`06. Website/07. Renders/${room}/${product}`, path, publicId)
+        }
+    }
 };
 
 const helper = async () => {
@@ -89,5 +87,5 @@ const helper = async () => {
     fs.writeFileSync('./.in/refs.json', JSON.stringify(refs, null, 2))
 }
 
-//run().catch(console.error);
-helper()
+run().catch(console.error);
+//helper()
