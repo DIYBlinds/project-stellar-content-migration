@@ -3,10 +3,13 @@ import venetianBlinds from '../../.in/venetian.json'
 import verticalBlinds from '../../.in/vertical-blinds.json'
 import romanBlinds from '../../.in/roman-blinds.json'
 import curtains from '../../.in/curtains.json'
+import curvedCurtains from '../../.in/curtains-curved.json'
+import boxAndBayCurtains from '../../.in/box-and-bay-curtains.json'
+import sfold from '../../.in/sfold-curtains.json'
 import { upsertEntry } from '../utils/contentful'
 import { Fabric, FabricColour } from '../types/product'
 import fs from 'fs';
-const data = [...curtains,...romanBlinds, ...venetianBlinds, ...verticalBlinds,...rollerBlinds]
+const data = [...sfold]
 
 const LOCALE = 'en-AU';
 const metadata = {
@@ -23,8 +26,8 @@ const metadata = {
 
 const helper = async () => {
     for(const fabricColour of data) {
-        (fabricColour as any).slug = `/diyblinds/blinds/${fabricColour.productKey}`;
-        (fabricColour as any).faqTags = ['Curtains','Curtains|Single'];
+        (fabricColour as any).slug = `/diyblinds/curtains/${fabricColour.productKey}`;
+        (fabricColour as any).faqTags = ['Curtains'];
 
 
         (fabricColour as any).ref = `ref-${fabricColour.productKey.split('--')[0]}`;
@@ -46,13 +49,13 @@ const helper = async () => {
     }
 
     // save the data to a file
-    fs.writeFileSync('.in/curtains.json', JSON.stringify(data, null, 2));
+    fs.writeFileSync('.in/sfold-curtains.json', JSON.stringify(data, null, 2));
 }
 
 const run = async () => {
-    // for(const fabricColour of data) {
-    //     await upsertFabricColour(fabricColour)
-    // }
+    for(const fabricColour of data) {
+        await upsertFabricColour(fabricColour)
+    }
 
     // ransform fabricColours into Fabrics by groupping by fabricKey    
     const fabrics = data.reduce<Record<string, Fabric>>((acc, fabricColour) => {
@@ -72,7 +75,7 @@ const run = async () => {
     }, {});
 
     for(const fabricKey in fabrics) {
-        //await upsertFabric(fabrics[fabricKey])
+        await upsertFabric(fabrics[fabricKey])
         await upsertProduct(fabrics[fabricKey])
     }
 }
@@ -203,5 +206,5 @@ const toRichtext = (text: string) => {
     }
 }
 
-run()
 //helper()
+run()

@@ -3,7 +3,8 @@ import path from 'path';
 import { uploadImage } from './upload';
 import { sanitizePublicId } from './upload';
 
-const rooms = ['living-room--linked-blinds']
+const rooms = ['bedroom--double-blinds', 'bedroom--linked-double-curtains']
+const products = ['ref-linked-blockout-and-light-filtering-double-blinds', 'ref-blockout-and-sunscreen-double-blinds']
 const run = async () => {
     const files = [];
     const refs = []
@@ -51,7 +52,7 @@ const run = async () => {
             })
         }
     }
-    fs.writeFileSync('./.in/refs.json', JSON.stringify(refs, null, 2))
+    //fs.writeFileSync('./.in/refs-2.json', JSON.stringify(refs.filter(ref => products.includes(ref.product ?? '')), null, 2))
 
     for(const file of files) {
         const { path, product, room } = file
