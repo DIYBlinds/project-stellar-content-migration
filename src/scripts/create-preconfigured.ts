@@ -5,11 +5,14 @@ import romanBlinds from '../../.in/roman-blinds.json'
 import curtains from '../../.in/curtains.json'
 import curvedCurtains from '../../.in/curtains-curved.json'
 import boxAndBayCurtains from '../../.in/box-and-bay-curtains.json'
+import doubleBlinds from '../../.in/double-blinds.json'
 import sfold from '../../.in/sfold-curtains.json'
+import doubleCurtains from '../../.in/double-curtains.json'
+import linedCurtains from '../../.in/lined-curtains.json'
 import { upsertEntry } from '../utils/contentful'
 import { Fabric, FabricColour } from '../types/product'
 import fs from 'fs';
-const data = [...sfold]
+const data = [...linedCurtains]
 
 const LOCALE = 'en-AU';
 const metadata = {
@@ -24,10 +27,19 @@ const metadata = {
     ]
 }
 
+const helper2 = async () => {
+    for(const fabricColour of data) {
+        const colourkey = fabricColour.fabricColourKey.split('--')[2];
+        (fabricColour as any).productVariantKey = `${fabricColour.productKey}--${colourkey}`;
+    }
+
+    fs.writeFileSync('.in/products.json', JSON.stringify(data, null, 2));
+}
+
 const helper = async () => {
     for(const fabricColour of data) {
         (fabricColour as any).slug = `/diyblinds/curtains/${fabricColour.productKey}`;
-        (fabricColour as any).faqTags = ['Curtains'];
+        (fabricColour as any).faqTags = ['Curtains', 'Curtains|Lined'];
 
 
         (fabricColour as any).ref = `ref-${fabricColour.productKey.split('--')[0]}`;
@@ -49,7 +61,7 @@ const helper = async () => {
     }
 
     // save the data to a file
-    fs.writeFileSync('.in/sfold-curtains.json', JSON.stringify(data, null, 2));
+    fs.writeFileSync('.in/lined-curtains.json', JSON.stringify(data, null, 2));
 }
 
 const run = async () => {
@@ -80,9 +92,16 @@ const run = async () => {
     }
 }
 
+const shortenId = (id: string) => {
+    return id
+    .replace('blockout-and-sunscreen-double-blinds', 'bo-sc-db')
+    .replace('blockout-and-light-filtering-double-blinds', 'bo-lf-db')
+    .replace('sheer-and-blockout-curtains', 'sh-bo-dc')
+}
+
 const upsertFabricColour = async (fabricColour: FabricColour) => {
     const colour = fabricColour.fabricColourKey.split('--').pop()
-    const id = `fc--${fabricColour.productKey}--${colour}`
+    const id = shortenId(`fc--${fabricColour.productKey}--${colour}`)
     const data = {
         metadata: metadata,
         fields: {
@@ -109,7 +128,7 @@ const upsertFabricColour = async (fabricColour: FabricColour) => {
 }
 
 const upsertFabric = async (fabric: Fabric) => {
-    const id = `f--${fabric.productKey}`
+    const id = shortenId(`f--${fabric.productKey}`)
     const data = {
         metadata: metadata,
         fields: {
@@ -129,7 +148,7 @@ const upsertFabric = async (fabric: Fabric) => {
                         sys: {
                             type: 'Link',
                             linkType: 'Entry',
-                            id: `fc--${fabric.productKey}--${colour}`
+                            id: `fc--${shortenId(fabric.productKey)}--${colour}`
                         }
                     }
                 })
@@ -159,7 +178,7 @@ const upsertProduct = async (fabric: Fabric) => {
                     sys: {
                         type: 'Link',
                         linkType: 'Entry',
-                        id: `f--${fabric.productKey}`
+                        id: `f--${shortenId(fabric.productKey)}`
                         }
                     }
             },
@@ -182,7 +201,7 @@ const upsertProduct = async (fabric: Fabric) => {
         
     }
 
-    await upsertEntry('preConfiguredProduct', fabric.productKey, data);
+    await upsertEntry('preConfiguredProduct', shortenId(fabric.productKey), data);
 }
 
 const toRichtext = (text: string) => {
@@ -208,3 +227,4 @@ const toRichtext = (text: string) => {
 
 //helper()
 run()
+//helper2()
