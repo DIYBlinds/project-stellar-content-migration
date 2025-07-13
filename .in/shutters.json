@@ -1,0 +1,26 @@
+[
+    {
+        "productKey": "polylux-plantation-shutter--polylux",
+        "name": "Pure White PolyLux",
+        "ref": "ref-polylux-plantation-shutter",
+        "fabricKey": "fabric-shutters--polylux",
+        "fabricColourKey": "fabric-shutters--polylux--pure-white",
+        "shortDescription": "Crafted in Australia and finished in crisp Pure White, PolyLux® Plantation Shutters bring a timeless look to any interior. With a 20-year guarantee, solid PVC construction, and classic beaded frame, they’re built for durability, privacy, and style.",
+        "tagLine": "100% custom made in Australia within 9 working days.",
+        "longHeadline": "Superior Light Control, Thermal Efficiency & Classic Style",
+        "longDescription": "Enhance your home with the clean, refined look of PolyLux® Plantation Shutters in Pure White. Designed and manufactured in Australia, these shutters feature a classic beaded frame and 89mm elliptical louvres, offering a perfect balance of light control and privacy.\n\nThe shutters are made from solid PVC with an aluminium core for added strength, making them ideal for all areas of the home,especially high-moisture spaces such as kitchens and bathrooms. The hidden tilt rod keeps the design streamlined, while the Pure White finish complements both traditional and contemporary interiors.\n\nAvailable with a range of frame options including L Frame and Z Frame, each set is tailored to fit your space precisely. Low maintenance, VOC free, and backed by a 20-year guarantee, PolyLux® shutters provide long-lasting beauty and performance at a fraction of the cost.",
+        "careInstructions": "Wipe PolyLux® shutters with a soft damp cloth and mild soap; avoid harsh cleaners to maintain their smooth finish and lasting durability.",
+        "width": "min: 300mm / max: 3600mm",
+        "drop": "min: 400mm / max: 2600mm",
+        "slug": "/diyblinds/shutters/polylux-plantation-shutter--polylux",
+        "faqTags": [
+          "Shutters",
+          "Shutters|Plantation"
+        ],
+        "refVariant": "ref-polylux-plantation-shutter-polylux",
+        "minDrop": "400",
+        "maxDrop": "2600",
+        "minWidth": "300",
+        "maxWidth": "3600"
+      }
+]

@@ -9,10 +9,13 @@ import doubleBlinds from '../../.in/double-blinds.json'
 import sfold from '../../.in/sfold-curtains.json'
 import doubleCurtains from '../../.in/double-curtains.json'
 import linedCurtains from '../../.in/lined-curtains.json'
+import panelGlides from '../../.in/panel-glides.json'
+import shutters from '../../.in/shutters.json'
+import linkedBlinds from '../../.in/linked-blinds.json'
 import { upsertEntry } from '../utils/contentful'
 import { Fabric, FabricColour } from '../types/product'
 import fs from 'fs';
-const data = [...linedCurtains]
+const data = [...shutters]
 
 const LOCALE = 'en-AU';
 const metadata = {
@@ -38,8 +41,8 @@ const helper2 = async () => {
 
 const helper = async () => {
     for(const fabricColour of data) {
-        (fabricColour as any).slug = `/diyblinds/curtains/${fabricColour.productKey}`;
-        (fabricColour as any).faqTags = ['Curtains', 'Curtains|Lined'];
+        (fabricColour as any).slug = `/diyblinds/blinds/${fabricColour.productKey}`;
+        (fabricColour as any).faqTags = ['Blinds', 'Blinds|Linked'];
 
 
         (fabricColour as any).ref = `ref-${fabricColour.productKey.split('--')[0]}`;
@@ -61,7 +64,7 @@ const helper = async () => {
     }
 
     // save the data to a file
-    fs.writeFileSync('.in/lined-curtains.json', JSON.stringify(data, null, 2));
+    fs.writeFileSync('.in/linked-blinds.json', JSON.stringify(data, null, 2));
 }
 
 const run = async () => {
@@ -97,6 +100,9 @@ const shortenId = (id: string) => {
     .replace('blockout-and-sunscreen-double-blinds', 'bo-sc-db')
     .replace('blockout-and-light-filtering-double-blinds', 'bo-lf-db')
     .replace('sheer-and-blockout-curtains', 'sh-bo-dc')
+    .replace('linked-light-filtering-roller-blinds', 'linked-lf-blinds')
+    .replace('linked-blockout-roller-blinds', 'linked-bo-blinds')
+
 }
 
 const upsertFabricColour = async (fabricColour: FabricColour) => {
