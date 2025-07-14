@@ -12,10 +12,11 @@ import linedCurtains from '../../.in/lined-curtains.json'
 import panelGlides from '../../.in/panel-glides.json'
 import shutters from '../../.in/shutters.json'
 import linkedBlinds from '../../.in/linked-blinds.json'
+import linkedDoubleBlinds from '../../.in/linked-double-blinds.json'
 import { upsertEntry } from '../utils/contentful'
 import { Fabric, FabricColour } from '../types/product'
 import fs from 'fs';
-const data = [...shutters]
+const data = [...boxAndBayCurtains]
 
 const LOCALE = 'en-AU';
 const metadata = {
@@ -42,7 +43,7 @@ const helper2 = async () => {
 const helper = async () => {
     for(const fabricColour of data) {
         (fabricColour as any).slug = `/diyblinds/blinds/${fabricColour.productKey}`;
-        (fabricColour as any).faqTags = ['Blinds', 'Blinds|Linked'];
+        (fabricColour as any).faqTags = ['Blinds', 'Blinds|Linked', 'Blinds|Double'];
 
 
         (fabricColour as any).ref = `ref-${fabricColour.productKey.split('--')[0]}`;
@@ -64,13 +65,13 @@ const helper = async () => {
     }
 
     // save the data to a file
-    fs.writeFileSync('.in/linked-blinds.json', JSON.stringify(data, null, 2));
+    fs.writeFileSync('.in/linked-double-blinds.json', JSON.stringify(data, null, 2));
 }
 
 const run = async () => {
-    for(const fabricColour of data) {
-        await upsertFabricColour(fabricColour)
-    }
+    // for(const fabricColour of data) {
+    //     await upsertFabricColour(fabricColour)
+    // }
 
     // ransform fabricColours into Fabrics by groupping by fabricKey    
     const fabrics = data.reduce<Record<string, Fabric>>((acc, fabricColour) => {
@@ -86,11 +87,12 @@ const run = async () => {
         fabric.slug = fabricColour.slug;
         fabric.faqTags = fabricColour.faqTags;
         fabric.tagLine = fabricColour.tagLine;
+        fabric.configurator = fabricColour.configurator;
         return acc;
     }, {});
 
     for(const fabricKey in fabrics) {
-        await upsertFabric(fabrics[fabricKey])
+        //await upsertFabric(fabrics[fabricKey])
         await upsertProduct(fabrics[fabricKey])
     }
 }
@@ -102,6 +104,8 @@ const shortenId = (id: string) => {
     .replace('sheer-and-blockout-curtains', 'sh-bo-dc')
     .replace('linked-light-filtering-roller-blinds', 'linked-lf-blinds')
     .replace('linked-blockout-roller-blinds', 'linked-bo-blinds')
+    .replace('linked-blockout-and-sunscreen-double-blinds', 'linked-bo-sc-db')
+    .replace('linked-blockout-and-light-filtering-double-blinds', 'linked-bo-lf-db')
 
 }
 
@@ -196,7 +200,7 @@ const upsertProduct = async (fabric: Fabric) => {
                     sys: {
                         type: 'Link',
                         linkType: 'Entry',
-                        id: '4IRImZS6n9w1T6uaqieqko'
+                        id: fabric.configurator
                     }
                 }
             },

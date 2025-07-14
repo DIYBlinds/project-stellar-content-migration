@@ -8,6 +8,7 @@ export interface Fabric  {
     faqTags: string[];
     longHeadline: string;
     fabricColourKeys: string[];
+    configurator: string;
 }
 
 export interface FabricColour  {
@@ -20,4 +21,5 @@ export interface FabricColour  {
     longHeadline: string;
     longDescription: string;
     careInstructions: string;
+    configurator: string;
 }
