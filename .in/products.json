@@ -14219,8 +14219,8 @@
       "Curtains",
       "Curtains|Single"
     ],
-    "ref": "ref-dimout",
-    "refVariant": "ref-dimout-aurelius",
+    "ref": "ref-dimout-curtains",
+    "refVariant": "ref-dimout-curtains-aurelius",
     "minWidth": "900",
     "maxWidth": "8000",
     "minDrop": "900",

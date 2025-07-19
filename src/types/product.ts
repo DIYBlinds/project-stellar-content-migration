@@ -1,6 +1,7 @@
 
 export interface Fabric  {
     fabricKey: string;
+    backFabricKey?: string;
     productKey: string;
     slug: string;
     tagLine: string;
@@ -9,6 +10,8 @@ export interface Fabric  {
     longHeadline: string;
     fabricColourKeys: string[];
     configurator: string;
+    finish: string;
+    snapshot?: any;
 }
 
 export interface FabricColour  {
@@ -22,4 +25,5 @@ export interface FabricColour  {
     longDescription: string;
     careInstructions: string;
     configurator: string;
+    finish: string;
 }

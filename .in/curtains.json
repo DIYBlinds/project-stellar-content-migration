@@ -17,6 +17,7 @@
 			"Curtains|Single"
 		],
 		"ref": "ref-sheer-curtains",
+		"finish": "finish--sheer-curtain",
 		"refVariant": "ref-sheer-curtains-aesop",
 		"minWidth": "900",
 		"maxWidth": "8000",
@@ -42,6 +43,7 @@
 			"Curtains|Single"
 		],
 		"ref": "ref-sheer-curtains",
+		"finish": "finish--sheer-curtain",
 		"refVariant": "ref-sheer-curtains-aesop",
 		"minWidth": "900",
 		"maxWidth": "8000",
@@ -67,6 +69,7 @@
 			"Curtains|Single"
 		],
 		"ref": "ref-sheer-curtains",
+		"finish": "finish--sheer-curtain",
 		"refVariant": "ref-sheer-curtains-aesop",
 		"minWidth": "900",
 		"maxWidth": "8000",
@@ -92,6 +95,7 @@
 			"Curtains|Single"
 		],
 		"ref": "ref-sheer-curtains",
+		"finish": "finish--sheer-curtain",
 		"refVariant": "ref-sheer-curtains-aesop",
 		"minWidth": "900",
 		"maxWidth": "8000",
@@ -117,6 +121,7 @@
 			"Curtains|Single"
 		],
 		"ref": "ref-sheer-curtains",
+		"finish": "finish--sheer-curtain",
 		"refVariant": "ref-sheer-curtains-aesop",
 		"minWidth": "900",
 		"maxWidth": "8000",
@@ -142,6 +147,7 @@
 			"Curtains|Single"
 		],
 		"ref": "ref-sheer-curtains",
+		"finish": "finish--sheer-curtain",
 		"refVariant": "ref-sheer-curtains-aesop",
 		"minWidth": "900",
 		"maxWidth": "8000",
@@ -167,6 +173,7 @@
 			"Curtains|Single"
 		],
 		"ref": "ref-sheer-curtains",
+		"finish": "finish--sheer-curtain",
 		"refVariant": "ref-sheer-curtains-alexandra",
 		"minWidth": "900",
 		"maxWidth": "8000",
@@ -192,6 +199,7 @@
 			"Curtains|Single"
 		],
 		"ref": "ref-sheer-curtains",
+		"finish": "finish--sheer-curtain",
 		"refVariant": "ref-sheer-curtains-alexandra",
 		"minWidth": "900",
 		"maxWidth": "8000",
@@ -217,6 +225,7 @@
 			"Curtains|Single"
 		],
 		"ref": "ref-sheer-curtains",
+		"finish": "finish--sheer-curtain",
 		"refVariant": "ref-sheer-curtains-alexandra",
 		"minWidth": "900",
 		"maxWidth": "8000",
@@ -242,6 +251,7 @@
 			"Curtains|Single"
 		],
 		"ref": "ref-sheer-curtains",
+		"finish": "finish--sheer-curtain",
 		"refVariant": "ref-sheer-curtains-alexandra",
 		"minWidth": "900",
 		"maxWidth": "8000",
@@ -267,6 +277,7 @@
 			"Curtains|Single"
 		],
 		"ref": "ref-sheer-curtains",
+		"finish": "finish--sheer-curtain",
 		"refVariant": "ref-sheer-curtains-alexandra",
 		"minWidth": "900",
 		"maxWidth": "8000",
@@ -292,6 +303,7 @@
 			"Curtains|Single"
 		],
 		"ref": "ref-sheer-curtains",
+		"finish": "finish--sheer-curtain",
 		"refVariant": "ref-sheer-curtains-alexandra",
 		"minWidth": "900",
 		"maxWidth": "8000",
@@ -317,6 +329,7 @@
 			"Curtains|Single"
 		],
 		"ref": "ref-sheer-curtains",
+		"finish": "finish--sheer-curtain",
 		"refVariant": "ref-sheer-curtains-allusion",
 		"minWidth": "900",
 		"maxWidth": "8000",
@@ -342,6 +355,7 @@
 			"Curtains|Single"
 		],
 		"ref": "ref-sheer-curtains",
+		"finish": "finish--sheer-curtain",
 		"refVariant": "ref-sheer-curtains-allusion",
 		"minWidth": "900",
 		"maxWidth": "8000",
@@ -367,6 +381,7 @@
 			"Curtains|Single"
 		],
 		"ref": "ref-sheer-curtains",
+		"finish": "finish--sheer-curtain",
 		"refVariant": "ref-sheer-curtains-allusion",
 		"minWidth": "900",
 		"maxWidth": "8000",
@@ -392,6 +407,7 @@
 			"Curtains|Single"
 		],
 		"ref": "ref-sheer-curtains",
+		"finish": "finish--sheer-curtain",
 		"refVariant": "ref-sheer-curtains-allusion",
 		"minWidth": "900",
 		"maxWidth": "8000",
@@ -417,6 +433,7 @@
 			"Curtains|Single"
 		],
 		"ref": "ref-sheer-curtains",
+		"finish": "finish--sheer-curtain",
 		"refVariant": "ref-sheer-curtains-allusion",
 		"minWidth": "900",
 		"maxWidth": "8000",
@@ -442,6 +459,7 @@
 			"Curtains|Single"
 		],
 		"ref": "ref-sheer-curtains",
+		"finish": "finish--sheer-curtain",
 		"refVariant": "ref-sheer-curtains-allusion",
 		"minWidth": "900",
 		"maxWidth": "8000",
@@ -467,6 +485,7 @@
 			"Curtains|Single"
 		],
 		"ref": "ref-sheer-curtains",
+		"finish": "finish--sheer-curtain",
 		"refVariant": "ref-sheer-curtains-allusion",
 		"minWidth": "900",
 		"maxWidth": "8000",
@@ -492,6 +511,7 @@
 			"Curtains|Single"
 		],
 		"ref": "ref-sheer-curtains",
+		"finish": "finish--sheer-curtain",
 		"refVariant": "ref-sheer-curtains-allusion",
 		"minWidth": "900",
 		"maxWidth": "8000",
@@ -517,6 +537,7 @@
 			"Curtains|Single"
 		],
 		"ref": "ref-sheer-curtains",
+		"finish": "finish--sheer-curtain",
 		"refVariant": "ref-sheer-curtains-allusion",
 		"minWidth": "900",
 		"maxWidth": "8000",
@@ -542,6 +563,7 @@
 			"Curtains|Single"
 		],
 		"ref": "ref-sheer-curtains",
+		"finish": "finish--sheer-curtain",
 		"refVariant": "ref-sheer-curtains-allusion",
 		"minWidth": "900",
 		"maxWidth": "8000",
@@ -567,6 +589,7 @@
 			"Curtains|Single"
 		],
 		"ref": "ref-sheer-curtains",
+		"finish": "finish--sheer-curtain",
 		"refVariant": "ref-sheer-curtains-allusion",
 		"minWidth": "900",
 		"maxWidth": "8000",
@@ -592,6 +615,7 @@
 			"Curtains|Single"
 		],
 		"ref": "ref-sheer-curtains",
+		"finish": "finish--sheer-curtain",
 		"refVariant": "ref-sheer-curtains-allusion",
 		"minWidth": "900",
 		"maxWidth": "8000",
@@ -617,6 +641,7 @@
 			"Curtains|Single"
 		],
 		"ref": "ref-sheer-curtains",
+		"finish": "finish--sheer-curtain",
 		"refVariant": "ref-sheer-curtains-allusion",
 		"minWidth": "900",
 		"maxWidth": "8000",
@@ -642,6 +667,7 @@
 			"Curtains|Single"
 		],
 		"ref": "ref-blockout-curtains",
+		"finish": "finish--blockout-curtain",
 		"refVariant": "ref-blockout-curtains-anstey",
 		"minWidth": "900",
 		"maxWidth": "8000",
@@ -667,6 +693,7 @@
 			"Curtains|Single"
 		],
 		"ref": "ref-blockout-curtains",
+		"finish": "finish--blockout-curtain",
 		"refVariant": "ref-blockout-curtains-anstey",
 		"minWidth": "900",
 		"maxWidth": "8000",
@@ -692,6 +719,7 @@
 			"Curtains|Single"
 		],
 		"ref": "ref-blockout-curtains",
+		"finish": "finish--blockout-curtain",
 		"refVariant": "ref-blockout-curtains-anstey",
 		"minWidth": "900",
 		"maxWidth": "8000",
@@ -717,6 +745,7 @@
 			"Curtains|Single"
 		],
 		"ref": "ref-blockout-curtains",
+		"finish": "finish--blockout-curtain",
 		"refVariant": "ref-blockout-curtains-anstey",
 		"minWidth": "900",
 		"maxWidth": "8000",
@@ -742,6 +771,7 @@
 			"Curtains|Single"
 		],
 		"ref": "ref-blockout-curtains",
+		"finish": "finish--blockout-curtain",
 		"refVariant": "ref-blockout-curtains-anstey",
 		"minWidth": "900",
 		"maxWidth": "8000",
@@ -767,6 +797,7 @@
 			"Curtains|Single"
 		],
 		"ref": "ref-blockout-curtains",
+		"finish": "finish--blockout-curtain",
 		"refVariant": "ref-blockout-curtains-aspro",
 		"minWidth": "900",
 		"maxWidth": "8000",
@@ -792,6 +823,7 @@
 			"Curtains|Single"
 		],
 		"ref": "ref-blockout-curtains",
+		"finish": "finish--blockout-curtain",
 		"refVariant": "ref-blockout-curtains-aspro",
 		"minWidth": "900",
 		"maxWidth": "8000",
@@ -817,6 +849,7 @@
 			"Curtains|Single"
 		],
 		"ref": "ref-blockout-curtains",
+		"finish": "finish--blockout-curtain",
 		"refVariant": "ref-blockout-curtains-aspro",
 		"minWidth": "900",
 		"maxWidth": "8000",
@@ -842,6 +875,7 @@
 			"Curtains|Single"
 		],
 		"ref": "ref-blockout-curtains",
+		"finish": "finish--blockout-curtain",
 		"refVariant": "ref-blockout-curtains-aspro",
 		"minWidth": "900",
 		"maxWidth": "8000",
@@ -867,6 +901,7 @@
 			"Curtains|Single"
 		],
 		"ref": "ref-blockout-curtains",
+		"finish": "finish--blockout-curtain",
 		"refVariant": "ref-blockout-curtains-aspro",
 		"minWidth": "900",
 		"maxWidth": "8000",
@@ -892,6 +927,7 @@
 			"Curtains|Single"
 		],
 		"ref": "ref-blockout-curtains",
+		"finish": "finish--blockout-curtain",
 		"refVariant": "ref-blockout-curtains-aspro",
 		"minWidth": "900",
 		"maxWidth": "8000",
@@ -917,6 +953,7 @@
 			"Curtains|Single"
 		],
 		"ref": "ref-sheer-curtains",
+		"finish": "finish--sheer-curtain",
 		"refVariant": "ref-sheer-curtains-audiance",
 		"minWidth": "900",
 		"maxWidth": "8000",
@@ -942,6 +979,7 @@
 			"Curtains|Single"
 		],
 		"ref": "ref-sheer-curtains",
+		"finish": "finish--sheer-curtain",
 		"refVariant": "ref-sheer-curtains-audiance",
 		"minWidth": "900",
 		"maxWidth": "8000",
@@ -967,6 +1005,7 @@
 			"Curtains|Single"
 		],
 		"ref": "ref-sheer-curtains",
+		"finish": "finish--sheer-curtain",
 		"refVariant": "ref-sheer-curtains-audiance",
 		"minWidth": "900",
 		"maxWidth": "8000",
@@ -992,6 +1031,7 @@
 			"Curtains|Single"
 		],
 		"ref": "ref-sheer-curtains",
+		"finish": "finish--sheer-curtain",
 		"refVariant": "ref-sheer-curtains-audiance",
 		"minWidth": "900",
 		"maxWidth": "8000",
@@ -1017,6 +1057,7 @@
 			"Curtains|Single"
 		],
 		"ref": "ref-sheer-curtains",
+		"finish": "finish--sheer-curtain",
 		"refVariant": "ref-sheer-curtains-audiance",
 		"minWidth": "900",
 		"maxWidth": "8000",
@@ -1042,6 +1083,7 @@
 			"Curtains|Single"
 		],
 		"ref": "ref-sheer-curtains",
+		"finish": "finish--sheer-curtain",
 		"refVariant": "ref-sheer-curtains-audiance",
 		"minWidth": "900",
 		"maxWidth": "8000",
@@ -1067,6 +1109,7 @@
 			"Curtains|Single"
 		],
 		"ref": "ref-blockout-curtains",
+		"finish": "finish--blockout-curtain",
 		"refVariant": "ref-blockout-curtains-belmore",
 		"minWidth": "900",
 		"maxWidth": "8000",
@@ -1092,6 +1135,7 @@
 			"Curtains|Single"
 		],
 		"ref": "ref-blockout-curtains",
+		"finish": "finish--blockout-curtain",
 		"refVariant": "ref-blockout-curtains-belmore",
 		"minWidth": "900",
 		"maxWidth": "8000",
@@ -1117,6 +1161,7 @@
 			"Curtains|Single"
 		],
 		"ref": "ref-blockout-curtains",
+		"finish": "finish--blockout-curtain",
 		"refVariant": "ref-blockout-curtains-belmore",
 		"minWidth": "900",
 		"maxWidth": "8000",
@@ -1142,6 +1187,7 @@
 			"Curtains|Single"
 		],
 		"ref": "ref-blockout-curtains",
+		"finish": "finish--blockout-curtain",
 		"refVariant": "ref-blockout-curtains-belmore",
 		"minWidth": "900",
 		"maxWidth": "8000",
@@ -1167,6 +1213,7 @@
 			"Curtains|Single"
 		],
 		"ref": "ref-blockout-curtains",
+		"finish": "finish--blockout-curtain",
 		"refVariant": "ref-blockout-curtains-belmore",
 		"minWidth": "900",
 		"maxWidth": "8000",
@@ -1192,6 +1239,7 @@
 			"Curtains|Single"
 		],
 		"ref": "ref-blockout-curtains",
+		"finish": "finish--blockout-curtain",
 		"refVariant": "ref-blockout-curtains-belmore",
 		"minWidth": "900",
 		"maxWidth": "8000",
@@ -1217,6 +1265,7 @@
 			"Curtains|Single"
 		],
 		"ref": "ref-sheer-curtains",
+		"finish": "finish--sheer-curtain",
 		"refVariant": "ref-sheer-curtains-burano",
 		"minWidth": "900",
 		"maxWidth": "8000",
@@ -1242,6 +1291,7 @@
 			"Curtains|Single"
 		],
 		"ref": "ref-sheer-curtains",
+		"finish": "finish--sheer-curtain",
 		"refVariant": "ref-sheer-curtains-burano",
 		"minWidth": "900",
 		"maxWidth": "8000",
@@ -1267,6 +1317,7 @@
 			"Curtains|Single"
 		],
 		"ref": "ref-sheer-curtains",
+		"finish": "finish--sheer-curtain",
 		"refVariant": "ref-sheer-curtains-burano",
 		"minWidth": "900",
 		"maxWidth": "8000",
@@ -1292,6 +1343,7 @@
 			"Curtains|Single"
 		],
 		"ref": "ref-sheer-curtains",
+		"finish": "finish--sheer-curtain",
 		"refVariant": "ref-sheer-curtains-burano",
 		"minWidth": "900",
 		"maxWidth": "8000",
@@ -1317,6 +1369,7 @@
 			"Curtains|Single"
 		],
 		"ref": "ref-sheer-curtains",
+		"finish": "finish--sheer-curtain",
 		"refVariant": "ref-sheer-curtains-burano",
 		"minWidth": "900",
 		"maxWidth": "8000",
@@ -1342,6 +1395,7 @@
 			"Curtains|Single"
 		],
 		"ref": "ref-sheer-curtains",
+		"finish": "finish--sheer-curtain",
 		"refVariant": "ref-sheer-curtains-burano",
 		"minWidth": "900",
 		"maxWidth": "8000",
@@ -1367,6 +1421,7 @@
 			"Curtains|Single"
 		],
 		"ref": "ref-sheer-curtains",
+		"finish": "finish--sheer-curtain",
 		"refVariant": "ref-sheer-curtains-centennial",
 		"minWidth": "900",
 		"maxWidth": "8000",
@@ -1392,6 +1447,7 @@
 			"Curtains|Single"
 		],
 		"ref": "ref-sheer-curtains",
+		"finish": "finish--sheer-curtain",
 		"refVariant": "ref-sheer-curtains-centennial",
 		"minWidth": "900",
 		"maxWidth": "8000",
@@ -1417,6 +1473,7 @@
 			"Curtains|Single"
 		],
 		"ref": "ref-sheer-curtains",
+		"finish": "finish--sheer-curtain",
 		"refVariant": "ref-sheer-curtains-centennial",
 		"minWidth": "900",
 		"maxWidth": "8000",
@@ -1442,6 +1499,7 @@
 			"Curtains|Single"
 		],
 		"ref": "ref-sheer-curtains",
+		"finish": "finish--sheer-curtain",
 		"refVariant": "ref-sheer-curtains-centennial",
 		"minWidth": "900",
 		"maxWidth": "8000",
@@ -1467,6 +1525,7 @@
 			"Curtains|Single"
 		],
 		"ref": "ref-sheer-curtains",
+		"finish": "finish--sheer-curtain",
 		"refVariant": "ref-sheer-curtains-centennial",
 		"minWidth": "900",
 		"maxWidth": "8000",
@@ -1492,6 +1551,7 @@
 			"Curtains|Single"
 		],
 		"ref": "ref-sheer-curtains",
+		"finish": "finish--sheer-curtain",
 		"refVariant": "ref-sheer-curtains-centennial",
 		"minWidth": "900",
 		"maxWidth": "8000",
@@ -1517,6 +1577,7 @@
 			"Curtains|Single"
 		],
 		"ref": "ref-sheer-curtains",
+		"finish": "finish--sheer-curtain",
 		"refVariant": "ref-sheer-curtains-centennial",
 		"minWidth": "900",
 		"maxWidth": "8000",
@@ -1542,6 +1603,7 @@
 			"Curtains|Single"
 		],
 		"ref": "ref-sheer-curtains",
+		"finish": "finish--sheer-curtain",
 		"refVariant": "ref-sheer-curtains-jilliby",
 		"minWidth": "900",
 		"maxWidth": "8000",
@@ -1567,6 +1629,7 @@
 			"Curtains|Single"
 		],
 		"ref": "ref-sheer-curtains",
+		"finish": "finish--sheer-curtain",
 		"refVariant": "ref-sheer-curtains-jilliby",
 		"minWidth": "900",
 		"maxWidth": "8000",
@@ -1592,6 +1655,7 @@
 			"Curtains|Single"
 		],
 		"ref": "ref-sheer-curtains",
+		"finish": "finish--sheer-curtain",
 		"refVariant": "ref-sheer-curtains-jilliby",
 		"minWidth": "900",
 		"maxWidth": "8000",
@@ -1617,6 +1681,7 @@
 			"Curtains|Single"
 		],
 		"ref": "ref-sheer-curtains",
+		"finish": "finish--sheer-curtain",
 		"refVariant": "ref-sheer-curtains-jilliby",
 		"minWidth": "900",
 		"maxWidth": "8000",
@@ -1642,6 +1707,7 @@
 			"Curtains|Single"
 		],
 		"ref": "ref-sheer-curtains",
+		"finish": "finish--sheer-curtain",
 		"refVariant": "ref-sheer-curtains-laconia-air",
 		"minWidth": "900",
 		"maxWidth": "8000",
@@ -1667,6 +1733,7 @@
 			"Curtains|Single"
 		],
 		"ref": "ref-sheer-curtains",
+		"finish": "finish--sheer-curtain",
 		"refVariant": "ref-sheer-curtains-laconia-air",
 		"minWidth": "900",
 		"maxWidth": "8000",
@@ -1692,6 +1759,7 @@
 			"Curtains|Single"
 		],
 		"ref": "ref-sheer-curtains",
+		"finish": "finish--sheer-curtain",
 		"refVariant": "ref-sheer-curtains-laconia-air",
 		"minWidth": "900",
 		"maxWidth": "8000",
@@ -1717,6 +1785,7 @@
 			"Curtains|Single"
 		],
 		"ref": "ref-sheer-curtains",
+		"finish": "finish--sheer-curtain",
 		"refVariant": "ref-sheer-curtains-laconia-air",
 		"minWidth": "900",
 		"maxWidth": "8000",
@@ -1742,6 +1811,7 @@
 			"Curtains|Single"
 		],
 		"ref": "ref-sheer-curtains",
+		"finish": "finish--sheer-curtain",
 		"refVariant": "ref-sheer-curtains-laconia-air",
 		"minWidth": "900",
 		"maxWidth": "8000",
@@ -1767,6 +1837,7 @@
 			"Curtains|Single"
 		],
 		"ref": "ref-blockout-curtains",
+		"finish": "finish--blockout-curtain",
 		"refVariant": "ref-blockout-curtains-mavro",
 		"minWidth": "900",
 		"maxWidth": "8000",
@@ -1792,6 +1863,7 @@
 			"Curtains|Single"
 		],
 		"ref": "ref-blockout-curtains",
+		"finish": "finish--blockout-curtain",
 		"refVariant": "ref-blockout-curtains-mavro",
 		"minWidth": "900",
 		"maxWidth": "8000",
@@ -1817,6 +1889,7 @@
 			"Curtains|Single"
 		],
 		"ref": "ref-blockout-curtains",
+		"finish": "finish--blockout-curtain",
 		"refVariant": "ref-blockout-curtains-mavro",
 		"minWidth": "900",
 		"maxWidth": "8000",
@@ -1842,6 +1915,7 @@
 			"Curtains|Single"
 		],
 		"ref": "ref-blockout-curtains",
+		"finish": "finish--blockout-curtain",
 		"refVariant": "ref-blockout-curtains-mavro",
 		"minWidth": "900",
 		"maxWidth": "8000",
@@ -1867,6 +1941,7 @@
 			"Curtains|Single"
 		],
 		"ref": "ref-blockout-curtains",
+		"finish": "finish--blockout-curtain",
 		"refVariant": "ref-blockout-curtains-mavro",
 		"minWidth": "900",
 		"maxWidth": "8000",
@@ -1892,6 +1967,7 @@
 			"Curtains|Single"
 		],
 		"ref": "ref-blockout-curtains",
+		"finish": "finish--blockout-curtain",
 		"refVariant": "ref-blockout-curtains-mavro",
 		"minWidth": "900",
 		"maxWidth": "8000",
@@ -1917,6 +1993,7 @@
 			"Curtains|Single"
 		],
 		"ref": "ref-sheer-curtains",
+		"finish": "finish--sheer-curtain",
 		"refVariant": "ref-sheer-curtains-mavi",
 		"minWidth": "900",
 		"maxWidth": "8000",
@@ -1942,6 +2019,7 @@
 			"Curtains|Single"
 		],
 		"ref": "ref-sheer-curtains",
+		"finish": "finish--sheer-curtain",
 		"refVariant": "ref-sheer-curtains-mavi",
 		"minWidth": "900",
 		"maxWidth": "8000",
@@ -1967,6 +2045,7 @@
 			"Curtains|Single"
 		],
 		"ref": "ref-sheer-curtains",
+		"finish": "finish--sheer-curtain",
 		"refVariant": "ref-sheer-curtains-mavi",
 		"minWidth": "900",
 		"maxWidth": "8000",
@@ -1992,6 +2071,7 @@
 			"Curtains|Single"
 		],
 		"ref": "ref-sheer-curtains",
+		"finish": "finish--sheer-curtain",
 		"refVariant": "ref-sheer-curtains-mavi",
 		"minWidth": "900",
 		"maxWidth": "8000",
@@ -2017,6 +2097,7 @@
 			"Curtains|Single"
 		],
 		"ref": "ref-sheer-curtains",
+		"finish": "finish--sheer-curtain",
 		"refVariant": "ref-sheer-curtains-mavi",
 		"minWidth": "900",
 		"maxWidth": "8000",
@@ -2042,6 +2123,7 @@
 			"Curtains|Single"
 		],
 		"ref": "ref-sheer-curtains",
+		"finish": "finish--sheer-curtain",
 		"refVariant": "ref-sheer-curtains-mavi",
 		"minWidth": "900",
 		"maxWidth": "8000",
@@ -2067,6 +2149,7 @@
 			"Curtains|Single"
 		],
 		"ref": "ref-sheer-curtains",
+		"finish": "finish--sheer-curtain",
 		"refVariant": "ref-sheer-curtains-mavi",
 		"minWidth": "900",
 		"maxWidth": "8000",
@@ -2092,6 +2175,7 @@
 			"Curtains|Single"
 		],
 		"ref": "ref-sheer-curtains",
+		"finish": "finish--sheer-curtain",
 		"refVariant": "ref-sheer-curtains-mavi",
 		"minWidth": "900",
 		"maxWidth": "8000",
@@ -2117,6 +2201,7 @@
 			"Curtains|Single"
 		],
 		"ref": "ref-blockout-curtains",
+		"finish": "finish--blockout-curtain",
 		"refVariant": "ref-blockout-curtains-simplicity",
 		"minWidth": "900",
 		"maxWidth": "8000",
@@ -2142,6 +2227,7 @@
 			"Curtains|Single"
 		],
 		"ref": "ref-blockout-curtains",
+		"finish": "finish--blockout-curtain",
 		"refVariant": "ref-blockout-curtains-simplicity",
 		"minWidth": "900",
 		"maxWidth": "8000",
@@ -2167,6 +2253,7 @@
 			"Curtains|Single"
 		],
 		"ref": "ref-blockout-curtains",
+		"finish": "finish--blockout-curtain",
 		"refVariant": "ref-blockout-curtains-simplicity",
 		"minWidth": "900",
 		"maxWidth": "8000",
@@ -2192,6 +2279,7 @@
 			"Curtains|Single"
 		],
 		"ref": "ref-blockout-curtains",
+		"finish": "finish--blockout-curtain",
 		"refVariant": "ref-blockout-curtains-simplicity",
 		"minWidth": "900",
 		"maxWidth": "8000",
@@ -2217,6 +2305,7 @@
 			"Curtains|Single"
 		],
 		"ref": "ref-blockout-curtains",
+		"finish": "finish--blockout-curtain",
 		"refVariant": "ref-blockout-curtains-simplicity",
 		"minWidth": "900",
 		"maxWidth": "8000",
@@ -2242,6 +2331,7 @@
 			"Curtains|Single"
 		],
 		"ref": "ref-blockout-curtains",
+		"finish": "finish--blockout-curtain",
 		"refVariant": "ref-blockout-curtains-simplicity",
 		"minWidth": "900",
 		"maxWidth": "8000",
@@ -2267,6 +2357,7 @@
 			"Curtains|Single"
 		],
 		"ref": "ref-blockout-curtains",
+		"finish": "finish--blockout-curtain",
 		"refVariant": "ref-blockout-curtains-simplicity",
 		"minWidth": "900",
 		"maxWidth": "8000",
@@ -2291,8 +2382,9 @@
 			"Curtains",
 			"Curtains|Single"
 		],
-		"ref": "ref-dimout",
-		"refVariant": "ref-dimout-aurelius",
+		"ref": "ref-dimout-curtains",
+		"finish": "finish--dimout-curtain",
+		"refVariant": "ref-dimout-curtains-aurelius",
 		"minWidth": "900",
 		"maxWidth": "8000",
 		"minDrop": "900",
@@ -2317,6 +2409,7 @@
 			"Curtains|Single"
 		],
 		"ref": "ref-dimout-curtains",
+		"finish": "finish--dimout-curtain",
 		"refVariant": "ref-dimout-curtains-aurelius",
 		"minWidth": "900",
 		"maxWidth": "8000",
@@ -2342,6 +2435,7 @@
 			"Curtains|Single"
 		],
 		"ref": "ref-dimout-curtains",
+		"finish": "finish--dimout-curtain",
 		"refVariant": "ref-dimout-curtains-aurelius",
 		"minWidth": "900",
 		"maxWidth": "8000",
@@ -2367,6 +2461,7 @@
 			"Curtains|Single"
 		],
 		"ref": "ref-dimout-curtains",
+		"finish": "finish--dimout-curtain",
 		"refVariant": "ref-dimout-curtains-aurelius",
 		"minWidth": "900",
 		"maxWidth": "8000",
@@ -2392,6 +2487,7 @@
 			"Curtains|Single"
 		],
 		"ref": "ref-dimout-curtains",
+		"finish": "finish--dimout-curtain",
 		"refVariant": "ref-dimout-curtains-aurelius",
 		"minWidth": "900",
 		"maxWidth": "8000",
@@ -2417,6 +2513,7 @@
 			"Curtains|Single"
 		],
 		"ref": "ref-dimout-curtains",
+		"finish": "finish--dimout-curtain",
 		"refVariant": "ref-dimout-curtains-aurelius",
 		"minWidth": "900",
 		"maxWidth": "8000",
@@ -2442,6 +2539,7 @@
 			"Curtains|Single"
 		],
 		"ref": "ref-dimout-curtains",
+		"finish": "finish--dimout-curtain",
 		"refVariant": "ref-dimout-curtains-aurelius",
 		"minWidth": "900",
 		"maxWidth": "8000",
@@ -2467,6 +2565,7 @@
 			"Curtains|Single"
 		],
 		"ref": "ref-sheer-curtains",
+		"finish": "finish--sheer-curtain",
 		"refVariant": "ref-sheer-curtains-burleigh",
 		"minWidth": "900",
 		"maxWidth": "8000",
@@ -2492,6 +2591,7 @@
 			"Curtains|Single"
 		],
 		"ref": "ref-sheer-curtains",
+		"finish": "finish--sheer-curtain",
 		"refVariant": "ref-sheer-curtains-burleigh",
 		"minWidth": "900",
 		"maxWidth": "8000",
@@ -2517,6 +2617,7 @@
 			"Curtains|Single"
 		],
 		"ref": "ref-sheer-curtains",
+		"finish": "finish--sheer-curtain",
 		"refVariant": "ref-sheer-curtains-burleigh",
 		"minWidth": "900",
 		"maxWidth": "8000",
@@ -2542,6 +2643,7 @@
 			"Curtains|Single"
 		],
 		"ref": "ref-sheer-curtains",
+		"finish": "finish--sheer-curtain",
 		"refVariant": "ref-sheer-curtains-burleigh",
 		"minWidth": "900",
 		"maxWidth": "8000",
@@ -2567,6 +2669,7 @@
 			"Curtains|Single"
 		],
 		"ref": "ref-sheer-curtains",
+		"finish": "finish--sheer-curtain",
 		"refVariant": "ref-sheer-curtains-burleigh",
 		"minWidth": "900",
 		"maxWidth": "8000",
@@ -2592,6 +2695,7 @@
 			"Curtains|Single"
 		],
 		"ref": "ref-sheer-curtains",
+		"finish": "finish--sheer-curtain",
 		"refVariant": "ref-sheer-curtains-burleigh",
 		"minWidth": "900",
 		"maxWidth": "8000",
@@ -2617,6 +2721,7 @@
 			"Curtains|Single"
 		],
 		"ref": "ref-sheer-curtains",
+		"finish": "finish--sheer-curtain",
 		"refVariant": "ref-sheer-curtains-burleigh",
 		"minWidth": "900",
 		"maxWidth": "8000",
@@ -2642,6 +2747,7 @@
 			"Curtains|Single"
 		],
 		"ref": "ref-sheer-curtains",
+		"finish": "finish--sheer-curtain",
 		"refVariant": "ref-sheer-curtains-burleigh",
 		"minWidth": "900",
 		"maxWidth": "8000",

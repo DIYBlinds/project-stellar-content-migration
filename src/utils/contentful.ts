@@ -50,7 +50,6 @@ export async function deleteEntry(id: string) {
     console.log('Entry deleted:', id);
 }
 
-
 const tryGetEntry = async (environment: any, id: string) => {
     try {
         const entry = await environment.getEntry(id);
@@ -58,4 +57,13 @@ const tryGetEntry = async (environment: any, id: string) => {
     } catch (error) {
         return false;
     }
+}
+
+export const getEntry = async (id: string) => {
+    const environment = await getEnvironment;
+    const entry = await tryGetEntry(environment, id);
+    if (!entry) {
+        throw new Error(`Entry not found: ${id}`);
+    }
+    return entry;
 }
