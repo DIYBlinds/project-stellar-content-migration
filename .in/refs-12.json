@@ -1,0 +1,44 @@
+[
+  {
+    "url": "https://res.cloudinary.com/dj7xmqwpi/image/upload/fl_layer_apply,l_sunscreen-roller-blinds--kleenscreen--alloy/study-room--rollerblinds",
+    "product": "ref-sunscreen-roller-blinds",
+    "productVariantKey": "ref-sunscreen-roller-blinds-kleenscreen",
+    "fabricKey": "fabric-blinds--kleenscreen",
+    "fabricVariantKey": "fabric-blinds--kleenscreen--alloy"
+  },
+  {
+    "url": "https://res.cloudinary.com/dj7xmqwpi/image/upload/fl_layer_apply,l_sunscreen-roller-blinds--kleenscreen--barley/study-room--rollerblinds",
+    "product": "ref-sunscreen-roller-blinds",
+    "productVariantKey": "ref-sunscreen-roller-blinds-kleenscreen",
+    "fabricKey": "fabric-blinds--kleenscreen",
+    "fabricVariantKey": "fabric-blinds--kleenscreen--barley"
+  },
+  {
+    "url": "https://res.cloudinary.com/dj7xmqwpi/image/upload/fl_layer_apply,l_sunscreen-roller-blinds--kleenscreen--black/study-room--rollerblinds",
+    "product": "ref-sunscreen-roller-blinds",
+    "productVariantKey": "ref-sunscreen-roller-blinds-kleenscreen",
+    "fabricKey": "fabric-blinds--kleenscreen",
+    "fabricVariantKey": "fabric-blinds--kleenscreen--black"
+  },
+  {
+    "url": "https://res.cloudinary.com/dj7xmqwpi/image/upload/fl_layer_apply,l_sunscreen-roller-blinds--kleenscreen--charcoal/study-room--rollerblinds",
+    "product": "ref-sunscreen-roller-blinds",
+    "productVariantKey": "ref-sunscreen-roller-blinds-kleenscreen",
+    "fabricKey": "fabric-blinds--kleenscreen",
+    "fabricVariantKey": "fabric-blinds--kleenscreen--charcoal"
+  },
+  {
+    "url": "https://res.cloudinary.com/dj7xmqwpi/image/upload/fl_layer_apply,l_sunscreen-roller-blinds--kleenscreen--ivory/study-room--rollerblinds",
+    "product": "ref-sunscreen-roller-blinds",
+    "productVariantKey": "ref-sunscreen-roller-blinds-kleenscreen",
+    "fabricKey": "fabric-blinds--kleenscreen",
+    "fabricVariantKey": "fabric-blinds--kleenscreen--ivory"
+  },
+  {
+    "url": "https://res.cloudinary.com/dj7xmqwpi/image/upload/fl_layer_apply,l_sunscreen-roller-blinds--kleenscreen--pure-white/study-room--rollerblinds",
+    "product": "ref-sunscreen-roller-blinds",
+    "productVariantKey": "ref-sunscreen-roller-blinds-kleenscreen",
+    "fabricKey": "fabric-blinds--kleenscreen",
+    "fabricVariantKey": "fabric-blinds--kleenscreen--pure-white"
+  }
+]

@@ -264,12 +264,12 @@
    "ref": "ref-linked-blockout-and-light-filtering-double-blinds"
  },
  {
-   "key": "linked-blockout-roller-blinds--balmoral-lf",
-   "ref": "ref-linked-blockout-roller-blinds"
+   "key": "linked-light-filtering-roller-blinds--balmoral-lf",
+   "ref": "ref-linked-light-filtering-roller-blinds"
  },
  {
-   "key": "blockout-roller-blinds--balmoral-lf",
-   "ref": "ref-blockout-roller-blinds"
+   "key": "light-filtering-roller-blinds--balmoral-lf",
+   "ref": "ref-light-filtering-roller-blinds"
  },
  {
    "key": "blockout-roman-blinds--linesque-bo",

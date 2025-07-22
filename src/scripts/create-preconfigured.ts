@@ -19,7 +19,7 @@ import fs from 'fs';
 import { getEntry } from '../utils/contentful';
 import preConfiguredRefs from '../../.in/pre-configured-refs.json'
 
-    const data = [...sfold]
+    const data = [...linkedBlinds]
 
 const LOCALE = 'en-AU';
 const metadata = {
@@ -60,7 +60,7 @@ const sanapshot = async () => {
         const snapshot = await captureSnapshot(product, ref);
 
         product.snapshot = snapshot;
-
+        
         await upsertProduct(product)
     }
 }
@@ -97,8 +97,8 @@ const captureSnapshot = async (product: Fabric, ref: string) => {
     }
     engineResult = setConfiguratorField(engine, flattenFields(engineResult.availableFields), 'fabric', product.fabricKey);
     engineResult = setConfiguratorField(engine, flattenFields(engineResult.availableFields), product.finish.includes('dimout') ? 'fabric-colour' : 'fabric-color');
-    engineResult = setConfiguratorField(engine, flattenFields(engineResult.availableFields), 'fitting-type', 'fitting-type--face');
-    engineResult = setConfiguratorField(engine, flattenFields(engineResult.availableFields), 'curtain-style', 'curtain-style--s-fold');
+    // engineResult = setConfiguratorField(engine, flattenFields(engineResult.availableFields), 'fitting-type', 'fitting-type--face');
+    // engineResult = setConfiguratorField(engine, flattenFields(engineResult.availableFields), 'curtain-style', 'curtain-style--s-fold');
 
     const snapshot = engine.publish(engineResult.availableFields);
 
@@ -187,9 +187,9 @@ const helper = async () => {
 }
 
 const run = async () => {
-    // for(const fabricColour of data) {
-    //     await upsertFabricColour(fabricColour)
-    // }
+    for(const fabricColour of data) {
+        await upsertFabricColour(fabricColour)
+    }
 
     // ransform fabricColours into Fabrics by groupping by fabricKey    
     const fabrics = data.reduce<Record<string, Fabric>>((acc, fabricColour) => {
@@ -211,7 +211,7 @@ const run = async () => {
     }, {});
 
     for(const fabricKey in fabrics) {
-        //await upsertFabric(fabrics[fabricKey])
+        await upsertFabric(fabrics[fabricKey])
         await upsertProduct(fabrics[fabricKey])
     }
 }
@@ -223,6 +223,7 @@ const shortenId = (id: string) => {
     .replace('sheer-and-blockout-curtains', 'sh-bo-dc')
     .replace('linked-light-filtering-roller-blinds', 'linked-lf-blinds')
     .replace('linked-blockout-roller-blinds', 'linked-bo-blinds')
+    .replace('linked-light-filtering-roller-blinds', 'linked-lf-blinds')
     .replace('linked-blockout-and-sunscreen-double-blinds', 'linked-bo-sc-db')
     .replace('linked-blockout-and-light-filtering-double-blinds', 'linked-bo-lf-db')
 

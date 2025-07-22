@@ -22,3 +22,5 @@ dist
 .in/tips/**
 .in/images
 .in/images/**
+.in/images - copy
+.in/images - copy/**

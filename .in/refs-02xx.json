@@ -1,0 +1,30 @@
+[
+  {
+    "url": "https://res.cloudinary.com/dj7xmqwpi/image/upload/fl_layer_apply,l_sheer-curtains--alexandra--blanc/living-room--curtains",
+    "product": "ref-sheer-curtains",
+    "productVariantKey": "ref-sheer-curtains-alexandra",
+    "fabricKey": "sheer-curtains--alexandra",
+    "fabricVariantKey": "sheer-curtains--alexandra--blanc"
+  },
+  {
+    "url": "https://res.cloudinary.com/dj7xmqwpi/image/upload/fl_layer_apply,l_sheer-curtains--alexandra--salt-and-pepper/living-room--curtains",
+    "product": "ref-sheer-curtains",
+    "productVariantKey": "ref-sheer-curtains-alexandra",
+    "fabricKey": "sheer-curtains--alexandra",
+    "fabricVariantKey": "sheer-curtains--alexandra--salt-and-pepper"
+  },
+  {
+    "url": "https://res.cloudinary.com/dj7xmqwpi/image/upload/fl_layer_apply,l_sheer-curtains--alexandra--smoke/living-room--curtains",
+    "product": "ref-sheer-curtains",
+    "productVariantKey": "ref-sheer-curtains-alexandra",
+    "fabricKey": "sheer-curtains--alexandra",
+    "fabricVariantKey": "sheer-curtains--alexandra--smoke"
+  },
+  {
+    "url": "https://res.cloudinary.com/dj7xmqwpi/image/upload/fl_layer_apply,l_sheer-curtains--alexandra--titanium/living-room--curtains",
+    "product": "ref-sheer-curtains",
+    "productVariantKey": "ref-sheer-curtains-alexandra",
+    "fabricKey": "sheer-curtains--alexandra",
+    "fabricVariantKey": "sheer-curtains--alexandra--titanium"
+  }
+]
